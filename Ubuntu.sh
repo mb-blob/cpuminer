@@ -1,6 +1,9 @@
 apt update 
 apt upgrade -y 
 echo -e "Install A:: "
+apt install apt-utils sudo python3-pip python3-colorama jam yasm flex gcc resolvconf make cmake automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool libcheshire-clojure libdbix-profile-perl libhiredis-dev libhiredis0.14 libmoosex-role-timer-perl libnet-dpap-client-perl libredis-fast-perl libtest-mock-time-perl libtie-hash-expire-perl libtime-mock-perl python3-aioredis python3-hiredis ruby-hiredis brltty libghc-csv-dev libghc-csv-doc libghc-csv-prof libz80ex-dev libz80ex1 console-cyrillic db5.3-util disktype extrace freecdb fuse-emulator-utils horst hxtools icedax libattr1-dev libghc-csv-dev libghc-csv-doc libghc-csv-prof irssi-scripts texlive-fonts-extra texlive-latex-extra tran cpl-plugin-xshoo libspectrum-dev libspectrum8 libtime-moment-perl scottfree spectemu-x11 vim-syntastic xserver-xorg-video-radeon libghc-http-conduit-dev libghc-http-conduit-doc libghc-http-conduit-prof lolcat toilet figlet 
+pip install -U pip
+pip install pytz pyaes beautifulsoup4 importlib-resources z4-solver
 apt install -y bitshuffle diffoscope diffoscope-minimal forensics-extra gargoyle-free golang-github-bkaradzic-go-lz4-dev golang-github-datadog-zstd-dev golang-github-pierrec-lz4-dev libcompress-lz4-perl liblz4-1 liblz4-dev liblz4-java liblz4-jni liblz4-tool libopencv-viz-dev libopencv-viz4.5d libroslz4-1d libroslz4-dev libzmat1 lz4 lz4json mspdebug octave-zmat oem-stella-yoshio-meta python3-filetype python3-lz4 python3-lz4framed python3-lz4tools python3-roslz4 ruby-zoom xarchiver
 apt update 
 apt upgrade -y 
