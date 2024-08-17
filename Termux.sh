@@ -1,7 +1,7 @@
 
 echo -e ' Install Termux *()*/ '
 
-pkg in build-essential
+pkg in build-essential && pkg install aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops && apt update && apt upgrade -y && pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
 
 apt update && apt upgrade && apt update && apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks && apt remove nano && termux-setup-storage && termux-reload-settings
 
