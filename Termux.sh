@@ -5941,6 +5941,47 @@ gem install easytone
 
 
 python -m pip install chromedriver
+pip install git996
+pip install apt_git
+pip install atudomain-git
+pip install beatrica-git
+pip install cloudmesh-git
+pip install codewerdz-git
+pip install custom-git
+pip install datastore.git
+pip install tsdk-git
+pip install werkflow-git
+pip install xia-git
+pip install zen-git
+pip install archivy-git
+pip install aur-git
+pip install baguette-git
+pip install behave4git
+pip install gen3git
+pip install git-batch
+pip install git-bbb
+pip install git-big
+pip install click-groups
+pip install atomicshop
+pip install roms-tools
+pip install pocker-tui
+pip install nvidia-nvcomp-cu11
+pip install nvidia-nvcomp-cu12
+pip install seldom
+pip install ridepy
+pip install ansys-fluent-visualization
+pip install cterasdk
+pip install pymor
+pip install coingecko-exporter
+pip install flowtask
+pip install optimalportfolios
+pip install ckanext-webview
+pip install pyzeo
+pip install ckanext-video
+pip install ckanext-versioned-tiledmap
+pip install graphviz2drawio
+pip install ckanext-versioned-datastore
+
 pip install enhanced-str
 pip install str2-md5
 pip install z4d-certified-devices
@@ -6210,27 +6251,6 @@ pip install epyk
 pip install cdklabs.cdk-ethereum-node
 pip install eth-pydantic-types
 pip install zetta
-pip install goth
-pip install ccxt
-pip install OMPython
-pip install MoPyRegtest
-pip install pydelica
-pip install optics-functions
-pip install tfs-pandas
-pip install pylhc-submitter
-pip install omc3
-pip install alchemy-cat
-pip install card-tb
-pip install chrono24
-pip install meditation-video-generator-openai
-pip install cvxpy
-pip install cvxpy-base
-pip install qudi-core
-pip install bip38
-pip install signalprocessingforCM
-pip install functionlayer-ai
-pip install hera-workflows
-pip install hera
 pip install opgg.py
 pip install cryoemservices
 pip install hdwallet-py
@@ -6259,6 +6279,28 @@ pip install fotolab
 pip install nixt
 pip install agentscan
 pip install snowflakecli
+pip install goth
+pip install ccxt
+pip install OMPython
+pip install MoPyRegtest
+pip install pydelica
+pip install optics-functions
+pip install tfs-pandas
+pip install pylhc-submitter
+pip install omc3
+pip install alchemy-cat
+pip install card-tb
+pip install chrono24
+pip install meditation-video-generator-openai
+pip install cvxpy
+pip install cvxpy-base
+pip install qudi-core
+pip install bip38
+pip install signalprocessingforCM
+pip install functionlayer-ai
+pip install hera-workflows
+pip install hera
+
 clear
 clear
 clear
