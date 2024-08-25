@@ -5587,7 +5587,8 @@ apt install -y util-linux
 apt install -y util-linux-static
 apt install -y v4l-utils
 apt install -y wget2
-apt install ruby
+apt install -y vfu videogen vim-addon-mw-utils vim-autopep8 vim-haproxy vim-icinga2 vim-puppet vim-python-jedi vim-rails vim-syntastic
+apt install -y ruby
 gem install bundler
 gem install nokogiri -- --use-system-libraries
 cd $HOME
