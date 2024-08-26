@@ -262,6 +262,112 @@ apt install -y tk-itk4-doc
 apt install -y tk8.6-dev udisks2 umbrello vim-scripts wabt webkit2gtk-driver wpewebkit-driver
 
 apt install -y atril atril-common chemical-structures-data ddate game-data-packager gir1.2-atrildocument-1.5.0 gir1.2-atrilview-1.5.0 libatrildocument-dev libatrildocument3 libatrilview-dev libatrilview3 libdatetime-calendar-discordian-perl libjenkins-trilead-ssh2-java libtrilead-putty-extension-java libtrilead-ssh2-java libtrilinos-amesos-13.2 libtrilinos-amesos-dev libtrilinos-amesos2-13.2 libtrilinos-amesos2-dev libtrilinos-anasazi-13.2 libtrilinos-anasazi-dev libtrilinos-aztecoo-13.2 libtrilinos-aztecoo-dev libtrilinos-belos-13.2 libtrilinos-belos-dev libtrilinos-epetra-13.2 libtrilinos-epetra-dev libtrilinos-epetraext-13.2 libtrilinos-epetraext-dev libtrilinos-galeri-13.2 libtrilinos-galeri-dev libtrilinos-ifpack-13.2 libtrilinos-ifpack-dev libtrilinos-ifpack2-13.2 libtrilinos-ifpack2-dev libtrilinos-intrepid-13.2 libtrilinos-intrepid-dev libtrilinos-intrepid2-13.2 libtrilinos-intrepid2-dev libtrilinos-isorropia-13.2 libtrilinos-isorropia-dev libtrilinos-kokkos-13.2 libtrilinos-kokkos-dev libtrilinos-kokkos-kernels-13.2 libtrilinos-kokkos-kernels-dev libtrilinos-komplex-13.2 libtrilinos-komplex-dev libtrilinos-ml-13.2 libtrilinos-ml-dev libtrilinos-moertel-13.2 libtrilinos-moertel-dev libtrilinos-muelu-13.2 libtrilinos-muelu-dev libtrilinos-nox-13.2 libtrilinos-nox-dev libtrilinos-pamgen-13.2 libtrilinos-pamgen-dev libtrilinos-phalanx-13.2 libtrilinos-phalanx-dev libtrilinos-pike-13.2 libtrilinos-pike-dev libtrilinos-piro-13.2 libtrilinos-piro-dev libtrilinos-pliris-13.2 libtrilinos-pliris-dev libtrilinos-rol-13.2 libtrilinos-rol-dev libtrilinos-rtop-13.2 libtrilinos-rtop-dev libtrilinos-rythmos-13.2 libtrilinos-rythmos-dev libtrilinos-sacado-13.2 libtrilinos-sacado-dev libtrilinos-shards-13.2 libtrilinos-shards-dev libtrilinos-shylu-13.2 libtrilinos-shylu-dev libtrilinos-stokhos-dev libtrilinos-stratimikos-13.2 libtrilinos-stratimikos-dev libtrilinos-teko-13.2 libtrilinos-teko-dev libtrilinos-teuchos-13.2 libtrilinos-teuchos-dev libtrilinos-thyra-13.2 libtrilinos-thyra-dev libtrilinos-tpetra-13.2 libtrilinos-tpetra-dev libtrilinos-trilinoscouplings-13.2 libtrilinos-trilinoscouplings-dev libtrilinos-trilinosss-13.2 libtrilinos-trilinosss-dev libtrilinos-triutils-13.2 libtrilinos-triutils-dev libtrilinos-xpetra-13.2 libtrilinos-xpetra-dev libtrilinos-zoltan-13.2 libtrilinos-zoltan-dev libtrilinos-zoltan2-13.2 libtrilinos-zoltan2-dev libventrilo-dev libventrilo3-0 mangler postgresql-15-numeral trilinos-all-dev trilinos-dev trilinos-doc pangzero pasystray pax pcp-zeroconf php-zeroc-ice php-zmq php-zmq-all-dev php8.2-zmq pompem pulseaudio-module-zeroconf python-colorzero-doc python-gpiozero-doc python-guizero-doc python-logzero-doc python-uncertainties-doc python3-aiozmq python3-catalogue python3-colorzero python3-dbus-fast python3-gl-image-display python3-gpiozero python3-guizero python3-logzero python3-nodelet python3-nodelet-topic-tools python3-pgzero python3-pychopper python3-pyrle python3-pysyncobj python3-scikit-fmm python3-sendfile python3-sparse python3-starlette python3-throttler python3-txzmq python3-uncertainties python3-versiontools python3-wasabi python3-zeroc-ice python3-zeroconf 
+apt install -y python3-ptyprocess python3-pychromecast python3-pycryptodome python3-pygalmesh python3-pygrace python3-pyinsane python3-pyopencl python3-pyopencl-dbg python3-pyqrcode python3-pytest-bdd python3-pytest-benchmark python3-pytest-httpbin python3-pytest-xvfb python3-pyutilib python3-pyvmomi python3-pyzabbix python3-q-text-as-data python3-qtconsole python3-rednose python3-releases python3-repoze.sphinx.autointerface python3-requests  python3-rope python3-roslaunch python3-rosmaster python3-ruffus python3-saga python3-scrapy python3-selenium python3-serial python3-shodan python3-smmap python3-socketio qutemol qxw r-base r-bioc-makecdfenv r-bioc-qvalue r-cran-brms r-cran-commonmark r-cran-crayon r-cran-erm r-cran-fgarch r-cran-forecast r-cran-formatr r-cran-ggplot2 r-cran-ggrepel r-cran-glmmtmb r-cran-gtable r-cran-irace r-cran-irkernel r-cran-lisreltor r-cran-magick r-cran-plumber r-cran-r.methodss3 r-cran-rcppgsl r-cran-reticulate r-cran-rinside r-cran-rslurm r-cran-rstan r-cran-scales r-cran-shiny r-cran-shinycssloaders r-cran-spatstat r-cran-spdep r-cran-stanheaders r-cran-sys r-cran-tinytest r-cran-tinytex r-cran-tmb r-cran-truncdist r-cran-units r-cran-usethis r-cran-zelig r-other-nitpick rabbitsign radvd rakarrack ranger rauc rauc-service rcs
+apt install -y ruby-acme-client
+apt install -y ruby-amazon-ec2
+apt install -y ruby-autoparse
+apt install -y wmtime
+apt install -y xautolock  
+apt install -y xtide-coastline
+apt install -y xtightvncviewer 
+apt install -y xvfb
+apt install -y xwit
+apt install -y xwrited xygrib   octave-interval octave-interval-doc offlineimap
+apt install -y olpc-powerd
+apt install -y onetime
+apt install -y opari
+apt install -y opari2
+apt install -y openbabel
+apt install -y openbabel-gui
+apt install -y opendnssec-signer   
+apt install -y openprinting-ppds
+apt install -y openstack-pkg-tools osdlyrics osm2pgrouting
+apt install -y oz
+apt install -y pacemaker
+apt install -y pacemaker-cli-utils
+apt install -y pacemaker-common
+apt install -y pacemaker-dev 
+apt install -y pacemaker-doc
+apt install -y pacemaker-remote
+apt install -y pacemaker-resource-agents
+apt install -y packagekit-command-not-found
+apt install -y packagekit-gtk3-module
+apt install -y pax-britannica   
+apt install -y pax-britannica-data
+apt install -y paxctld pccts pd-jmmmp pdmenu pem pen performous-composer
+apt install -y physamp pid1 pidgin-encryption pilon pinentry-curses pipenv pkg-r-autopkgtest plait plip pmdk-convert pnopaste
+echo ""
+echo ""
+echo -n 'something back try punch howllurrie'
+apt remove -y pnopaste-cli podget popularity-contest postgresql-12-partman printer-driver-hpcups
+apt remove -y printer-driver-hpijs procmail procserv
+echo ""
+echo ""
+echo ' #$$$=={}[]]((:(#$$$:*:*,*::user::)),)*,* '
+apt autoremove -y
+dpkg --configure -a
+apt install -y sanoid sapphire sauce sbuild-launchpad-chroot scamp scim-canna sct seetxt sendip sent sentineldl service-wrapper sgml-spell-checker
+apt install -y sgml2x shotdetect shush signify silver-platter simplesnap siril
+apt install -y siril-common skrooge slang-xfig slinkwatch sloccount smartlist smtm snapper sntop sortmail spacezero spamassassin spice-vdagent sqlacodegen
+apt install -y sqlmap squid-deb-proxy-client
+apt install -y ssg-applications
+apt install -y ssg-base
+apt install -y ssg-debderived
+apt install -y ssg-debian
+apt install -y ssg-nondebian staden
+apt install -y staden-common standardskriver stardata-common
+sapt install -y stardict-english-czech
+apt install -y stardict-german-czech starman stiff stressant
+apt install -y stressant-doc styx subdownloader subtle sup-mail svn-load swapspace swarp sympa syncmaildir
+apt install -y syncthing
+apt install -y syncthing-discosrv
+apt install -y syncthing-relaysrv
+apt install -y system-config-printer-udev
+apt install -y systemctl tart
+apt install -y tellico
+apt install -y tellico-data
+apt install -y tellico-doc
+apt install -y tellico-scripts tetzle texlive-lang-chinese texlive-lang-european texlive-latex-extra texlive-latex-recommended texlive-metapost texlive-pictures texlive-xetex themole thunar-volman tightvncserver tintii tio tklib tmux
+apt install -y tntnet
+apt install -y tntnet-demos
+apt install -y tntnet-doc tome tomoyo-tools totem tourney-manager
+apt install -y tree-ppuzzle
+apt install -y tree-puzzle
+apt install -y tree-puzzle-doc
+apt install -y tryton-modules-sale-extra
+apt install -y tryton-modules-stock-inventory-location
+apt install -y tryton-modules-stock-supply-production
+apt install -y ttf-aenigma
+apt install -y ttfautohint tvnamer twatch twinvoicerecalc u-boot-menu ubuntu-dev-tools ucarp udiskie ukopp unattended-upgrades unburden-home-dir unclutter-startup unity-autopilot
+apt install -y unity-mail unp update-inetd uphpmvault usbmount usrmerge
+apt install -y valabind
+apt install -y valac
+apt install -y valac-0.48-vapi
+apt install -y valgrind
+apt install -y valgrind-dbg
+apt install -y valgrind-mpi
+apt install -y vaultlocker
+apt install -y vcheck
+apt install -y vdr-plugin-epgsearch
+apt install -y vdr-plugin-fritzbox velvetoptimiser
+apt install -y videogen
+apt install -y vim-addon-mw-utils
+apt install -y vim-autopep8
+apt install -y vim-haproxy
+apt install -y vim-icinga2
+apt install -y vim-puppet 
+apt install -y vim-syntastic vocproc vpnc-scripts vspline-dev w-scan weather-util-data webext-privacy-badger weightwatcher west-chamber-dkms wget
+apt install -y wget2 whereami
+apt install -y wide-dhcpv6-client
+apt install -y wide-dhcpv6-relay
+apt install -y wide-dhcpv6-server wims
+apt install -y wims-moodle wine-binfmt
+apt install -y winetricks wireguard-dkms wl
+apt install -y wl-beta wmdrawer wordpress-shibboleth wvdial x11-touchscreen-calibrator x2gothinclient-cdmanager xastir
+apt install -y xastir-data xcal xcb-proto xcftools xfonts-terminus-oblique
+apt install -y xfonts-traditional xmonad xnav xneur xscreensaver-screensaver-dizzy
+apt install -y xserver-xorg-input-mouse xtables-addons-dkms xtide-coastline xtightvncviewer xwrited xygrib yiyantang yorick-cubeview
+apt install -y yorick-doc youtube-dl yt-dlp zam-plugins zegrapher zfs-auto-snapshot zfsnap zh-autoconvert zita-mu1 zoneminder zoneminder-doc zookeeper
 python3 -m pip install requests
 python3 -m pip install pychroot zzip importlib-resources z4-solver captchasolver py.proxy blockchain z4 binance pool worker click librosa blockchain-etl binance-connector binance.py
 
