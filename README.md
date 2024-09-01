@@ -7,7 +7,7 @@ port 8190;;31390
 Tuwp
 web type
 
-default,mms,-nrss,*(llkk,tar.OS(#)nn,-c::(PB-q(:engageub.pythonanywhere.com;),();),*(cdnjs.cloudflare.com,*(XH)==(#)();)#$$$:://license dob::*(127.0.0.1:53::1080==WDNSEC-TLS_PB
+default,mms,-nrss,*(llkk,tar.OS(#)nn,-c::(PB-q(:engageub.pythonanywhere.com;),();),*(cdnjs.cloudflare.com,*(XH)==(#)();)#$$$:://license dob::*(127.0.0.1:53::1080==WDNSEC-TLS_PB,*,::(:GPON.PLlD..dXc--c//n/0.0.9.0
 
 
 dns//lan secure
