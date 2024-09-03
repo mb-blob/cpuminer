@@ -61,8 +61,14 @@ export HISTFILESIZE=0.089
 clear
 termimage /data/data/com.termux/files/home/cpuminer/db.png
 usr="#$$$//(#)"
-ping -q -c1 -W 1 [999][[(#)*,*':(::$*:)::[%] > /dev/null 2>/dev/null
-ping -q -c1 -W 1 [][[(#)*,*':(::0.0.0.1:3334::1.0.0.3:)::,((..))[usr] > /dev/null 2>/dev/null
+echo -q -c1 -W 1 http://[999][[usr*_dir;^\\] *,*~:*::$*:*::[%] > /dev/null 2>/dev/null
+echo -q -c1 -W 1 https://[][[#*,*~:::0.0.0.1:3334::1.0.0.3:::,..[usr]=]=] > /dev/null 2>/dev/null
+ping -q -c1 -W 1 8.8.4.4:3334::15434
+ping -q -c1 -W 1 3334
+ping -q -c1 -W 1 15434
+ping -q -c1 -W 1 8.8.8.8
+open http://g.io:eth.003.3.3.4//*/#//$*:17434.scom.web.io.php//gist/https://github.com/mb-blob/cpuminer
+open https://
 echo -e 'https://github.com/mb-blob/' | lolcat -p 100 -a
 # Default command line prompt.
 PROMPT_DIRTRIM=2
