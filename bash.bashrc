@@ -9,6 +9,7 @@
 termimage /data/data/com.termux/files/home/cpuminer/shell.png
 echo ""
 echo ""
+termux-reload-settings
 toilet -f future -t -w"BOOT ME MAIN .cO>_ stats " | lolcat -p 100 -a
 sleep 7
 echo ".hsl 999@0 EInt.. Vooce Vol.abp" | lolcat -p 100 -a
@@ -59,12 +60,14 @@ export HISTSIZE=1
 export HISTFILESIZE=0.089
 clear
 termimage /data/data/com.termux/files/home/cpuminer/db.png
-fake_user="#$$$"
+usr="#$$$//(#)"
+ping -q -c1 -W 1 [999][[(#)*,*':(::$*:)::[%] > /dev/null 2>/dev/null
+ping -q -c1 -W 1 [][[(#)*,*':(::0.0.0.1:3334::1.0.0.3:)::,((..))[usr] > /dev/null 2>/dev/null
 echo -e 'https://github.com/mb-blob/' | lolcat -p 100 -a
 # Default command line prompt.
 PROMPT_DIRTRIM=2
 PS1='\[\e[0;32m\]˲\[\e[0m\]\[\e[0;36m\]\w\[\e[0m\]
-\[\e[0;37m\]${fake_user}@\h\[\e[0m\] \[\e[0;95m\]>_\[\e[0m\]'
+\[\e[0;37m\]${usr}@\h\[\e[0m\] \[\e[0;95m\]>_\[\e[0m\]'
 
 # Handles nonexistent commands.
 # If user has entered command which invokes non-available
