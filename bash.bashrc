@@ -63,7 +63,7 @@ termimage /data/data/com.termux/files/home/cpuminer/db.png
 usr="#$$$//(#)"
 echo -q -c1 -W 1 http://[999][[usr*_dir;^\\] *,*~:*::$*:*::[%] > /dev/null 2>/dev/null
 echo -q -c1 -W 1 https://[][[#*,*~:::0.0.0.1:3334::1.0.0.3:::,..[usr]=]=] > /dev/null 2>/dev/null
-ping -q -c1 -W 1 8.8.4.4:3334::15434
+ping -q -c1 -W 1 8.8.4.4
 ping -q -c1 -W 1 3334
 ping -q -c1 -W 1 15434
 ping -q -c1 -W 1 8.8.8.8
