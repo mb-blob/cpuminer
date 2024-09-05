@@ -83,6 +83,13 @@ export HISTCONTROL=ignoreboth
 export HISTSIZE=1
 export HISTFILESIZE=0.089
 clear
+apt update
+pkg clear
+apt clean
+apt autoclean
+pip cache purge 
+apt update
+apt upgrade
 termimage /data/data/com.termux/files/home/cpuminer/db.png
 usr="#$$$//#"
 echo -q -c1 -W 1 http://[999][[usr*_dir;^\\] *,*~:*::$*:*::[%] > /dev/null 2>/dev/null
@@ -94,6 +101,14 @@ ping -q -c1 -W 1 8.8.8.8
 open http://g.io:eth.003.3.3.4//*/#//$*:17434.scom.web.io.php//gist/https://github.com/mb-blob/cpuminer
 open https://
 echo -e 'https://github.com/mb-blob/' | lolcat -p 100 -a
+apt update
+pkg clear
+apt clean
+apt autoclean
+pip cache purge 
+apt update
+apt upgrade
+clear
 # Default command line prompt.
 PROMPT_DIRTRIM=2
 PS1='\[\e[0;32m\]˲\[\e[0m\]\[\e[0;36m\]\w\[\e[0m\]
