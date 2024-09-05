@@ -23,9 +23,9 @@ echo ""
 echo ""
 echo "BOOT ReSsray Search .. .  ." | lolcat -p 100 -a
 sleep 32
-echo ' (())#$=^-#0#0#0#0å8001111101111101111810000101 ' | lolcat
+echo " (())#$=^-#0#0#0#0å8001111101111101111810000101 " | lolcat
 clear
-echo -n "(())#&∅:⁷2;;()/:F9-UI'$::unable::7+0" | lolcat -p 100
+echo -n "(())#&∅:⁷2;;()/:F9-UI$::unable::7+0" | lolcat -p 100
 clear
 echo -e "*/())((////#$$$////))()\*^^==^=<<>><;;#$$$&&):://())(());)////::$*,dir==cd:#$$$(())//&&==-*,::(p_()///.///"
 clear
@@ -48,12 +48,12 @@ echo ""
 clear
 echo "////$$::*00//::$==^^==//////" | lolcat
 clear
-echo "////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%'::'////" | lolcat -p 100 -a
+echo "////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%::////" | lolcat -p 100 -a
 echo ""
 echo ""
 echo -n "///////@!box-main#[%]==IN400//::++:AI-*#_$*"IN{e}^$*#//#/@/*/#::////" | lolcat
 clear
-echo ' input RSS stablice at Adf ' | lolcat 
+echo " input RSS stablice at Adf " | lolcat 
 clear
 USER=$(whoami)
 current_dir=$(pwd)
@@ -68,12 +68,10 @@ apt update
 apt upgrade
 export DEBIAN_FRONTEND=noninteractive
 export PATH="$HOME/.local/bin:$PATH"
-#vars
-black=`tput setaf p`
-green=`tput setaf 4`
-reset=`tput sgr0`
+clear
+clear
 termimage /data/data/com.termux/files/home/cpuminer/bank.png
-echo "${green} TerMuxX • .ns${reset}"
+clear
 sleep 24
 clear
 shopt -s autocd
@@ -100,7 +98,7 @@ ping -q -c1 -W 1 15434
 ping -q -c1 -W 1 8.8.8.8
 open http://g.io:eth.003.3.3.4//*/#//$*:17434.scom.web.io.php//gist/https://github.com/mb-blob/cpuminer
 open https://
-echo -e 'https://github.com/mb-blob/' | lolcat -p 100 -a
+echo -e "https://github.com/mb-blob/" | lolcat -p 100 -a
 apt update
 pkg clear
 apt clean
