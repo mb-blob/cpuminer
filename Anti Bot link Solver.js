@@ -1,11 +1,34 @@
 // ==UserScript==
 // @name         AB Links Solver
-// @namespace    ABLinks Solver(Solves Ablinks images)
-// @version      3.0
-// @description  Solves AbLink images
-// @author       Banned
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
+// @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @connect     https://cdnjs.cloudflare.com
+// @connect     https://cdn.jsdelivr.net
+// @grant          unsafeWindow
+// @grant          GM_xmlhttpRequest
+// @grant          GM_addStyle
+// @grant          GM_getResourceText
+// @grant          GM_getResourceURL
+// @grant          GM_getValue
+// @grant          GM_openInTab
+// @grant          GM_registerMenuCommand
+// @grant          GM_setValue
+// @run-at         document-start
+// @include        http://*
+// @include        https://*
 // @match        *://*/*
 // @noframes
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // @connect      https://unpkg.com
 // @require      https://unpkg.com/opencv.js@1.2.1/opencv.js
 // @require      https://unpkg.com/jimp@0.5.2/browser/lib/jimp.min.js
@@ -14,13 +37,7 @@
 // @antifeature  referral-link
 // ==/UserScript==
 
-// This script solves Ablink images with words and having 4 different options
-// Number identification logic for comparing words and numbers will be implemented in the next versions
-// Accuracy can be improved by adding more filters for different types of images and fonts
-// This script does not have a global matcher, you will need to add the websites in the matcher section manually, till
-// all the solutions are implemented
-// Your account will be locked for 24 hours, if 3 incorrect solutions are provided consecutively in 10 minutes. (This is the default but depends on website)
-// To avoid this add a rotator to change the website whenever an incorrect solution is provided.
+
 
 // TODO: Refactor Code
 (function() {

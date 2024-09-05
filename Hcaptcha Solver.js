@@ -1,9 +1,28 @@
 // ==UserScript==
 // @name         Hcaptcha Solver Workaround
-// @namespace    hcaptcha.workaround
-// @version      2.3
-// @description  Hcaptcha Solver in Browser | Automatically solves Hcaptcha in browser
-// @author       unknow
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
+// @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @grant          unsafeWindow
+// @grant          GM_xmlhttpRequest
+// @grant          GM_addStyle
+// @grant          GM_getResourceText
+// @grant          GM_getResourceURL
+// @grant          GM_getValue
+// @grant          GM_openInTab
+// @grant          GM_registerMenuCommand
+// @grant          GM_setValue
+// @run-at         document-start
+// @include        http://*
+// @include        https://*
 // @match        https://*.hcaptcha.com/*hcaptcha-challenge*
 // @match        https://*.hcaptcha.com/*hcaptcha*
 // @match        https://*.hcaptcha.com/*checkbox*
@@ -21,6 +40,8 @@
 // @require      https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@3.13.0/dist/tf.min.js
 // @require      https://cdn.jsdelivr.net/npm/@tensorflow-models/coco-ssd@2.2.2/dist/coco-ssd.min.js
 // @require      https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet@2.1.0/dist/mobilenet.min.js
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // ==/UserScript==
 (async function() {
 

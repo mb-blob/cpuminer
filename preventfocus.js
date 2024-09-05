@@ -1,18 +1,37 @@
 // ==UserScript==
-// @name        PreventPageVisibility 
-// @namespace   https://github.com/IceWreck
+// @name        Detect Local Visibility Document
+// @description click 
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
 // @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @connect     https://cdnjs.cloudflare.com
+// @connect     https://cdn.jsdelivr.net
+// @grant          unsafeWindow
+// @grant          GM_xmlhttpRequest
+// @grant          GM_addStyle
+// @grant          GM_getResourceText
+// @grant          GM_getResourceURL
+// @grant          GM_getValue
+// @grant          GM_openInTab
+// @grant          GM_registerMenuCommand
+// @grant          GM_setValue
+// @run-at         document-start
+// @include        http://*
+// @include        https://*
 // @run-at      document-start
-// @grant       none
-// @version     1.1
-// @author      IceWreck
-// @description Block websites from knowing if you switched tabs/windows
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 
-// @downloadURL https://update.greasyfork.org/scripts/427254/PreventPageVisibility.user.js
-// @updateURL https://update.greasyfork.org/scripts/427254/PreventPageVisibility.meta.js
 // ==/UserScript==
 
-// This userscript blocks the page visibility API and to some extent the old blur/focus APIs.
 
 let events_to_block = [
   "visibilitychange",

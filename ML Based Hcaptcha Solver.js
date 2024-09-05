@@ -1,9 +1,28 @@
 // ==UserScript==
 // @name         ML Based Hcaptcha Solver with Browser Trainer(Automatically solves Hcaptcha in browser)
-// @namespace    ML Based Hcaptcha Solver
-// @version      0.4
-// @description  Remote Hcaptcha Solver in Browser | Automatically solves Hcaptcha in browser
-// @author       Md ubeadulla
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
+// @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @grant          unsafeWindow
+// @grant          GM_xmlhttpRequest
+// @grant          GM_addStyle
+// @grant          GM_getResourceText
+// @grant          GM_getResourceURL
+// @grant          GM_getValue
+// @grant          GM_openInTab
+// @grant          GM_registerMenuCommand
+// @grant          GM_setValue
+// @run-at         document-start
+// @include        http://*
+// @include        https://*
 // @match        https://*.hcaptcha.com/*hcaptcha-challenge*
 // @match        https://*.hcaptcha.com/*checkbox*
 // @match        https://*.hcaptcha.com/*captcha*
@@ -21,7 +40,8 @@
 // @connect      https://*.hcaptcha.com/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/tesseract.js/4.0.0/tesseract.min.js
 // @require      https://unpkg.com/jimp@0.5.2/browser/lib/jimp.min.js
-
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 
 /*
 ██╗░░██╗░█████╗░░█████╗░██████╗░████████╗░█████╗░██╗░░██╗░█████╗░  ░██████╗░█████╗░██╗░░░░░██╗░░░██╗███████╗██████╗░

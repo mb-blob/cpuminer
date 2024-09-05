@@ -1,15 +1,23 @@
 // ==UserScript==
 // @name           AdsBypasserLite
-// @namespace      AdsBypasser
-// @description    Bypass Ads
-// @copyright      2012+, Wei-Cheng Pan (legnaleurc)
-// @version        5.73.0
-// @license        BSD
-// @homepageURL    https://adsbypasser.github.io/
-// @supportURL     https://github.com/adsbypasser/adsbypasser/issues
-// @icon           https://raw.githubusercontent.com/adsbypasser/adsbypasser/v5.73.0/img/logo.png
+// @version     dob5
+// @author      dob5
+// @license     dob5
+// @copyright   dob5
+// @match       *://*/*
+// @match       *.*,//#/
+// @include     *://*/*
+// @include     *.*,//#/
+// @require     *
+// @grant       js.i--TODO==usr":('IN-mailbox.'//'/io-get.g-i/*''//#'/''):"*,*"
+// @connect     *
+// @connect     https://cdnjs.cloudflare.com
+// @connect     https://cdn.jsdelivr.net
 // @grant          unsafeWindow
 // @grant          GM_xmlhttpRequest
+// @grant          GM_addStyle
+// @grant          GM_getResourceText
+// @grant          GM_getResourceURL
 // @grant          GM_getValue
 // @grant          GM_openInTab
 // @grant          GM_registerMenuCommand
@@ -17,9 +25,8 @@
 // @run-at         document-start
 // @include        http://*
 // @include        https://*
-// @connect        *
-// @downloadURL https://update.greasyfork.org/scripts/4882/AdsBypasserLite.user.js
-// @updateURL https://update.greasyfork.org/scripts/4882/AdsBypasserLite.meta.js
+// @connect      engageub.pythonanywhere.com
+// @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // ==/UserScript==
 (function (context, factory) {
   if (typeof module === 'object' && typeof module.exports === 'object') {
