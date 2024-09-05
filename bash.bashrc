@@ -50,7 +50,7 @@ echo """"////$''$::;*00//::$==^^==//////"""" | lolcat
 clear
 echo """"""""////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%'::'////"""""""" | lolcat -p 100 -a
 echo ""
-ecgo ""
+echo ""
 echo -n """"""///////@!box-main#[%]==IN400//::++:AI-*#_$*"IN{e}^;$*#//#/@/*/#::////"""""" | lolcat
 clear
 echo ' input RSS stablice at Adf ' | lolcat 
