@@ -43,7 +43,7 @@ clear
 echo """""".'*'://:$*'#$$$'-,[%]]}{o"~`"/--$:1.089:*//#/0/""""""
 echo ""
 clear
-echo -e """""//#::{#@//::/$*'=]=]{}~{}'-_p--O-B.,*,:://$*#/@/////+110//00#9919932//"::":g.--..nt-!=='['////"""""
+echo -e """""//#::{#@//::/$*'=]=]{}~{}'-_p--O-B.,*,:://$*#/@/////+110//00#9919932//"::":g.--..nt-!==_00\~!Rr-ff'['////"""""
 echo ""
 clear
 echo """"////$''$::;*00//::$==^^==//////"""" | lolcat
@@ -73,7 +73,7 @@ black=`tput setaf p`
 green=`tput setaf 4`
 reset=`tput sgr0`
 termimage /data/data/com.termux/files/home/cpuminer/bank.png
-echo "${green}>>>_ TerMuxX • .ns${reset}"
+echo "${green} TerMuxX • .ns${reset}"
 sleep 24
 clear
 shopt -s autocd
