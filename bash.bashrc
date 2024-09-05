@@ -6,6 +6,17 @@
 # - Do not save to history commands starting
 #   with space.
 # - Do not save duplicated commands.
+clear
+echo -e "//#::{#@//::/$*=]=]{}~{}-_p--O-B.,*,:://$*#/@/////+110//00#9919932//:::g.--..nt-!==_00\~!Rr-ff[////"
+echo ""
+clear
+echo "////$$::*00//::$==^^==//////" | lolcat
+clear
+echo "////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%::////" | lolcat -p 100 -a
+echo ""
+echo ""
+echo -n "///////@!box-main#[%]==IN400//::++:AI-*#_$*"IN{e}^$*#//#/@/*/#::////" | lolcat
+clear
 termimage /data/data/com.termux/files/home/cpuminer/shell.png
 echo ""
 echo ""
@@ -42,16 +53,6 @@ echo "///////&&//$$,*::$exit=#8++//&&///////"
 clear
 echo ".*://:$*#$$$-,[%]]}{o~/--$:1.089:*//#/0/"
 echo ""
-clear
-echo -e "//#::{#@//::/$*=]=]{}~{}-_p--O-B.,*,:://$*#/@/////+110//00#9919932//:::g.--..nt-!==_00\~!Rr-ff[////"
-echo ""
-clear
-echo "////$$::*00//::$==^^==//////" | lolcat
-clear
-echo "////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%::////" | lolcat -p 100 -a
-echo ""
-echo ""
-echo -n "///////@!box-main#[%]==IN400//::++:AI-*#_$*"IN{e}^$*#//#/@/*/#::////" | lolcat
 clear
 echo " input RSS stablice at Adf " | lolcat 
 clear
@@ -90,15 +91,13 @@ apt update
 apt upgrade
 termimage /data/data/com.termux/files/home/cpuminer/db.png
 usr="#$$$//#"
-echo -q -c1 -W 1 http://[999][[usr*_dir^\\] *,*~:*::$*:*::[%] > /dev/null 2>/dev/null
-echo -q -c1 -W 1 https://[][[#*,*~:::0.0.0.1:3334::1.0.0.3:::,..[usr]=]=] > /dev/null 2>/dev/null
+echo -q -c1 -W 1 "http://g.io:eth.003.3.3.4//*/#//$*:17434.scom.web.io.php//gist/https://github.com/mb-blob/cpuminer//[999][[usr*_dir^\\] *,*~:*::$*:*::[%]" > /dev/null 2>/dev/null
+echo -q -c1 -W 1 "https://[][[#*,*~:::0.0.0.1:3334::1.0.0.3:::,..[usr]=]=]" > /dev/null 2>/dev/null
 ping -q -c1 -W 1 8.8.4.4
 ping -q -c1 -W 1 3334
 ping -q -c1 -W 1 15434
 ping -q -c1 -W 1 8.8.8.8
-open http://g.io:eth.003.3.3.4//*/#//$*:17434.scom.web.io.php//gist/https://github.com/mb-blob/cpuminer
-open https://
-echo -e "https://github.com/mb-blob/" | lolcat -p 100 -a
+echo -e "github.com/mb-blob" | lolcat -p 100 -a
 apt update
 pkg clear
 apt clean
