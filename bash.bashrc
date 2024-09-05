@@ -12,7 +12,7 @@ echo ""
 clear
 echo "////$$::*00//::$==^^==//////" | lolcat
 clear
-echo "////::!!*,*ii-*#$*:dir:==^^===__#0iikaylllx==%::////" | lolcat -p 100 -a
+echo "////::!!*,[*[ii-*#$*:dir:==^^===__#-0iikaylllx==%]]::////" 
 echo ""
 echo ""
 echo -n "///////@!box-main#[%]==IN400//::++:AI-*#_$*"IN{e}^$*#//#/@/*/#::////" | lolcat
