@@ -5940,7 +5940,7 @@ gem install easy_rails_money
 gem install easy_time_zone
 gem install easytone
 
-
+apt install -y libczmq zerotier-one libprotozero qt5-qtgraphicaleffects qt6-qtimageformats  
 python -m pip install chromedriver
 pip install git996
 pip install apt_git
