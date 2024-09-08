@@ -6578,6 +6578,37 @@ pip install icpp-candid
 pip install ocds-babel
 pip install bitpay
 pip install sqlmesh
+pip install str
+pip install pulumi-str
+pip install boa-str
+pip install custom-str
+pip install pdf2str
+pip install rev-str
+pip install Rnd-str
+pip install image-str
+pip install int2str
+pip install k3str
+pip install kb-str
+pip install image2str
+pip install jicautils4str
+pip install enhanced-str
+pip install time-str
+pip install tree-str
+pip install wfst4str
+pip install dict-str
+pip install env2str
+pip install str-authFr
+pip install str-analysis
+pip install str-tools
+pip install str-macros
+pip install str-maker
+pip install str-measure
+pip install str2amount
+pip install str2bool
+pip install str2bool3
+pip install Str2D
+pip install str2date
+pip install str2float
 clear
 clear
 clear
