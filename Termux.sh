@@ -4384,7 +4384,7 @@ apt install -y make-guile
 apt install -y man
 
 apt install -y mangal
-apt install -y manim
+
 
 apt install -y manpages
 
