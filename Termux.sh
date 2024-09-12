@@ -1,11 +1,20 @@
 
-echo -e ' Install Termux *()*/ '
-
-pkg in build-essential && pkg install aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops && apt update && apt upgrade -y && pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
-
-apt update && apt upgrade && apt update && apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks && apt remove nano && termux-setup-storage && termux-reload-settings
 
 apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs 
+
+apt update
+apt upgrade
+apt update
+apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+
+pkg in build-essential -y
+apt install -y aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops
+apt update
+
+apt upgrade -y 
+pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
 
 apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
 
@@ -15,7 +24,7 @@ apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 
 
 apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
 
-apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc mani
 
 apt install -y libresolv-wrapper libunbound resolv-conf
 
@@ -5580,8 +5589,7 @@ apt install -y traceroute
 apt install -y tvheadend
 
 apt install -y udftools
-echo ' tls 25 7::8080'
-
+apt install -y libczmq zerotier-one libprotozero qt5-qtgraphicaleffects qt6-qtimageformats  
 apt install -y up
 apt install -y util-linux
 apt install -y util-linux-static
@@ -5589,358 +5597,9 @@ apt install -y v4l-utils
 apt install -y wget2
 apt install -y vfu videogen vim-addon-mw-utils vim-autopep8 vim-haproxy vim-icinga2 vim-puppet vim-python-jedi vim-rails vim-syntastic
 apt install -y ruby
-gem install bundler
-gem install nokogiri -- --use-system-libraries
-cd $HOME
-gem unpack network_interface
-cd network_interface-0.0.1
-sed 's|git ls-files|find -type f|' -i network_interface.gemspec
-curl -L https://wiki.termux.com/images/6/6b/Netifaces.patch -o netifaces.patch
-patch -p1 < netifaces.patch
-gem build network_interface.gemspec
-gem install network_interface-0.0.1.gem
-cd ..
-rm -r network_interface-0.0.1
-cd metasploit-framework
-sed 's|grpc (.*|grpc (1.4.1)|g' -i Gemfile.lock
-gem unpack grpc -v 1.4.1
-cd grpc-1.4.1
-curl -LO https://raw.githubusercontent.com/grpc/grpc/v1.4.1/grpc.gemspec
-curl -L https://raw.githubusercontent.com/Hax4us/Hax4us.github.io/master/extconf.patch
-patch -p1 < extconf.patch
-gem build grpc.gemspec
-gem install grpc-1.4.1.gem
-cd ..
-rm -r grpc-1.4.1
-echo "
-Gems Installed!"
-sleep 2
-clear
-gem update --system 
-gem install nokogiri -- --use-system-libraries
-gem install 1hdoc
-gem install abidoc
-gem install actiondoc
-gem install active_doc
-gem install active_document
-gem install active_documentum
-gem install active_record_doctor
-gem install activedocument
-gem install bundler
-gem install super_docopt
-gem install swagger-doc-rails
-gem install swagger-docs
-gem install swagger_docs_generator
-gem install synecdoche
-gem install tablatom-rubydoctest
-gem install talentbox-docsplit
-gem install tdoc
-gem install tec_doc
-gem install techdoc-jekyll-theme
-gem install template_docx
-gem install tent-apidoc
-gem install terradoc
-gem install testdoc
-gem install tests_doc
-gem install texel-docusign
-gem install the_artist_formerly_known_as_mongoid_document
-gem install thecore_download_documents
-gem install themedoc
-gem install tildoc
-gem install tilt-rdoc-markdown
-gem install timbradocfdi
-gem install timedoctor
-gem install tiny_doc
-gem install tinymce-rails-documentupload
-gem install tomdoc
-gem install tomdoccery
-gem install toy-sdoc
-gem install trabalho-academico-abnt-asciidoc
-gem install train-kubernetes-docs
-gem install trak3r-iphone-rdoc-template
-gem install treedoc
-gem install trifle-docs
-gem install trustdock
-gem install tufte-pandoc-jekyll
-gem install turnip_documentation_formatter
-gem install typedocs
-gem install uberdoc
-gem install umbrel-docs
-gem install undockerizer
-gem install unversioned_gem_flowdock
-gem install updoc
-gem install upload_documents_tool
-gem install upnxt_frontend_document_client
-gem install upnxt_processing_lib_document
-gem install upnxt_service_document
-gem install upnxt_service_document_processing
-gem install useless-doc
-gem install user_docs
-gem install uvdesk-docs
-gem install vagrant-boot2docker
-gem install vagrant-communicator-docker
-gem install vagrant-dnsdock-hostupdater
-gem install vagrant-docker-compose
-gem install vagrant-docker-env
-gem install vagrant-docker-exec
-gem install vagrant-docker-login
-gem install vagrant-docker-mirror-config
-gem install vagrant-docker-nsenter
-gem install vagrant-docker_load
-gem install vagrant-hostmanager-docker
-gem install valadocbr-theme
-gem install validates_spanish_documents
-gem install validocno
-gem install vdocipher
-gem install vhdl_doctest
-gem install vidocq
-gem install vigetlabs-dockit
-gem install vkhater-social_stream-documents
-gem install voloko-sdoc
-gem install watchdocs-rails
-gem install waylon-db2docs
-gem install web_service_documenter
-gem install webapidoc
-gem install webdoc
-gem install whats_up_doc
-gem install will_doc_project
-gem install witch_doctor
-gem install wooga_docopt
-gem install workarea-product_documents
-gem install wp-docker
-gem install wpdoc
-gem install wrongdoc
-gem install ws-net_documents-use_token
-gem install wtf-doc
-gem install wudoc
-gem install xing-backend-specdoc
-gem install xmindoc
-gem install yamldoc
-gem install yard-chefdoc
-gem install yard-doc-core
-gem install yard-docco
-gem install yard-doctest
-gem install yard-rustdoc
-gem install yard-to_mkdocs
-gem install yard-tomdoc
-gem install yard_doc_example
-gem install yardocco
-gem install ydoc
-gem install ydocx
-gem install yh-docx
-gem install zerodogg-phpdocr
-gem install ZOHOCRMSDK2_0_docgo
-gem install vsphere-automation-appliance
-gem install vsphere-automation-cis
-gem install vsphere-automation-content
-gem install vsphere-automation-runtime
-gem install vsphere-automation-sdk
-gem install vsphere-automation-vapi
-gem install vsphere-automation-vcenter
-gem install vspheremonitor
-gem install vsql_parser
-gem install vss
-gem install vstheme2scss
-gem install vstudioide
-gem install activemerchant-clickandbuy
-gem install auto_click
-gem install aws-sdk-iot1clickdevicesservice
-gem install aws-sdk-iot1clickprojects
-gem install aws_one_click_staging
-gem install capybara-click_at
-gem install capybara-wait_before_click
-gem install click
-gem install click2mail
-gem install click_and_send
-gem install click_effects-rails
-gem install click_heat_map
-gem install click_house
-gem install click_house-client
-gem install click_session
-gem install click_sign_rails
-gem install click_up
-gem install click_up-client
-gem install clickable_link
-gem install clickatell
-gem install clickatell-catcher-rack
-gem install clickatell-ruby19
-gem install clickatell_api_client
-gem install clickatellsend
-gem install clickbank
-gem install ClickClack
-gem install clickclickonsal
-gem install clickclient
-gem install clickclient_scrap
-gem install clicker
-gem install clickfunnels_auth
-gem install clickhouse
-gem install clickhouse-activerecord
-gem install clickhouse-rails
-gem install clickhouse_activerecord
-gem install clickhouse_activerecord_for_rspec_tests
-gem install clickjackable
-gem install clickmap
-gem install clickmeetings
-gem install clicks
-gem install clicksend
-gem install clicksend_client
-gem install clicksign
-gem install clicksign-api
-gem install clicksign-webhooks
-gem install clicksign_ruby
-gem install ClickSpotter
-gem install clickstream
-gem install clickswitch
-gem install clicktale
-gem install clickText
-gem install clicktocall-daemons_common
-gem install clickup
-gem install clicky_me
-gem install cm_clickpost
-gem install commonthread-clickatell
-gem install crafty_clicks
-gem install craftyclicks
-gem install craftyclicks-ruby
-gem install dimiro1-clickatell
-gem install docusign_click
-gem install embulk-input-clickhouse
-gem install embulk-output-clickhouse
-gem install fastclick-rails
-gem install first_click_free
-gem install fluent-plugin-clickhouse
-gem install fluent-plugin-clickhouse-compatible-with-monitor
-gem install fluent-plugin-clickhouse-json-format-output
-gem install fluent-plugin-clickhouse-output
-gem install gameclickfast
-gem install getclicky
-gem install google-apis-doubleclickbidmanager_v1
-gem install google-apis-doubleclickbidmanager_v1_1
-gem install google-apis-doubleclickbidmanager_v2
-gem install google-apis-doubleclicksearch_v2
-gem install
-heise_two_click_social_buttons
-gem install jekyll-clicky
-gem install logstash-output-clickhouse
-gem install lookout-clickatell
-gem install no-click-exception-celerity
-gem install omniauth-clickup
-gem install omnihooks-click-funnels
-gem install one_click
-gem install rack_clicky
-gem install reddavis-clickatell
-gem install rspec_clickable_output
-gem install seeclickfix
-gem install selenium-webdriver-element-extend_click_again
-gem install trackable-click
-gem install transbank-oneclick
-gem install unageanu-clickclient
-gem install unageanu-clickclient_scrap
-gem install webandy-ruby-clicky
-gem install webnovel_clickbot
-gem install assert_triggering
-gem install ATrigger
-gem install buildkite-trigger
-gem install capistrano-strategy-copy-with-triggers
-gem install chrono_trigger
-gem install crono_trigger
-gem install Empact-trackless_triggers
-gem install fastlane-plugin-trigger_bitrise_build
-gem install flow_trigger_connector
-gem install forstok_trigger
-gem install frolic-trackless_trigger
-gem install frolic-trackless_triggers
-gem install gc-trigger
-gem install geotrigger
-gem install gregfitz23-chrono_trigger
-gem install hairtrigger
-gem install jeremyevans-sequel_postgresql_triggers
-gem install json_stream_trigger
-gem install logstash-codec-trigger
-gem install logstash-filter-trigger
-gem install outrigger
-gem install pg_triggers
-gem install pgtrigger
-gem install rails-pg_trigger
-gem install rails_db_triggers
-gem install rails_sql_triggers
-gem install raoh_trigger
-gem install schema_plus_triggers
-gem install schmitt-trigger
-gem install sequel_postgresql_triggers
-gem install snap_ci_manual_trigger
-gem install spstrigger_execute
-gem install statesman-trigger
-gem install subtrigger
-gem install trackless_triggers
-gem install trigger
-gem install trigger-happy
-gem install trigger_build
-gem install trigger_switch_d
-gem install triggerable
-gem install triggered_job
-gem install triggerful
-gem install triggerhappy
-gem install triggerino
-gem install vagrant-triggers
-gem install webhook_trigger
-gem install dm-is-revisioned
-gem install dm-is-versioned
-gem install dm-money
-gem install dm-revisioned
-gem install dm-zone-types
-gem install dns-catalog_zone
-gem install dns-zone
-gem install dns-zone-file
-gem install dns-zone2
-gem install dns-zonefile
-gem install dns_one
-gem install dns_zone_cli
-gem install dns_zone_parser
-gem install docker-clone
-gem install docx-cloner
-gem install done
-gem install done21-validifier
-gem install done_log
-gem install donedone
-gem install doneski
-gem install doneyo
-gem install doubledrones-annotate
-gem install doubledrones-i18n_routing
-gem install drone
-gem install drone-builds
-gem install drone-ci
-gem install drone-hunter
-gem install drone-rails
-gem install drone-ruby
-gem install drone_api
-gem install drone_collectd
-gem install drone_json
-gem install drone_view_api
-gem install dronebl.rb
-gem install droneio
-gem install dronejob
-gem install dronestream
-gem install dronetrack
-gem install dropzone
-gem install dropzone_input
-gem install dropzone_ruby
-gem install dropzonejs-rails
-gem install dropzonejs-rails4
-gem install dry-component
-gem install dsfr-view-components
-gem install dualcone
-gem install dvyjones-authlogic-kerberos
-gem install dvyjones-slartibartfast
-gem install dvyjones-tinybot
-gem install dw_money
-gem install dwradcliffe-test-one
-gem install dynamic_time_zone
-gem install easy_money
-gem install easy_rails_money
-gem install easy_time_zone
-gem install easytone
 
-apt install -y libczmq zerotier-one libprotozero qt5-qtgraphicaleffects qt6-qtimageformats  
+gem update --system 
+
 python -m pip install chromedriver
 pip install git996
 pip install apt_git
@@ -6947,150 +6606,13 @@ pip install odoo-addons-oca-hr-holidays
 clear
 clear
 clear
-echo " ::())().//#(($::exit::))//<<>>>> rr • (:)::();)" 
-echo "** Done **"
-sleep 2
-#!/data/data/com.termux/files/usr/bin/bash
 
-time1="$( date +"%r" )"
 
-install1 () {
-directory=ubuntu-fs
-UBUNTU_VERSION=jammy
-if [ -d "$directory" ];then
-first=1
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;227m[WARNING]:\e[0m \x1b[38;5;87m Skipping the download and the extraction\n"
-elif [ -z "$(command -v proot)" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Please install proot.\n"
-printf "\e[0m"
-exit 1
-elif [ -z "$(command -v wget)" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Please install wget.\n"
-printf "\e[0m"
-exit 1
-fi
-if [ "$first" != 1 ];then
-if [ -f "ubuntu.tar.gz" ];then
-rm -rf ubuntu.tar.gz
-fi
-if [ ! -f "ubuntu.tar.gz" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Downloading the ubuntu rootfs, please wait...\n"
-ARCHITECTURE=$(dpkg --print-architecture)
-case "$ARCHITECTURE" in
-aarch64) ARCHITECTURE=arm64;;
-arm) ARCHITECTURE=armhf;;
-amd64|x86_64) ARCHITECTURE=amd64;;
-*)
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Unknown architecture :- $ARCHITECTURE"
-exit 1
-;;
-
-esac
-
-wget https://partner-images.canonical.com/core/${UBUNTU_VERSION}/current/ubuntu-${UBUNTU_VERSION}-core-cloudimg-${ARCHITECTURE}-root.tar.gz -q -O ubuntu.tar.gz 
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Download complete!\n"
-
-fi
-
-cur=`pwd`
-mkdir -p $directory
-cd $directory
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Decompressing the ubuntu rootfs, please wait...\n"
-proot --link2symlink tar -zxf $cur/ubuntu.tar.gz --exclude='dev'||:
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m The ubuntu rootfs have been successfully decompressed!\n"
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Fixing the resolv.conf, so that you have access to the internet\n"
-printf "nameserver 8.8.8.8\nnameserver 8.8.4.4\n" > etc/resolv.conf
-stubs=()
-stubs+=('usr/bin/groups')
-for f in ${stubs[@]};do
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Writing stubs, please wait...\n"
-echo -e "#!/bin/sh\nexit" > "$f"
-done
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Successfully wrote stubs!\n"
-cd $cur
-
-fi
-
-mkdir -p ubuntu-binds
-bin=startubuntu.sh
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Creating the start script, please wait...\n"
-cat > $bin <<- EOM
-#!/bin/bash
-cd \$(dirname \$0)
-## unset LD_PRELOAD in case termux-exec is installed
-unset LD_PRELOAD
-command="proot"
-## uncomment following line if you are having FATAL: kernel too old message.
-#command+=" -k 4.14.81"
-command+=" --link2symlink"
-command+=" -0"
-command+=" -r $directory"
-if [ -n "\$(ls -A ubuntu-binds)" ]; then
-    for f in ubuntu-binds/* ;do
-      . \$f
-    done
-fi
-command+=" -b /dev"
-command+=" -b /proc"
-command+=" -b /sys"
-command+=" -b ubuntu-fs/tmp:/dev/shm"
-command+=" -b /data/data/com.termux"
-command+=" -b /:/host-rootfs"
-command+=" -b /sdcard"
-command+=" -b /storage"
-command+=" -b /mnt"
-command+=" -w /root"
-command+=" /usr/bin/env -i"
-command+=" HOME=/root"
-command+=" PATH=/usr/local/sbin:/usr/local/bin:/bin:/usr/bin:/sbin:/usr/sbin:/usr/games:/usr/local/games"
-command+=" TERM=\$TERM"
-command+=" LANG=C.UTF-8"
-command+=" /bin/bash --login"
-com="\$@"
-if [ -z "\$1" ];then
-    exec \$command
-else
-    \$command -c "\$com"
-fi
-EOM
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m The start script has been successfully created!\n"
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Fixing shebang of startubuntu.sh, please wait...\n"
-termux-fix-shebang $bin
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Successfully fixed shebang of startubuntu.sh! \n"
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Making startubuntu.sh executable please wait...\n"
-chmod +x $bin
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Successfully made startubuntu.sh executable\n"
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Cleaning up please wait...\n"
-rm ubuntu.tar.gz -rf
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m Successfully cleaned up!\n"
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;83m[Installer thread/INFO]:\e[0m \x1b[38;5;87m The installation has been completed! You can now launch Ubuntu with ./startubuntu.sh\n"
-printf "\e[0m"
-
-}
-if [ "$1" = "-y" ];then
-install1
-elif [ "$1" = "" ];then
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;127m[QUESTION]:\e[0m \x1b[38;5;87m Do you want to install ubuntu-in-termux? [Y/n] "
-
-read cmd1
-if [ "$cmd1" = "y" ];then
-install1
-elif [ "$cmd1" = "Y" ];then
-install1
-else
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installation aborted.\n"
-printf "\e[0m"
-exit
-fi
-else
-printf "\x1b[38;5;214m[${time1}]\e[0m \x1b[38;5;203m[ERROR]:\e[0m \x1b[38;5;87m Installation aborted.\n"
-printf "\e[0m"
-fi
 cd ~
 mkdir ubuntu
 cp -r ~/cpuminer/install.sh ~/ubuntu/install.sh
 cd ~/ubuntu
 chmod +x *
 ./install.sh -y
-apt remove nano -y
+
 ./startubuntu.sh && apt update
