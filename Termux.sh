@@ -1,8 +1,48 @@
 
+apt clean 
+clear 
+pkg clear 
+termux-reload-settings 
+pkg update -y 
+pkg upgrade -y 
 
+apt install -y google-drive-upload
+apt install -y google-glog
+apt install -y googletest
+apt install -y translate-shell
+apt install -y aapt
+apt install -y aapt2
+
+apt install -y apt
+apt install -y dpkg
+apt install -y dpkg-perl
+apt install -y dpkg-scanpackages
+apt install -y libapt-pkg-perl
+apt install -y pkg-config
+
+apt install -y pkgfile
+apt install -y pkgtop
+
+apt install -y cfengine
+apt install -y cfengine-static python python2
+apt install -y cfm
+pkg install git ffmpeg htop vim bison 
+apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs abduco acr 
+
+apt search pip
+pkg install matplotlib -y --aarch64
+pkg clear
+pkg upgrade -y 
+pkg install matplotlib
 apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
 
-apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs 
+cd ~
+git clone https://github.com/termux/termux-packages.git
+cd ~ 
+cd ~/termux-packages/scripts 
+bash ~/termux-packages/scripts/setup-termux.sh
+
+apt install -y abook agate age angband ansifilter apt-ftparchive arturo asciidoc attr barcode bc-gh boxes bsd-games busybox byobu c-script cabextract catdoc ccextractor chafa clifm clvk coreutils ctags d8 datamash deutex dex2jar dialog dmagnetic dos2unix dpkg-scanpackages dte dx e2fsprogs e2tools elinks elvish emacs enscript esbuild exercism exhale exiftool exiv2 expect fastmod fatsort figlet finch flex flex-static frp fte gawk gdbm gettext gettext-static gexiv2 git-lfs gitflow-avh grex groff groonga harfbuzz harfbuzz-icu helix hexcurse hexedit hexer hexyl hilbish html2text hugo hz icoutils influxdb innoextract ired jack-example-tools jhead joe jove jupp kbd kcptun kibi ldns less lexbor lexter libandroid-complex-math libandroid-execinfo libandroid-execinfo-static libandroid-wordexp libandroid-wordexp-static libbluray-utils libcaca libccd libebml libexif libexif-static libexpat libexpat-static libfcl libfinalcut libfreexl libfreexl-static libgnt libhyphen libice libimagequant libimtui liblog4c libmdbx libmpc libmuparser libnettle libnewt libosl libphysfs libpipeline libraqm libre2 libregexp-assemble-perl librime librttopo libsoldout libspatialindex libspatialite libspeex libspeex-static libt3highlight libtool libtsduck libuber-h3 libucontext libucontext-static libxcfun libxext libxext-static libxfixes libxi libxls libxlsxwriter libxrandr libxrender libxss libxtst links lipl llvm locustdb lrzip lsd lua51 lua52 lua53 lua54 lynx mdbook-katex mdbtools media-types micro miller morse2ascii mp3cat mu nano ncurses ne neovim newsboat notmuch nsnake o-editor ocrad odt2txt onigmo oniguruma oorexx oorexx-static openexr pango parallel pass-otp patchelf pcre pcre2 pcre2grep pcregrep pdfgrep perl-rename pgroonga php-imagick php-psr php-redis php-zephir-parser pkgfile plantuml poke postgis proxychains-ng ptex ptex-static pueue qhull radare2 ragel rdrview re2c recoll recutils rgbds rnr ruby-ri ruff rush screen sed shell2http shellinabox sops speex-utils speexdsp speexdsp-static sqlcipher srt2vobsub ssdeep starship tcsh tectonic tere termux-exec tex-gyre texinfo texlab texlive-bin texlive-bin-static texlive-installer tig tilde tintin++ tinyfugue tmate tmux toilet translate-shell unar unrar unshield up update-info-dir upx uv vale vamp-plugin-sdk vobsub2srt vtm vulkan-extension-layer w3m wakatime-cli wasmedge watchexec wdiff weechat xxhash zk
 
 apt update
 apt upgrade
@@ -58,26 +98,6 @@ apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu li
 
 apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
 
-apt install -y google-drive-upload
-apt install -y google-glog
-apt install -y googletest
-apt install -y translate-shell
-apt install -y aapt
-apt install -y aapt2
-
-apt install -y apt
-apt install -y dpkg
-apt install -y dpkg-perl
-apt install -y dpkg-scanpackages
-apt install -y libapt-pkg-perl
-apt install -y pkg-config
-
-apt install -y pkgfile
-apt install -y pkgtop
-
-apt install -y cfengine
-apt install -y cfengine-static
-apt install -y cfm
 apt install -y go-musicfox
 
 apt install -y libfcft
