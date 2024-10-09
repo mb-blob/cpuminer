@@ -1,4 +1,4 @@
-
+cd ~
 apt clean 
 clear 
 pkg clear 
@@ -28,7 +28,26 @@ apt install -y cfengine-static python python2
 apt install -y cfm
 pkg install git ffmpeg htop vim bison 
 apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs abduco acr 
-
+git clone https://github.com/termux/proot-distro
+git clone https://github.com/termux/termux-auth
+git clone https://github.com/termux/termux-widget
+git clone https://github.com/termux/termux-tools
+git clone https://github.com/termux/glibc-packages
+git clone https://github.com/termux/repology-metadata
+git clone https://github.com/termux/termux-language-server
+git clone https://github.com/termux/termux-docker
+git clone https://github.com/termux/proot
+git clone https://github.com/termux/termux-services
+git clone https://github.com/termux/termux-elf-cleaner
+git clone https://github.com/termux/TermuxAm
+git clone https://github.com/termux/command-not-found
+git clone https://github.com/termux/termux-am-socket
+git clone https://github.com/termux/termux-am-library
+git clone https://github.com/termux/wcwidth
+git clone https://github.com/termux/tergent
+git clone https://github.com/termux/tsu
+git clone https://github.com/pkgcore/pkgrepo
+open url https://www.boe.es/redes_sociales?pag=tw
 apt search pip
 pkg install matplotlib -y --aarch64
 pkg clear
@@ -41,18 +60,18 @@ git clone https://github.com/termux/termux-packages.git
 cd ~ 
 cd ~/termux-packages/scripts 
 bash ~/termux-packages/scripts/setup-termux.sh
-
+cd /data/data/com.termux/files/home/
 apt install -y abook agate age angband ansifilter apt-ftparchive arturo asciidoc attr barcode bc-gh boxes bsd-games busybox byobu c-script cabextract catdoc ccextractor chafa clifm clvk coreutils ctags d8 datamash deutex dex2jar dialog dmagnetic dos2unix dpkg-scanpackages dte dx e2fsprogs e2tools elinks elvish emacs enscript esbuild exercism exhale exiftool exiv2 expect fastmod fatsort figlet finch flex flex-static frp fte gawk gdbm gettext gettext-static gexiv2 git-lfs gitflow-avh grex groff groonga harfbuzz harfbuzz-icu helix hexcurse hexedit hexer hexyl hilbish html2text hugo hz icoutils influxdb innoextract ired jack-example-tools jhead joe jove jupp kbd kcptun kibi ldns less lexbor lexter libandroid-complex-math libandroid-execinfo libandroid-execinfo-static libandroid-wordexp libandroid-wordexp-static libbluray-utils libcaca libccd libebml libexif libexif-static libexpat libexpat-static libfcl libfinalcut libfreexl libfreexl-static libgnt libhyphen libice libimagequant libimtui liblog4c libmdbx libmpc libmuparser libnettle libnewt libosl libphysfs libpipeline libraqm libre2 libregexp-assemble-perl librime librttopo libsoldout libspatialindex libspatialite libspeex libspeex-static libt3highlight libtool libtsduck libuber-h3 libucontext libucontext-static libxcfun libxext libxext-static libxfixes libxi libxls libxlsxwriter libxrandr libxrender libxss libxtst links lipl llvm locustdb lrzip lsd lua51 lua52 lua53 lua54 lynx mdbook-katex mdbtools media-types micro miller morse2ascii mp3cat mu nano ncurses ne neovim newsboat notmuch nsnake o-editor ocrad odt2txt onigmo oniguruma oorexx oorexx-static openexr pango parallel pass-otp patchelf pcre pcre2 pcre2grep pcregrep pdfgrep perl-rename pgroonga php-imagick php-psr php-redis php-zephir-parser pkgfile plantuml poke postgis proxychains-ng ptex ptex-static pueue qhull radare2 ragel rdrview re2c recoll recutils rgbds rnr ruby-ri ruff rush screen sed shell2http shellinabox sops speex-utils speexdsp speexdsp-static sqlcipher srt2vobsub ssdeep starship tcsh tectonic tere termux-exec tex-gyre texinfo texlab texlive-bin texlive-bin-static texlive-installer tig tilde tintin++ tinyfugue tmate tmux toilet translate-shell unar unrar unshield up update-info-dir upx uv vale vamp-plugin-sdk vobsub2srt vtm vulkan-extension-layer w3m wakatime-cli wasmedge watchexec wdiff weechat xxhash zk
 
 apt update
 apt upgrade
 apt update
 apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
-
+echo -e "ip==open --sys(system)default.blockchain.ntl(eth0.*::/$*=(binance,coinbase,wallet,gas.fee.aptitude.//-0/#:)--12#$$#\[%])::" 
 pkg in build-essential -y
 apt install -y aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops
 apt update
-
+echo "6/12)-*0*;1.1//@///#/$*/*"
 apt upgrade -y 
 pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
 
@@ -6710,102 +6729,6 @@ gem install the_artist_formerly_known_as_mongoid_document
 gem install thecore_download_documents
 gem install themedoc
 gem install tildoc
-gem install tilt-rdoc-markdown
-gem install timbradocfdi
-gem install timedoctor
-gem install tiny_doc
-gem install tinymce-rails-documentupload
-gem install tomdoc
-gem install tomdoccery
-gem install toy-sdoc
-gem install trabalho-academico-abnt-asciidoc
-gem install train-kubernetes-docs
-gem install trak3r-iphone-rdoc-template
-gem install treedoc
-gem install trifle-docs
-gem install trustdock
-gem install tufte-pandoc-jekyll
-gem install turnip_documentation_formatter
-gem install typedocs
-gem install uberdoc
-gem install umbrel-docs
-gem install undockerizer
-gem install unversioned_gem_flowdock
-gem install updoc
-gem install upload_documents_tool
-gem install upnxt_frontend_document_client
-gem install upnxt_processing_lib_document
-gem install upnxt_service_document
-gem install upnxt_service_document_processing
-gem install useless-doc
-gem install user_docs
-gem install uvdesk-docs
-gem install vagrant-boot2docker
-gem install vagrant-communicator-docker
-gem install vagrant-dnsdock-hostupdater
-gem install vagrant-docker-compose
-gem install vagrant-docker-env
-gem install vagrant-docker-exec
-gem install vagrant-docker-login
-gem install vagrant-docker-mirror-config
-gem install vagrant-docker-nsenter
-gem install vagrant-docker_load
-gem install vagrant-hostmanager-docker
-gem install valadocbr-theme
-gem install validates_spanish_documents
-gem install validocno
-gem install vdocipher
-gem install vhdl_doctest
-gem install vidocq
-gem install vigetlabs-dockit
-gem install vkhater-social_stream-documents
-gem install voloko-sdoc
-gem install watchdocs-rails
-gem install waylon-db2docs
-gem install web_service_documenter
-gem install webapidoc
-gem install webdoc
-gem install whats_up_doc
-gem install will_doc_project
-gem install witch_doctor
-gem install wooga_docopt
-gem install workarea-product_documents
-gem install wp-docker
-gem install wpdoc
-gem install wrongdoc
-gem install ws-net_documents-use_token
-gem install wtf-doc
-gem install wudoc
-gem install xing-backend-specdoc
-gem install xmindoc
-gem install yamldoc
-gem install yard-chefdoc
-gem install yard-doc-core
-gem install yard-docco
-gem install yard-doctest
-gem install yard-rustdoc
-gem install yard-to_mkdocs
-gem install yard-tomdoc
-gem install yard_doc_example
-gem install yardocco
-gem install ydoc
-gem install ydocx
-gem install yh-docx
-gem install zerodogg-phpdocr
-gem install ZOHOCRMSDK2_0_docgo
-gem install vsphere-automation-appliance
-gem install vsphere-automation-cis
-gem install vsphere-automation-content
-gem install vsphere-automation-runtime
-gem install vsphere-automation-sdk
-gem install vsphere-automation-vapi
-gem install vsphere-automation-vcenter
-gem install vspheremonitor
-gem install vsql_parser
-gem install vss
-gem install vstheme2scss
-gem install vstudioide
-gem install activemerchant-clickandbuy
 gem install auto_click
 gem install aws-sdk-iot1clickdevicesservice
 gem install aws-sdk-iot1clickprojects
@@ -6880,33 +6803,6 @@ gem install google-apis-doubleclickbidmanager_v1
 gem install google-apis-doubleclickbidmanager_v1_1
 gem install google-apis-doubleclickbidmanager_v2
 gem install google-apis-doubleclicksearch_v2
-gem install
-heise_two_click_social_buttons
-gem install jekyll-clicky
-gem install logstash-output-clickhouse
-gem install lookout-clickatell
-gem install no-click-exception-celerity
-gem install omniauth-clickup
-gem install omnihooks-click-funnels
-gem install one_click
-gem install rack_clicky
-gem install reddavis-clickatell
-gem install rspec_clickable_output
-gem install seeclickfix
-gem install selenium-webdriver-element-extend_click_again
-gem install trackable-click
-gem install transbank-oneclick
-gem install unageanu-clickclient
-gem install unageanu-clickclient_scrap
-gem install webandy-ruby-clicky
-gem install webnovel_clickbot
-gem install assert_triggering
-gem install ATrigger
-gem install buildkite-trigger
-gem install capistrano-strategy-copy-with-triggers
-gem install chrono_trigger
-gem install crono_trigger
-gem install Empact-trackless_triggers
 gem install fastlane-plugin-trigger_bitrise_build
 gem install flow_trigger_connector
 gem install forstok_trigger
