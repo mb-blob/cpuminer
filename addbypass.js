@@ -25,6 +25,7 @@
 // @run-at         document-start
 // @include        http://*
 // @include        https://*
+// @replace-site.name   https://domain-address//#/*'llocate::192.168.1.#'
 // @connect      engageub.pythonanywhere.com
 // @require      http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
 // ==/UserScript==
@@ -7259,3 +7260,1646 @@ $.register({
   return $;
 }));
 $._main();
+function triggerEvent(el, type) {
+        try{
+            var e = document.createEvent('HTMLEvents');
+            e.initEvent(type, false, true);
+            el.dispatchEvent(e);
+        }catch(exception){
+            console.log(exception);
+        }
+        }
+
+        function toggleCaptcha(selector, index){
+        document.querySelector(selector).selectedIndex = index;
+        var targetNode = document.querySelector(selector);
+        if (targetNode) {
+            setTimeout(function() {
+                triggerEvent(targetNode, 'change');
+            }, 5000);
+        }
+        }
+
+
+        String.prototype.includesOneOf = function(arrayOfStrings) {
+
+
+        if (!Array.isArray(arrayOfStrings)) {
+            return this.toLowerCase().includes(arrayOfStrings.toLowerCase());
+        }
+
+        for (var i = 0; i < arrayOfStrings.length; i++) {
+            if (this.toLowerCase().includes(arrayOfStrings[i].toLowerCase())) {
+                return true;
+            }
+        }
+        return false;
+        }
+
+        var websiteDataValues = {};
+
+
+        for (let value of Object.values(websiteMap)) {
+        if(window.location.href.includesOneOf(value.website)){
+            websiteDataValues.inputTextSelector= value.inputTextSelector;
+            websiteDataValues.inputTextSelectorButton = value.inputTextSelectorButton;
+            websiteDataValues.defaultButtonSelectors = value.defaultButtonSelectors;
+            websiteDataValues.claimButtonSelector = value.claimButtonSelector;
+            websiteDataValues.captchaButtonSubmitSelector = value.captchaButtonSubmitSelector;
+            websiteDataValues.loginSelectors = value.loginSelectors;
+            websiteDataValues.allMessageSelectors = value.allMessageSelectors;
+            websiteDataValues.messagesToCheckBeforeMovingToNextUrl = value.messagesToCheckBeforeMovingToNextUrl;
+            websiteDataValues.withdrawPageUrl = value.withdrawPageUrl;
+            websiteDataValues.withdrawEnabled = value.withdrawEnabled;
+            websiteDataValues.balanceSelector = value.balanceSelector;
+            websiteDataValues.withdrawMinAmount = value.withdrawMinAmount;
+            websiteDataValues.successMessageSelectors = value.successMessageSelectors;
+            websiteDataValues.toggleCaptchaSelector = value.toggleCaptchaSelector;
+            websiteDataValues.toggleCaptchaSelectorIndex = value.toggleCaptchaSelectorIndex;
+            websiteDataValues.timeoutbeforeMovingToNextUrl = value.timeoutbeforeMovingToNextUrl;
+            websiteDataValues.additionalFunctions = value.additionalFunctions;
+            break;
+        }
+        }
+
+
+    var count = 0;
+    var addressAssigned = false;
+    for (let value of Object.values(websiteData)) {
+        count = count + 1;
+        if(value.url.includes(window.location.hostname) && window.location.href.includes("/" + value.regex)){
+            addressAssigned = true;
+            break;
+        }
+        }
+
+
+       if(!addressAssigned){
+       count = 0;
+       for (let value of Object.values(websiteData)) {
+            count = count + 1;
+            if(value.url.includes(window.location.hostname) && !value.regex){
+                addressAssigned = true;
+                break;
+       }
+       }
+       }
+
+
+
+       async function getNextUrl(){
+
+
+        if(count >= websiteData.length){
+            count = 0;
+            websiteDataValues.nextUrl = websiteData[count].url;
+        }else{
+            websiteDataValues.nextUrl = websiteData[count].url;
+        }
+
+
+        pingTest(websiteDataValues.nextUrl);
+        }
+
+        var isNextUrlReachable = false;
+
+        function pingTest(websiteUrl) {
+        console.log(websiteUrl);
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: websiteUrl,
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            timeout: 5000,
+            onload: function(response) {
+
+                console.log("reachable");
+                isNextUrlReachable = true;
+            },
+            onerror: function(e) {
+                console.log("error");
+                count=count+1;
+                getNextUrl();
+            },
+            ontimeout: function() {
+                console.log("timeout");
+                count=count+1;
+                getNextUrl();
+            },
+            });
+
+            }
+
+
+            async function delay(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms))
+            }
+
+
+            var movingToNextUrl = false;
+            async function goToNextUrl() {
+            if((window && window.self == top) || (unsafeWindow && unsafeWindow.self == top)){
+            console.log("Going to next Url");
+            if(!movingToNextUrl){
+                movingToNextUrl = true;
+                getNextUrl();
+                while (!isNextUrlReachable) {
+                    await delay(3000);
+                }
+                console.log("Done");
+                window.location.href = websiteDataValues.nextUrl;
+                }
+                }
+                }
+
+            async function goToWithdrawPage() {
+            if(!movingToNextUrl){
+            movingToNextUrl = true;
+            window.location.href = websiteDataValues.withdrawPageUrl;
+            }
+
+            }
+
+
+
+    var delayBeforeMovingToNextUrl = 180000;
+    if(websiteDataValues.timeoutbeforeMovingToNextUrl){
+        delayBeforeMovingToNextUrl = websiteDataValues.timeoutbeforeMovingToNextUrl;
+    }
+
+    setTimeout(function(){
+        goToNextUrl();
+    },delayBeforeMovingToNextUrl);
+
+
+
+    function messageSelectorsPresent(){
+        if(websiteDataValues.allMessageSelectors){
+            for(var j=0;j<websiteDataValues.allMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.allMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k] &&
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl) ||
+                        (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value &&
+                         document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)))){
+                        return true;
+                        }
+                        }
+                        }
+                        }
+                        return false;
+                        }
+
+
+    function successMessageSelectorsPresent(){
+        if(websiteDataValues.successMessageSelectors){
+            for(var j=0;j<websiteDataValues.successMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.successMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k] && document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)){
+                        return true;
+                    }
+                    }
+                    }
+                    }
+                    return false;
+                    }
+
+        function bitgames(){
+        var clicked = false;
+        var formSubmitted = false;
+        var modalFormClicked = false;
+
+        if(document.querySelector(".level-easy.enabled") && document.querySelector(".level-easy.enabled").innerText.includes("HCaptcha")){
+            document.querySelector(".level-easy.enabled").click();
+        }
+
+        if(document.querySelector("div.--hcaptcha-insticator-center > div > form > center:nth-child(3) > div > div > p")){
+            var ranquestion = document.querySelector("div.--hcaptcha-insticator-center > div > form > center:nth-child(3) > div > div > p").innerText;
+            ranquestion= ranquestion.replace("What is ","");
+            ranquestion= ranquestion.split("+");
+
+            document.querySelector("#humanverify").value = Number(ranquestion[0].trim()) + Number(ranquestion[1].trim())
+        }
+
+        setInterval(function(){
+
+            if(!clicked && document.querySelector("button.btn.btn-primary.btn-show")){
+            document.querySelector("button.btn.btn-primary.btn-show").click()
+            clicked = true;
+            }
+
+
+            if(document.querySelector(".btn-mine") && document.querySelector(".btn-mine").style.display =="inline"){
+            document.querySelector(".btn-mine").click();
+            }
+
+
+            if(formSubmitted && !modalFormClicked && document.querySelector("#insticator-modal button.btn.btn-primary.btn-show")){
+            document.querySelector("#insticator-modal button.btn.btn-primary.btn-show").click();
+            modalFormClicked = true;
+
+
+            }
+
+
+            if(document.querySelector("iframe") && document.querySelector("iframe").getAttribute("data-hcaptcha-response") &&
+               document.querySelector("iframe").getAttribute("data-hcaptcha-response").length > 0) {
+                if(document.querySelector(".btn-solve")){
+                    document.querySelector(".btn-solve").click();
+
+                }
+
+                if(document.querySelector(".btn.btn-primary.btn-solve-insticator")){
+                    document.querySelector(".btn.btn-primary.btn-solve-insticator").click();
+                }
+
+                if(!formSubmitted && document.querySelector("form.puzzle-form")){
+                    formSubmitted = true;
+                    clicked = false;
+                    document.querySelector(".form.puzzle-form").submit();
+                }
+
+
+                if(document.querySelector("#btn-verify")){
+                    document.querySelector("#btn-verify").click();
+                }
+
+
+                }
+
+                },5000);
+
+
+                }
+
+
+
+
+        function getRGBFromData(data){
+        var hashMap = new Map();
+        var maxRGB;
+        var maxCount = 0;
+        for(let i=0;i <data.length;i=i+4){
+            let rgb = data[i].toString() + "," + data[i+1].toString() + "," + data[i+2].toString();
+            if(data[i+3] > 127){
+                if(hashMap.has(rgb)){
+                    hashMap.set(rgb, hashMap.get(rgb)+1)
+                    if(maxCount < hashMap.get(rgb)){
+                        maxCount = hashMap.get(rgb);
+                        maxRGB = [data[i],data[i+1],data[i+2]];
+                    }
+                }
+                else{
+                    hashMap.set(rgb, 1)
+                }
+                }
+                }
+
+                return maxRGB;
+                }
+
+                function getBitcoinDoge(){
+
+            try{
+            var j =0;
+            var leastDifference = 10000;
+            if(document.querySelector("div.modal-body img") && document.querySelectorAll("button[class='btn btn-lg']").length > 3){
+
+                let image = document.querySelector("div.modal-body img");
+                let c = document.createElement("canvas");
+                c.width = image.width;
+                c.height = image.height;
+                var ctx = c.getContext("2d");
+                ctx.drawImage(image, 0, 0);
+                var imageData = ctx.getImageData(0, 0, c.width, c.height);
+                var data = imageData.data;
+                var questionRGB = getRGBFromData(data);
+
+
+                    for(let i=0;i< document.querySelectorAll("button[class='btn btn-lg']").length;i++){
+                    let canva = document.createElement("canvas");
+                    canva.width = image.width;
+                    canva.height = image.height;
+                    let canvatx = canva.getContext("2d");
+                    canvatx.fillStyle = document.querySelectorAll("button[class='btn btn-lg']")[i].style.backgroundColor;
+                    canvatx.fillRect(0, 0,canva.width,canva.height);
+                    let imageData = canvatx.getImageData(0, 0,canva.width,canva.height);
+                    let rgb = getRGBFromData(imageData.data);
+
+                    if(Math.abs(questionRGB[0]-rgb[0]) + Math.abs(questionRGB[1]-rgb[1]) + Math.abs(questionRGB[2]-rgb[2]) < leastDifference){
+                        leastDifference = Math.abs(questionRGB[0]-rgb[0]) + Math.abs(questionRGB[1]-rgb[1]) + Math.abs(questionRGB[2]-rgb[2]);
+                        j = i;
+                    }
+
+                    if(Math.abs(questionRGB[0]-rgb[0])<= 30 && Math.abs(questionRGB[1]-rgb[1]) <= 30 && Math.abs(questionRGB[2]-rgb[2]) <= 30){
+                        break;
+                    }
+                    }
+
+                console.log("Closest Matching Colour");
+                console.log(document.querySelectorAll("button[class='btn btn-lg']")[j].style.backgroundColor);
+                document.querySelectorAll("button[class='btn btn-lg']")[j].click();
+
+                setTimeout(function(){
+                    if(document.querySelector("#NXReportButton")){
+                        document.querySelector("#NXReportButton").click();
+                    }
+                    setTimeout(function(){
+
+                        for(var hc=0; hc < document.querySelectorAll("iframe").length; hc++){
+                            if(document.querySelectorAll("iframe")[hc] &&
+                                document.querySelectorAll("iframe")[hc].hasAttribute("data-hcaptcha-response")){
+                                return;
+                            }
+                            }
+
+                        if(document.querySelector(".btn-rounded.btn-sm.w-30.mb-0")){
+                            document.querySelector(".btn-rounded.btn-sm.w-30.mb-0").click();
+                        }
+                        setTimeout(function(){
+                            if(messageSelectorsPresent()){
+                                goToNextUrl();
+                            }
+                            },5000);
+                            },5000);
+                            },5000);
+                            }
+
+
+                            }catch(e){
+
+                            }
+                            }
+
+
+
+            function btcadspace(){
+            if(window.location.href.includes("faucet")){
+            var anchors = document.getElementsByTagName("a");
+            for (var i = 0; i < anchors.length; i++) {
+                anchors[i].onclick = function() {return false;};
+            }
+            }
+            }
+
+
+
+        function cryptowin(){
+
+        var oldfunction = unsafeWindow.open;
+        var windowName = "";
+
+        function newFunction(params1, params2) {
+
+            console.log(params1 + params2);
+            if (!params2 || params2 == "_blank") {
+                windowName = "CryptoWinPopUp";
+            } else {
+                windowName = params2;
+            }
+
+            return oldfunction(params1, windowName);
+        };
+
+        unsafeWindow.open = newFunction;
+
+        unsafeWindow.onbeforeunload = function() {
+            unsafeWindow.open('', windowName).close();
+        };
+
+        if(document.querySelector("#dropdownList")){
+            document.querySelector("#dropdownList").click();
+        }
+        if(document.querySelector("#claim div.modal-body > div.ad_box center li > a") &&
+           document.querySelector("#claim div.modal-body > div.ad_box center li > a").innerText == "hCAPTCHA"){
+            document.querySelector("#claim div.modal-body > div.ad_box center li > a").click()
+        }
+
+        if(window.location.href.includes("surf")){
+
+            if(document.querySelector("#visitedlink[class=''] [class='ptcbtn faa-parent animated-hover']")){
+                document.querySelector("#visitedlink[class=''] [class='ptcbtn faa-parent animated-hover']").click();
+            }else if(document.querySelector("#visitedlink") && !document.querySelector("#visitedlink[class=''] [class='ptcbtn faa-parent animated-hover']")){
+                goToNextUrl();
+            }else{
+
+            }
+
+            if(document.querySelector(".refbtn.start-btn")){
+                document.querySelector(".refbtn.start-btn").click();
+            }
+
+            var interval =setInterval(function(){
+                if(document.querySelector("#timer") && document.querySelector("#timer").innerText.includes("Oops")){
+                    goToNextUrl();
+                    clearInterval(interval);
+                }
+            },5000)
+
+            }
+            }
+
+            function dutchycorp(){
+            if(window.location.href.includes("ptc/wall.php")){
+            setTimeout(function(){
+                goToNextUrl();
+            },60000)
+            }
+            }
+
+            setInterval(function(){
+            if(messageSelectorsPresent()){
+            goToNextUrl();
+            }
+            },7000);
+
+
+        setTimeout(function(){
+
+        if( websiteDataValues.additionalFunctions){
+            websiteDataValues.additionalFunctions();
+        }
+
+
+        if(websiteDataValues.withdrawEnabled){
+            if(websiteDataValues.balanceSelector && document.querySelector(websiteDataValues.balanceSelector)){
+                var currentBalance = document.querySelector(websiteDataValues.balanceSelector).innerText;
+                if(currentBalance > websiteDataValues.withdrawMinAmount && !window.location.href.includes(websiteDataValues.withdrawPageUrl)) {
+                    goToWithdrawPage();
+                }
+
+            }else{
+                if(successMessageSelectorsPresent()){
+                    goToWithdrawPage();
+                }
+            }
+            }
+
+
+        if(!movingToNextUrl && messageSelectorsPresent()){
+            goToNextUrl();
+        }
+
+        if(!movingToNextUrl && websiteDataValues.defaultButtonSelectors){
+            for(var i=0;i<websiteDataValues.defaultButtonSelectors.length ;i++){
+                if(document.querySelector(websiteDataValues.defaultButtonSelectors[i])){
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mousedown');
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mouseup');
+                    document.querySelector(websiteDataValues.defaultButtonSelectors[i]).click();
+                    break;
+                }
+            }
+        }
+
+        if(!movingToNextUrl && websiteDataValues.toggleCaptchaSelector && Number.isInteger(websiteDataValues.toggleCaptchaSelectorIndex)){
+            toggleCaptcha(websiteDataValues.toggleCaptchaSelector,websiteDataValues.toggleCaptchaSelectorIndex);
+        }
+
+
+
+        if(!movingToNextUrl && document.querySelector(websiteDataValues.inputTextSelector)){
+            document.querySelector(websiteDataValues.inputTextSelector).value = websiteDataValues.address;
+            setTimeout(function(){
+                if(websiteDataValues.inputTextSelectorButton && document.querySelector(websiteDataValues.inputTextSelectorButton)){
+                    document.querySelector(websiteDataValues.inputTextSelectorButton).click();
+                }
+
+        },5000);
+        }
+
+
+
+        var captchaInterval = setInterval(function(){
+            try{
+                if(!clicked && unsafeWindow.grecaptcha && unsafeWindow.grecaptcha.getResponse().length > 0){
+                    document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                    clicked = true;
+                    clearInterval(captchaInterval);
+                    setTimeout(function(){
+                        if(messageSelectorsPresent()){
+                            goToNextUrl();
+                        }
+                    },5000);
+
+                }
+                }catch(e){
+
+                }
+
+                   for(var hc=0; hc < document.querySelectorAll("iframe").length; hc++){
+                   if(! clicked && document.querySelectorAll("iframe")[hc] &&
+                   document.querySelectorAll("iframe")[hc].getAttribute("data-hcaptcha-response") &&
+                   document.querySelectorAll("iframe")[hc].getAttribute("data-hcaptcha-response").length > 0) {
+                   document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                   clicked = true;
+                   clearInterval(captchaInterval);
+                   setTimeout(function(){
+                   if(messageSelectorsPresent()){
+                   goToNextUrl();
+                   }
+                   },5000);
+                   }
+                   }
+                   },5000);
+                   },5000);
+
+
+
+})();
+if(window.name && (!window.name.includes("https://") && window.name != "nextWindowUrl")){
+    console.log("Window is considered as popup. Stopping the execution");
+    return;
+}
+
+
+unsafeWindow.open = function(){};
+var websiteMap = [{website : ["*"],
+                      inputTextSelector: [".form-input"],
+                       captchaButtonSubmitSelector: ["#zer0day_cms_btn"],
+                      allMessageSelectors: [".toast-top-right",".toast-info",".toast-success",".toast-warning",".toast-close-button",".toast-progress",".toast-bottom-right",".toast-container",".toast.toast-success","div.toast-title",".toast-message","#toast-container > div > div.toast-title",".toastr.success",".alert.alert-warning",".alert.alert-success",".alert.alert-danger","#cf-error-details"],
+                      successMessageSelectors: [".toast.toast-success",".toast-message","div.toast-title",".alert.alert-success"],
+                       messagesToCheckBeforeMovingToNextUrl: ["claim","MIANTENANCE","Disabled","CLAIM SUCCESS","The faucet does not have sufficient funds for this transaction","Your daily claim limit has been reached","Please come back in tomorrow","Please try again","wrong order", "locked", "was sent to your", "You have to wait","Login not valid","You have already claimed","claimed successfully","Claim not Valid","rate limited"],
+
+                      },
+
+
+
+                     ];
+
+
+
+
+
+    var ablinksSolved = false;
+
+
+    function triggerEvent(el, type) {
+        try{
+            var e = document.createEvent('HTMLEvents');
+            e.initEvent(type, false, true);
+            el.dispatchEvent(e);
+        }catch(exception){
+            console.log(exception);
+        }
+    }
+
+
+    String.prototype.includesOneOf = function(arrayOfStrings) {
+
+
+        if (!Array.isArray(arrayOfStrings)) {
+            return this.toLowerCase().includes(arrayOfStrings.toLowerCase());
+        }
+
+        for (var i = 0; i < arrayOfStrings.length; i++) {
+            if (this.toLowerCase().includes(arrayOfStrings[i].toLowerCase())) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    var websiteDataValues = {};
+
+
+    for (let value of Object.values(websiteMap)) {
+        if(window.location.href.includesOneOf(value.website)){
+            websiteDataValues.inputTextSelector= value.inputTextSelector;
+            websiteDataValues.inputTextSelectorButton = value.inputTextSelectorButton;
+            websiteDataValues.defaultButtonSelectors = value.defaultButtonSelectors;
+            websiteDataValues.claimButtonSelectors = value.claimButtonSelectors;
+            websiteDataValues.captchaButtonSubmitSelector = value.captchaButtonSubmitSelector;
+            websiteDataValues.allMessageSelectors = value.allMessageSelectors;
+            websiteDataValues.messagesToCheckBeforeMovingToNextUrl = value.messagesToCheckBeforeMovingToNextUrl;
+            websiteDataValues.withdrawPageUrl = value.withdrawPageUrl;
+            websiteDataValues.withdrawEnabled = value.withdrawEnabled;
+            websiteDataValues.balanceSelector = value.balanceSelector;
+            websiteDataValues.withdrawMinAmount = value.withdrawMinAmount;
+            websiteDataValues.successMessageSelectors = value.successMessageSelectors;
+            websiteDataValues.additionalFunctions = value.additionalFunctions;
+            websiteDataValues.timeoutbeforeMovingToNextUrl = value.timeoutbeforeMovingToNextUrl;
+            websiteDataValues.formSubmit = value.formSubmit;
+            websiteDataValues.ablinks = value.ablinks;
+            break;
+        }
+    }
+
+
+    var count = 0;
+    var addressAssigned = false;
+    for (let value of Object.values(websiteData)){
+        count = count + 1;
+        if(value.url.includes(window.location.hostname) && (window.location.href.includes("/" + value.coin + "/") ||
+                                                            window.location.href.includes("/" + value.coin + "-") ||
+                                                            window.location.href.endsWith("/" + value.coin))){
+            websiteDataValues.address = value.address;
+            addressAssigned = true;
+            break;
+        }
+    }
+
+
+    if(!addressAssigned){
+        count = 0;
+        for (let value of Object.values(websiteData)) {
+            count = count + 1;
+
+            if(value.url.includes(window.location.hostname)){
+                if(value.regex){
+                    if(GM_getValue("UrlRegex")){
+                        if(GM_getValue("UrlRegex") == value.regex){
+                            websiteDataValues.address = value.address;
+                            break;
+                        }
+                    }else{
+                        GM_setValue("UrlRegex",value.regex);
+                        websiteDataValues.address = value.address;
+                        break;
+                    }
+
+                }else{
+                    websiteDataValues.address = value.address;
+                    break;
+                }
+            }
+        }
+    }
+
+
+
+
+    async function getNextUrl(){
+
+
+        if(count >= websiteData.length){
+            count = 0;
+        }
+
+        websiteDataValues.nextUrl = websiteData[count].url;
+        websiteDataValues.regex = websiteData[count].regex;
+
+
+        pingTest(websiteDataValues.nextUrl);
+    }
+///////////////////////////
+    var isNextUrlReachable = false;
+
+    function pingTest(websiteUrl) {
+        console.log(websiteUrl);
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: websiteUrl,
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            timeout: 1000,
+            onload: function(response) {
+
+                if(response && response.status == 200){
+                    isNextUrlReachable = true;
+                }else{
+                    count=count+1;
+                    getNextUrl();
+                }
+            },
+            onerror: function(e) {
+                count=count+1;
+                getNextUrl();
+            },
+            ontimeout: function() {
+                count=count+1;
+                getNextUrl();
+            },
+        });
+
+    }
+
+
+    async function delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms))
+    }
+
+
+    var movingToNextUrl = false;
+    async function goToNextUrl() {
+        if(!movingToNextUrl){
+            movingToNextUrl = true;
+            getNextUrl();
+            while (!isNextUrlReachable) {
+                await delay(1000);
+            }
+
+            if( websiteDataValues.regex){
+                GM_setValue("UrlRegex", websiteDataValues.regex);
+            }
+            window.location.href = websiteDataValues.nextUrl;
+            movingToNextUrl = true;
+        }
+    }
+
+    async function goToWithdrawPage() {
+        if(!movingToNextUrl){
+            movingToNextUrl = true;
+            window.location.href = websiteDataValues.withdrawPageUrl;
+        }
+
+    }
+
+
+
+    var delayBeforeMovingToNextUrl = 60000;
+    if(websiteDataValues.timeoutbeforeMovingToNextUrl){
+        delayBeforeMovingToNextUrl = websiteDataValues.timeoutbeforeMovingToNextUrl;
+    }
+
+    setTimeout(function(){
+        movingToNextUrl = false;
+        goToNextUrl();
+    },delayBeforeMovingToNextUrl);
+
+
+
+    if (window.location.href.includes("to=FaucetPay") || (websiteDataValues.address) && (websiteDataValues.address.length < 5 || websiteDataValues.address.includes("YOUR_"))){
+        goToNextUrl();
+    }
+
+
+    function messageSelectorsPresent(){
+        if(websiteDataValues.allMessageSelectors){
+            for(var j=0;j<websiteDataValues.allMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.allMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k] &&
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl) ||
+                        (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value &&
+                         document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)))){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+
+    function checkMessageSelectorsLength(){
+        if(websiteDataValues.allMessageSelectors){
+            for(var j=0;j<websiteDataValues.allMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.allMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k] &&
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].innerText.length > 0) ||
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value &&
+                        document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value.length > 0)){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+
+    function successMessageSelectorsPresent(){
+        if(websiteDataValues.successMessageSelectors){
+            for(var j=0;j<websiteDataValues.successMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.successMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k] && document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+    function ablinksCaptchaModel() {
+        setInterval(function(){
+
+            if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("hcaptcha")){
+                document.querySelector("#switch").click();
+            } else if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("recaptcha")){
+                document.querySelector("#switch").click();
+            } else {
+
+            }
+
+            var count = 0;
+            for(let i=0;i< 4;i++){
+
+                if (document.querySelectorAll("#captchaModal  [href='/']")[i] &&
+                    document.querySelectorAll("#captchaModal  [href='/']")[i].style &&
+                    document.querySelectorAll("#captchaModal  [href='/']")[i].style.display == 'none') {
+                    count ++;
+                }
+
+            }
+            if(count == 4){
+                ablinksSolved = true;
+            }
+        },1000);
+
+    }
+
+    function ablinksAntibotModel() {
+
+        setInterval(function(){
+            var count = 0;
+            for(let i=0;i< 4;i++){
+
+                if(document.querySelectorAll("#antibot a")[i+1] && document.querySelectorAll("#antibot a")[i+1].style &&
+                   document.querySelectorAll("#antibot a")[i+1].style.display == 'none'){
+                    count ++;
+                }
+            }
+            if(count == 4){
+                ablinksSolved = true;
+            }
+        },1000);
+
+    }
+
+
+    function ablinksCaptcha() {
+        setInterval(function(){
+
+            if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("hcaptcha")){
+                document.querySelector("#switch").click();
+            } else if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("recaptcha")){
+                document.querySelector("#switch").click();
+            }
+            var count = 0;
+            for(let i=0;i< 4;i++){
+
+                if (document.querySelectorAll(".modal-content [href='/'] img").length ==4 &&
+                    document.querySelectorAll(".modal-content [href='/']")[i] &&
+                    document.querySelectorAll(".modal-content [href='/']")[i].style &&
+                    document.querySelectorAll(".modal-content [href='/']")[i].style.display == 'none') {
+                    count ++;
+                }else if(document.querySelectorAll(".modal-body [href='/'] img").length ==4 &&
+                         document.querySelectorAll(".modal-body [href='/']")[i] &&
+                         document.querySelectorAll(".modal-body [href='/']")[i].style &&
+                         document.querySelectorAll(".modal-body [href='/']")[i].style.display == 'none') {
+                    count ++;
+                }else{
+
+                }
+
+            }
+            if(count == 4){
+                ablinksSolved = true;
+            }
+        },1000);
+
+    }
+
+    setTimeout(function(){
+        if(document.querySelector("#invisibleCaptchaShortlink")){
+            document.querySelector("#invisibleCaptchaShortlink").click();
+        }
+
+        if(document.querySelector(".btn.btn-success.btn-lg.get-link")){
+            document.querySelector(".btn.btn-success.btn-lg.get-link").click();
+        }
+
+        if(window.location.href.includes("starcoins.ws") || window.location.href.includes("hosting4lifetime.com")){
+            websiteDataValues.captchaButtonSubmitSelector = "#btn-before";
+            let clicked = false;
+            unsafeWindow.open = function(url){window.location.href = url};
+            setInterval(function(){
+                if(!clicked && document.querySelector("#btn6") && !document.querySelector("#btn6").disabled){
+                    document.querySelector("#btn6").click();
+                    clicked = true;
+                }
+            },1000)
+
+            setTimeout(function(){
+                window.location.href= websiteData[0].url;
+            },1000)
+        }
+
+    },1000)
+
+
+
+    function herafaucet(){
+        if(document.querySelector("div.daily-claims.alert-info > div.text-right p") && Number(document.querySelector("div.daily-claims.alert-info > div.text-right p").innerText.split(" ")[0]) <= 0){
+            goToNextUrl();
+        }
+    }
+
+    function diamondfaucet() {
+        if(document.querySelector("#first > p.alert.a-info") && Number(document.querySelector("#first > p.alert.a-info").innerText.split(".")[1].split(" ")[0]) <= 0) {
+            goToNextUrl();
+        }
+    }
+
+
+
+    setTimeout(function(){
+
+        ablinksCaptcha();
+
+         //If the faucet was stopped in shortlinks go to next url
+        if(window.name == "nextWindowUrl"){
+            window.name = "";
+            goToNextUrl();
+            return;
+        }else{
+            window.name = window.location.href;
+        }
+
+
+        if( websiteDataValues.additionalFunctions){
+            websiteDataValues.additionalFunctions();
+        }
+
+        if(websiteDataValues.withdrawEnabled){
+            if(websiteDataValues.balanceSelector && document.querySelector(websiteDataValues.balanceSelector)){
+                var currentBalance = document.querySelector(websiteDataValues.balanceSelector).innerText;
+                if(currentBalance > websiteDataValues.withdrawMinAmount && !window.location.href.includes(websiteDataValues.withdrawPageUrl)) {
+                    goToWithdrawPage();
+                }
+
+            }else{
+                if(successMessageSelectorsPresent()){
+                    goToWithdrawPage();
+                }
+            }
+        }
+
+
+        if(!movingToNextUrl && messageSelectorsPresent()){
+            goToNextUrl();
+        }
+
+
+
+        if(!movingToNextUrl && document.querySelector(websiteDataValues.inputTextSelector)){
+            document.querySelector(websiteDataValues.inputTextSelector).value = websiteDataValues.address;
+            setTimeout(function(){
+                if(websiteDataValues.inputTextSelectorButton && document.querySelector(websiteDataValues.inputTextSelectorButton)){
+                    document.querySelector(websiteDataValues.inputTextSelectorButton).click();
+                }
+
+            },1000);
+        }
+
+
+        if(!movingToNextUrl && websiteDataValues.defaultButtonSelectors){
+            for(let i=0;i<websiteDataValues.defaultButtonSelectors.length ;i++){
+                if(document.querySelector(websiteDataValues.defaultButtonSelectors[i])){
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mousedown');
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mouseup');
+                    document.querySelector(websiteDataValues.defaultButtonSelectors[i]).click();
+                    break;
+                }
+            }
+        }
+
+        setTimeout(function(){
+
+            if(!movingToNextUrl && websiteDataValues.claimButtonSelectors){
+                for(let i=0;i<websiteDataValues.claimButtonSelectors.length ;i++){
+                    if(document.querySelector(websiteDataValues.claimButtonSelectors[i])){
+                        triggerEvent(document.querySelector(websiteDataValues.claimButtonSelectors[i]), 'mousedown');
+                        triggerEvent(document.querySelector(websiteDataValues.claimButtonSelectors[i]), 'mouseup');
+                        document.querySelector(websiteDataValues.claimButtonSelectors[i]).click();
+                        break;
+                    }
+                }
+            }
+        },1000);
+
+
+
+
+        var clicked = false;
+        var captchaInterval = setInterval(function(){
+
+            if(websiteDataValues.ablinks && !ablinksSolved){
+                return;
+            }
+
+            try{
+                if(!clicked && unsafeWindow.grecaptcha && unsafeWindow.grecaptcha.getResponse().length > 0 &&
+                   websiteDataValues.captchaButtonSubmitSelector && document.querySelector(websiteDataValues.captchaButtonSubmitSelector) &&
+                   document.querySelector(websiteDataValues.captchaButtonSubmitSelector).style.display != 'none' &&
+                   !document.querySelector(websiteDataValues.captchaButtonSubmitSelector).disabled) {
+                    if(websiteDataValues.formSubmit){
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).submit();
+                    }else{
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                    }
+                    clicked = true;
+
+                    clearInterval(captchaInterval);
+                    setTimeout(function(){
+                        if(messageSelectorsPresent()){
+                            goToNextUrl();
+                        }
+                    },3000);
+                }
+            }catch(e){
+
+            }
+
+            for(var hc=0; hc < document.querySelectorAll("iframe").length; hc++){
+                if(! clicked && document.querySelectorAll("iframe")[hc] &&
+                   document.querySelectorAll("iframe")[hc].hasAttribute("data-hcaptcha-response") &&
+                   document.querySelectorAll("iframe")[hc].getAttribute("data-hcaptcha-response").length > 0 &&
+                   websiteDataValues.captchaButtonSubmitSelector && document.querySelector(websiteDataValues.captchaButtonSubmitSelector) &&
+                   document.querySelector(websiteDataValues.captchaButtonSubmitSelector).style.display != 'none' &&
+                   !document.querySelector(websiteDataValues.captchaButtonSubmitSelector).disabled) {
+                    if(websiteDataValues.formSubmit){
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).submit();
+                    }else{
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                    }
+                    clicked = true;
+                    clearInterval(captchaInterval);
+                    setTimeout(function(){
+                        if(messageSelectorsPresent()){
+                            goToNextUrl();
+                        }
+                        },1000);
+                        }
+                        }
+                        },1000);
+                        },1000);
+
+})();
+(function() {
+    'use strict';
+    var clicked = false;
+    var address = false;
+
+    setTimeout(function() {
+    if($("#email")) {
+    $("#email").val('ht0r99z@gmail.com');////EDIT WITH YOUR FAUCETPAY EMAIL ADDRESS HERE/////
+    address = true;
+    }}, 3000);
+
+    setInterval(function() {
+    if (!clicked && document.querySelector(".h-captcha") && document.querySelector(".h-captcha > iframe").getAttribute("data-hcaptcha-response").length > 0) {
+    document.querySelector("#zer0day_cms_btn").click();
+    clicked = true;
+    }}, 5000);
+
+  
+    
+})();
+(function() {
+    'use strict';
+
+   setInterval(function() {
+    if(window.location.href.includes("https://*//#/*'site.name'")) {
+    window.location.replace("https://*//#/*'site.name'");
+    }},5000);
+
+})();
+(function() {
+    'use strict';
+
+
+    setInterval(function() {
+    if (document.querySelector(".h-captcha")) {
+    if (document.querySelector(".h-captcha > iframe").getAttribute("data-hcaptcha-response").length > 0){
+    document.querySelector(".btn.btn-primary.btn-lg.claim-button").click();
+   
+    } }
+    }, 3000);
+
+    setInterval(function() {
+    if (document.querySelector(".h-captcha")) {
+    if (document.querySelector(".h-captcha > iframe").getAttribute("data-hcaptcha-response").length > 0){
+    document.querySelector(".btn.btn-primary.w-md").click();
+
+    } }
+    }, 3000);
+
+     setInterval (() => {
+    if (document.URL =="https://#/*")
+    { window.location.replace("https://#/*'name.site'");
+    }},5000)
+
+     if(document.querySelector(".btn.btn-primary.btn-lg.claim-button")){
+      document.querySelector(".btn.btn-primary.btn-lg.claim-button").disabled = false;
+     }
+
+      if(document.querySelector(".swal2-confirm.swal2-styled")){
+      document.querySelector(".swal2-confirm.swal2-styled").click();
+     }
+
+     setInterval (() => {
+     if((document.querySelector("b") && document.querySelector("b").innerText.includes("Use of uninitialized value $key in 
+     concatenation (.) or string at /home/ad/run/ad-current/lib/AC/Store/Redis.pm line 102."))) {
+      window.location.replace(window.location.pathname + window.location.search + window.location.hash);
+     }},5000)
+
+})();
+
+/*if(window.name && (!window.name.includes("https://") && window.name != "nextWindowUrl")){
+    console.log("Window is considered as popup. Stopping the execution");
+    return;
+}
+
+*/
+unsafeWindow.open = function(){};
+
+(function() {
+    'use strict';
+    let coin.site =[
+        {coin:[claim-button]
+            
+        },];
+var wallet = 0x8da0990f87b5e61f98ad8c7ba210860ed64ac442
+
+ var websiteMap = [
+
+
+                       {website : ["//#/*'name.site'"],
+                       inputTextSelector:  [".form-control"],
+                       defaultButtonSelectors: ["button.btn.btn-block.btn-primary.my-2"],
+                       captchaButtonSubmitSelector: ["#login"],
+                       allMessageSelectors: [".alert.alert-danger.text-center",".alert.alert-warning",".alert.alert-success",".alert.alert-danger",".swal2-html-container",".next-button.lh-1.mb-1.font-weight-bold",".fas.fa-sync.fa-spin"],
+                       successMessageSelectors: [".alert.alert-success"],
+                       messagesToCheckBeforeMovingToNextUrl: ["Daily claim limit","please comeback again tomorrow","Please wait","has been sent to your FaucetPay","API Key used","Safety Limit reached","The faucet does not have sufficient funds for this transaction","insufficient","you have reached", "tomorrow","wrong order", "locked", "was sent to your", "You have to wait","Login not valid","You have already claimed","claimed successfully","Claim not Valid","rate limited"],
+                       ablinks: true
+                       },
+
+
+                       ];
+
+
+
+
+
+
+
+
+     
+
+
+
+
+   var ablinksSolved = false;
+
+
+    function triggerEvent(el, type) {
+    try{
+            var e = document.createEvent('HTMLEvents');
+            e.initEvent(type, false, true);
+            el.dispatchEvent(e);
+           }catch(exception){
+            console.log(exception);
+           }
+           }
+
+
+        String.prototype.includesOneOf = function(arrayOfStrings) {
+
+
+        if (!Array.isArray(arrayOfStrings)) {
+            return this.toLowerCase().includes(arrayOfStrings.toLowerCase());
+        }
+
+        for (var i = 0; i < arrayOfStrings.length; i++) {
+        if (this.toLowerCase().includes(arrayOfStrings[i].toLowerCase())) {
+         return true;
+        }
+        }
+        return false;
+        }
+
+        var websiteDataValues = {};
+
+
+            for (let value of Object.values(websiteMap)) {
+            if(window.location.href.includesOneOf(value.website)){
+            websiteDataValues.inputTextSelector= value.inputTextSelector;
+            websiteDataValues.inputTextSelectorButton = value.inputTextSelectorButton;
+            websiteDataValues.defaultButtonSelectors = value.defaultButtonSelectors;
+            websiteDataValues.claimButtonSelectors = value.claimButtonSelectors;
+            websiteDataValues.captchaButtonSubmitSelector = value.captchaButtonSubmitSelector;
+            websiteDataValues.allMessageSelectors = value.allMessageSelectors;
+            websiteDataValues.messagesToCheckBeforeMovingToNextUrl = value.messagesToCheckBeforeMovingToNextUrl;
+            websiteDataValues.withdrawPageUrl = value.withdrawPageUrl;
+            websiteDataValues.withdrawEnabled = value.withdrawEnabled;
+            websiteDataValues.balanceSelector = value.balanceSelector;
+            websiteDataValues.withdrawMinAmount = value.withdrawMinAmount;
+            websiteDataValues.successMessageSelectors = value.successMessageSelectors;
+            websiteDataValues.additionalFunctions = value.additionalFunctions;
+            websiteDataValues.timeoutbeforeMovingToNextUrl = value.timeoutbeforeMovingToNextUrl;
+            websiteDataValues.formSubmit = value.formSubmit;
+            websiteDataValues.ablinks = value.ablinks;
+            break;
+            }
+            }
+
+    var count = 0;
+    var addressAssigned = false;
+    for (let value of Object.values(websiteData)){
+        count = count + 1;
+        if(value.url.includes(window.location.hostname) && (window.location.href.includes("/" + value.coin + "/") ||
+                                                            window.location.href.includes("/" + value.coin + "-") ||
+                                                            window.location.href.endsWith("/" + value.coin))){
+            websiteDataValues.address = value.address;
+            addressAssigned = true;
+            break;
+        }
+        }
+
+
+    if(!addressAssigned){
+        count = 0;
+        for (let value of Object.values(websiteData)) {
+            count = count + 1;
+
+            if(value.url.includes(window.location.hostname)){
+                if(value.regex){
+                    if(GM_getValue("UrlRegex")){
+                        if(GM_getValue("UrlRegex") == value.regex){
+                            websiteDataValues.address = value.address;
+                            break;
+                        }
+                        }else{
+                        GM_setValue("UrlRegex",value.regex);
+                        websiteDataValues.address = value.address;
+                        break;
+                        }
+                        }else{
+                    websiteDataValues.address = value.address;
+                    break;
+                    }
+                    }
+                    }
+                    }
+
+
+
+
+        async function getNextUrl(){
+
+        if(count >= websiteData.length){
+            count = 0;
+        }
+
+        websiteDataValues.nextUrl = websiteData[count].url;
+        websiteDataValues.regex = websiteData[count].regex;
+
+
+        pingTest(websiteDataValues.nextUrl);
+        }
+
+    var isNextUrlReachable = true;//default false
+
+    function pingTest(websiteUrl) {
+        console.log(websiteUrl);
+        GM_xmlhttpRequest({
+            method: "GET",
+            url: websiteUrl,
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded"
+            },
+            timeout: 8000,
+            onload: function(response) {
+
+                if(response && response.status == 200){
+                    isNextUrlReachable = true;
+                }else{
+                    count=count+1;
+                    getNextUrl();
+                }
+               },
+            onerror: function(e) {
+                count=count+1;
+                getNextUrl();
+            },
+            ontimeout: function() {
+                count=count+1;
+                getNextUrl();
+            },
+            });
+
+            }
+
+    async function delay(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms))
+    }
+
+
+    var movingToNextUrl = false;
+    async function goToNextUrl() {
+        if(!movingToNextUrl){
+            movingToNextUrl = true;
+            getNextUrl();
+            while (!isNextUrlReachable) {
+                await delay(3000);
+            }
+
+            if( websiteDataValues.regex){
+                GM_setValue("UrlRegex", websiteDataValues.regex);
+            }
+            window.location.href = websiteDataValues.nextUrl;
+            movingToNextUrl = true;
+           }
+           }
+
+    async function goToWithdrawPage() {
+        if(!movingToNextUrl){
+            movingToNextUrl = true;
+            window.location.href = websiteDataValues.withdrawPageUrl;
+        }
+
+    }
+
+
+
+    var delayBeforeMovingToNextUrl = 180000;
+    if(websiteDataValues.timeoutbeforeMovingToNextUrl){
+        delayBeforeMovingToNextUrl = websiteDataValues.timeoutbeforeMovingToNextUrl;
+    }
+
+    setTimeout(function(){
+        movingToNextUrl = false;
+        goToNextUrl();
+    },delayBeforeMovingToNextUrl);
+
+
+
+    if (window.location.href.includes("to=FaucetPay") || (websiteDataValues.address) && (websiteDataValues.address.length < 5 || websiteDataValues.address.includes("YOUR_"))){
+        goToNextUrl();
+    }
+
+
+    function messageSelectorsPresent(){
+        if(websiteDataValues.allMessageSelectors){
+            for(var j=0;j<websiteDataValues.allMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.allMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k] &&
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl) ||
+                        (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value &&
+                         document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)))){
+                        return true;
+                    }
+                }
+            }
+        }
+        return false;
+    }
+
+
+    function checkMessageSelectorsLength(){
+        if(websiteDataValues.allMessageSelectors){
+            for(var j=0;j<websiteDataValues.allMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.allMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k] &&
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].innerText.length > 0) ||
+                       (document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value &&
+                        document.querySelectorAll(websiteDataValues.allMessageSelectors[j])[k].value.length > 0)){
+                        return true;
+                    }
+                    }
+                    }
+                    }
+                    return false;
+                    }
+
+    function successMessageSelectorsPresent(){
+        if(websiteDataValues.successMessageSelectors){
+            for(var j=0;j<websiteDataValues.successMessageSelectors.length;j++){
+                for(var k=0; k< document.querySelectorAll(websiteDataValues.successMessageSelectors[j]).length;k++){
+                    if(document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k] && document.querySelectorAll(websiteDataValues.successMessageSelectors[j])[k].innerText.includesOneOf(websiteDataValues.messagesToCheckBeforeMovingToNextUrl)){
+                        return true;
+                    }
+                    }
+                    }
+                    }
+                    return false;
+                    }
+
+
+         function ablinksCaptcha() {
+
+        setInterval(function(){
+
+            if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("hcaptcha")){
+                document.querySelector("#switch").click();
+            } else if(document.querySelector("#switch") && document.querySelector("#switch").innerText.toLowerCase().includes("recaptcha")){
+                document.querySelector("#switch").click();
+            }
+            var count = 0;
+
+            var abModels = [ ".modal-content [href='/']", ".modal-body [href='/']", ".antibotlinks [href='/']"];
+            var abModelsImg = [ ".modal-content [href='/'] img", ".modal-body [href='/'] img", ".antibotlinks [href='/'] img"];
+            for(let j=0; j< abModelsImg.length;j++){
+                if (document.querySelector(abModelsImg[j]) &&
+                    document.querySelector(abModelsImg[j]).value == "####"){
+                    goToNextUrl();
+                    break;
+                }
+                }
+
+            for(let i=0;i< 4;i++){
+                for(let j=0; j< abModels.length;j++){
+                    if (document.querySelectorAll(abModelsImg[j]).length ==4 &&
+                        document.querySelectorAll(abModels[j])[i] &&
+                        document.querySelectorAll(abModels[j])[i].style &&
+                        document.querySelectorAll(abModels[j])[i].style.display == 'none') {
+                        count ++;
+                        break;
+                       }
+                       }
+            }
+            if(count == 4){
+                ablinksSolved = true;
+            }
+            },5000);
+
+            }
+
+        setTimeout(function(){
+        if(document.querySelector("#invisibleCaptchaShortlink")){
+            document.querySelector("#invisibleCaptchaShortlink").click();
+        }
+
+        if(document.querySelector(".btn.btn-success.btn-lg.get-link")){
+            document.querySelector(".btn.btn-success.btn-lg.get-link").click();
+        }
+
+        if(window.location.href.includes("starcoins.ws") || window.location.href.includes("hosting4lifetime.com")){
+            websiteDataValues.captchaButtonSubmitSelector = "#btn-before";
+            let clicked = false;
+            unsafeWindow.open = function(url){window.location.href = url};
+            setInterval(function(){
+                if(!clicked && document.querySelector("#btn6") && !document.querySelector("#btn6").disabled){
+                    document.querySelector("#btn6").click();
+                    clicked = true;
+                    }
+                    },7000)
+
+            setTimeout(function(){
+                window.location.href= websiteData[0].url;
+            },120000)
+            }
+
+            },10000)
+
+
+
+
+
+
+
+         function herafaucet(){
+        if(document.querySelector("div.daily-claims.alert-info > div.text-right p") && Number(document.querySelector("div.daily-claims.alert-info > div.text-right p").innerText.split(" ")[0]) <= 0){
+        goToNextUrl();
+        }
+        }
+
+
+
+
+
+
+    function diamondfaucet() {
+        if(document.querySelector("#first > p.alert.a-info") && Number(document.querySelector("#first > p.alert.a-info").innerText.split(".")[1].split(" ")[0]) <= 0) {
+            goToNextUrl();
+        }
+         }
+
+
+
+    setTimeout(function(){
+
+        ablinksCaptcha();
+
+
+        if(window.name == "nextWindowUrl"){
+            window.name = "";
+            goToNextUrl();
+            return;
+        }else{
+            window.name = window.location.href;
+        }
+
+
+        if( websiteDataValues.additionalFunctions){
+            websiteDataValues.additionalFunctions();
+        }
+
+        if(websiteDataValues.withdrawEnabled){
+            if(websiteDataValues.balanceSelector && document.querySelector(websiteDataValues.balanceSelector)){
+                var currentBalance = document.querySelector(websiteDataValues.balanceSelector).innerText;
+                if(currentBalance > websiteDataValues.withdrawMinAmount && !window.location.href.includes(websiteDataValues.withdrawPageUrl)) {
+                    goToWithdrawPage();
+                }
+
+            }else{
+                if(successMessageSelectorsPresent()){
+                    goToWithdrawPage();
+                }
+                }
+                }
+
+
+        if(!movingToNextUrl && messageSelectorsPresent()){
+            goToNextUrl();
+        }
+
+
+
+        if(!movingToNextUrl && document.querySelector(websiteDataValues.inputTextSelector)){
+            document.querySelector(websiteDataValues.inputTextSelector).value = websiteDataValues.address;
+            triggerEvent(document.querySelector(websiteDataValues.inputTextSelector), 'keypress');
+            triggerEvent(document.querySelector(websiteDataValues.inputTextSelector), 'change');
+            setTimeout(function(){
+                if(websiteDataValues.inputTextSelectorButton && document.querySelector(websiteDataValues.inputTextSelectorButton)){
+                    document.querySelector(websiteDataValues.inputTextSelectorButton).click();
+                }
+
+            },5000);
+        }
+
+
+        if(!movingToNextUrl && websiteDataValues.defaultButtonSelectors){
+            for(let i=0;i<websiteDataValues.defaultButtonSelectors.length ;i++){
+                if(document.querySelector(websiteDataValues.defaultButtonSelectors[i])){
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mousedown');
+                    triggerEvent(document.querySelector(websiteDataValues.defaultButtonSelectors[i]), 'mouseup');
+                    document.querySelector(websiteDataValues.defaultButtonSelectors[i]).click();
+                    break;
+                }
+                }
+                }
+
+            setTimeout(function(){
+            if(!movingToNextUrl && websiteDataValues.claimButtonSelectors){
+                for(let i=0;i<websiteDataValues.claimButtonSelectors.length ;i++){
+                    if(document.querySelector(websiteDataValues.claimButtonSelectors[i])){
+                        triggerEvent(document.querySelector(websiteDataValues.claimButtonSelectors[i]), 'mousedown');
+                        triggerEvent(document.querySelector(websiteDataValues.claimButtonSelectors[i]), 'mouseup');
+                        document.querySelector(websiteDataValues.claimButtonSelectors[i]).click();
+                        break;
+                    }
+                    }
+                    }
+                    },7000);
+
+
+
+
+        var clicked = false;
+        var captchaInterval = setInterval(function(){
+
+            if(websiteDataValues.ablinks && !ablinksSolved){
+                return;
+            }
+
+            try{
+                if(!clicked && unsafeWindow.grecaptcha && unsafeWindow.grecaptcha.getResponse().length > 0 &&
+                   websiteDataValues.captchaButtonSubmitSelector && document.querySelector(websiteDataValues.captchaButtonSubmitSelector) &&
+                   document.querySelector(websiteDataValues.captchaButtonSubmitSelector).style.display != 'none' &&
+                   !document.querySelector(websiteDataValues.captchaButtonSubmitSelector).disabled) {
+                    if(websiteDataValues.formSubmit){
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).submit();
+                    }else{
+                        document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                    }
+                    clicked = true;
+
+                    clearInterval(captchaInterval);
+                    setTimeout(function(){
+                    if(messageSelectorsPresent()){
+                    goToNextUrl();
+                    }
+                    },5000);
+                    }
+                    }catch(e){
+
+                    }
+
+            for(var hc=0; hc < document.querySelectorAll("iframe").length; hc++){
+                if(! clicked && document.querySelectorAll("iframe")[hc] &&
+                   document.querySelectorAll("iframe")[hc].hasAttribute("data-hcaptcha-response") &&
+                   document.querySelectorAll("iframe")[hc].getAttribute("data-hcaptcha-response").length > 0 &&
+                   websiteDataValues.captchaButtonSubmitSelector && document.querySelector(websiteDataValues.captchaButtonSubmitSelector) &&
+                   document.querySelector(websiteDataValues.captchaButtonSubmitSelector).style.display != 'none' &&
+                   !document.querySelector(websiteDataValues.captchaButtonSubmitSelector).disabled) {
+                    if(websiteDataValues.formSubmit){
+                    document.querySelector(websiteDataValues.captchaButtonSubmitSelector).submit();
+                    }else{
+                    document.querySelector(websiteDataValues.captchaButtonSubmitSelector).click();
+                    }
+                    clicked = true;
+                    clearInterval(captchaInterval);
+                    setTimeout(function(){
+                    if(messageSelectorsPresent()){
+                    goToNextUrl();
+                    }
+                    },5000);
+                    }
+                    }
+                    },5000);
+                    },5000);
+
+})();
