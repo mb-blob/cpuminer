@@ -5,7 +5,10 @@ pkg clear
 termux-reload-settings 
 pkg update -y 
 pkg upgrade -y 
+pkg upgrade -y
+apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
 
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 apt install -y google-drive-upload
 apt install -y google-glog
 apt install -y googletest
