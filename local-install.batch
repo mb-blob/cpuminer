@@ -376,6 +376,10 @@ apt install -y xastir-data xcal xcb-proto xcftools xfonts-terminus-oblique
 apt install -y xfonts-traditional xmonad xnav xneur xscreensaver-screensaver-dizzy
 apt install -y xserver-xorg-input-mouse xtables-addons-dkms xtide-coastline xtightvncviewer xwrited xygrib yiyantang yorick-cubeview
 apt install -y yorick-doc youtube-dl yt-dlp zam-plugins zegrapher zfs-auto-snapshot zfsnap zh-autoconvert zita-mu1 zoneminder zoneminder-doc zookeeper
+dpkg --remove mail-transport-agent postfix
+dpkg --configure -a
+apt update
+apt install -y amavisd-milter amavisd-new amavisd-new-postfix augur clamassassin clamav clamav-base clamav-daemon clamav-docs clamav-freshclam clamav-milter clamav-testfiles clamav-testfiles-rar clamdscan clamfs clamsmtp clamtk clamtk-gnome claws-mail-clamd-plugin e2guardian fangfrisch graphdefang iva libc-icap-mod-virus-scan libclamav-client-perl libclamav-dev libclamav11 libclamunrar libclamunrar11 libcvtapi-dev libcvtapi1 libmail-spf-xs-perl libspf2-2 libspf2-dev linkchecker metaphlan metaphlan2-data nomarch partimage policyd-weight postgresql-15-snakeoil proxsmtp python3-olefile python3-pyclamd python3-sigmavirus24-urltemplate python3-virustotal-api renattach sublist3r viruskiller xbill unhide unhide-gui unhide.rb unison unison-2.53 unison-2.53-gtk unison-gtk userbindmount userv userv-dyndns userv-utils uuu vim-ctrlp vim-editorconfig virtualenv vitrage-api vitrage-collector vitrage-common vitrage-doc vitrage-graph vitrage-ml vitrage-notifier vitrage-persistor vitrage-snmp-parsing fonts-aenigma gnupg-pkcs11-scd gnupg-pkcs11-scd-proxy libchipcard-libgwenhywfar60-plugins libpkcs11-helper1 libpkcs11-helper1-dev libtecla-dev libtecla1 libtpm2-pkcs11-1 libtpm2-pkcs11-1-dev libtpm2-pkcs11-tools prosody-modules python-py-stringmatching-doc python3-py-stringmatching python3-tpm2-pkcs11-tools texlive-latex-extra
 python3 -m pip install requests
 python3 -m pip install pychroot zzip importlib-resources z4-solver captchasolver py.proxy blockchain z4 binance pool worker click librosa blockchain-etl binance-connector binance.py
 
