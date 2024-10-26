@@ -5643,6 +5643,35 @@ apt install -y vfu videogen vim-addon-mw-utils vim-autopep8 vim-haproxy vim-icin
 apt install -y ruby
 
 gem update --system 
+pkg install -y liblqr libnewt libpoco libsamplerate libstemmer libtreesitter libxcvt llvm-mingw-w64 llvm-mingw-w64-libcompiler-rt llvm-mingw-w64-tools llvm-mingw-w64-ucrt blackbox box2d boxedwine boxes bubblewrap busybox dosbox dosbox-x dosbox-x-data feed2imap-go fluxbox hstr isync mailsync matchbox-keyboard 
+
+pkg install -y obconf 
+
+pkg install -y obconf-qt 
+
+pkg install -y openbabel 
+
+
+pkg install -y openbox 
+
+pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+
+
+pkg install -y gcc-default-9 
+
+pkg install -y gnome-text-editor lxde-icon-theme marco mcfly pwgen xfce4-screensaver
+
+
+pkg install -y gcc-default
+pkg install -y gcc-default-10
+
+pkg install -y gcc-default-11
+
+pkg install -y gcc-default-12
+
+pkg install -y gcc-default-13
+
+pkg install -y gcc-default-14 
 
 python -m pip install chromedriver
 pip install git996
