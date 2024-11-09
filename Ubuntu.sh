@@ -2,6 +2,225 @@ apt update
 apt upgrade -y 
 echo -e "Install A:: "
 apt install apt-utils sudo python3-pip python3-colorama jam yasm flex gcc resolvconf make cmake automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool libcheshire-clojure libdbix-profile-perl libhiredis-dev libhiredis0.14 libmoosex-role-timer-perl libnet-dpap-client-perl libredis-fast-perl libtest-mock-time-perl libtie-hash-expire-perl libtime-mock-perl python3-aioredis python3-hiredis ruby-hiredis brltty libghc-csv-dev libghc-csv-doc libghc-csv-prof libz80ex-dev libz80ex1 console-cyrillic db5.3-util disktype extrace freecdb fuse-emulator-utils horst hxtools icedax libattr1-dev libghc-csv-dev libghc-csv-doc libghc-csv-prof irssi-scripts texlive-fonts-extra texlive-latex-extra tran cpl-plugin-xshoo libspectrum-dev libspectrum8 libtime-moment-perl scottfree spectemu-x11 vim-syntastic xserver-xorg-video-radeon libghc-http-conduit-dev libghc-http-conduit-doc libghc-http-conduit-prof lolcat toilet figlet 
+
+apt install -y autopkgtest
+
+apt install -y cvsutils
+
+apt install -y debianutils
+
+apt install -y debomatic
+
+apt install -y python3-schroot
+
+apt install -y reprotest
+
+apt install -y sbuild
+
+apt install -y sbuild-debian-developer-setup
+
+apt install -y sbuild-launchpad-chroot
+
+apt install -y schroot
+
+apt install -y schroot-common
+
+apt install -y ubuntu-dev-tools
+
+apt install -y python-cartopy-data
+
+apt install -y python-cycler-doc
+
+apt install -y python-matplotlib-data
+
+apt install -y python-mpl-sphinx-theme-doc
+
+apt install -y python-mpmath-doc
+
+apt install -y python-qutip-doc
+
+apt install -y python-silx-doc
+
+apt install -y python-wxmplot-doc
+
+apt install -y python3-aplpy
+
+apt install -y python3-astroml
+
+apt install -y python3-bioframe
+
+apt install -y python3-cartopy
+
+apt install -y python3-cmyt
+
+apt install -y python3-colorcet
+
+apt install -y python3-colormap
+
+apt install -y python3-contourpy
+
+apt install -y python3-cycler
+
+apt install -y python3-gmplot
+
+apt install -y python3-joypy
+
+apt install -y python3-matplotlib
+
+apt install -y python3-matplotlib-inline
+
+apt install -y python3-matplotlib-venn
+
+apt install -y python3-mpl-animators
+
+apt install -y python3-mpl-scatter-density
+
+apt install -y python3-mpl-sphinx-theme
+
+apt install -y python3-mplcursors
+
+apt install -y python3-mplexporter
+
+apt install -y python3-mpmath
+
+apt install -y python3-palettable
+
+apt install -y python3-pweave
+
+apt install -y python3-pytest-mpl
+
+apt install -y python3-qutip
+
+apt install -y python3-sage
+
+apt install -y python3-seaborn
+
+apt install -y python3-silx
+
+apt install -y python3-upsetplot
+
+apt install -y python3-wxmplot
+
+apt install -y r-cran-viridis 
+
+apt install -y r-cran-viridislite
+
+apt install -y sagemath
+
+apt install -y sagemath-doc
+
+apt install -y sagemath-jupyter
+
+apt install -y silx
+
+apt install -y sockperf
+
+apt install -y automake 
+
+apt install -y autoconf 
+
+apt install -y nano 
+
+apt install -y pkg-config 
+
+apt install -y libcurl4-openssl-dev 
+
+apt install -y libjansson-dev 
+
+apt install -y libssl-dev 
+
+apt install -y libgmp-dev 
+
+apt install -y zlib1g-dev 
+
+apt install -y make 
+
+apt install -y g++ 
+
+apt install -y z3 
+
+apt install -y ntp 
+
+apt install -y sntp 
+
+apt install -y yasm 
+
+apt install -y flex 
+
+apt install -y git 
+
+apt install -y gcc 
+
+apt install -y bash 
+
+apt install -y bat 
+
+apt install -y bats 
+
+apt install -y cmake 
+
+apt install -y python3-twisted 
+
+apt install -y python3-wheel 
+
+apt install -y tar 
+
+apt install -y automake 
+
+apt install -y gzip 
+
+apt install -y wget 
+
+apt install -y curl 
+
+apt install -y python3-z3 
+
+apt install -y nsca 
+
+apt install -y node-sntp 
+
+apt install -y tcllib 
+
+apt install -y suck 
+
+apt install -y trn4 
+
+apt install -y radioclk 
+
+apt install -y libnet-ntp-perl 
+
+apt install -y leafnode 
+
+apt install -y php-net-nntp 
+
+apt install -y raintpl 
+
+apt install -y jython
+
+apt install -y aspnetcore-runtime-6.0 aspnetcore-runtime-7.0 dotnet-apphost-pack-6.0 
+
+apt install -y dotnet-apphost-pack-7.0 dotnet-apphost-pack-8.0 
+
+apt install -y dotnet-host
+
+apt install -y dotnet-host-7.0 
+
+apt install -y dotnet-host-8.0 dotnet-hostfxr-6.0 dotnet-hostfxr-7.0 
+
+apt install -y dotnet-hostfxr-8.0 dotnet-runtime-6.0 dotnet-runtime-7.0 dotnet-runtime-8.0 
+
+apt install -y dotnet-sdk-6.0 dotnet-sdk-6.0-source-built-artifacts dotnet-sdk-7.0 dotnet-sdk-7.0-source-built-artifacts
+
+apt install -y dotnet-sdk-8.0 dotnet-sdk-8.0-source-built-artifacts dotnet-targeting-pack-6.0 dotnet-targeting-pack-7.0 
+
+apt install -y dotnet-targeting-pack-8.0 dotnet-templates-6.0 dotnet-templates-7.0 
+
+
+apt install -y dotnet-templates-8.0 dotnet6 dotnet7 dotnet8 libgtk-dotnet3.0-cil libgtk-dotnet3.0-cil-dev libgtk2.0-cil libgtk2.0-cil-dev 
+
+apt install -y duck bettercap wmbubble python3-box readucks gkrellm-bfm golang-github-wildducktheories-go-csv-dev garagemq zydis-tools ruby-ethon libjsmn-dev libmatthew-java-doc libnss-tls
+ 
+apt update && apt upgrade -y && apt install build-essential python3-pip python3-full automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool jam flex yasm bat bats cmake python3-twisted python3-wheel tar gzip wget curl python3-z3 jython
 export LC_ALL=en_US.UTF-8
 export LANG=en_US.UTF-8
 apt install -y language-pack-en-base
