@@ -1,3 +1,72 @@
+pkg install byacc libcurl libcurl-static dialog gengetopt getconf geth geth-utils gettext gettext-static libnewt wget entr libsoup3 libsoup alsa-lib alsa-utils ant virglrenderer-android 
+
+pkg install vulkan-extension-layer 
+
+pkg install vulkan-headers 
+
+pkg install vulkan-loader 
+
+pkg install vulkan-loader-android
+
+pkg install bitcoin 
+
+pkg install vulkan-loader-generic 
+
+pkg install vulkan-tools 
+
+pkg install vulkan-utility-libraries 
+
+pkg install vulkan-validation-layers 
+
+pkg install tor 
+
+pkg install totem-pl-parser 
+
+pkg install tree tree-sitter-parsers 
+
+pkg install tree-sitter-vim 
+
+pkg install tree-sitter-vim-static 
+
+pkg install tree-sitter-vimdoc 
+
+pkg install tree-sitter-vimdoc-static 
+
+pkg install valac 
+
+pkg install valac-static 
+
+pkg install valadoc 
+
+pkg install valadoc-static 
+
+pkg install scrypt
+
+pkg install vivid texlive-bin weechat 
+
+pkg install ncurses-ui-libs 
+
+pkg install ncurses-ui-libs-static 
+
+pkg install ncurses-utils ndk-multilib binutils binutils-bin binutils-libs
+
+pkg install boost boost-static sslscan seccure subversion 
+
+pkg install subversion-perl 
+
+pkg installbsubversion-perl-static 
+
+pkg install subversion-static cgdb debianutils debootstrap delve 
+
+pkg install gdb 
+
+pkg install libdebuginfod 
+
+pkg install libthread-db 
+
+pkg install lldb
+
+
 pkg in build-essential
 
 apt update && apt upgrade && apt update && apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks && apt remove nano && termux-setup-storage && termux-reload-settings
