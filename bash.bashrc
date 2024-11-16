@@ -928,9 +928,10 @@ pip cache purge
 apt update
 apt upgrade
 clear
-cat -t /data/data/com.termux/files/home/usr/etc/bot.php | lolcat -p 100 -a
-cat /data/data/com.termux/files/home/usr/etc/bot.php 
+cat -t /data/data/com.termux/files/usr/etc/bot.php | lolcat -p 100 -a
+cat /data/data/com.termux/files/usr/etc/bot.php 
 clear
+cat -t /data/data/com.termux/files/home/cpuminer/unifont.scheme | lolcat -p 100 -a
 # Default command line prompt.
 PROMPT_DIRTRIM=2
 PS1='\[\e[0;32m\]˲\[\e[0m\]\[\e[0;36m\]\w\[\e[0m\]
