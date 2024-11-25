@@ -1,6 +1,6 @@
 cp -r /data/data/com.termux/files/home/cpuminer/round.png /data/data/com.termux/files/usr/etc/round.png
 cp -r /data/data/com.termux/files/home/cpuminer/bot.php /data/data/com.termux/files/usr/etc/bot.php
-cp -r /data/data/com.termux/files/home/cpuminer/bash.basrc /data/data/com.termux/files/usr/etc/bash.bashrc
+cp -r /data/data/com.termux/files/home/cpuminer/bash.bashrc /data/data/com.termux/files/usr/etc/bash.bashrc
 pkg install byacc libcurl libcurl-static dialog gengetopt getconf geth geth-utils gettext gettext-static libnewt wget entr libsoup3 libsoup alsa-lib alsa-utils ant virglrenderer-android 
 
 pkg install vulkan-extension-layer 
