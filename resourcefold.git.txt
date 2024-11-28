@@ -1,0 +1,8 @@
+cd ~
+cd
+clear
+git clone https://github.com/bnb-chain/tss-lib.git
+cd ~
+cd
+clear
+git clone https://github.com/bnb-chain/bsc-genesis-contract.git
