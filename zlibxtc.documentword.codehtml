@@ -1,0 +1,1151 @@
+apt install -y golang-github-raintank-met-dev
+
+apt install -y golang-siphash-dev
+
+apt install -y golang-snappy-go-dev
+
+apt install -y golang-sorcix-irc-dev
+
+apt install -y golang-speter-go-exp-math-dec-inf-dev
+
+apt install -y golang-src
+
+apt install -y golang-statik
+
+apt install -y golang-strk.kbt-projects-go-libravatar-dev
+
+apt install -y golang-text-dev
+
+apt install -y golang-thrift-dev
+
+apt install -y golang-toml-dev
+
+apt install -y golang-vhost-dev
+
+apt install -y golang-websocket-dev
+
+apt install -y golang-x-text-dev
+
+apt install -y golang-xi2-x-xz-dev
+
+apt install -y golang-yaml.v2-dev
+
+apt install -y google-wire
+
+apt install -y mockery
+
+apt install -y panicparse
+apt install -y python3-dockerpycreds
+
+apt install -y rebound
+
+apt install -y suffixfsm
+
+apt install -y golang-github-badgerodon-collections-dev
+
+apt install -y golang-github-bsm-pool-dev
+
+apt install -y golang-github-emirpasic-gods-dev
+
+apt install -y golang-github-facebookgo-stack-dev
+
+apt install -y golang-github-getlantern-context-dev
+apt install -y golang-github-go-errors-errors-dev
+apt install -y golang-github-go-stack-stack-dev
+
+apt install -y golang-github-google-pprof-dev
+
+apt install -y golang-github-gophercloud-gophercloud-dev
+
+apt install -y golang-github-heroku-rollrus-dev
+
+apt install -y golang-github-jesseduffield-roll-dev
+apt install -y golang-github-jesseduffield-rollrus-dev
+
+apt install -y golang-github-labstack-echo.v2-dev
+
+apt install -y golang-github-labstack-echo.v3-dev
+
+apt install -y golang-github-labstack-gommon-dev
+
+apt install -y golang-github-maruel-panicparse-dev
+
+apt install -y golang-github-mendersoftware-scopestack-dev
+
+apt install -y golang-github-natefinch-lumberjack-dev
+
+apt install -y golang-github-ncw-swift-dev
+
+apt install -y golang-github-nebulouslabs-errors-dev
+
+apt install -y golang-github-rackspace-gophercloud-dev
+
+apt install -y golang-github-revel-revel-dev
+apt install -y golang-github-stacktic-dropbox-dev
+
+apt install -y golang-github-stvp-roll-dev
+
+apt install -y golang-github-tideland-golib-dev
+
+apt install -y golang-github-tobi-airbrake-go-dev
+
+apt install -y golang-github-xanzy-go-cloudstack-dev
+
+apt install -y golang-github-yuin-gopher-lua-dev
+
+apt install -y golang-gopkg-natefinch-lumberjack.v2-dev
+
+apt install -y golang-thrift-dev
+
+apt install -y panicparse
+
+apt install -y rebound
+  
+apt install -y golang-github-bmatsuo-lmdb-go-dev
+
+apt install -y golang-github-dgryski-go-farm-dev
+
+apt install -y golang-github-digitalocean-godo-dev
+
+apt install -y golang-github-dylanmei-winrmtest-dev
+
+apt install -y golang-github-emicklei-go-restful-dev
+
+apt install -y golang-github-emicklei-go-restful-swagger12-dev
+
+apt install -y golang-github-flynn-archive-go-shlex-dev
+
+apt install -y golang-github-glycerine-go-unsnap-stream-dev
+
+apt install -y golang-github-gogo-googleapis-dev
+apt install -y golang-github-golang-leveldb-dev
+
+apt install -y golang-github-google-btree-dev
+
+apt install -y golang-github-google-cadvisor-dev
+
+apt install -y golang-github-google-certificate-transparency-dev
+
+apt install -y golang-github-google-go-cmp-dev
+
+apt install -y golang-github-google-go-github-dev
+
+apt install -y golang-github-google-go-querystring-dev
+apt install -y golang-github-google-gofuzz-dev
+
+apt install -y golang-github-google-gopacket-dev
+
+apt install -y golang-github-google-jsonapi-dev
+
+apt install -y golang-github-google-martian-dev
+
+apt install -y golang-github-google-pprof-dev
+
+apt install -y golang-github-google-shlex-dev
+
+apt install -y golang-github-google-subcommands-dev
+
+apt install -y golang-github-google-uuid-dev
+
+apt install -y golang-github-google-wire-dev
+
+apt install -y golang-github-googleapis-gax-go-dev
+
+apt install -y golang-github-googleapis-gnostic-dev
+
+apt install -y golang-github-gorilla-rpc-dev
+
+apt install -y golang-github-hashicorp-go-gcp-common-dev
+
+apt install -y golang-github-jacobsa-gcloud-dev
+
+apt install -y golang-github-jacobsa-oglematchers-dev
+
+apt install -y golang-github-jacobsa-oglemock-dev
+
+apt install -y golang-github-jacobsa-ogletest-dev
+
+apt install -y golang-github-klauspost-pgzip-dev
+
+apt install -y golang-github-kurin-blazer-dev
+
+apt install -y golang-github-leemcloughlin-gofarmhash-dev
+
+apt install -y golang-github-masterzen-winrm-dev
+
+apt install -y golang-github-masterzen-xmlpath-dev
+
+apt install -y golang-github-mreiferson-go-snappystream-dev
+
+apt install -y golang-github-pquerna-otp-dev
+
+apt install -y golang-github-seandolphin-bqschema-dev
+
+apt install -y golang-github-tideland-golib-dev
+
+apt install -y golang-github-tidwall-btree-dev
+
+apt install -y golang-glog-dev
+apt install -y golang-golang-x-net-dev
+
+apt install -y golang-golang-x-oauth2-google-dev
+
+apt install -y golang-golang-x-text-dev
+
+apt install -y golang-google-api-dev
+apt install -y golang-google-appengine-dev
+
+apt install -y golang-google-cloud-compute-metadata-dev
+
+apt install -y golang-google-cloud-dev
+
+apt install -y golang-google-genproto-dev
+
+apt install -y golang-google-grpc-dev
+
+apt install -y google-wire
+
+
+apt install -y bitshuffle
+
+apt install -y forensics-extra
+
+apt install -y gargoyle-free
+
+apt install -y golang-github-bkaradzic-go-lz4-dev
+
+apt install -y golang-github-datadog-zstd-dev
+
+apt install -y golang-github-pierrec-lz4-dev
+
+apt install -y libcompress-lz4-perl
+
+apt install -y liblz4-1
+
+apt install -y liblz4-dev
+
+apt install -y liblz4-java
+
+apt install -y liblz4-jni
+
+apt install -y liblz4-tool
+
+apt install -y libopencv-viz-dev
+
+apt install -y libopencv-viz4.2
+
+apt install -y libroslz4-1d
+
+apt install -y libroslz4-dev
+
+apt install -y librviz4d
+
+apt install -y lz4
+
+apt install -y lz4json
+
+apt install -y mspdebug
+
+apt install -y python3-lz4
+
+apt install -y python3-lz4tools
+
+apt install -y python3-roslz4
+
+apt install -y ruby-zoom
+
+apt install -y xarchiver
+
+apt install -y fonts-arphic-ukai
+
+apt install -y fonts-arphic-uming
+
+apt install -y open-font-design-toolkit
+
+apt install -y psf-unifont
+
+apt install -y ttf-unifont
+
+apt install -y unifont
+
+apt install -y unifont-bin
+
+apt install -y xfonts-unifont
+
+apt install -y ch5m3d
+
+apt install -y golang-github-miekg-mmark-dev
+
+apt install -y golang-github-tdewolff-minify-dev
+
+apt install -y libghc-heist-dev
+
+apt install -y libghc-heist-doc
+
+apt install -y libghc-heist-prof
+
+apt install -y libhal1-flash
+
+apt install -y libhtml-html5-microdata-parser-perl
+
+apt install -y libjs-autonumeric
+
+apt install -y libjs-chart.js
+
+apt install -y libjs-jquery-mobile
+
+apt install -y libjs-leaflet
+
+apt install -y libjs-modernizr
+
+apt install -y libjs-pdf
+
+apt install -y libjs-soundmanager2
+
+apt install -y libqrcodegen-dev
+
+apt install -y libqrcodegen1
+apt install -y libqrcodegencpp-dev
+
+apt install -y libqrcodegencpp1
+
+apt install -y libunbescape-java
+
+apt install -y minify
+apt install -y movim
+
+apt install -y node-chart.js
+
+apt install -y node-leaflet
+
+apt install -y nova-spiceproxy
+
+apt install -y ntopng
+
+apt install -y python-html5lib
+
+apt install -y python3-html5-parser
+
+apt install -y python3-html5lib
+
+apt install -y python3-qrcodegen
+
+apt install -y python3-xhtml2pdf
+
+apt install -y ruby-loofah
+
+apt install -y tcllib
+
+apt install -y tdom
+
+apt install -y tdom-dev
+apt install -y apbs
+
+apt install -y clzip
+
+apt install -y cupt
+
+apt install -y engrampa
+
+apt install -y file-roller
+
+apt install -y forensics-extra
+
+apt install -y golang-github-kjk-lzma-dev
+
+apt install -y golang-github-remyoudompheng-go-liblzma-dev
+
+apt install -y irssi-scripts
+
+apt install -y libarchive-dev
+
+apt install -y libarchive-extract-perl
+
+apt install -y libarchive13
+
+apt install -y libassimp5
+
+apt install -y libcompress-raw-lzma-perl
+
+apt install -y libfizmo-dev
+
+apt install -y libghc-lzma-dev
+
+apt install -y libghc-lzma-doc
+
+apt install -y libghc-lzma-prof
+
+apt install -y libgnatcoll-lzma1
+
+apt install -y libgnatcoll-lzma1-dev
+
+apt install -y libio-compress-lzma-perl
+
+apt install -y liblz-dev
+
+apt install -y liblz1
+
+apt install -y liblzma-dev
+
+apt install -y liblzma-doc
+
+apt install -y liblzma5
+
+apt install -y libmail-spf-xs-perl
+
+apt install -y libplb-dev
+
+apt install -y libplb-doc
+
+apt install -y libplb1
+
+apt install -y librust-lzma-sys-dev
+
+apt install -y libspf2-2
+
+apt install -y libspf2-dev
+
+apt install -y lrzip
+
+apt install -y lunzip
+
+apt install -y lzd
+
+apt install -y lzip
+
+apt install -y lziprecover
+
+apt install -y lzma
+
+apt install -y lzma-alone
+
+apt install -y lzma-dev
+
+apt install -y masscan
+
+apt install -y minilzip
+
+apt install -y nmzmail
+
+apt install -y p7zip
+
+apt install -y p7zip-full
+
+apt install -y patool
+
+apt install -y pdlzip
+
+apt install -y plzip
+
+apt install -y python3-numcodecs
+
+apt install -y python3-zarr
+
+apt install -y slang-gsl
+
+apt install -y spfquery
+
+apt install -y texlive-pictures
+
+apt install -y unar
+
+apt install -y xarchiver
+
+apt install -y xlunzip
+apt install -y xz-utils
+
+apt install -y xzdec
+
+apt install -y zbackup
+
+apt install -y zmakebas
+
+apt install -y zmap
+
+apt install -y apg
+
+apt install -y cpl-plugin-naco-calib
+
+apt install -y cqrlog
+
+apt install -y cqrlog-data
+
+apt install -y dicomscope
+
+apt install -y dicomscope-doc
+
+apt install -y gir1.2-telepathyglib-0.12
+
+apt install -y golang-1.14-go
+
+apt install -y golang-github-14rcole-gopopulate-dev
+
+apt install -y golang-github-dvsekhvalnov-jose2go-dev
+
+apt install -y golang-github-mitchellh-go-vnc-dev
+
+apt install -y google-android-platform-14-installer
+
+apt install -y heartbleeder
+
+apt install -y jbig2dec
+
+apt install -y lib32go14-amd64-cross
+
+apt install -y lib32go14-mips64-cross
+
+apt install -y lib32go14-mips64el-cross
+apt install -y lib32go14-mips64r6-cross
+
+apt install -y lib32go14-mips64r6el-cross
+
+apt install -y lib32go14-ppc64-cross
+
+apt install -y lib32go14-s390x-cross
+
+apt install -y lib32go14-sparc64-cross
+
+apt install -y lib32go14-x32-cross
+
+apt install -y lib64go14-i386-cross
+
+apt install -y lib64go14-mips-cross
+
+apt install -y lib64go14-mipsel-cross
+
+apt install -y lib64go14-mipsr6-cross
+
+apt install -y lib64go14-mipsr6el-cross
+
+apt install -y lib64go14-powerpc-cross
+
+apt install -y lib64go14-x32-cross
+
+apt install -y libacme-constant-perl
+
+apt install -y libalglib3.14
+
+apt install -y libanyevent-xmpp-perl
+
+apt install -y libcharls-dev
+
+apt install -y libcharls2
+
+apt install -y libclang-10-dev
+
+apt install -y libclang-11-dev
+
+apt install -y libclang-12-dev
+
+apt install -y libclang-6.0-dev
+
+apt install -y libclang-7-dev
+
+apt install -y libclang-8-dev
+
+apt install -y libclang-9-dev
+
+apt install -y libclang-common-10-dev
+
+apt install -y libclang-common-11-dev
+
+apt install -y libclang-common-12-dev
+
+apt install -y libclang-common-6.0-dev
+
+apt install -y libclang-common-7-dev
+
+apt install -y libclang-common-8-dev
+
+apt install -y libclang-common-9-dev
+
+apt install -y libclang-cpp10
+
+apt install -y libclang-cpp10-dev
+
+apt install -y libclang-cpp11
+
+apt install -y libclang-cpp11-dev
+
+apt install -y libclang-cpp12
+
+apt install -y libclang-cpp12-dev
+
+apt install -y libclang-cpp9
+
+apt install -y libclang-dev
+
+apt install -y libclang1
+
+apt install -y libclang1-10
+
+apt install -y libclang1-11
+
+apt install -y libclang1-12
+apt install -y libclang1-6.0
+
+apt install -y libclang1-7
+
+apt install -y libclang1-8
+
+apt install -y libclang1-9
+apt install -y libdata-page-pageset-perl
+
+apt install -y libdcmtk14
+
+apt install -y libdevel-callchecker-perl
+
+apt install -y libdicomscope-jni
+
+apt install -y libdv-bin
+
+apt install -y libdv4
+
+apt install -y libdv4-dev
+
+apt install -y libecm1
+apt install -y libecm1-dev
+
+apt install -y libecm1-dev-common
+
+apt install -y libexpected-dev
+
+apt install -y libfelix-gogo-command-java
+apt install -y libfelix-gogo-command-java-doc
+
+apt install -y libfelix-gogo-runtime-java
+
+apt install -y libfelix-gogo-runtime-java-doc
+
+apt install -y libfelix-gogo-shell-java
+
+apt install -y libfelix-gogo-shell-java-doc
+
+apt install -y libghc-cprng-aes-dev
+
+apt install -y libghc-cprng-aes-doc
+
+apt install -y libghc-cprng-aes-prof
+
+apt install -y libghc-pem-dev
+
+apt install -y libghc-pem-doc
+
+apt install -y libghc-pem-prof
+
+apt install -y libgo14
+
+apt install -y libgo14-alpha-cross
+
+apt install -y libgo14-amd64-cross
+
+apt install -y libgo14-arm64-cross
+
+apt install -y libgo14-armel-cross
+
+apt install -y libgo14-armhf-cross
+
+apt install -y libgo14-i386-cross
+
+apt install -y libgo14-mips-cross
+
+apt install -y libgo14-mips64-cross
+
+apt install -y libgo14-mips64el-cross
+
+apt install -y libgo14-mips64r6-cross
+
+apt install -y libgo14-mips64r6el-cross
+
+apt install -y libgo14-mipsel-cross
+
+apt install -y libgo14-mipsr6-cross
+
+apt install -y libgo14-mipsr6el-cross
+
+apt install -y libgo14-powerpc-cross
+
+apt install -y libgo14-ppc64-cross
+
+apt install -y libgo14-ppc64el-cross
+
+apt install -y libgo14-riscv64-cross
+
+apt install -y libgo14-s390x-cross
+
+apt install -y libgo14-sh4-cross
+
+apt install -y libgo14-sparc64-cross
+
+apt install -y libgo14-x32-cross
+
+apt install -y libgsf-1-114
+
+apt install -y libgtk-sharp-beans-cil
+
+apt install -y libgtk-sharp-beans2.0-cil-dev
+
+apt install -y libhal1-flash
+
+apt install -y libhiredis0.14
+
+apt install -y libi18n-acceptlanguage-perl
+
+apt install -y libident
+
+apt install -y libident-dev
+
+apt install -y libircclient-dev
+
+apt install -y libircclient1
+
+apt install -y libirclib-java
+
+apt install -y libirclib-java-doc
+
+apt install -y libisoparser-java
+apt install -y libjbig2dec0
+
+apt install -y libjbig2dec0-dev
+
+apt install -y libkavorka-perl
+
+apt install -y libmapbox-variant-dev
+
+apt install -y libmm14
+
+apt install -y libmsgsl-dev
+
+apt install -y libn32go14-mips-cross
+
+apt install -y libn32go14-mips64-cross
+
+apt install -y libn32go14-mips64el-cross
+apt install -y libn32go14-mips64r6-cross
+
+apt install -y libn32go14-mips64r6el-cross
+
+apt install -y libn32go14-mipsel-cross
+
+apt install -y libn32go14-mipsr6-cross
+
+apt install -y libn32go14-mipsr6el-cross
+
+apt install -y libnb-ide14-java
+
+apt install -y libnet-amazon-ec2-perl
+
+apt install -y libnet-ident-perl
+
+apt install -y libnet-syslogd-perl
+
+apt install -y libnftables-dev
+
+apt install -y libnftables1
+
+apt install -y libnghttp2-14
+
+apt install -y libnitrokey-common
+
+apt install -y libnitrokey-dev
+
+apt install -y libnitrokey3
+
+apt install -y libnxml0
+
+apt install -y libnxml0-dev
+apt install -y libparse-keyword-perl
+
+apt install -y libparse-mime-perl
+
+apt install -y libpdf-api2-perl
+
+apt install -y libppl14
+
+apt install -y libpyside2-py3-5.14
+
+apt install -y libqdbm14
+
+apt install -y librange-v3-dev
+
+apt install -y librange-v3-doc
+
+apt install -y libretro-gtk-0.14-0
+
+apt install -y libretro-gtk-0.14-dev
+
+apt install -y librust-cairo-rs+v1-14-dev
+
+apt install -y libsdp-api-java
+
+apt install -y libshiboken2-py3-5.14
+
+apt install -y libslf4j-java
+
+apt install -y libsocket-getaddrinfo-perl
+
+apt install -y libsombok-dev
+
+apt install -y libsombok3
+apt install -y libtelepathy-glib-dev
+
+apt install -y libtime-y2038-perl
+
+apt install -y libtranscript1
+
+apt install -y libunicode-linebreak-perl
+
+apt install -y liburi-nested-perl
+
+apt install -y libvistaio14
+apt install -y libvm-ec2-perl
+
+apt install -y libwsclean2
+
+apt install -y libx32go14-amd64-cross
+
+apt install -y libx32go14-i386-cross
+
+apt install -y libxc5
+
+apt install -y libzxingcore-dev
+
+apt install -y libzxingcore1
+
+apt install -y logdata-anomaly-miner
+
+apt install -y nagios-plugins-contrib
+
+apt install -y probcons
+
+apt install -y pygac-bin
+
+apt install -y python-clang-6.0
+
+apt install -y python-clang-7
+
+apt install -y python3-bioblend
+
+apt install -y python3-clang
+
+apt install -y python3-clang-10
+
+apt install -y python3-clang-11
+
+apt install -y python3-clang-12
+
+apt install -y python3-clang-8
+
+apt install -y python3-clang-9
+
+apt install -y python3-daemon
+
+apt install -y python3-h11
+
+apt install -y python3-nftables
+
+apt install -y python3-nss
+
+apt install -y python3-pygac
+
+apt install -y python3-pypathlib
+
+apt install -y python3-vtkplotter
+
+apt install -y r-cran-bh
+apt install -y r-cran-dqrng
+
+apt install -y ruby-net-irc
+
+apt install -y stymulator
+
+apt install -y texlive-bibtex-extra
+
+apt install -y texlive-fonts-extra
+
+apt install -y texlive-latex-extra
+
+apt install -y uim-viqr
+
+apt install -y vagalume
+
+apt install -y verdigris
+
+apt install -y wesnoth-1.14-l
+
+apt install -y wsclean-dev
+
+apt install -y xtl-dev
+apt install -y  s4cmd
+
+apt install -y sac2mseed
+
+apt install -y saga-common
+
+apt install -y sagemath
+
+apt install -y sagemath-common
+
+apt install -y sagemath-doc
+
+apt install -y sagemath-jupyter
+
+apt install -y sahara-common
+
+apt install -y salmid
+apt install -y samba-common
+
+apt install -y samba-common-bin
+
+apt install -y samplv1-common
+apt install -y sanitizer
+
+apt install -y sasl2-bin
+
+apt install -y sasview-doc
+
+apt install -y sbcl
+
+apt install -y sbcl-doc
+
+apt install -y sbcl-source
+
+apt install -y sblim-cmpi-common
+
+apt install -y sblim-wbemcli
+
+apt install -y scalapack-test-common
+
+apt install -y schroot-common
+apt install -y science-config
+
+apt install -y scim
+apt install -y scim-anthy
+
+apt install -y scim-canna
+
+apt install -y scim-chewing
+
+apt install -y scim-clutter-immodule
+
+apt install -y scim-dev
+
+apt install -y scim-dev-doc
+
+apt install -y scim-gtk-immodule
+
+apt install -y scim-im-agent
+
+apt install -y scim-kmfl-imengine
+
+apt install -y scim-m17n
+
+apt install -y scim-modules-socket
+
+apt install -y scim-modules-table
+
+apt install -y scim-pinyin
+
+apt install -y scim-skk
+
+apt install -y scim-tables-additional
+
+apt install -y scim-tables-ja
+
+apt install -y scim-tables-ko
+
+apt install -y scim-tables-zh
+
+apt install -y scim-thai
+
+apt install -y scim-unikey
+
+apt install -y scm
+
+apt install -y scram
+
+apt install -y searchandrescue-common
+
+apt install -y searchandrescue-data
+
+apt install -y selinux-basics
+
+apt install -y selinux-policy-mls
+
+apt install -y sendpage-common
+
+apt install -y senlin-common
+
+apt install -y seq-gen
+
+apt install -y sgml-data
+
+apt install -y shibboleth-sp-common
+
+apt install -y shibboleth-sp2-common
+
+apt install -y shiboken2-doc
+
+apt install -y shiki-colors-metacity-theme
+
+apt install -y shishi-common
+
+apt install -y shotwell-common
+
+apt install -y signify-openbsd-keys
+
+apt install -y signond-dev
+
+apt install -y simple-cdd
+
+apt install -y siril-common
+
+apt install -y sisu
+
+apt install -y sisu-markup-samples
+
+apt install -y skrooge-common
+
+apt install -y slang-tess
+
+apt install -y slashem-common
+
+apt install -y slime
+
+apt install -y slowhttptest
+
+apt install -y snort-common
+
+apt install -y snort-common-libraries
+
+apt install -y snp-sites
+
+apt install -y soapyosmo-common0.7
+
+apt install -y soapysdr-module-all
+
+apt install -y soapysdr-module-uhd
+
+apt install -y soapysdr-tools
+
+apt install -y soapysdr0.7-module-all
+
+apt install -y soapysdr0.7-module-uhd
+
+apt install -y softhsm-common
+
+apt install -y softhsm2-common
+
+apt install -y software-properties-common
+
+apt install -y sogo-common
+
+apt install -y solr-common
+
+apt install -y sosreport
+
+apt install -y soundscaperenderer-common
+
+apt install -y sox
+
+apt install -y spacefm-common
+
+apt install -y spectemu-common
+
+apt install -y speech-dispatcher
+
+apt install -y speechd-up
+
+apt install -y spfquery
+
+apt install -y sphinx-common
+
+apt install -y sphinx-rtd-theme-common
+
+apt install -y spirv-tools
+
+apt install -y spring-common
+
+apt install -y spyder-common
+
+apt install -y squashfuse
+
+apt install -y squid-common
+
+apt install -y squizz
+
+apt install -y sreview-common
+
+apt install -y sshesame
+
+apt install -y sshpass
+
+apt install -y sssd-ad-common
+
+apt install -y sssd-common
+
+apt install -y sssd-krb5-common
+
+apt install -y staden-common
+
+apt install -y stardata-common
+
+apt install -y starlink-cdf-java
+
+apt install -y starlink-cdf-java-doc
+
+apt install -y stealth
+
+apt install -y steghide-doc
+
+apt install -y stenographer-common
+
+apt install -y stoken
+
+apt install -y stumpwm
+
+apt install -y stunnel4
+
+apt install -y styx
+
+apt install -y subdownloader
+
+apt install -y supercollider-common
+apt install -y swift
+
+apt install -y synthv1-common
+
+apt install -y syrep
+
+apt install -y syslinux-common
+
+apt install -y system-config-printer-common
+
+apt install -y systemtap-common
+
+
+apt install -y python-vitrageclient-doc
+
+apt install -y python3-vitrage
+
+apt install -y python3-vitrage-dashboard
+
+apt install -y python3-vitrageclient
+
+apt install -y vitrage-api
+
+apt install -y vitrage-collector
+
+apt install -y vitrage-common
+
+apt install -y vitrage-doc
+
+apt install -y vitrage-graph
+
+apt install -y vitrage-ml
+
+apt install -y vitrage-notifier
+
+apt install -y vitrage-persistor
+
+apt install -y vitrage-snmp-parsing
