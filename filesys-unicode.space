@@ -460,11 +460,6 @@ apt install -y ntfs-3g-static
 apt install -y oathtool-static
 
 apt install -y ocrad-static
-apt install -y octave-static
-
-apt install -y octave-x-static
-
-apt install -y octomap-static
 
 apt install -y onigmo-static
 
@@ -667,7 +662,7 @@ apt install -y tumbler-static
 apt install -y unbound-static
 
 apt install -y unicorn-static
-apt install -y unixodbc-static
+
 
 apt install -y utf8proc-static
 
@@ -2391,8 +2386,6 @@ apt install -y debianutils
 
 apt install -y delve
 
-apt install -y devilspie
-
 apt install -y dnote-server
 
 apt install -y doctest
@@ -2587,10 +2580,6 @@ apt install -y jftui
 apt install -y jigdo
 
 apt install -y jython
-
-apt install -y kak-lsp
-
-apt install -y kakoune-lsp
 
 apt install -y kdenlive
 
@@ -3709,4 +3698,333 @@ apt install -y xfce4-whiskermenu-plugin
 
 apt install -y libczmq
 apt install -y libprotozero
-apt install -y zeronet
+apt install -y arc-gtk-theme
+
+apt install -y clutter-gtk
+
+apt install -y clutter-gtk-static
+
+apt install -y fcitx5-configtool
+
+apt install -y fcitx5-gtk-common
+
+apt install -y fcitx5-gtk2
+
+apt install -y fcitx5-gtk3
+
+apt install -y fcitx5-gtk4
+
+apt install -y ffmpegthumbnailer
+
+apt install -y fluent-gtk-theme
+
+apt install -y fontforge-gtk
+
+apt install -y galculator
+
+apt install -y glade
+
+apt install -y gnome-themes-extra
+
+apt install -y goffice
+
+apt install -y gotop
+
+apt install -y gpg-crypter
+
+apt install -y gspell
+
+apt install -y libmateweather-static
+
+apt install -y libmaxminddb-static
+
+apt install -y libmcrypt-static
+
+apt install -y libmd-static
+
+apt install -y libmediainfo-static
+
+apt install -y libmesode-static
+
+apt install -y libmhash-static
+
+apt install -y libmicrohttpd-static
+
+apt install -y libminizip-static
+
+apt install -y libmnl-static
+
+apt install -y libmodplug-static
+
+apt install -y libmp3lame-static
+
+apt install -y libmp3splt-static
+
+apt install -y libmpc-static
+
+apt install -y libmpeg2-static
+
+apt install -y libmpfr-static
+
+apt install -y libmsgpack-static
+
+apt install -y libmypaint-static
+
+apt install -y libnats-c-static
+
+apt install -y libncnn-static
+
+apt install -y libneon-static
+
+apt install -y libnet-static
+
+apt install -y libnetfilter-queue-static
+
+apt install -y libnettle-static
+
+apt install -y libnewt-static
+
+apt install -y libnfc-static
+
+apt install -y libnfnetlink-static
+
+apt install -y libnfs-static
+
+apt install -y libnftnl-static
+
+apt install -y libnghttp2-static
+
+apt install -y libnghttp3-static
+
+apt install -y libnl-cli-static
+
+apt install -y libnl-static
+
+apt install -y libnova-static
+
+apt install -y libnpth-static
+
+apt install -y libnspr-static
+
+apt install -y libntl-static
+
+apt install -y libogg-static
+
+apt install -y liboggz-static
+
+apt install -y libopenblas-static
+
+apt install -y libopencore-amr-static
+
+apt install -y libopenmpt-static
+
+apt install -y libopus-static
+
+apt install -y libopusenc-static
+
+apt install -y libosl-static
+
+apt install -y libosmpbf-static
+
+apt install -y libotr-static
+
+apt install -y libpano13-static
+
+apt install -y libpaper-static
+
+apt install -y libpcap-static
+
+apt install -y libpciaccess-static
+
+apt install -y libpcsclite-static
+
+apt install -y libpipeline-static
+
+apt install -y libpixman-static
+
+apt install -y libplist-static
+
+apt install -y libpluto-static
+
+apt install -y libpng-static
+
+apt install -y libpngwriter-static
+
+apt install -y libpopt-static
+
+apt install -y libprotobuf-c-static
+
+apt install -y libpsl-static
+
+apt install -y libraptor2-static
+
+apt install -y librasqal-static
+
+apt install -y librav1e-static
+
+apt install -y libraw-static
+
+apt install -y libretls-static
+
+apt install -y librnnoise-static
+
+apt install -y librocksdb-static
+
+apt install -y librttopo-static
+
+apt install -y libsasl-static
+
+apt install -y libsass-static
+
+apt install -y libsearpc-static
+
+apt install -y libseccomp-static
+
+apt install -y libsecp256k1-static
+
+apt install -y libshout-static
+
+apt install -y libsigsegv-static
+
+apt install -y libsixel-static
+
+apt install -y libsm-static
+
+apt install -y libsndfile-static
+
+apt install -y libsodium-static
+
+apt install -y libsoldout-static
+
+apt install -y libsophia-static
+
+apt install -y libsoundtouch-static
+
+apt install -y libspatialite-static
+
+apt install -y libspectre-static
+
+apt install -y libspeex-static
+
+apt install -y libspice-server-static
+
+apt install -y libsqlite-static
+
+apt install -y libssh2-static
+
+apt install -y libstemmer-static
+
+apt install -y libstrophe-static
+
+apt install -y libtalloc-static
+
+apt install -y libtasn1-static
+
+apt install -y libtd-static
+
+apt install -y libtheora-static
+
+apt install -y libtiff-static
+
+apt install -y libtirpc-static
+
+apt install -y libtomcrypt-static
+
+apt install -y libtommath-static
+
+apt install -y libtorrent-static
+
+apt install -y libtpms-static
+
+apt install -y libtreesitter-static
+
+apt install -y libtsduck-static
+
+apt install -y libtwolame-static
+
+apt install -y libuchardet-static
+
+apt install -y libucontext-static
+
+apt install -y libudfread-static
+
+apt install -y libunbound-static
+
+apt install -y libunique-static
+
+apt install -y libunistring-static
+
+apt install -y libupscaledb-static
+
+apt install -y libusb-static
+
+apt install -y libusbmuxd-static
+
+apt install -y libusbredir-static
+
+apt install -y libuv-static
+
+apt install -y libv4l-static
+
+apt install -y libvbisam-static
+
+apt install -y libvips-static
+
+apt install -y libvmaf-static
+
+apt install -y libvo-amrwbenc-static
+
+apt install -y libvoikko-static
+
+apt install -y libvorbis-static
+apt install -y libvpx-static
+
+apt install -y libwavpack-static
+
+apt install -y libwebp-static
+
+apt install -y libwebrtc-audio-processing-static
+
+apt install -y libwv-static
+
+apt install -y libx11-static
+
+apt install -y libx264-static
+
+apt install -y libx265-static
+
+apt install -y libxapian-static
+
+apt install -y libxau-static
+
+apt install -y libxaw-static
+
+apt install -y libxcb-static
+
+apt install -y libxcomposite-static
+
+apt install -y libxcursor-static
+
+apt install -y libxdamage-static
+
+apt install -y libxdg-basedir-static
+
+apt install -y libxdmcp-static
+
+apt install -y libxext-static
+
+apt install -y libxfce4ui-static
+
+apt install -y libxfce4util-static
+
+apt install -y libxfixes-static
+
+apt install -y libxfont2-static
+
+apt install -y libxft-static
+
+apt install -y libxi-static
+
+apt install -y libxinerama-static
+
+apt install -y libxkbfile-static
