@@ -2,73 +2,73 @@ apt install -y libiodbc
 apt install -y libiodbc-static
 
 
-pkg install byacc libcurl libcurl-static dialog gengetopt getconf geth geth-utils gettext gettext-static libnewt wget entr libsoup3 libsoup alsa-lib alsa-utils ant virglrenderer-android 
+pkg install -y byacc libcurl libcurl-static dialog gengetopt getconf geth geth-utils gettext gettext-static libnewt wget entr libsoup3 libsoup alsa-lib alsa-utils ant virglrenderer-android 
 
-pkg install vulkan-extension-layer 
+pkg install -y vulkan-extension-layer 
 
-pkg install vulkan-headers 
+pkg install -y vulkan-headers 
 
-pkg install vulkan-loader 
+pkg install -y vulkan-loader 
 
-pkg install vulkan-loader-android
+pkg install -y vulkan-loader-android
 
-pkg install bitcoin 
+pkg install -y bitcoin 
 
-pkg install vulkan-loader-generic 
+pkg install -y vulkan-loader-generic 
 
-pkg install vulkan-tools 
+pkg install -y vulkan-tools 
 
-pkg install vulkan-utility-libraries 
+pkg install -y vulkan-utility-libraries 
 
-pkg install vulkan-validation-layers 
+pkg install -y vulkan-validation-layers 
 
-pkg install tor 
+pkg install -y tor 
 
-pkg install totem-pl-parser 
+pkg install -y totem-pl-parser 
 
-pkg install tree tree-sitter-parsers 
+pkg install -y tree tree-sitter-parsers 
 
-pkg install tree-sitter-vim 
+pkg install -y tree-sitter-vim 
 
-pkg install tree-sitter-vim-static 
+pkg install -y tree-sitter-vim-static 
 
-pkg install tree-sitter-vimdoc 
+pkg install -y tree-sitter-vimdoc 
 
-pkg install tree-sitter-vimdoc-static 
+pkg install -y tree-sitter-vimdoc-static 
 
-pkg install valac 
+pkg install -y valac 
 
-pkg install valac-static 
+pkg install -y valac-static 
 
-pkg install valadoc 
+pkg install -y valadoc 
 
-pkg install valadoc-static 
+pkg install -y valadoc-static 
 
-pkg install scrypt
+pkg install -y scrypt
 
-pkg install vivid texlive-bin weechat 
+pkg install -y vivid texlive-bin weechat 
 
-pkg install ncurses-ui-libs 
+pkg install -y ncurses-ui-libs 
 
-pkg install ncurses-ui-libs-static 
+pkg install -y ncurses-ui-libs-static 
 
-pkg install ncurses-utils ndk-multilib binutils binutils-bin binutils-libs
+pkg install -y ncurses-utils ndk-multilib binutils binutils-bin binutils-libs
 
-pkg install boost boost-static sslscan seccure subversion 
+pkg install -y boost boost-static sslscan seccure subversion 
 
-pkg install subversion-perl 
+pkg install -y subversion-perl 
 
-pkg installbsubversion-perl-static 
+pkg install -y subversion-perl-static 
 
-pkg install subversion-static cgdb debianutils debootstrap delve 
+pkg install -y subversion-static cgdb debianutils debootstrap delve 
 
-pkg install gdb 
+pkg install -y gdb 
 
-pkg install libdebuginfod 
+pkg install -y libdebuginfod 
 
-pkg install libthread-db 
+pkg install -y libthread-db 
 
-pkg install lldb
+pkg install -y lldb
 
 
 pkg in build-essential
@@ -136,7 +136,7 @@ apt install -y hstr
 apt install -y zsh
 apt install -y zsh-completions
 
-apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+apt install -y brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
 
 apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
 
@@ -444,7 +444,7 @@ apt install -y gbt
 apt install -y hstr
 apt install -y zsh
 apt install -y zsh-completions
-apt install -y  brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+apt install -y brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
 apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
 apt install -y opencl-clhpp
 apt install -y opencl-headers
@@ -460,7 +460,7 @@ apt install -y openssl-1.1
 apt install -y openssl-1.1-static 
 apt install -y openssl-static
 apt install -y openssl-tool openssl1.1-tool
-apt install aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdbook-graphviz mdbook-katex mdbook-mermaid mdbook-open-on-gh mdbook-pikchr mdbook-plantuml mdbook-presentation-preprocessor mdbook-svgbob mdbook-svgbob2 mdbook-tera mdbook-toc mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pandoc pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
+apt install -y aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo cfengine-static cfm go-musicfox termux-am termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools acr autoconf resolv-conf rcs bat make cmake automake yasm flex figlet toilet ruby cowsay mpv ffmpeg clamav virustotal-cli agate autoconf-archive autoconf213 avra bastet bc blk-utils bore buf c-toxcore catdoc chrony cmocka cointop cppi croc cuetools curseofwar dasm distant djvulibre dnslookup docbook-xml faust fdm finch frotz frp fwknop gawk gegl geoip2-database geth gflags glib gmic gmic-gm golang-doc gpac graphicsmagick html2text htop imgflo ipfs jq keybase knockd leptonica libandroid-support libassuan libblkid libblocksruntime libblosc libcoap libcroco libcroco-static libdav1d libduckdb libduktape libgnutls libgxps libical libliquid-dsp liblo libnl libpipeline libpoco libpolly librav1e librocksdb librocksdb-static libsignal-protocol-c libsoundtouch libspectre libspice-protocol libspice-server libsrt libssh2 libtalloc libtalloc-static libtbb libtermkey libtorrent-rasterbar libuv libvips libwayland libwayland-protocols libwslay libxml2 libxslt libzmq libzxing-cpp locustdb lsof luarocks m4 man mdbook-graphviz mdbook-katex mdbook-mermaid mdbook-open-on-gh mdbook-pikchr mdbook-plantuml mdbook-presentation-preprocessor mdbook-svgbob mdbook-svgbob2 mdbook-tera mdbook-toc mdns-scan microsocks mlocate mosh ncftp neocmakelsp neovim net-snmp ninja ocl-icd ocrad ocrad-static octave octave-static octomap octomap-static odt2txt osmctools pdfcpu pdftk peaclock photon-rss php-fpm picocom pipebuffer plutolang pocketbase procps procps-static procs procyon-decompiler proxychains-ng psmisc pup python-greenlet python-torchaudio rav1e ravencoin rdiff-backup rip ripgrep-all rtmpdump ruby-ri rust rust-docs scdoc shntool simulavr socat softether-vpn spiped srelay stunnel tesseract texinfo texlab tokei torsocks torsocks-static tree-sitter-vimdoc tree-sitter-vimdoc-static tsocks tty-clock ttyc unpaper utf8proc utf8proc-static uthash valadoc valadoc-static vobsub2srt websocat wireproxy wordgrinder xcb-proto xorgproto xsltproc yq blackbox discordo kcptun libgnutls libnss libotr libseccomp libseccomp-static wasmer wireguard-tools xmlsec xmlsec-static yarn zssh  libmariadbcpp libmaxminddb libmdbx libnftnl libnpth libnspr libphysfs libplist libsmartcols libsqlite libt3key libtdb libtomcrypt libtommath libtool libunqlite libupscaledb libvidstab libwolfssl libzix llvm liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob monetdb libdb google-drive-upload google-glog googletest translate-shell aapt aapt2
 apt install -y game-repo science-repo aptly game-repo git-crypt libpcreposix myrepos root-repo science-repo termux-apt-repo termux-keyring tesseract rcs dart bat acr expect flex yasm autoconf liblz4 lz4 libllvm proxychains-ng debootstrap geth-utils asciinema gotty libandroid-glob libandroid-shmem libgfshare libgfshare-static libtool ired isync geoip2-database newsboat eigen libotr libsasl frotz gdb gdbm libnl libmnl netcdf-c lighttpd libmcrypt pulseaudio taglib subversion fakeroot fakeroot-static proot syncthing libevent wol utf8cpp utf8proc utfdecode util-linux util-linux-static asciidoc gbt geth gnugo go-findimagedupes goaccess gst-plugins-good python-static google-glog python2 python2-static vim-python weechat-python-plugin capstone-static boost-static bison-static && pip install colorama BeautifulSoup4 pycore solver z3 wh cs darth hacks
 apt install -y ffsend finch geckodriver geographiclib 
 apt install -y glab-cli glow gomp gomuks hcloud hummin 
@@ -651,8 +651,6 @@ apt install -y libtommath
 
 apt install -y libtommath-static
 
-apt install -y manim
-
 apt install -y mathomatic
 apt install -y openspecfun
 
@@ -754,7 +752,7 @@ apt install -y gtk4
 
 apt install -y handbrake
 apt install -y hexer
-apt install -y intltool
+
 apt install -y iptables
 apt install -y kcptun
 
@@ -1051,7 +1049,7 @@ apt install -y geckodriver
 apt install -y gecode
 
 apt install -y gecode-static
-gengetopt
+apt install -y gengetopt
 
 apt install -y getconf
 
@@ -3093,8 +3091,6 @@ apt install -y cherrytree
 apt install -y chezmoi
 
 apt install -y chicken
-
-apt install -y chicken-static
 
 apt install -y chocolate-doom
 
