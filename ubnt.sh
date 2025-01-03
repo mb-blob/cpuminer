@@ -2868,8 +2868,6 @@ apt install -y libtommath
 
 apt install -y libtommath-static
 
-apt install -y manim
-
 apt install -y mathomatic
 apt install -y openspecfun
 
@@ -10305,8 +10303,6 @@ apt install -y make-guile
 
 apt install -y man
 
-apt install -y manim
-
 apt install -y mapserver
 
 apt install -y mate-applet-brisk-menu
@@ -10850,8 +10846,6 @@ apt install -y libxau
 apt install -y libxml2-python
 
 apt install -y libxml2-python-static
-
-apt install -y manim
 
 apt install -y mathomatic
 
