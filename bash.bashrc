@@ -48,6 +48,7 @@ echo ''
 clear
 echo ''
 clear
+cat -t /data/data/com.termux/files/home/cpuminer/Main--&&challenge-add-scabdsdwhite--wallet-ssdfile.mmlmahlya.js.php.wwwllahosuaabP | lolcat -p 100 -a
 termimage /data/data/com.termux/files/usr/etc/round.png
 # Default command line prompt.
 PROMPT_DIRTRIM=2
