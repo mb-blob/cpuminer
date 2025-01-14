@@ -12943,3 +12943,12 @@ cd ~
 cd
 clear
 git clone https://github.com/bnb-chain/bsc-genesis-contract.git
+git clone https://github.com/googleapis/google-cloud-cpp.git
+
+git clone https://github.com/googleapis/google-cloud-ruby.git
+
+git clone https://github.com/googleapis/google-cloud-node.git
+
+git clone https://github.com/googleapis/google-cloud-go.git
+
+git clone https://github.com/googleapis/python-bigquery.git
