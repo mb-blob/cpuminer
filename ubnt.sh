@@ -1,6 +1,264 @@
 apt update 
 apt upgrade -y 
 echo -e "Install A:: "
+apt install -y dasel taplo toml11 ant autojump aview avra beanshell broot byacc ca-certificates-java cadaver calcurse-caldav cava cavez-of-phear cavif-rs cccc clamav clamav-static clinfo dex2jar doxygen dufs dx ecj esbuild gitflow-avh gst-libav hydroxide imlib2 jump just jython kakoune libaom libbcprov-java libcommons-lang3-java libcpufeatures libdav1d libduktape libdvdnav libdvdnav-static libdvdread libgedit-gfls libgeos libheif libheif-progs libjansi libneon libosmpbf libotr librav1e librav1e-static libwavpack libwavpack-static libx264 libxss lilypond lnav maven minidlna monolith morse2ascii mp3gain navi navidrome nmon octave octave-static open-adventure openjdk-17 openjdk-21 osslsigncode pipes.sh procyon-decompiler pystring quick-lint-js quickjs rav1e ravencoin ravencoin-static sftpgo shntool simulavr snake svt-av1 sysprop tesseract timidity++ totem-pl-parser tsduck-java ttf-dejavu txikijs wavpack x264 zoxide dasel taplo toml11 zrok wiz uv tty-solitaire tilde sundials solidity sdcv rhash resolv-conf profanity pianobar pacman4console openscad newsboat nerdfix mpg123 lowdown libunbound libsoldout-static libsoldout libresolv-wrapper libjansi libcoinor-osi libceres-solver hollywood hexcurse glpk geographiclib gdu enblend eigen dte csol console-bridge coinor-clp coinor-cbc cmus cavez-of-phear cava calc c-ares arpack-ng 2048-c
+
+
+apt update
+
+apt upgrade -y 
+
+apt install -y python3-matplotlib
+apt install -y python3-pip 
+
+apt install -y python3-full 
+
+apt install -y build-essential 
+
+apt install -y automake 
+
+apt install -y autoconf 
+
+apt install -y nano 
+
+apt install -y pkg-config 
+apt install -y libcurl4-openssl-dev 
+
+apt install -y libjansson-dev 
+apt install -y libssl-dev 
+apt install -y libgmp-dev 
+apt install -y zlib1g-dev 
+apt install -y make 
+apt install -y g++ 
+apt install -y z3 
+apt install -y ntp 
+apt install -y sntp 
+apt install -y yasm 
+apt install -y flex 
+apt install -y git 
+apt install -y gcc 
+apt install -y bash 
+apt install -y bat 
+apt install -y bats 
+apt install -y cmake 
+apt install -y python3-twisted 
+apt install -y python3-wheel 
+apt install -y tar 
+apt install -y automake 
+apt install -y gzip 
+apt install -y wget 
+apt install -y curl 
+apt install -y python3-z3 
+apt install -y nsca 
+apt install -y node-sntp 
+apt install -y tcllib 
+apt install -y suck 
+apt install -y trn4
+apt install -y radioclk 
+apt install -y libnet-ntp-perl 
+apt install -y leafnode 
+apt install -y php-net-nntp 
+apt install -y raintpl 
+apt install -y jython 
+
+python3 -m pip install pychroot zzip importlib-resources z4-solver captchasolver py.proxy blockchain z4 binance pool worker click librosa blockchain-etl binance-connector
+ 
+apt install -y aspnetcore-runtime-6.0
+apt install -y aspnetcore-runtime-7.0 
+ 
+apt install -y dotnet-apphost-pack-6.0 
+
+apt install -y dotnet-apphost-pack-7.0 
+
+apt install -y dotnet-apphost-pack-8.0 
+
+apt install -y dotnet-host
+
+apt install -y dotnet-host-7.0 
+
+apt install -y dotnet-host-8.0 
+
+apt install -y dotnet-hostfxr-6.0 
+
+apt install -y dotnet-hostfxr-7.0 
+
+apt install -y dotnet-hostfxr-8.0 
+
+apt install -y dotnet-runtime-6.0 
+
+apt install -y dotnet-runtime-7.0 
+
+apt install -y dotnet-runtime-8.0 
+
+apt install -y dotnet-sdk-6.0 
+
+aptbinstall -y dotnet-sdk-6.0-source-built-artifacts 
+
+apt install -y dotnet-sdk-7.0 
+
+apt install -y dotnet-sdk-7.0-source-built-artifacts
+
+apt install -y dotnet-sdk-8.0 
+
+apt install -y dotnet-sdk-8.0-source-built-artifacts 
+
+apt install -y dotnet-targeting-pack-6.0 
+
+apt install -y dotnet-targeting-pack-7.0 
+
+apt install -y dotnet-targeting-pack-8.0
+
+apt install -y dotnet-templates-6.0 
+
+apt install -y dotnet-templates-7.0 
+
+
+apt install -y dotnet-templates-8.0 
+
+
+apt install -y dotnet6 
+
+aptbinstall -y dotnet7 
+
+at install -y dotnet8 
+apt install -y libgtk-dotnet3.0-cil 
+
+apt install -y libgtk-dotnet3.0-cil-dev 
+
+apt install -y libgtk2.0-cil 
+
+apt install -y libgtk2.0-cil-dev 
+
+apt install -y duck 
+apt install -y bettercap 
+apt install -y wmbubble 
+apt install -y python3-box 
+apt install -y readucks 
+apt install -y gkrellm-bfm 
+apt install -y golang-github-wildducktheories-go-csv-dev 
+apt install -y garagemq 
+
+apt install -y zydis-tools 
+apt install -y ruby-ethon 
+apt install -y libjsmn-dev 
+apt install -y libmatthew-java-doc 
+
+apt install -y libnss-tls
+
+pkg in build-essential
+
+apt install -y termux-am termux-am-socket termux-api termux-api-static termux-apt-repo termux-auth termux-create-package termux-elf-cleaner termux-exec termux-gui-bash termux-gui-c termux-gui-package termux-gui-pm termux-keyring termux-licenses termux-services termux-tools
+
+apt install -y autoconf resolv-conf automake php prover9 z3 dcmtk git-gitk pdftk pypy-tkinter pypy3-tkinter python-tkinter tk git proot wget curl zziplib assimp osm2pgsql mg vile gap
+
+apt install -y flex yasm 
+
+apt install -y gcal libgc libgc-static libgcrypt libgcrypt-static libsigc++-2.0 libsigc++-3.0 pngcrush
+
+apt install -y flex-static libfcl liblog4c libphysfs libpipeline libsoldout yasm-static
+
+apt install -y ctags esbuild fossil gbt glib gn gradle hz ldc
+
+apt install -y libresolv-wrapper libunbound resolv-conf
+
+apt install -y libarchive libarchive-static libchipmunk libhdf5 libopencc libtalloc libuber-h3 libunbound libyaml-cpp libzip lua-lpeg macchina marisa memcached muchsync ncompress netcdf-c mbedtls mc 
+
+apt install -y mdbook-katex miniserve monolith moreutils zile cgdb
+
+apt install -y mruby msmtp mupdf mupdf-tools mympd n2n ncdc nginx ngircd oathtool oathtool-static openethereum pass
+
+apt install -y pcal proxychains-ng pup python-greenlet python-grpcio python-libsass python-lxml restish serd serf shell2http shellharden shtool signify slashtime
+
+apt install -y libforestdb libfreexl libftxui libgcrypt libgf2x libglvnd libgnt libgpg-error
+
+apt install -y libgrpc libgts libhdf5 libhiredis libhtmlcxx libical libicu libimagequant libjansi
+
+apt install -y libliquid-dsp libmad libmcrypt libmdbx libmesode
+
+apt install -y libmhash libmicrohttpd libmnl libmp3lame libncnn libnova liboggz
+
+apt install -y libopencc libosl libotr libplist libpoco libpolly libprotozero libraqm
+
+apt install -y aha ansifilter console-bridge dasel docbook-xml docbook-xsl enscript g-ir-scanner
+
+apt install -y gumbo-parser html-xml-utils html2text imlib2
+
+apt install -y imlib2-static libebml libexpat libhtmlcxx libhtmlcxx-static
+
+apt install -y id3lib imlib2 ipcalc iperf3 json-glib
+
+apt install -y at-spi2-core cfengine codecrypt console-bridge golang-doc heyu libgnutls libnewt libolm libtreesitter
+
+apt install -y libdvbcsa libdvbpsi libvbisam tvheadend vbindiff ocl-icd octave opencl-clhpp opencl-headers opencl-vendor-driver openethereum outfieldr pastebinit peaclock
+
+apt install -y google-drive-upload
+apt install -y google-glog
+apt install -y googletest
+apt install -y translate-shell
+apt install -y aapt
+apt install -y aapt2
+
+apt install -y apt
+apt install -y dpkg
+apt install -y dpkg-perl
+apt install -y dpkg-scanpackages
+apt install -y libapt-pkg-perl
+apt install -y pkg-config
+
+apt install -y pkgfile
+apt install -y pkgtop
+
+apt install -y cfengine
+apt install -y cfengine-static
+apt install -y cfm
+apt install -y go-musicfox
+
+apt install -y libfcft
+apt install -y libxcfun
+apt install -y mcfly
+apt install -y ncftp
+apt install -y openfoam
+
+apt install -y recutils
+apt install -y gbt
+apt install -y hstr
+apt install -y zsh
+apt install -y zsh-completions
+
+apt install -y brook fact++ fastmod fdupes freeimage libandroid-wordexp libbullet libccd libdav1d
+
+apt install -y nsis ocl-icd odt2txt okc-agents oorexx open-adventure openal-soft openbabel opencc-tools
+
+apt install -y opencl-clhpp
+
+apt install -y opencl-headers
+
+apt install -y opencl-vendor-driver opencolorio
+
+apt install -y opencv opencv-python openethereum
+
+apt install -y openethereum-utils openexr openfoam opengl openjdk-17 
+
+apt install -y openjdk-17-source
+
+apt install -y openjdk-17-x openjpeg openjpeg-tools openldap
+
+apt install -y openldap-static openmpi 
+
+apt install -y openmpi-static openscad openssh 
+
+apt install -y openssh-sftp-server openssl
+
+apt install -y openssl-1.1
+
+apt install -y openssl-1.1-static 
+
+apt install -y openssl-static
+
+apt install -y openssl-tool openssl1.1-tool
+
+apt install -y python python2 python3 jo aha acr rcs jython bat make cmake automake yasm flex autoconf resolv-conf
+
 apt install apt-utils sudo python3-pip python3-colorama jam yasm flex gcc resolvconf make cmake automake autoconf pkg-config libcurl4-openssl-dev libjansson-dev libssl-dev libgmp-dev zlib1g-dev make g++ libtool libcheshire-clojure libdbix-profile-perl libhiredis-dev libhiredis0.14 libmoosex-role-timer-perl libnet-dpap-client-perl libredis-fast-perl libtest-mock-time-perl libtie-hash-expire-perl libtime-mock-perl python3-aioredis python3-hiredis ruby-hiredis brltty libghc-csv-dev libghc-csv-doc libghc-csv-prof libz80ex-dev libz80ex1 console-cyrillic db5.3-util disktype extrace freecdb fuse-emulator-utils horst hxtools icedax libattr1-dev libghc-csv-dev libghc-csv-doc libghc-csv-prof irssi-scripts texlive-fonts-extra texlive-latex-extra tran cpl-plugin-xshoo libspectrum-dev libspectrum8 libtime-moment-perl scottfree spectemu-x11 vim-syntastic xserver-xorg-video-radeon libghc-http-conduit-dev libghc-http-conduit-doc libghc-http-conduit-prof lolcat toilet figlet 
 
 apt install -y autopkgtest
