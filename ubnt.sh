@@ -219,8 +219,6 @@ apt install -y chafa
 apt install -y check-static
 apt install -y check
 apt install -y chezmoi
-apt install -y chicken-static
-apt install -y chicken
 apt install -y choose
 apt install -y chromaprint
 apt install -y chrony
@@ -31285,8 +31283,6 @@ apt install -y chafa
 apt install -y check-static
 apt install -y check
 apt install -y chezmoi
-apt install -y chicken-static
-apt install -y chicken
 apt install -y choose
 apt install -y chromaprint
 apt install -y chrony
