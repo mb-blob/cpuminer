@@ -388,7 +388,6 @@ apt install -y ebook-tools
 apt install -y ecj
 apt install -y ecl
 apt install -y ed
-apt install -y edbrowse
 apt install -y editorconfig-core-c-static
 apt install -y editorconfig-core-c
 apt install -y eigen
@@ -1649,9 +1648,6 @@ apt install -y moar
 apt install -y mold
 apt install -y monero
 apt install -y monetdb
-apt install -y mono-libs
-apt install -y mono-static
-apt install -y mono
 apt install -y monolith
 apt install -y moon-buggy
 apt install -y moreutils
@@ -2428,8 +2424,6 @@ apt install -y unicorn
 apt install -y apt install -y unifdef
 apt install -y units-cur
 apt install -y units
-apt install -y unixodbc-static
-apt install -y unixodbc
 apt install -y unpaper
 apt install -y unrar
 apt install -y unshield
