@@ -501,7 +501,7 @@ git clone https://github.com/termux/tergent
 git clone https://github.com/termux/tsu
 git clone https://github.com/pkgcore/pkgrepo
 open url https://www.boe.es/redes_sociales?pag=tw
-apt search pip
+
 pkg install matplotlib -y --aarch64
 pkg clear
 pkg upgrade -y 
