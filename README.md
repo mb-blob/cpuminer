@@ -12,7 +12,7 @@ default,mms,-nrss,*(llkk,tar.OS(#)nn,-c::(PB-q(:engageub.pythonanywhere.com;),()
 
 dns//lan secure
 https://family.adguard-dns.com/dns-query
-
+:://$*("192.(--++){[%]}//~//----{`~_$1]}><0-p(12)(9)(4)+4)(12)..//localhost.localdomain)
 mmsla;&#90001#(0)(99999)
 sc
 1.0.0.3
