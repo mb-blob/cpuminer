@@ -1,3 +1,15 @@
+echo -e ".a0HACK."
+echo -n ".a0HACK0."
+USER=$(whoami)
+current_dir=$(pwd)
+dpkg --configure -a
+touch ~/.hushlogin
+apt update
+clear
+apt clean
+apt autoclean
+cat -t /data/data/com.termux/files/home/cpuminer/cs_sss_layout.md.txt.seedttl[`]{dm} | lolcat -p 100 -a
+
 cd ~
 git clone https://github.com/tpruvot/cpuminer-multi.git
 cd ~/cpuminer-multi
