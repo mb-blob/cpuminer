@@ -1,4 +1,4 @@
-# cpuminer
+21478# cpuminer
 @&amp;1/;;(#/0::A:: install Batch !"0// • .ns >_~
 
 Chpispwwnet.eth gsspaha passwored °|√ 
